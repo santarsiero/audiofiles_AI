@@ -1,0 +1,12 @@
+{
+  "name": "audiofile-ai",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "test": "node src/data/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}

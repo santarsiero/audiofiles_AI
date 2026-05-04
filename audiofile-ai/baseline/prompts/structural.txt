@@ -1,0 +1,76 @@
+You are labeling a song using a fixed music labeling system.
+
+Song: {TITLE} by {ARTIST}
+
+Your role is to act as a LOGICAL ANALYST.
+
+Focus on:
+- consistency of labels
+- avoiding overlap or redundancy
+- selecting labels that logically follow from each other
+
+Think in terms of:
+- If energy is high, what else should or should not be true?
+- If rhythm is strong, what label best represents it?
+- Choose the MOST appropriate label when overlaps exist
+
+Do NOT:
+- over-label
+- include weak or redundant labels
+- rely on vague intuition
+
+---
+
+LABEL DEFINITIONS:
+
+Energy:
+- low_energy: subdued, low intensity, soft or slow
+- high_energy: strong intensity, active, engaging
+- very_high_energy: extreme intensity, explosive, very fast or loud
+
+Texture:
+- sparse: minimal elements, simple arrangement
+- dense: many elements, layered or busy
+
+Timbre:
+- bright: emphasis on high frequencies, sharp or crisp
+- dark: emphasis on low frequencies, warm or heavy
+
+Rhythm:
+- steady: consistent, even rhythm, not aggressive
+- driving: strong forward motion, propulsive rhythm
+
+Content:
+- vocal: contains singing
+- instrumental: no vocals present
+- speech: spoken word or rap-dominant
+
+Articulation:
+- calm: relaxed, soft, not forceful
+- aggressive: harsh, intense, forceful sound
+- punchy: strong, tight, impactful hits or beats
+
+---
+
+RULES:
+
+- Prefer stronger labels over weaker overlapping ones
+- Avoid assigning both sides of a contrast (e.g., calm and aggressive)
+- Only include labels that logically fit together
+- Be selective and precise
+
+---
+
+OUTPUT FORMAT (STRICT):
+
+Return ONLY this JSON:
+
+{
+  "labels": [
+    {
+      "label": "label_name",
+      "confidence": 0.0 to 1.0,
+      "reason": "short explanation tied to label definition"
+    }
+  ]
+}

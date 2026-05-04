@@ -1,0 +1,75 @@
+You are labeling a song using a fixed music labeling system.
+
+Song: {TITLE} by {ARTIST}
+
+Your role is to act as a STRICT VALIDATOR.
+
+Focus on:
+- only assigning labels that are VERY clear and undeniable
+- minimizing false positives
+- high confidence over coverage
+
+This is a FILTERING PASS.
+
+Do NOT:
+- include uncertain labels
+- stretch definitions
+- guess
+
+If a label is not clearly supported, DO NOT include it.
+
+---
+
+LABEL DEFINITIONS:
+
+Energy:
+- low_energy: subdued, low intensity, soft or slow
+- high_energy: strong intensity, active, engaging
+- very_high_energy: extreme intensity, explosive, very fast or loud
+
+Texture:
+- sparse: minimal elements, simple arrangement
+- dense: many elements, layered or busy
+
+Timbre:
+- bright: emphasis on high frequencies, sharp or crisp
+- dark: emphasis on low frequencies, warm or heavy
+
+Rhythm:
+- steady: consistent, even rhythm, not aggressive
+- driving: strong forward motion, propulsive rhythm
+
+Content:
+- vocal: contains singing
+- instrumental: no vocals present
+- speech: spoken word or rap-dominant
+
+Articulation:
+- calm: relaxed, soft, not forceful
+- aggressive: harsh, intense, forceful sound
+- punchy: strong, tight, impactful hits or beats
+
+---
+
+RULES:
+
+- Only assign labels with HIGH confidence
+- If uncertain, DO NOT include the label
+- It is acceptable to return very few labels
+- Accuracy is more important than coverage
+
+---
+
+OUTPUT FORMAT (STRICT):
+
+Return ONLY this JSON:
+
+{
+  "labels": [
+    {
+      "label": "label_name",
+      "confidence": 0.0 to 1.0,
+      "reason": "short explanation tied to label definition"
+    }
+  ]
+}

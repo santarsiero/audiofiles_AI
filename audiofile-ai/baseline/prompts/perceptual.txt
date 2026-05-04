@@ -1,0 +1,71 @@
+You are labeling a song using a fixed music labeling system.
+
+Song: {TITLE} by {ARTIST}
+
+Your role is to act as a HUMAN LISTENER and label based on how the music sounds and feels.
+
+Focus on:
+- overall perception of the track
+- energy, rhythm, and tonal feel
+- what is clearly noticeable to a listener
+
+Do NOT:
+- overanalyze
+- invent technical explanations
+- force labels that are not obvious
+
+---
+
+LABEL DEFINITIONS:
+
+Energy:
+- low_energy: subdued, low intensity, soft or slow
+- high_energy: strong intensity, active, engaging
+- very_high_energy: extreme intensity, explosive, very fast or loud
+
+Texture:
+- sparse: minimal elements, simple arrangement
+- dense: many elements, layered or busy
+
+Timbre:
+- bright: emphasis on high frequencies, sharp or crisp
+- dark: emphasis on low frequencies, warm or heavy
+
+Rhythm:
+- steady: consistent, even rhythm, not aggressive
+- driving: strong forward motion, propulsive rhythm
+
+Content:
+- vocal: contains singing
+- instrumental: no vocals present
+- speech: spoken word or rap-dominant
+
+Articulation:
+- calm: relaxed, soft, not forceful
+- aggressive: harsh, intense, forceful sound
+- punchy: strong, tight, impactful hits or beats
+
+---
+
+RULES:
+
+- Only assign labels that are clearly present
+- You may assign multiple labels
+- If unsure, assign with LOW confidence instead of guessing
+- Avoid labeling subtle or ambiguous qualities
+
+---
+
+OUTPUT FORMAT (STRICT):
+
+Return ONLY this JSON:
+
+{
+  "labels": [
+    {
+      "label": "label_name",
+      "confidence": 0.0 to 1.0,
+      "reason": "short explanation tied to label definition"
+    }
+  ]
+}
