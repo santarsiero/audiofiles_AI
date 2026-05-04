@@ -1,7 +1,13 @@
 const fs = require('fs');
 const path = require('path');
 
-require('dotenv').config({ path: path.join(__dirname, '..', '..', '.env') });
+const envCandidates = [
+  path.join(__dirname, '..', '..', '.env'),
+  path.join(__dirname, '..', '..', '..', '.env')
+];
+
+const envPath = envCandidates.find((p) => fs.existsSync(p));
+require('dotenv').config(envPath ? { path: envPath } : undefined);
 
 const { callGpt } = require('./call_gpt');
 const { callClaude } = require('./call_claude');
