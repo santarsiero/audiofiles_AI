@@ -40,11 +40,26 @@ function generateLatestSummary() {
   const outputsSchema = path.join(root, 'outputs', 'descriptors', 'schema_audit.json');
   const outputsNumeric = path.join(root, 'outputs', 'descriptors', 'numeric_distribution_summary.json');
   const outputsCorr = path.join(root, 'outputs', 'correlations', 'correlation_matrix.json');
+  const outputsFeatureScores = path.join(root, 'outputs', 'features', 'generated_feature_scores.json');
+  const outputsFeatureDist = path.join(root, 'outputs', 'features', 'feature_distribution_summary.json');
+  const outputsFeatureCorr = path.join(root, 'outputs', 'features', 'feature_correlations.json');
 
   const coverage = readJsonFile(outputsCoverage);
   const schema = readJsonFile(outputsSchema);
   const numeric = readJsonFile(outputsNumeric);
   const corr = readJsonFile(outputsCorr);
+  let featureScores = null;
+  let featureDist = null;
+  let featureCorr = null;
+  try {
+    featureScores = readJsonFile(outputsFeatureScores);
+    featureDist = readJsonFile(outputsFeatureDist);
+    featureCorr = readJsonFile(outputsFeatureCorr);
+  } catch {
+    featureScores = null;
+    featureDist = null;
+    featureCorr = null;
+  }
 
   const dataset = coverage.dataset;
   const failuresByType = coverage.failuresByType;
@@ -85,6 +100,59 @@ function generateLatestSummary() {
     .slice(0, 10)
     .map((p) => [p.a, p.b, p.r, p.n]);
 
+  let compositeSection = '';
+  if (featureScores && featureDist && featureCorr) {
+    const fsDataset = featureScores.dataset || {};
+    const featureDefs = featureScores.featureDefinitions || {};
+    const featureCount = Object.keys(featureDefs).length;
+
+    const distByFeature = featureDist.byFeature || {};
+    const possibleCollapsed = Object.values(distByFeature)
+      .filter((x) => x && x.possibleCollapse)
+      .map((x) => x.featureName);
+
+    const featureCorrTop = (featureCorr.top || []).filter((r) => r.type === 'feature_vs_feature').slice(0, 10);
+    const topFeatureCorrRows = featureCorrTop.map((r) => [r.a, r.b, r.r, r.n]);
+
+    // Coverage from feature generation rows
+    const fRows = featureScores.rows || [];
+    const featureKeys = Object.keys((fRows[0] && fRows[0].features) || {});
+    const cov = {};
+    for (const fk of featureKeys) {
+      let c = 0;
+      for (const r of fRows) {
+        const s = r.features && r.features[fk] ? r.features[fk].score : null;
+        if (typeof s === 'number' && Number.isFinite(s)) c += 1;
+      }
+      cov[fk] = { count: c };
+    }
+    const covRows = Object.entries(cov)
+      .sort((a, b) => b[1].count - a[1].count)
+      .map(([k, v]) => [k, v.count]);
+
+    compositeSection = `## Composite Feature Research (Observed, exploratory)\n\n` +
+      `### Dataset Context (Feature generation)\n\n` +
+      `- Total entries: ${fsDataset.totalEntries}\n` +
+      `- Successful payloads: ${fsDataset.successfulPayloads}\n` +
+      `- Failed payloads: ${fsDataset.failedPayloads}\n\n` +
+      `### Summary (Cautious)\n\n` +
+      `- Feature count (defined): ${featureCount}\n` +
+      `- Possible collapsed features (heuristic): ${possibleCollapsed.length ? possibleCollapsed.join(', ') : '(none flagged)'}\n\n` +
+      `### Feature Coverage (Observed counts)\n\n` +
+      markdownTable(['Feature', 'Count'], covRows) +
+      `\n\n` +
+      `### Strongest Feature vs Feature Correlations (Pearson, observed)\n\n` +
+      markdownTable(['A', 'B', 'r', 'n'], topFeatureCorrRows.length ? topFeatureCorrRows : [['(none)', '', '', '']]) +
+      `\n\n` +
+      `### Notes (Cautious)\n\n` +
+      `- Observed: composite features may show partial redundancy depending on shared descriptors.\n` +
+      `- Possible: some features may be dominated by a single descriptor; check feature-vs-descriptor correlations.\n` +
+      `- Needs validation: feature orientation (e.g., vocal presence) may be ambiguous without listening review.\n\n`;
+  } else {
+    compositeSection = `## Composite Feature Research\n\n` +
+      `Composite feature outputs were not found. This suggests Phase 2 scripts were not executed yet.\n\n`;
+  }
+
   const warnings = [];
   if (Array.isArray(coverage.warnings) && coverage.warnings.length) warnings.push(...coverage.warnings);
   if (Array.isArray(schema.warnings) && schema.warnings.length) warnings.push(...schema.warnings);
@@ -121,6 +189,7 @@ function generateLatestSummary() {
     `## Top 10 V1-relevant Correlations (Pearson, observed)\n\n` +
     markdownTable(['A', 'B', 'r', 'n'], v1Pairs) +
     `\n\n` +
+    compositeSection +
     `## Warnings\n\n` +
     `These warnings suggest possible dataset or parsing issues. They do not necessarily indicate incorrect provider behavior.\n\n` +
     '```json\n' + JSON.stringify(warnings, null, 2) + '\n```\n\n' +
@@ -141,7 +210,11 @@ async function run() {
     '001_coverage_analysis.js',
     '002_descriptor_schema_audit.js',
     '003_numeric_distribution_analysis.js',
-    '004_correlation_analysis.js'
+    '004_correlation_analysis.js',
+    '005_generate_feature_scores.js',
+    '006_feature_distribution_analysis.js',
+    '007_feature_correlation_analysis.js',
+    '008_select_representative_tracks.js'
   ];
 
   for (const s of scripts) {

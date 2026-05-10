@@ -96,6 +96,50 @@
 | arousal | rhythmic_stability | 0.50898 | 88 |
 | arousal | brightness | 0.508165 | 88 |
 
+## Composite Feature Research (Observed, exploratory)
+
+### Dataset Context (Feature generation)
+
+- Total entries: 141
+- Successful payloads: 88
+- Failed payloads: 53
+
+### Summary (Cautious)
+
+- Feature count (defined): 5
+- Possible collapsed features (heuristic): (none flagged)
+
+### Feature Coverage (Observed counts)
+
+| Feature | Count |
+| --- | --- |
+| energy_score_v1 | 88 |
+| brightness_score_v1 | 88 |
+| pulse_score_v1 | 88 |
+| vocal_presence_score_v1 | 88 |
+| density_score_v1 | 88 |
+
+### Strongest Feature vs Feature Correlations (Pearson, observed)
+
+| A | B | r | n |
+| --- | --- | --- | --- |
+| pulse_score_v1 | density_score_v1 | -0.77565 | 88 |
+| energy_score_v1 | pulse_score_v1 | 0.628978 | 88 |
+| energy_score_v1 | brightness_score_v1 | 0.433539 | 88 |
+| energy_score_v1 | density_score_v1 | -0.381114 | 88 |
+| brightness_score_v1 | vocal_presence_score_v1 | -0.173674 | 88 |
+| brightness_score_v1 | pulse_score_v1 | 0.127905 | 88 |
+| brightness_score_v1 | density_score_v1 | 0.121347 | 88 |
+| pulse_score_v1 | vocal_presence_score_v1 | 0.06701 | 88 |
+| energy_score_v1 | vocal_presence_score_v1 | 0.027262 | 88 |
+| vocal_presence_score_v1 | density_score_v1 | 0.022496 | 88 |
+
+### Notes (Cautious)
+
+- Observed: composite features may show partial redundancy depending on shared descriptors.
+- Possible: some features may be dominated by a single descriptor; check feature-vs-descriptor correlations.
+- Needs validation: feature orientation (e.g., vocal presence) may be ambiguous without listening review.
+
 ## Warnings
 
 These warnings suggest possible dataset or parsing issues. They do not necessarily indicate incorrect provider behavior.

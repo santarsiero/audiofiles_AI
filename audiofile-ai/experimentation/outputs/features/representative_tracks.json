@@ -1,0 +1,1105 @@
+{
+  "generatedAt": "2026-05-10T14:41:53.397Z",
+  "dataset": {
+    "totalEntries": 141,
+    "successfulPayloads": 88,
+    "failedPayloads": 53
+  },
+  "byFeature": {
+    "energy_score_v1": {
+      "count": 88,
+      "lowest": [
+        {
+          "title": "Strings of Life",
+          "artist": "Derrick May",
+          "isrc": "BEZ350800105",
+          "recordingId": 1100904,
+          "score": 0.15575258067174524
+        },
+        {
+          "title": "RIZZ",
+          "artist": "AYYBO",
+          "isrc": "QZVEM2366898",
+          "recordingId": 2604117,
+          "score": 0.16259683591001428
+        },
+        {
+          "title": "Ain't No Sunshine",
+          "artist": "Bill Withers",
+          "isrc": "USSM10000372",
+          "recordingId": 443903,
+          "score": 0.2115396920945398
+        },
+        {
+          "title": "Grease - From “Grease”",
+          "artist": "Frankie Valli",
+          "isrc": "NLF057890001",
+          "recordingId": 3153995,
+          "score": 0.21949956011189722
+        },
+        {
+          "title": "Superstition",
+          "artist": "Stevie Wonder",
+          "isrc": "USMO17200984",
+          "recordingId": 1508092,
+          "score": 0.22431710676221428
+        },
+        {
+          "title": "Englishman In New York",
+          "artist": "Sting",
+          "isrc": "USAM18700040",
+          "recordingId": 9031924,
+          "score": 0.24936260221373768
+        },
+        {
+          "title": "Let's Groove",
+          "artist": "Earth, Wind & Fire",
+          "isrc": "USSM18100641",
+          "recordingId": 1004323,
+          "score": 0.26093070490427406
+        },
+        {
+          "title": "Strawberry Letter 23",
+          "artist": "The Brothers Johnson",
+          "isrc": "USAM17700852",
+          "recordingId": 9989291,
+          "score": 0.2712728266280508
+        },
+        {
+          "title": "Nevada",
+          "artist": "YoungBoy Never Broke Again",
+          "isrc": "USAT22103399",
+          "recordingId": 21827809,
+          "score": 0.28174766774926585
+        },
+        {
+          "title": "Give Life Back to Music (Drumless Edition)",
+          "artist": "Daft Punk",
+          "isrc": "GBDUW2300090",
+          "recordingId": 23310573,
+          "score": 0.2929534179085669
+        }
+      ],
+      "highest": [
+        {
+          "title": "DJ Turn It Up",
+          "artist": "Dimension",
+          "isrc": "UKFTL1600270",
+          "recordingId": 23078366,
+          "score": 0.9599871473586996
+        },
+        {
+          "title": "Angel",
+          "artist": "Dimension",
+          "isrc": "UKFTL1600316",
+          "recordingId": 31145413,
+          "score": 0.8805031409648487
+        },
+        {
+          "title": "BEATS FOR THE UNDERGROUND",
+          "artist": "Mau P",
+          "isrc": "GBK6Y2452041",
+          "recordingId": 30153095,
+          "score": 0.8361506506276506
+        },
+        {
+          "title": "にんじゃりばんばん",
+          "artist": "Kyary Pamyu Pamyu",
+          "isrc": "JPWP01370323",
+          "recordingId": 19906808,
+          "score": 0.8342142431290649
+        },
+        {
+          "title": "Raving In The Studio",
+          "artist": "Aitch",
+          "isrc": "QMFME2494355",
+          "recordingId": 31146239,
+          "score": 0.8149717454567126
+        },
+        {
+          "title": "Friesenjung",
+          "artist": "Ski Aggu",
+          "isrc": "DE1FB2300037",
+          "recordingId": 23032935,
+          "score": 0.8085591006379593
+        },
+        {
+          "title": "I Need Your Love",
+          "artist": "Calvin Harris",
+          "isrc": "GBARL1201390",
+          "recordingId": 5124579,
+          "score": 0.7594392081515268
+        },
+        {
+          "title": "Pedro",
+          "artist": "Jaxomy",
+          "isrc": "DEE862400427",
+          "recordingId": 27974478,
+          "score": 0.7505298003887406
+        },
+        {
+          "title": "feel U luv Me",
+          "artist": "Knock2",
+          "isrc": "QMBZ92447777",
+          "recordingId": 31150996,
+          "score": 0.7438703295768504
+        },
+        {
+          "title": "Boom, Boom, Boom, Boom!!",
+          "artist": "Vengaboys",
+          "isrc": "NLC529811150",
+          "recordingId": 9449433,
+          "score": 0.7422891116328162
+        }
+      ],
+      "nearMedian": [
+        {
+          "title": "Uptown Funk (feat. Bruno Mars)",
+          "artist": "Mark Ronson",
+          "isrc": "GBARL1401524",
+          "recordingId": 9355929,
+          "score": 0.5579027139545957
+        },
+        {
+          "title": "All Bad (feat. Lil Uzi Vert)",
+          "artist": "Future",
+          "isrc": "USSM12002490",
+          "recordingId": 20537912,
+          "score": 0.5610982791894613
+        },
+        {
+          "title": "Love Me Not",
+          "artist": "Ravyn Lenae",
+          "isrc": "USAT22401137",
+          "recordingId": 29630734,
+          "score": 0.5668565499098803
+        },
+        {
+          "title": "Cry (Just a Little)",
+          "artist": "Bingo Players",
+          "isrc": "NCL281111731",
+          "recordingId": 21114553,
+          "score": 0.5697116178996595
+        },
+        {
+          "title": "Robot Rock",
+          "artist": "Daft Punk",
+          "isrc": "GBDUW0400103",
+          "recordingId": 554602,
+          "score": 0.5697409983949216
+        },
+        {
+          "title": "Bad Memories (feat. Elley Duhé & FAST BOY)",
+          "artist": "MEDUZA",
+          "isrc": "GBUM72203666",
+          "recordingId": 22297642,
+          "score": 0.572356812828546
+        },
+        {
+          "title": "Some Nights",
+          "artist": "fun.",
+          "isrc": "USAT21104050",
+          "recordingId": 4842574,
+          "score": 0.5727809815741173
+        },
+        {
+          "title": "I Can't Help Myself (Sugar Pie, Honey Bunch)",
+          "artist": "Four Tops",
+          "isrc": "USMO16582593",
+          "recordingId": 8748208,
+          "score": 0.5763382180821646
+        },
+        {
+          "title": "Telephone",
+          "artist": "Lady Gaga",
+          "isrc": "USUM70905541",
+          "recordingId": 9235806,
+          "score": 0.5770338202418385
+        },
+        {
+          "title": "Smells Like Teen Spirit",
+          "artist": "Nirvana",
+          "isrc": "USGF19942501",
+          "recordingId": 9040386,
+          "score": 0.579430342411443
+        }
+      ]
+    },
+    "brightness_score_v1": {
+      "count": 88,
+      "lowest": [
+        {
+          "title": "RIZZ",
+          "artist": "AYYBO",
+          "isrc": "QZVEM2366898",
+          "recordingId": 2604117,
+          "score": 0.047971843130897474
+        },
+        {
+          "title": "Give Life Back to Music (Drumless Edition)",
+          "artist": "Daft Punk",
+          "isrc": "GBDUW2300090",
+          "recordingId": 23310573,
+          "score": 0.08213865138457246
+        },
+        {
+          "title": "Veridis Quo",
+          "artist": "Daft Punk",
+          "isrc": "GBDUW0000066",
+          "recordingId": 1945394,
+          "score": 0.09275476205446473
+        },
+        {
+          "title": "Kingdom Dance - From \"Tangled\"/Score",
+          "artist": "Alan Menken",
+          "isrc": "USWD11054906",
+          "recordingId": 3324785,
+          "score": 0.16991585011141097
+        },
+        {
+          "title": "TALES OF DOMINICA",
+          "artist": "Lil Nas X",
+          "isrc": "USSM12106488",
+          "recordingId": 21810907,
+          "score": 0.18220307833128763
+        },
+        {
+          "title": "From The Stars",
+          "artist": "Mochakk",
+          "isrc": "GBCFB2401406",
+          "recordingId": 2913965,
+          "score": 0.20403746767856654
+        },
+        {
+          "title": "Heat Waves",
+          "artist": "Glass Animals",
+          "isrc": "GBUM72000433",
+          "recordingId": 22329060,
+          "score": 0.20875922610181585
+        },
+        {
+          "title": "50//50",
+          "artist": "Vantage",
+          "isrc": "QZES51852621",
+          "recordingId": 20515512,
+          "score": 0.21100808775852709
+        },
+        {
+          "title": "Ain't No Sunshine",
+          "artist": "Bill Withers",
+          "isrc": "USSM10000372",
+          "recordingId": 443903,
+          "score": 0.21149113330242553
+        },
+        {
+          "title": "Strings of Life",
+          "artist": "Derrick May",
+          "isrc": "BEZ350800105",
+          "recordingId": 1100904,
+          "score": 0.21247784387024737
+        }
+      ],
+      "highest": [
+        {
+          "title": "DJ Turn It Up",
+          "artist": "Dimension",
+          "isrc": "UKFTL1600270",
+          "recordingId": 23078366,
+          "score": 0.9881699436431057
+        },
+        {
+          "title": "Lean Beef Patty",
+          "artist": "JPEGMAFIA",
+          "isrc": "QM4TX2330850",
+          "recordingId": 22864865,
+          "score": 0.8466036264411678
+        },
+        {
+          "title": "One More Time",
+          "artist": "Daft Punk",
+          "isrc": "GBDUW0000053",
+          "recordingId": 1945387,
+          "score": 0.796193885301888
+        },
+        {
+          "title": "Rock Your Body",
+          "artist": "Justin Timberlake",
+          "isrc": "USJI10200367",
+          "recordingId": 60795,
+          "score": 0.7372742228694952
+        },
+        {
+          "title": "feel U luv Me",
+          "artist": "Knock2",
+          "isrc": "QMBZ92447777",
+          "recordingId": 31150996,
+          "score": 0.6929172895345539
+        },
+        {
+          "title": "Raving In The Studio",
+          "artist": "Aitch",
+          "isrc": "QMFME2494355",
+          "recordingId": 31146239,
+          "score": 0.6881737080417029
+        },
+        {
+          "title": "Don't Stop Movin'",
+          "artist": "S Club",
+          "isrc": "GBCVL0100001",
+          "recordingId": 229991,
+          "score": 0.6872224285143032
+        },
+        {
+          "title": "Self Esteem",
+          "artist": "The Offspring",
+          "isrc": "USEP40312208",
+          "recordingId": 994955,
+          "score": 0.6765448992694088
+        },
+        {
+          "title": "Uptown Girl",
+          "artist": "Billy Joel",
+          "isrc": "USSM18300270",
+          "recordingId": 1407646,
+          "score": 0.6589886038173339
+        },
+        {
+          "title": "It's A Killa",
+          "artist": "FISHER",
+          "isrc": "QM24S2200746",
+          "recordingId": 22108422,
+          "score": 0.6492555853069071
+        }
+      ],
+      "nearMedian": [
+        {
+          "title": "Don't",
+          "artist": "Ed Sheeran",
+          "isrc": "GBAHS1400090",
+          "recordingId": 9251155,
+          "score": 0.40429407002829865
+        },
+        {
+          "title": "Bad Memories (feat. Elley Duhé & FAST BOY)",
+          "artist": "MEDUZA",
+          "isrc": "GBUM72203666",
+          "recordingId": 22297642,
+          "score": 0.40731112376545975
+        },
+        {
+          "title": "I Can't Help Myself (Sugar Pie, Honey Bunch)",
+          "artist": "Four Tops",
+          "isrc": "USMO16582593",
+          "recordingId": 8748208,
+          "score": 0.40990458946256136
+        },
+        {
+          "title": "Perfect (Exceeder)",
+          "artist": "Mason",
+          "isrc": "NLF711312388",
+          "recordingId": 25336917,
+          "score": 0.4208953162579774
+        },
+        {
+          "title": "Go Stupid",
+          "artist": "Polo G",
+          "isrc": "USQX92000261",
+          "recordingId": 20284706,
+          "score": 0.43488483955290425
+        },
+        {
+          "title": "Superstition",
+          "artist": "Stevie Wonder",
+          "isrc": "USMO17200984",
+          "recordingId": 1508092,
+          "score": 0.4351667721063659
+        },
+        {
+          "title": "Glad You Came - 2021 Master",
+          "artist": "The Wanted",
+          "isrc": "GBUM72105737",
+          "recordingId": 22130232,
+          "score": 0.4436243607715913
+        },
+        {
+          "title": "Get Low",
+          "artist": "Lil Jon & The East Side Boyz",
+          "isrc": "USTV10200084",
+          "recordingId": 1406940,
+          "score": 0.4598136657021245
+        },
+        {
+          "title": "にんじゃりばんばん",
+          "artist": "Kyary Pamyu Pamyu",
+          "isrc": "JPWP01370323",
+          "recordingId": 19906808,
+          "score": 0.46425998119349166
+        },
+        {
+          "title": "Tell Me Lies",
+          "artist": "Deorro",
+          "isrc": "USUS11700054",
+          "recordingId": 23262856,
+          "score": 0.47239032308389284
+        }
+      ]
+    },
+    "pulse_score_v1": {
+      "count": 88,
+      "lowest": [
+        {
+          "title": "RIZZ",
+          "artist": "AYYBO",
+          "isrc": "QZVEM2366898",
+          "recordingId": 2604117,
+          "score": 0.0764032074507497
+        },
+        {
+          "title": "From The Stars",
+          "artist": "Mochakk",
+          "isrc": "GBCFB2401406",
+          "recordingId": 2913965,
+          "score": 0.1371561424068981
+        },
+        {
+          "title": "Kingdom Dance - From \"Tangled\"/Score",
+          "artist": "Alan Menken",
+          "isrc": "USWD11054906",
+          "recordingId": 3324785,
+          "score": 0.1856381059297336
+        },
+        {
+          "title": "Strings of Life",
+          "artist": "Derrick May",
+          "isrc": "BEZ350800105",
+          "recordingId": 1100904,
+          "score": 0.20462644944700997
+        },
+        {
+          "title": "Deslocado",
+          "artist": "NAPA",
+          "isrc": "PTUM72500004",
+          "recordingId": 31551530,
+          "score": 0.20857170896485738
+        },
+        {
+          "title": "Superstition",
+          "artist": "Stevie Wonder",
+          "isrc": "USMO17200984",
+          "recordingId": 1508092,
+          "score": 0.2244084975686704
+        },
+        {
+          "title": "Beyond the Sea",
+          "artist": "Bobby Darin",
+          "isrc": "USEW10000026",
+          "recordingId": 1775417,
+          "score": 0.23390890256143196
+        },
+        {
+          "title": "The Lion Sleeps Tonight (Wimoweh)",
+          "artist": "The Tokens",
+          "isrc": "USRC16100933",
+          "recordingId": 34042940,
+          "score": 0.24991516020050333
+        },
+        {
+          "title": "Self Esteem",
+          "artist": "The Offspring",
+          "isrc": "USEP40312208",
+          "recordingId": 994955,
+          "score": 0.2524834289088799
+        },
+        {
+          "title": "Renegade",
+          "artist": "Styx",
+          "isrc": "USAM17800365",
+          "recordingId": 7780392,
+          "score": 0.26167649555978
+        }
+      ],
+      "highest": [
+        {
+          "title": "Take It",
+          "artist": "Dom Dolla",
+          "isrc": "AUDCB1701202",
+          "recordingId": 20084197,
+          "score": 0.9263731518457089
+        },
+        {
+          "title": "Clint Eastwood - Ed Case / Sweetie Irie Refix",
+          "artist": "Gorillaz",
+          "isrc": "GBAYE1400479",
+          "recordingId": 34686789,
+          "score": 0.9231520124008774
+        },
+        {
+          "title": "Rhyme Dust",
+          "artist": "MK",
+          "isrc": "GBARL2300220",
+          "recordingId": 22759775,
+          "score": 0.906296875142277
+        },
+        {
+          "title": "It's A Killa",
+          "artist": "FISHER",
+          "isrc": "QM24S2200746",
+          "recordingId": 22108422,
+          "score": 0.874070971630581
+        },
+        {
+          "title": "The Beat Goes On",
+          "artist": "Bob Sinclar",
+          "isrc": "FR6V80309921",
+          "recordingId": 1238636,
+          "score": 0.8638264016589999
+        },
+        {
+          "title": "Go Stupid",
+          "artist": "Polo G",
+          "isrc": "USQX92000261",
+          "recordingId": 20284706,
+          "score": 0.8590396338682171
+        },
+        {
+          "title": "Cut Dick",
+          "artist": "Mr. Oizo",
+          "isrc": "FR0NT0800750",
+          "recordingId": 983434,
+          "score": 0.8326167065123589
+        },
+        {
+          "title": "Boom, Boom, Boom, Boom!!",
+          "artist": "Vengaboys",
+          "isrc": "NLC529811150",
+          "recordingId": 9449433,
+          "score": 0.8261017498657367
+        },
+        {
+          "title": "Don't Stop Movin'",
+          "artist": "S Club",
+          "isrc": "GBCVL0100001",
+          "recordingId": 229991,
+          "score": 0.8241139595199303
+        },
+        {
+          "title": "にんじゃりばんばん",
+          "artist": "Kyary Pamyu Pamyu",
+          "isrc": "JPWP01370323",
+          "recordingId": 19906808,
+          "score": 0.8139219315753858
+        }
+      ],
+      "nearMedian": [
+        {
+          "title": "Last Train to London",
+          "artist": "Electric Light Orchestra",
+          "isrc": "USSM10015736",
+          "recordingId": 168551,
+          "score": 0.5861477276529231
+        },
+        {
+          "title": "Some Nights",
+          "artist": "fun.",
+          "isrc": "USAT21104050",
+          "recordingId": 4842574,
+          "score": 0.5921315359077304
+        },
+        {
+          "title": "Griztronics",
+          "artist": "GRiZ",
+          "isrc": "CAUM81900241",
+          "recordingId": 20083648,
+          "score": 0.5927600780150901
+        },
+        {
+          "title": "Don't",
+          "artist": "Ed Sheeran",
+          "isrc": "GBAHS1400090",
+          "recordingId": 9251155,
+          "score": 0.5985070445717027
+        },
+        {
+          "title": "Define",
+          "artist": "Dom Dolla",
+          "isrc": "AUDCB1500530",
+          "recordingId": 30934776,
+          "score": 0.6019665429257104
+        },
+        {
+          "title": "Angel",
+          "artist": "Dimension",
+          "isrc": "UKFTL1600316",
+          "recordingId": 31145413,
+          "score": 0.6076393864227192
+        },
+        {
+          "title": "Forget You",
+          "artist": "FAST BOY",
+          "isrc": "DEUM72300002",
+          "recordingId": 22737126,
+          "score": 0.6078206449950315
+        },
+        {
+          "title": "Drag Me Down",
+          "artist": "One Direction",
+          "isrc": "GBHMU1500070",
+          "recordingId": 10595453,
+          "score": 0.6195333387966606
+        },
+        {
+          "title": "50//50",
+          "artist": "Vantage",
+          "isrc": "QZES51852621",
+          "recordingId": 20515512,
+          "score": 0.6238657912830105
+        },
+        {
+          "title": "Get Low",
+          "artist": "Lil Jon & The East Side Boyz",
+          "isrc": "USTV10200084",
+          "recordingId": 1406940,
+          "score": 0.6242090397187652
+        }
+      ]
+    },
+    "vocal_presence_score_v1": {
+      "count": 88,
+      "lowest": [
+        {
+          "title": "I Want It That Way",
+          "artist": "Backstreet Boys",
+          "isrc": "USJI19910614",
+          "recordingId": 1365657,
+          "score": 0.0025353196251223947
+        },
+        {
+          "title": "Jungle",
+          "artist": "Alok",
+          "isrc": "DEE862301476",
+          "recordingId": 23227803,
+          "score": 0.009063039119690398
+        },
+        {
+          "title": "I Can't Help Myself (Sugar Pie, Honey Bunch)",
+          "artist": "Four Tops",
+          "isrc": "USMO16582593",
+          "recordingId": 8748208,
+          "score": 0.03006894081833647
+        },
+        {
+          "title": "The Lion Sleeps Tonight (Wimoweh)",
+          "artist": "The Tokens",
+          "isrc": "USRC16100933",
+          "recordingId": 34042940,
+          "score": 0.033865162503357506
+        },
+        {
+          "title": "Glad You Came - 2021 Master",
+          "artist": "The Wanted",
+          "isrc": "GBUM72105737",
+          "recordingId": 22130232,
+          "score": 0.038377652430835345
+        },
+        {
+          "title": "Feather",
+          "artist": "Sabrina Carpenter",
+          "isrc": "USUM72301876",
+          "recordingId": 23335426,
+          "score": 0.04286149162861491
+        },
+        {
+          "title": "Grease - From “Grease”",
+          "artist": "Frankie Valli",
+          "isrc": "NLF057890001",
+          "recordingId": 3153995,
+          "score": 0.042918793088011456
+        },
+        {
+          "title": "にんじゃりばんばん",
+          "artist": "Kyary Pamyu Pamyu",
+          "isrc": "JPWP01370323",
+          "recordingId": 19906808,
+          "score": 0.043114892935293476
+        },
+        {
+          "title": "Drag Me Down",
+          "artist": "One Direction",
+          "isrc": "GBHMU1500070",
+          "recordingId": 10595453,
+          "score": 0.046557435759692005
+        },
+        {
+          "title": "Centerfold",
+          "artist": "The J. Geils Band",
+          "isrc": "USCA28100075",
+          "recordingId": 2260468,
+          "score": 0.05128480615990688
+        }
+      ],
+      "highest": [
+        {
+          "title": "RIZZ",
+          "artist": "AYYBO",
+          "isrc": "QZVEM2366898",
+          "recordingId": 2604117,
+          "score": 0.6404192579447482
+        },
+        {
+          "title": "Veridis Quo",
+          "artist": "Daft Punk",
+          "isrc": "GBDUW0000066",
+          "recordingId": 1945394,
+          "score": 0.6116680096696213
+        },
+        {
+          "title": "Robot Rock",
+          "artist": "Daft Punk",
+          "isrc": "GBDUW0400103",
+          "recordingId": 554602,
+          "score": 0.5941989518077038
+        },
+        {
+          "title": "Cut Dick",
+          "artist": "Mr. Oizo",
+          "isrc": "FR0NT0800750",
+          "recordingId": 983434,
+          "score": 0.568564079237813
+        },
+        {
+          "title": "Kingdom Dance - From \"Tangled\"/Score",
+          "artist": "Alan Menken",
+          "isrc": "USWD11054906",
+          "recordingId": 3324785,
+          "score": 0.49469199244491796
+        },
+        {
+          "title": "Give Life Back to Music (Drumless Edition)",
+          "artist": "Daft Punk",
+          "isrc": "GBDUW2300090",
+          "recordingId": 23310573,
+          "score": 0.48331262771819083
+        },
+        {
+          "title": "Lean Beef Patty",
+          "artist": "JPEGMAFIA",
+          "isrc": "QM4TX2330850",
+          "recordingId": 22864865,
+          "score": 0.4722163939012449
+        },
+        {
+          "title": "Give Life Back to Music",
+          "artist": "Daft Punk",
+          "isrc": "USQX91300101",
+          "recordingId": 5893006,
+          "score": 0.4515554125198234
+        },
+        {
+          "title": "Thrift Shop (feat. Wanz)",
+          "artist": "Macklemore & Ryan Lewis",
+          "isrc": "GMM881200003",
+          "recordingId": 5140564,
+          "score": 0.44545483033396005
+        },
+        {
+          "title": "DJ Turn It Up",
+          "artist": "Dimension",
+          "isrc": "UKFTL1600270",
+          "recordingId": 23078366,
+          "score": 0.4098164799330861
+        }
+      ],
+      "nearMedian": [
+        {
+          "title": "Get Lucky (feat. Pharrell Williams and Nile Rodgers)",
+          "artist": "Daft Punk",
+          "isrc": "USQX91300108",
+          "recordingId": 23011398,
+          "score": 0.11481584947876868
+        },
+        {
+          "title": "Get Low",
+          "artist": "Lil Jon & The East Side Boyz",
+          "isrc": "USTV10200084",
+          "recordingId": 1406940,
+          "score": 0.11745366639806606
+        },
+        {
+          "title": "Forget You",
+          "artist": "FAST BOY",
+          "isrc": "DEUM72300002",
+          "recordingId": 22737126,
+          "score": 0.12216793589744888
+        },
+        {
+          "title": "Fireflies",
+          "artist": "Owl City",
+          "isrc": "USUM70972068",
+          "recordingId": 9258691,
+          "score": 0.12465798980429879
+        },
+        {
+          "title": "Papa Loves Mambo",
+          "artist": "Perry Como",
+          "isrc": "USRC15404658",
+          "recordingId": 16173691,
+          "score": 0.12483758286970707
+        },
+        {
+          "title": "Self Esteem",
+          "artist": "The Offspring",
+          "isrc": "USEP40312208",
+          "recordingId": 994955,
+          "score": 0.1529948965887725
+        },
+        {
+          "title": "Angel",
+          "artist": "Dimension",
+          "isrc": "UKFTL1600316",
+          "recordingId": 31145413,
+          "score": 0.15517638124256383
+        },
+        {
+          "title": "One More Time",
+          "artist": "Daft Punk",
+          "isrc": "GBDUW0000053",
+          "recordingId": 1945387,
+          "score": 0.16238708696553733
+        },
+        {
+          "title": "Después de la Playa",
+          "artist": "Bad Bunny",
+          "isrc": "QM6MZ2214876",
+          "recordingId": 22174886,
+          "score": 0.1692181278760486
+        },
+        {
+          "title": "Boom, Boom, Boom, Boom!!",
+          "artist": "Vengaboys",
+          "isrc": "NLC529811150",
+          "recordingId": 9449433,
+          "score": 0.1805654553414979
+        }
+      ]
+    },
+    "density_score_v1": {
+      "count": 88,
+      "lowest": [
+        {
+          "title": "Rhyme Dust",
+          "artist": "MK",
+          "isrc": "GBARL2300220",
+          "recordingId": 22759775,
+          "score": 0.17285502111499784
+        },
+        {
+          "title": "Cut Dick",
+          "artist": "Mr. Oizo",
+          "isrc": "FR0NT0800750",
+          "recordingId": 983434,
+          "score": 0.18503818754657458
+        },
+        {
+          "title": "にんじゃりばんばん",
+          "artist": "Kyary Pamyu Pamyu",
+          "isrc": "JPWP01370323",
+          "recordingId": 19906808,
+          "score": 0.24006194625061528
+        },
+        {
+          "title": "Take It",
+          "artist": "Dom Dolla",
+          "isrc": "AUDCB1701202",
+          "recordingId": 20084197,
+          "score": 0.2484336319114517
+        },
+        {
+          "title": "It's A Killa",
+          "artist": "FISHER",
+          "isrc": "QM24S2200746",
+          "recordingId": 22108422,
+          "score": 0.2558937794738818
+        },
+        {
+          "title": "The Valley of The Pagans (feat. Beck)",
+          "artist": "Gorillaz",
+          "isrc": "GBAYE2000599",
+          "recordingId": 20947012,
+          "score": 0.26719543415342073
+        },
+        {
+          "title": "Veridis Quo",
+          "artist": "Daft Punk",
+          "isrc": "GBDUW0000066",
+          "recordingId": 1945394,
+          "score": 0.26820287368563683
+        },
+        {
+          "title": "Boom, Boom, Boom, Boom!!",
+          "artist": "Vengaboys",
+          "isrc": "NLC529811150",
+          "recordingId": 9449433,
+          "score": 0.27024270981155435
+        },
+        {
+          "title": "Feather",
+          "artist": "Sabrina Carpenter",
+          "isrc": "USUM72301876",
+          "recordingId": 23335426,
+          "score": 0.27641185124381873
+        },
+        {
+          "title": "Uptown Girl",
+          "artist": "Billy Joel",
+          "isrc": "USSM18300270",
+          "recordingId": 1407646,
+          "score": 0.28317617823775015
+        }
+      ],
+      "highest": [
+        {
+          "title": "Strings of Life",
+          "artist": "Derrick May",
+          "isrc": "BEZ350800105",
+          "recordingId": 1100904,
+          "score": 0.6803994038188715
+        },
+        {
+          "title": "Self Esteem",
+          "artist": "The Offspring",
+          "isrc": "USEP40312208",
+          "recordingId": 994955,
+          "score": 0.659550307278398
+        },
+        {
+          "title": "RIZZ",
+          "artist": "AYYBO",
+          "isrc": "QZVEM2366898",
+          "recordingId": 2604117,
+          "score": 0.6378345784617088
+        },
+        {
+          "title": "Kingdom Dance - From \"Tangled\"/Score",
+          "artist": "Alan Menken",
+          "isrc": "USWD11054906",
+          "recordingId": 3324785,
+          "score": 0.6244426328867315
+        },
+        {
+          "title": "Lean Beef Patty",
+          "artist": "JPEGMAFIA",
+          "isrc": "QM4TX2330850",
+          "recordingId": 22864865,
+          "score": 0.6150611287574639
+        },
+        {
+          "title": "Superstition",
+          "artist": "Stevie Wonder",
+          "isrc": "USMO17200984",
+          "recordingId": 1508092,
+          "score": 0.6084723404901686
+        },
+        {
+          "title": "Thrift Shop (feat. Wanz)",
+          "artist": "Macklemore & Ryan Lewis",
+          "isrc": "GMM881200003",
+          "recordingId": 5140564,
+          "score": 0.5957779189123092
+        },
+        {
+          "title": "One More Time",
+          "artist": "Daft Punk",
+          "isrc": "GBDUW0000053",
+          "recordingId": 1945387,
+          "score": 0.5929133928570124
+        },
+        {
+          "title": "Fireflies",
+          "artist": "Owl City",
+          "isrc": "USUM70972068",
+          "recordingId": 9258691,
+          "score": 0.5781428234215723
+        },
+        {
+          "title": "Después de la Playa",
+          "artist": "Bad Bunny",
+          "isrc": "QM6MZ2214876",
+          "recordingId": 22174886,
+          "score": 0.5550808799526118
+        }
+      ],
+      "nearMedian": [
+        {
+          "title": "Get Low",
+          "artist": "Lil Jon & The East Side Boyz",
+          "isrc": "USTV10200084",
+          "recordingId": 1406940,
+          "score": 0.389573129893013
+        },
+        {
+          "title": "Oblivion",
+          "artist": "Grimes",
+          "isrc": "CA21O1200003",
+          "recordingId": 4522320,
+          "score": 0.3924424553193691
+        },
+        {
+          "title": "Heat Waves",
+          "artist": "Glass Animals",
+          "isrc": "GBUM72000433",
+          "recordingId": 22329060,
+          "score": 0.39318598247041053
+        },
+        {
+          "title": "The Beat Goes On",
+          "artist": "Bob Sinclar",
+          "isrc": "FR6V80309921",
+          "recordingId": 1238636,
+          "score": 0.3945093098214567
+        },
+        {
+          "title": "Strawberry Letter 23",
+          "artist": "The Brothers Johnson",
+          "isrc": "USAM17700852",
+          "recordingId": 9989291,
+          "score": 0.40208000046978726
+        },
+        {
+          "title": "I Need Your Love",
+          "artist": "Calvin Harris",
+          "isrc": "GBARL1201390",
+          "recordingId": 5124579,
+          "score": 0.40525778965864323
+        },
+        {
+          "title": "All Bad (feat. Lil Uzi Vert)",
+          "artist": "Future",
+          "isrc": "USSM12002490",
+          "recordingId": 20537912,
+          "score": 0.4073920311985929
+        },
+        {
+          "title": "Bad Memories (feat. Elley Duhé & FAST BOY)",
+          "artist": "MEDUZA",
+          "isrc": "GBUM72203666",
+          "recordingId": 22297642,
+          "score": 0.4090324221708363
+        },
+        {
+          "title": "Love Me Not",
+          "artist": "Ravyn Lenae",
+          "isrc": "USAT22401137",
+          "recordingId": 29630734,
+          "score": 0.40989132165589726
+        },
+        {
+          "title": "Cry (Just a Little)",
+          "artist": "Bingo Players",
+          "isrc": "NCL281111731",
+          "recordingId": 21114553,
+          "score": 0.4179542014443515
+        }
+      ]
+    }
+  }
+}

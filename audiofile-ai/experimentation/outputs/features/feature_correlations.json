@@ -1,0 +1,1187 @@
+{
+  "generatedAt": "2026-05-10T14:41:53.358Z",
+  "dataset": {
+    "totalEntries": 141,
+    "successfulPayloads": 88,
+    "failedPayloads": 53
+  },
+  "correlation": {
+    "method": "pearson",
+    "minPairN": 10,
+    "note": "Spearman correlation is not implemented yet (Phase 1/2). Pearson correlations only."
+  },
+  "matrix": {
+    "brightness_score_v1|||energy_score_v1": {
+      "a": "energy_score_v1",
+      "b": "brightness_score_v1",
+      "r": 0.433539,
+      "n": 88
+    },
+    "energy_score_v1|||pulse_score_v1": {
+      "a": "energy_score_v1",
+      "b": "pulse_score_v1",
+      "r": 0.628978,
+      "n": 88
+    },
+    "energy_score_v1|||vocal_presence_score_v1": {
+      "a": "energy_score_v1",
+      "b": "vocal_presence_score_v1",
+      "r": 0.027262,
+      "n": 88
+    },
+    "density_score_v1|||energy_score_v1": {
+      "a": "energy_score_v1",
+      "b": "density_score_v1",
+      "r": -0.381114,
+      "n": 88
+    },
+    "brightness_score_v1|||pulse_score_v1": {
+      "a": "brightness_score_v1",
+      "b": "pulse_score_v1",
+      "r": 0.127905,
+      "n": 88
+    },
+    "brightness_score_v1|||vocal_presence_score_v1": {
+      "a": "brightness_score_v1",
+      "b": "vocal_presence_score_v1",
+      "r": -0.173674,
+      "n": 88
+    },
+    "brightness_score_v1|||density_score_v1": {
+      "a": "brightness_score_v1",
+      "b": "density_score_v1",
+      "r": 0.121347,
+      "n": 88
+    },
+    "pulse_score_v1|||vocal_presence_score_v1": {
+      "a": "pulse_score_v1",
+      "b": "vocal_presence_score_v1",
+      "r": 0.06701,
+      "n": 88
+    },
+    "density_score_v1|||pulse_score_v1": {
+      "a": "pulse_score_v1",
+      "b": "density_score_v1",
+      "r": -0.77565,
+      "n": 88
+    },
+    "density_score_v1|||vocal_presence_score_v1": {
+      "a": "vocal_presence_score_v1",
+      "b": "density_score_v1",
+      "r": 0.022496,
+      "n": 88
+    },
+    "arousal|||energy_score_v1": {
+      "a": "energy_score_v1",
+      "b": "arousal",
+      "r": 0.835189,
+      "n": 88
+    },
+    "energy_score_v1|||intensity": {
+      "a": "energy_score_v1",
+      "b": "intensity",
+      "r": 0.898431,
+      "n": 88
+    },
+    "energy_score_v1|||loudness": {
+      "a": "energy_score_v1",
+      "b": "loudness",
+      "r": 0.833816,
+      "n": 88
+    },
+    "energy_score_v1|||pulse_clarity": {
+      "a": "energy_score_v1",
+      "b": "pulse_clarity",
+      "r": 0.698035,
+      "n": 88
+    },
+    "energy_score_v1|||rhythmic_stability": {
+      "a": "energy_score_v1",
+      "b": "rhythmic_stability",
+      "r": 0.563211,
+      "n": 88
+    },
+    "danceability|||energy_score_v1": {
+      "a": "energy_score_v1",
+      "b": "danceability",
+      "r": 0.230763,
+      "n": 88
+    },
+    "complexity|||energy_score_v1": {
+      "a": "energy_score_v1",
+      "b": "complexity",
+      "r": -0.588487,
+      "n": 88
+    },
+    "brightness|||energy_score_v1": {
+      "a": "energy_score_v1",
+      "b": "brightness",
+      "r": 0.275378,
+      "n": 88
+    },
+    "energy_score_v1|||roll_off": {
+      "a": "energy_score_v1",
+      "b": "roll_off",
+      "r": 0.337394,
+      "n": 88
+    },
+    "centroid|||energy_score_v1": {
+      "a": "energy_score_v1",
+      "b": "centroid",
+      "r": 0.464836,
+      "n": 88
+    },
+    "energy_score_v1|||flatness": {
+      "a": "energy_score_v1",
+      "b": "flatness",
+      "r": 0.42763,
+      "n": 88
+    },
+    "energy_score_v1|||event_density": {
+      "a": "energy_score_v1",
+      "b": "event_density",
+      "r": 0.10979,
+      "n": 88
+    },
+    "energy_score_v1|||loudness_range": {
+      "a": "energy_score_v1",
+      "b": "loudness_range",
+      "r": -0.336917,
+      "n": 88
+    },
+    "energy_score_v1|||spread": {
+      "a": "energy_score_v1",
+      "b": "spread",
+      "r": 0.312677,
+      "n": 88
+    },
+    "energy_score_v1|||vocal_instrumental": {
+      "a": "energy_score_v1",
+      "b": "vocal_instrumental",
+      "r": -0.059275,
+      "n": 88
+    },
+    "energy_score_v1|||music_speech": {
+      "a": "energy_score_v1",
+      "b": "music_speech",
+      "r": 0.1457,
+      "n": 88
+    },
+    "arousal|||brightness_score_v1": {
+      "a": "brightness_score_v1",
+      "b": "arousal",
+      "r": 0.576986,
+      "n": 88
+    },
+    "brightness_score_v1|||intensity": {
+      "a": "brightness_score_v1",
+      "b": "intensity",
+      "r": 0.270705,
+      "n": 88
+    },
+    "brightness_score_v1|||loudness": {
+      "a": "brightness_score_v1",
+      "b": "loudness",
+      "r": 0.307118,
+      "n": 88
+    },
+    "brightness_score_v1|||pulse_clarity": {
+      "a": "brightness_score_v1",
+      "b": "pulse_clarity",
+      "r": 0.212703,
+      "n": 88
+    },
+    "brightness_score_v1|||rhythmic_stability": {
+      "a": "brightness_score_v1",
+      "b": "rhythmic_stability",
+      "r": 0.13001,
+      "n": 88
+    },
+    "brightness_score_v1|||danceability": {
+      "a": "brightness_score_v1",
+      "b": "danceability",
+      "r": -0.045109,
+      "n": 88
+    },
+    "brightness_score_v1|||complexity": {
+      "a": "brightness_score_v1",
+      "b": "complexity",
+      "r": -0.110797,
+      "n": 88
+    },
+    "brightness|||brightness_score_v1": {
+      "a": "brightness_score_v1",
+      "b": "brightness",
+      "r": 0.827104,
+      "n": 88
+    },
+    "brightness_score_v1|||roll_off": {
+      "a": "brightness_score_v1",
+      "b": "roll_off",
+      "r": 0.900204,
+      "n": 88
+    },
+    "brightness_score_v1|||centroid": {
+      "a": "brightness_score_v1",
+      "b": "centroid",
+      "r": 0.914761,
+      "n": 88
+    },
+    "brightness_score_v1|||flatness": {
+      "a": "brightness_score_v1",
+      "b": "flatness",
+      "r": 0.830045,
+      "n": 88
+    },
+    "brightness_score_v1|||event_density": {
+      "a": "brightness_score_v1",
+      "b": "event_density",
+      "r": -0.061837,
+      "n": 88
+    },
+    "brightness_score_v1|||loudness_range": {
+      "a": "brightness_score_v1",
+      "b": "loudness_range",
+      "r": -0.039039,
+      "n": 88
+    },
+    "brightness_score_v1|||spread": {
+      "a": "brightness_score_v1",
+      "b": "spread",
+      "r": 0.681719,
+      "n": 88
+    },
+    "brightness_score_v1|||vocal_instrumental": {
+      "a": "brightness_score_v1",
+      "b": "vocal_instrumental",
+      "r": -0.296705,
+      "n": 88
+    },
+    "brightness_score_v1|||music_speech": {
+      "a": "brightness_score_v1",
+      "b": "music_speech",
+      "r": 0.146345,
+      "n": 88
+    },
+    "arousal|||pulse_score_v1": {
+      "a": "pulse_score_v1",
+      "b": "arousal",
+      "r": 0.400184,
+      "n": 88
+    },
+    "intensity|||pulse_score_v1": {
+      "a": "pulse_score_v1",
+      "b": "intensity",
+      "r": 0.411479,
+      "n": 88
+    },
+    "loudness|||pulse_score_v1": {
+      "a": "pulse_score_v1",
+      "b": "loudness",
+      "r": 0.200393,
+      "n": 88
+    },
+    "pulse_clarity|||pulse_score_v1": {
+      "a": "pulse_score_v1",
+      "b": "pulse_clarity",
+      "r": 0.867438,
+      "n": 88
+    },
+    "pulse_score_v1|||rhythmic_stability": {
+      "a": "pulse_score_v1",
+      "b": "rhythmic_stability",
+      "r": 0.837378,
+      "n": 88
+    },
+    "danceability|||pulse_score_v1": {
+      "a": "pulse_score_v1",
+      "b": "danceability",
+      "r": 0.766254,
+      "n": 88
+    },
+    "complexity|||pulse_score_v1": {
+      "a": "pulse_score_v1",
+      "b": "complexity",
+      "r": -0.878625,
+      "n": 88
+    },
+    "brightness|||pulse_score_v1": {
+      "a": "pulse_score_v1",
+      "b": "brightness",
+      "r": -0.127811,
+      "n": 88
+    },
+    "pulse_score_v1|||roll_off": {
+      "a": "pulse_score_v1",
+      "b": "roll_off",
+      "r": -0.078745,
+      "n": 88
+    },
+    "centroid|||pulse_score_v1": {
+      "a": "pulse_score_v1",
+      "b": "centroid",
+      "r": 0.306875,
+      "n": 88
+    },
+    "flatness|||pulse_score_v1": {
+      "a": "pulse_score_v1",
+      "b": "flatness",
+      "r": 0.345865,
+      "n": 88
+    },
+    "event_density|||pulse_score_v1": {
+      "a": "pulse_score_v1",
+      "b": "event_density",
+      "r": -0.333871,
+      "n": 88
+    },
+    "loudness_range|||pulse_score_v1": {
+      "a": "pulse_score_v1",
+      "b": "loudness_range",
+      "r": -0.283941,
+      "n": 88
+    },
+    "pulse_score_v1|||spread": {
+      "a": "pulse_score_v1",
+      "b": "spread",
+      "r": 0.36147,
+      "n": 88
+    },
+    "pulse_score_v1|||vocal_instrumental": {
+      "a": "pulse_score_v1",
+      "b": "vocal_instrumental",
+      "r": 0.072576,
+      "n": 88
+    },
+    "music_speech|||pulse_score_v1": {
+      "a": "pulse_score_v1",
+      "b": "music_speech",
+      "r": 0.010309,
+      "n": 88
+    },
+    "arousal|||vocal_presence_score_v1": {
+      "a": "vocal_presence_score_v1",
+      "b": "arousal",
+      "r": -0.123944,
+      "n": 88
+    },
+    "intensity|||vocal_presence_score_v1": {
+      "a": "vocal_presence_score_v1",
+      "b": "intensity",
+      "r": 0.159861,
+      "n": 88
+    },
+    "loudness|||vocal_presence_score_v1": {
+      "a": "vocal_presence_score_v1",
+      "b": "loudness",
+      "r": -0.022942,
+      "n": 88
+    },
+    "pulse_clarity|||vocal_presence_score_v1": {
+      "a": "vocal_presence_score_v1",
+      "b": "pulse_clarity",
+      "r": 0.075147,
+      "n": 88
+    },
+    "rhythmic_stability|||vocal_presence_score_v1": {
+      "a": "vocal_presence_score_v1",
+      "b": "rhythmic_stability",
+      "r": -0.045003,
+      "n": 88
+    },
+    "danceability|||vocal_presence_score_v1": {
+      "a": "vocal_presence_score_v1",
+      "b": "danceability",
+      "r": 0.103352,
+      "n": 88
+    },
+    "complexity|||vocal_presence_score_v1": {
+      "a": "vocal_presence_score_v1",
+      "b": "complexity",
+      "r": -0.074726,
+      "n": 88
+    },
+    "brightness|||vocal_presence_score_v1": {
+      "a": "vocal_presence_score_v1",
+      "b": "brightness",
+      "r": -0.125777,
+      "n": 88
+    },
+    "roll_off|||vocal_presence_score_v1": {
+      "a": "vocal_presence_score_v1",
+      "b": "roll_off",
+      "r": -0.072297,
+      "n": 88
+    },
+    "centroid|||vocal_presence_score_v1": {
+      "a": "vocal_presence_score_v1",
+      "b": "centroid",
+      "r": -0.232852,
+      "n": 88
+    },
+    "flatness|||vocal_presence_score_v1": {
+      "a": "vocal_presence_score_v1",
+      "b": "flatness",
+      "r": -0.175359,
+      "n": 88
+    },
+    "event_density|||vocal_presence_score_v1": {
+      "a": "vocal_presence_score_v1",
+      "b": "event_density",
+      "r": 0.347114,
+      "n": 88
+    },
+    "loudness_range|||vocal_presence_score_v1": {
+      "a": "vocal_presence_score_v1",
+      "b": "loudness_range",
+      "r": -0.07501,
+      "n": 88
+    },
+    "spread|||vocal_presence_score_v1": {
+      "a": "vocal_presence_score_v1",
+      "b": "spread",
+      "r": -0.197715,
+      "n": 88
+    },
+    "vocal_instrumental|||vocal_presence_score_v1": {
+      "a": "vocal_presence_score_v1",
+      "b": "vocal_instrumental",
+      "r": 0.846749,
+      "n": 88
+    },
+    "music_speech|||vocal_presence_score_v1": {
+      "a": "vocal_presence_score_v1",
+      "b": "music_speech",
+      "r": 0.530416,
+      "n": 88
+    },
+    "arousal|||density_score_v1": {
+      "a": "density_score_v1",
+      "b": "arousal",
+      "r": -0.170011,
+      "n": 88
+    },
+    "density_score_v1|||intensity": {
+      "a": "density_score_v1",
+      "b": "intensity",
+      "r": -0.235556,
+      "n": 88
+    },
+    "density_score_v1|||loudness": {
+      "a": "density_score_v1",
+      "b": "loudness",
+      "r": -0.129223,
+      "n": 88
+    },
+    "density_score_v1|||pulse_clarity": {
+      "a": "density_score_v1",
+      "b": "pulse_clarity",
+      "r": -0.588703,
+      "n": 88
+    },
+    "density_score_v1|||rhythmic_stability": {
+      "a": "density_score_v1",
+      "b": "rhythmic_stability",
+      "r": -0.642457,
+      "n": 88
+    },
+    "danceability|||density_score_v1": {
+      "a": "density_score_v1",
+      "b": "danceability",
+      "r": -0.619364,
+      "n": 88
+    },
+    "complexity|||density_score_v1": {
+      "a": "density_score_v1",
+      "b": "complexity",
+      "r": 0.773799,
+      "n": 88
+    },
+    "brightness|||density_score_v1": {
+      "a": "density_score_v1",
+      "b": "brightness",
+      "r": 0.183982,
+      "n": 88
+    },
+    "density_score_v1|||roll_off": {
+      "a": "density_score_v1",
+      "b": "roll_off",
+      "r": 0.213542,
+      "n": 88
+    },
+    "centroid|||density_score_v1": {
+      "a": "density_score_v1",
+      "b": "centroid",
+      "r": 0.026194,
+      "n": 88
+    },
+    "density_score_v1|||flatness": {
+      "a": "density_score_v1",
+      "b": "flatness",
+      "r": -0.004767,
+      "n": 88
+    },
+    "density_score_v1|||event_density": {
+      "a": "density_score_v1",
+      "b": "event_density",
+      "r": 0.612745,
+      "n": 88
+    },
+    "density_score_v1|||loudness_range": {
+      "a": "density_score_v1",
+      "b": "loudness_range",
+      "r": 0.366897,
+      "n": 88
+    },
+    "density_score_v1|||spread": {
+      "a": "density_score_v1",
+      "b": "spread",
+      "r": -0.015106,
+      "n": 88
+    },
+    "density_score_v1|||vocal_instrumental": {
+      "a": "density_score_v1",
+      "b": "vocal_instrumental",
+      "r": -0.145367,
+      "n": 88
+    },
+    "density_score_v1|||music_speech": {
+      "a": "density_score_v1",
+      "b": "music_speech",
+      "r": 0.273929,
+      "n": 88
+    }
+  },
+  "top": [
+    {
+      "a": "brightness_score_v1",
+      "b": "centroid",
+      "r": 0.914761,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "brightness_score_v1",
+      "b": "roll_off",
+      "r": 0.900204,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "energy_score_v1",
+      "b": "intensity",
+      "r": 0.898431,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "pulse_score_v1",
+      "b": "complexity",
+      "r": -0.878625,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "pulse_score_v1",
+      "b": "pulse_clarity",
+      "r": 0.867438,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "vocal_presence_score_v1",
+      "b": "vocal_instrumental",
+      "r": 0.846749,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "pulse_score_v1",
+      "b": "rhythmic_stability",
+      "r": 0.837378,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "energy_score_v1",
+      "b": "arousal",
+      "r": 0.835189,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "energy_score_v1",
+      "b": "loudness",
+      "r": 0.833816,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "brightness_score_v1",
+      "b": "flatness",
+      "r": 0.830045,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "brightness_score_v1",
+      "b": "brightness",
+      "r": 0.827104,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "pulse_score_v1",
+      "b": "density_score_v1",
+      "r": -0.77565,
+      "n": 88,
+      "type": "feature_vs_feature"
+    },
+    {
+      "a": "density_score_v1",
+      "b": "complexity",
+      "r": 0.773799,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "pulse_score_v1",
+      "b": "danceability",
+      "r": 0.766254,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "energy_score_v1",
+      "b": "pulse_clarity",
+      "r": 0.698035,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "brightness_score_v1",
+      "b": "spread",
+      "r": 0.681719,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "density_score_v1",
+      "b": "rhythmic_stability",
+      "r": -0.642457,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "energy_score_v1",
+      "b": "pulse_score_v1",
+      "r": 0.628978,
+      "n": 88,
+      "type": "feature_vs_feature"
+    },
+    {
+      "a": "density_score_v1",
+      "b": "danceability",
+      "r": -0.619364,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "density_score_v1",
+      "b": "event_density",
+      "r": 0.612745,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "density_score_v1",
+      "b": "pulse_clarity",
+      "r": -0.588703,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "energy_score_v1",
+      "b": "complexity",
+      "r": -0.588487,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "brightness_score_v1",
+      "b": "arousal",
+      "r": 0.576986,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "energy_score_v1",
+      "b": "rhythmic_stability",
+      "r": 0.563211,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "vocal_presence_score_v1",
+      "b": "music_speech",
+      "r": 0.530416,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "energy_score_v1",
+      "b": "centroid",
+      "r": 0.464836,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "energy_score_v1",
+      "b": "brightness_score_v1",
+      "r": 0.433539,
+      "n": 88,
+      "type": "feature_vs_feature"
+    },
+    {
+      "a": "energy_score_v1",
+      "b": "flatness",
+      "r": 0.42763,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "pulse_score_v1",
+      "b": "intensity",
+      "r": 0.411479,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "pulse_score_v1",
+      "b": "arousal",
+      "r": 0.400184,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "energy_score_v1",
+      "b": "density_score_v1",
+      "r": -0.381114,
+      "n": 88,
+      "type": "feature_vs_feature"
+    },
+    {
+      "a": "density_score_v1",
+      "b": "loudness_range",
+      "r": 0.366897,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "pulse_score_v1",
+      "b": "spread",
+      "r": 0.36147,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "vocal_presence_score_v1",
+      "b": "event_density",
+      "r": 0.347114,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "pulse_score_v1",
+      "b": "flatness",
+      "r": 0.345865,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "energy_score_v1",
+      "b": "roll_off",
+      "r": 0.337394,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "energy_score_v1",
+      "b": "loudness_range",
+      "r": -0.336917,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "pulse_score_v1",
+      "b": "event_density",
+      "r": -0.333871,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "energy_score_v1",
+      "b": "spread",
+      "r": 0.312677,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "brightness_score_v1",
+      "b": "loudness",
+      "r": 0.307118,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "pulse_score_v1",
+      "b": "centroid",
+      "r": 0.306875,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "brightness_score_v1",
+      "b": "vocal_instrumental",
+      "r": -0.296705,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "pulse_score_v1",
+      "b": "loudness_range",
+      "r": -0.283941,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "energy_score_v1",
+      "b": "brightness",
+      "r": 0.275378,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "density_score_v1",
+      "b": "music_speech",
+      "r": 0.273929,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "brightness_score_v1",
+      "b": "intensity",
+      "r": 0.270705,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "density_score_v1",
+      "b": "intensity",
+      "r": -0.235556,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "vocal_presence_score_v1",
+      "b": "centroid",
+      "r": -0.232852,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "energy_score_v1",
+      "b": "danceability",
+      "r": 0.230763,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "density_score_v1",
+      "b": "roll_off",
+      "r": 0.213542,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "brightness_score_v1",
+      "b": "pulse_clarity",
+      "r": 0.212703,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "pulse_score_v1",
+      "b": "loudness",
+      "r": 0.200393,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "vocal_presence_score_v1",
+      "b": "spread",
+      "r": -0.197715,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "density_score_v1",
+      "b": "brightness",
+      "r": 0.183982,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "vocal_presence_score_v1",
+      "b": "flatness",
+      "r": -0.175359,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "brightness_score_v1",
+      "b": "vocal_presence_score_v1",
+      "r": -0.173674,
+      "n": 88,
+      "type": "feature_vs_feature"
+    },
+    {
+      "a": "density_score_v1",
+      "b": "arousal",
+      "r": -0.170011,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "vocal_presence_score_v1",
+      "b": "intensity",
+      "r": 0.159861,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "brightness_score_v1",
+      "b": "music_speech",
+      "r": 0.146345,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "energy_score_v1",
+      "b": "music_speech",
+      "r": 0.1457,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "density_score_v1",
+      "b": "vocal_instrumental",
+      "r": -0.145367,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "brightness_score_v1",
+      "b": "rhythmic_stability",
+      "r": 0.13001,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "density_score_v1",
+      "b": "loudness",
+      "r": -0.129223,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "brightness_score_v1",
+      "b": "pulse_score_v1",
+      "r": 0.127905,
+      "n": 88,
+      "type": "feature_vs_feature"
+    },
+    {
+      "a": "pulse_score_v1",
+      "b": "brightness",
+      "r": -0.127811,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "vocal_presence_score_v1",
+      "b": "brightness",
+      "r": -0.125777,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "vocal_presence_score_v1",
+      "b": "arousal",
+      "r": -0.123944,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "brightness_score_v1",
+      "b": "density_score_v1",
+      "r": 0.121347,
+      "n": 88,
+      "type": "feature_vs_feature"
+    },
+    {
+      "a": "brightness_score_v1",
+      "b": "complexity",
+      "r": -0.110797,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "energy_score_v1",
+      "b": "event_density",
+      "r": 0.10979,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "vocal_presence_score_v1",
+      "b": "danceability",
+      "r": 0.103352,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "pulse_score_v1",
+      "b": "roll_off",
+      "r": -0.078745,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "vocal_presence_score_v1",
+      "b": "pulse_clarity",
+      "r": 0.075147,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "vocal_presence_score_v1",
+      "b": "loudness_range",
+      "r": -0.07501,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "vocal_presence_score_v1",
+      "b": "complexity",
+      "r": -0.074726,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "pulse_score_v1",
+      "b": "vocal_instrumental",
+      "r": 0.072576,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "vocal_presence_score_v1",
+      "b": "roll_off",
+      "r": -0.072297,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "pulse_score_v1",
+      "b": "vocal_presence_score_v1",
+      "r": 0.06701,
+      "n": 88,
+      "type": "feature_vs_feature"
+    },
+    {
+      "a": "brightness_score_v1",
+      "b": "event_density",
+      "r": -0.061837,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "energy_score_v1",
+      "b": "vocal_instrumental",
+      "r": -0.059275,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "brightness_score_v1",
+      "b": "danceability",
+      "r": -0.045109,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "vocal_presence_score_v1",
+      "b": "rhythmic_stability",
+      "r": -0.045003,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "brightness_score_v1",
+      "b": "loudness_range",
+      "r": -0.039039,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "energy_score_v1",
+      "b": "vocal_presence_score_v1",
+      "r": 0.027262,
+      "n": 88,
+      "type": "feature_vs_feature"
+    },
+    {
+      "a": "density_score_v1",
+      "b": "centroid",
+      "r": 0.026194,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "vocal_presence_score_v1",
+      "b": "loudness",
+      "r": -0.022942,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "vocal_presence_score_v1",
+      "b": "density_score_v1",
+      "r": 0.022496,
+      "n": 88,
+      "type": "feature_vs_feature"
+    },
+    {
+      "a": "density_score_v1",
+      "b": "spread",
+      "r": -0.015106,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "pulse_score_v1",
+      "b": "music_speech",
+      "r": 0.010309,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    },
+    {
+      "a": "density_score_v1",
+      "b": "flatness",
+      "r": -0.004767,
+      "n": 88,
+      "type": "feature_vs_descriptor"
+    }
+  ]
+}
