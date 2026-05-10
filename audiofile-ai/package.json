@@ -4,7 +4,8 @@
   "private": true,
   "type": "commonjs",
   "scripts": {
-    "test": "node src/data/index.js"
+    "test": "node src/data/index.js",
+    "experiment:musicstory": "node experimentation/scripts/run_all_experiments.js"
   },
   "dependencies": {
     "dotenv": "^17.4.2"

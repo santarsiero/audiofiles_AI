@@ -1,0 +1,16 @@
+a,b,r,n,observed
+arousal,intensity,0.621082,88,true
+arousal,loudness,0.65909,88,true
+arousal,danceability,0.085509,88,true
+arousal,pulse_clarity,0.409874,88,true
+danceability,pulse_clarity,0.428703,88,true
+danceability,rhythmic_stability,0.68684,88,true
+pulse_clarity,rhythmic_stability,0.576525,88,true
+brightness,centroid,0.549184,88,true
+brightness,roll_off,0.92063,88,true
+brightness,flatness,0.40316,88,true
+music_speech,vocal_instrumental,-0.001862,88,true
+event_density,complexity,0.308709,88,true
+event_density,intensity,0.269546,88,true
+dissonance,valence,0.220459,88,true
+articulation,danceability,0.592597,88,true
