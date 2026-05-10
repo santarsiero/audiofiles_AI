@@ -10,7 +10,10 @@ async function processSong(input, options = {}) {
 
   const musicStory = options.musicStoryOverride
     ? { provider: 'music_story', available: true, data: options.musicStoryOverride }
-    : await fetchMusicStoryDescriptors(songIdentity);
+    : await fetchMusicStoryDescriptors(songIdentity, {
+        recordingId: input && input.musicStoryRecordingId ? input.musicStoryRecordingId : null,
+        isrc: input && input.isrc ? input.isrc : null
+      });
 
   const acousticBrainz = options.acousticBrainzOverride
     ? { provider: 'acousticbrainz', available: true, data: options.acousticBrainzOverride }

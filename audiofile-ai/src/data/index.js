@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const { processSong } = require('../pipeline/processSong');
 
 async function run() {

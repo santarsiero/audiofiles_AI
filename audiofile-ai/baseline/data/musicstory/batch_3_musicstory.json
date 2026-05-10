@@ -1,0 +1,2819 @@
+{
+  "batchFile": "batch_3.json",
+  "createdAt": "2026-05-09T15:52:09.011Z",
+  "results": [
+    {
+      "index": 0,
+      "song": {
+        "title": "Take It",
+        "artist": "Dom Dolla",
+        "isrc": "AUDCB1701202",
+        "spotify_id": "14fIlfcmFPlj4V2IazeJ25",
+        "apple_id": "1454818194",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": true,
+        "data": {
+          "arousal": 0.66849,
+          "valence": 0.30577,
+          "vocal_instrumental": 0.2519,
+          "music_speech": 0.06783,
+          "electric_acoustic": 0.04528,
+          "danceability": 0.87421,
+          "studio_live": 0.20018,
+          "melodicity": 0.49681,
+          "dissonance": 0.55754,
+          "articulation": 0.63331,
+          "rhythmic_stability": 0.66371,
+          "event_density": 0.044958,
+          "pulse_clarity": 0.824662,
+          "bpm": 31,
+          "complexity": 0.085903,
+          "binary": 0.747228,
+          "roll_off": 1450.023819,
+          "brightness": 0.188153,
+          "zero_cross_rate": 0.053512,
+          "centroid": 3279.24994,
+          "spread": 3662.947293,
+          "flatness": 0.217462,
+          "mfcc01": -8.0604,
+          "mfcc02": 3.212627,
+          "mfcc03": -0.842076,
+          "mfcc04": 0.238285,
+          "mfcc05": -0.178069,
+          "mfcc06": -0.006628,
+          "mfcc07": -0.297577,
+          "mfcc08": -0.179981,
+          "mfcc09": -0.388163,
+          "mfcc10": -0.180156,
+          "mfcc11": -0.31207,
+          "mfcc12": -0.373944,
+          "mfcc13": -0.419009,
+          "chroma01": 14019,
+          "chroma02": 2901,
+          "chroma03": 7846,
+          "chroma04": 3044,
+          "chroma05": 3793,
+          "chroma06": 6187,
+          "chroma08": 8307,
+          "chroma09": 3150,
+          "chroma10": 6401,
+          "chroma11": 4847,
+          "chroma12": 3264,
+          "complexity_chroma": 0.181818,
+          "intensity": 0.261461,
+          "loudness": -13.279627,
+          "absolute_loudness": -13.279627,
+          "loudness_range": 6.31441,
+          "moods": [
+            {
+              "name": "Frustrated",
+              "value": 0.95
+            },
+            {
+              "name": "Sad",
+              "value": 0.69
+            },
+            {
+              "name": "Energic",
+              "value": 0.67
+            }
+          ],
+          "timbres": [
+            "Electric"
+          ],
+          "themes": [
+            "VideoGame"
+          ]
+        },
+        "songIdentity": {
+          "title": "Take It",
+          "artist": "Dom Dolla",
+          "isrc": "AUDCB1701202"
+        },
+        "recordingId": 20084197,
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 1,
+      "song": {
+        "title": "Oblivion",
+        "artist": "Grimes",
+        "isrc": "CA21O1200003",
+        "spotify_id": "3LGsgpx4TfxhXbr07OFKqs",
+        "apple_id": "499875050",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": true,
+        "data": {
+          "arousal": 0.6191,
+          "valence": 0.42127,
+          "vocal_instrumental": 0.45528,
+          "music_speech": 0.06995,
+          "electric_acoustic": 0.1742,
+          "danceability": 0.67444,
+          "studio_live": 0.13457,
+          "melodicity": 0.5925,
+          "dissonance": 0.52118,
+          "articulation": 0.59956,
+          "rhythmic_stability": 0.62822,
+          "event_density": 0.061273,
+          "pulse_clarity": 0.60587,
+          "bpm": 78,
+          "complexity": 0.28478,
+          "binary": 0.714946,
+          "roll_off": 1238.365847,
+          "brightness": 0.074766,
+          "zero_cross_rate": 0.044164,
+          "centroid": 2852.730432,
+          "spread": 3539.645844,
+          "flatness": 0.197176,
+          "mfcc01": -7.517674,
+          "mfcc02": 3.241709,
+          "mfcc03": -0.174946,
+          "mfcc04": -0.077404,
+          "mfcc05": -0.265696,
+          "mfcc06": -0.46193,
+          "mfcc07": -0.155542,
+          "mfcc08": -0.113999,
+          "mfcc09": -0.297389,
+          "mfcc10": -0.20513,
+          "mfcc11": -0.425174,
+          "mfcc12": -0.401545,
+          "mfcc13": -0.385083,
+          "chroma01": 7479,
+          "chroma02": 6325,
+          "chroma03": 10561,
+          "chroma04": 1667,
+          "chroma05": 4809,
+          "chroma06": 6546,
+          "chroma08": 4366,
+          "chroma09": 1561,
+          "chroma10": 11622,
+          "chroma11": 3406,
+          "chroma12": 4692,
+          "complexity_chroma": 0.181818,
+          "intensity": 0.211314,
+          "loudness": -14.617194,
+          "absolute_loudness": -14.617194,
+          "loudness_range": 3.67057,
+          "moods": [
+            {
+              "name": "Impatient",
+              "value": 0.98
+            },
+            {
+              "name": "Energic",
+              "value": 0.62
+            }
+          ],
+          "timbres": [
+            "Electric"
+          ],
+          "themes": [
+            "VideoGame"
+          ]
+        },
+        "songIdentity": {
+          "title": "Oblivion",
+          "artist": "Grimes",
+          "isrc": "CA21O1200003"
+        },
+        "recordingId": 4522320,
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 2,
+      "song": {
+        "title": "Gets Like That",
+        "artist": "Max Dean",
+        "isrc": "CBEFB2501384",
+        "spotify_id": "1aBVDx9VjyLEk8rz8pezru",
+        "apple_id": "1838732858",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "Gets Like That",
+          "artist": "Max Dean",
+          "isrc": "CBEFB2501384"
+        },
+        "error": "Music Story audiodescriptions failed (404)",
+        "rateLimit": {},
+        "recordingId": 38495999
+      }
+    },
+    {
+      "index": 3,
+      "song": {
+        "title": "Bla Bla Bla",
+        "artist": "Gigi D'Agostino",
+        "isrc": "DEA319908479",
+        "spotify_id": "04zrPERrSO4CfyargthKJ9",
+        "apple_id": "119218589",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "Bla Bla Bla",
+          "artist": "Gigi D'Agostino",
+          "isrc": "DEA319908479"
+        },
+        "error": "No recording hit found",
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 4,
+      "song": {
+        "title": "A Little Closer",
+        "artist": "Diffrent",
+        "isrc": "DEE862400745",
+        "spotify_id": "06hZjgfiSKHKOtFtZYVq6Y",
+        "apple_id": "1754407341",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "A Little Closer",
+          "artist": "Diffrent",
+          "isrc": "DEE862400745"
+        },
+        "error": "Music Story audiodescriptions failed (404)",
+        "rateLimit": {},
+        "recordingId": 30510412
+      }
+    },
+    {
+      "index": 5,
+      "song": {
+        "title": "Kiss Me",
+        "artist": "Harry T",
+        "isrc": "DEUM72503258",
+        "spotify_id": "5leHWyGGcGHxoSQix9qNwV",
+        "apple_id": "1807749974",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "Kiss Me",
+          "artist": "Harry T",
+          "isrc": "DEUM72503258"
+        },
+        "error": "No recording hit found",
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 6,
+      "song": {
+        "title": "The Beat Goes On",
+        "artist": "Bob Sinclar",
+        "isrc": "FR6V80309921",
+        "spotify_id": "4tClmTsIP0y4VVkkflKGIj",
+        "apple_id": "1732754267",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": true,
+        "data": {
+          "arousal": 0.82559,
+          "valence": 0.79857,
+          "vocal_instrumental": 0,
+          "music_speech": 0.06342,
+          "electric_acoustic": 0.03286,
+          "danceability": 0.78724,
+          "studio_live": 0.26102,
+          "melodicity": 0.59751,
+          "dissonance": 0.51215,
+          "articulation": 0.65867,
+          "rhythmic_stability": 0.71,
+          "event_density": 0.054973,
+          "pulse_clarity": 0.742061,
+          "bpm": 128,
+          "complexity": 0.188703,
+          "binary": 0.694863,
+          "roll_off": 1687.628571,
+          "brightness": 0.151356,
+          "zero_cross_rate": 0.075749,
+          "centroid": 4282.566988,
+          "spread": 4658.035641,
+          "flatness": 0.34907,
+          "mfcc01": -6.075465,
+          "mfcc02": 3.157416,
+          "mfcc03": -0.398722,
+          "mfcc04": 0.255381,
+          "mfcc05": -0.313803,
+          "mfcc06": -0.320371,
+          "mfcc07": -0.198928,
+          "mfcc08": -0.301901,
+          "mfcc09": -0.597887,
+          "mfcc10": -0.068258,
+          "mfcc11": -0.42038,
+          "mfcc12": -0.224036,
+          "mfcc13": -0.338561,
+          "chroma01": 12908,
+          "chroma02": 2520,
+          "chroma03": 7339,
+          "chroma04": 2161,
+          "chroma05": 2468,
+          "chroma06": 7692,
+          "chroma08": 12209,
+          "chroma09": 2742,
+          "chroma10": 5686,
+          "chroma11": 3242,
+          "chroma12": 3650,
+          "complexity_chroma": 0.181818,
+          "intensity": 0.223901,
+          "loudness": -12.653559,
+          "absolute_loudness": -12.653559,
+          "loudness_range": 3.94635,
+          "moods": [
+            {
+              "name": "Excited",
+              "value": 0.95
+            },
+            {
+              "name": "Energic",
+              "value": 0.83
+            },
+            {
+              "name": "Happy",
+              "value": 0.8
+            }
+          ],
+          "timbres": [
+            "Vocal",
+            "Electric"
+          ],
+          "themes": null
+        },
+        "songIdentity": {
+          "title": "The Beat Goes On",
+          "artist": "Bob Sinclar",
+          "isrc": "FR6V80309921"
+        },
+        "recordingId": 1238636,
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 7,
+      "song": {
+        "title": "Average Party Tool",
+        "artist": "Herr Krank",
+        "isrc": "FRX202125170",
+        "spotify_id": "07UeBq7UkdDgUq5c4U2gZc",
+        "apple_id": "1570501736",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "Average Party Tool",
+          "artist": "Herr Krank",
+          "isrc": "FRX202125170"
+        },
+        "error": "No recording hit found",
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 8,
+      "song": {
+        "title": "Don't",
+        "artist": "Ed Sheeran",
+        "isrc": "GBAHS1400090",
+        "spotify_id": "6gTJaPuj8DT8RjuDJyBgzP",
+        "apple_id": "1050204624",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": true,
+        "data": {
+          "arousal": 0.66389,
+          "valence": 0.72725,
+          "vocal_instrumental": 0.01221,
+          "music_speech": 0.12215,
+          "electric_acoustic": 0.02903,
+          "danceability": 0.74472,
+          "studio_live": 0.15605,
+          "melodicity": 0.53824,
+          "dissonance": 0.48776,
+          "articulation": 0.64048,
+          "rhythmic_stability": 0.64576,
+          "event_density": 0.052435,
+          "pulse_clarity": 0.341213,
+          "bpm": 95,
+          "complexity": 0.418709,
+          "binary": 0.803106,
+          "roll_off": 1360.016294,
+          "brightness": 0.129496,
+          "zero_cross_rate": 0.060006,
+          "centroid": 3545.983215,
+          "spread": 4110.146441,
+          "flatness": 0.271242,
+          "mfcc01": -7.875896,
+          "mfcc02": 3.134152,
+          "mfcc03": -0.880956,
+          "mfcc04": 0.295478,
+          "mfcc05": -0.100437,
+          "mfcc06": -0.201286,
+          "mfcc07": -0.435691,
+          "mfcc08": -0.025149,
+          "mfcc09": -0.379323,
+          "mfcc10": -0.185599,
+          "mfcc11": -0.321904,
+          "mfcc12": -0.214446,
+          "mfcc13": -0.248046,
+          "chroma01": 11590,
+          "chroma02": 2610,
+          "chroma03": 7415,
+          "chroma04": 2598,
+          "chroma05": 2407,
+          "chroma06": 13150,
+          "chroma08": 4442,
+          "chroma09": 3874,
+          "chroma10": 6704,
+          "chroma11": 4129,
+          "chroma12": 2410,
+          "complexity_chroma": 0.272727,
+          "intensity": 0.209954,
+          "loudness": -16.020467,
+          "absolute_loudness": -15.882328,
+          "loudness_range": 5.513245,
+          "moods": [
+            {
+              "name": "Convinced",
+              "value": 0.85
+            },
+            {
+              "name": "Delighted",
+              "value": 0.45
+            },
+            {
+              "name": "Energic",
+              "value": 0.66
+            },
+            {
+              "name": "Excited",
+              "value": 0.32
+            },
+            {
+              "name": "Happy",
+              "value": 0.73
+            }
+          ],
+          "timbres": [
+            "Electric",
+            "Vocal"
+          ],
+          "themes": [
+            "VideoGame"
+          ]
+        },
+        "songIdentity": {
+          "title": "Don't",
+          "artist": "Ed Sheeran",
+          "isrc": "GBAHS1400090"
+        },
+        "recordingId": 9251155,
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 9,
+      "song": {
+        "title": "Rhyme Dust",
+        "artist": "MK",
+        "isrc": "GBARL2300220",
+        "spotify_id": "6JGxs7oSmmFIUcZ5ft54aJ",
+        "apple_id": "1671893661",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": true,
+        "data": {
+          "arousal": 0.61727,
+          "valence": 0.45733,
+          "vocal_instrumental": 0.36056,
+          "music_speech": 0.13506,
+          "electric_acoustic": 0,
+          "danceability": 0.82326,
+          "studio_live": 0.07741,
+          "melodicity": 0.48027,
+          "dissonance": 0.54581,
+          "articulation": 0.62762,
+          "rhythmic_stability": 0.66487,
+          "event_density": 0.045113,
+          "pulse_clarity": 0.816413,
+          "bpm": 128,
+          "complexity": 0.052992,
+          "binary": 0.716018,
+          "roll_off": 1536.02044,
+          "brightness": 0.122272,
+          "zero_cross_rate": 0.054265,
+          "centroid": 2823.568823,
+          "spread": 3388.322312,
+          "flatness": 0.191266,
+          "mfcc01": -8.153958,
+          "mfcc02": 3.270401,
+          "mfcc03": -0.591591,
+          "mfcc04": 0.037973,
+          "mfcc05": -0.48309,
+          "mfcc06": -0.022856,
+          "mfcc07": -0.34671,
+          "mfcc08": -0.149128,
+          "mfcc09": -0.287372,
+          "mfcc10": -0.253544,
+          "mfcc11": -0.468546,
+          "mfcc12": -0.101968,
+          "mfcc13": -0.259409,
+          "chroma01": 8364,
+          "chroma02": 3552,
+          "chroma03": 14994,
+          "chroma04": 1550,
+          "chroma05": 2802,
+          "chroma06": 5288,
+          "chroma08": 6179,
+          "chroma09": 2007,
+          "chroma10": 12155,
+          "chroma11": 4141,
+          "chroma12": 3047,
+          "complexity_chroma": 1,
+          "intensity": 0.247864,
+          "loudness": -13.211849,
+          "absolute_loudness": -13.1688,
+          "loudness_range": 3.2537,
+          "moods": [
+            {
+              "name": "Impatient",
+              "value": 0.98
+            },
+            {
+              "name": "Energic",
+              "value": 0.62
+            }
+          ],
+          "timbres": [
+            "Electric"
+          ],
+          "themes": [
+            "Party"
+          ]
+        },
+        "songIdentity": {
+          "title": "Rhyme Dust",
+          "artist": "MK",
+          "isrc": "GBARL2300220"
+        },
+        "recordingId": 22759775,
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 10,
+      "song": {
+        "title": "The Valley of The Pagans (feat. Beck)",
+        "artist": "Gorillaz",
+        "isrc": "GBAYE2000599",
+        "spotify_id": "3oP3Tfn86FRmxAGsV0TqCp",
+        "apple_id": "1530812332",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": true,
+        "data": {
+          "arousal": 0.74819,
+          "valence": 0.69002,
+          "vocal_instrumental": 0.02555,
+          "music_speech": 0.03861,
+          "electric_acoustic": 0,
+          "danceability": 0.65007,
+          "studio_live": 0.16105,
+          "melodicity": 0.66,
+          "dissonance": 0.5293,
+          "articulation": 0.59569,
+          "rhythmic_stability": 0.65209,
+          "event_density": 0.049003,
+          "pulse_clarity": 0.575317,
+          "bpm": 130,
+          "complexity": 0.162642,
+          "binary": 0.932415,
+          "roll_off": 1153.980919,
+          "brightness": 0.114667,
+          "zero_cross_rate": 0.057881,
+          "centroid": 3142.987148,
+          "spread": 3839.979022,
+          "flatness": 0.249783,
+          "mfcc01": -5.775373,
+          "mfcc02": 3.052477,
+          "mfcc03": -1.061237,
+          "mfcc04": 0.411075,
+          "mfcc05": -0.221666,
+          "mfcc06": 0.231948,
+          "mfcc07": -0.257303,
+          "mfcc08": -0.158811,
+          "mfcc09": -0.465501,
+          "mfcc10": -0.298996,
+          "mfcc11": -0.408291,
+          "mfcc12": -0.129652,
+          "mfcc13": -0.318077,
+          "chroma01": 8969,
+          "chroma02": 3499,
+          "chroma03": 9697,
+          "chroma04": 1698,
+          "chroma05": 5030,
+          "chroma06": 9668,
+          "chroma08": 6635,
+          "chroma09": 2210,
+          "chroma10": 12341,
+          "chroma11": 2627,
+          "chroma12": 2518,
+          "complexity_chroma": 0.272727,
+          "intensity": 0.234823,
+          "loudness": -11.983714,
+          "absolute_loudness": -11.95158,
+          "loudness_range": 2.883893,
+          "moods": [
+            {
+              "name": "Energic",
+              "value": 0.75
+            },
+            {
+              "name": "Astonished/Aroused",
+              "value": 0.71
+            },
+            {
+              "name": "Happy",
+              "value": 0.69
+            },
+            {
+              "name": "Convinced",
+              "value": 0.43
+            },
+            {
+              "name": "Delighted",
+              "value": 0.35
+            },
+            {
+              "name": "Excited",
+              "value": 0.29
+            }
+          ],
+          "timbres": [
+            "Vocal",
+            "Electric"
+          ],
+          "themes": [
+            "Roadtrip"
+          ]
+        },
+        "songIdentity": {
+          "title": "The Valley of The Pagans (feat. Beck)",
+          "artist": "Gorillaz",
+          "isrc": "GBAYE2000599"
+        },
+        "recordingId": 20947012,
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 11,
+      "song": {
+        "title": "One More Time",
+        "artist": "Daft Punk",
+        "isrc": "GBDUW0000053",
+        "spotify_id": "0DiWol3AO6WpXZgp0goxAV",
+        "apple_id": "697195462",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": true,
+        "data": {
+          "arousal": 0.67382,
+          "valence": 0.463,
+          "vocal_instrumental": 0.01931,
+          "music_speech": 0.1055,
+          "electric_acoustic": 0.13324,
+          "danceability": 0.60913,
+          "studio_live": 0.20282,
+          "melodicity": 0.57051,
+          "dissonance": 0.41855,
+          "articulation": 0.49927,
+          "rhythmic_stability": 0.52993,
+          "event_density": 0.058674,
+          "pulse_clarity": 0.565038,
+          "bpm": 122,
+          "complexity": 0.446403,
+          "binary": 0.738905,
+          "roll_off": 2811.675691,
+          "brightness": 0.221645,
+          "zero_cross_rate": 0.103638,
+          "centroid": 5228.228688,
+          "spread": 5097.204687,
+          "flatness": 0.403428,
+          "mfcc01": -8.045467,
+          "mfcc02": 2.889951,
+          "mfcc03": -0.229235,
+          "mfcc04": 0.099682,
+          "mfcc05": -0.045463,
+          "mfcc06": 0.212765,
+          "mfcc07": -0.215345,
+          "mfcc08": 0.091952,
+          "mfcc09": -0.46547,
+          "mfcc10": -0.221174,
+          "mfcc11": -0.475713,
+          "mfcc12": -0.582664,
+          "mfcc13": -0.648188,
+          "chroma01": 4502,
+          "chroma02": 5749,
+          "chroma03": 13639,
+          "chroma04": 838,
+          "chroma05": 4603,
+          "chroma06": 4614,
+          "chroma08": 8444,
+          "chroma09": 1602,
+          "chroma10": 9992,
+          "chroma11": 4895,
+          "chroma12": 5956,
+          "complexity_chroma": 0.272727,
+          "intensity": 0.134213,
+          "loudness": -16.865661,
+          "absolute_loudness": -16.865661,
+          "loudness_range": 7.178096,
+          "moods": [
+            {
+              "name": "Energic",
+              "value": 0.67
+            },
+            {
+              "name": "Impatient",
+              "value": 0.95
+            }
+          ],
+          "timbres": [
+            "Electric",
+            "Vocal"
+          ],
+          "themes": null
+        },
+        "songIdentity": {
+          "title": "One More Time",
+          "artist": "Daft Punk",
+          "isrc": "GBDUW0000053"
+        },
+        "recordingId": 1945387,
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 12,
+      "song": {
+        "title": "Give Life Back to Music (Drumless Edition)",
+        "artist": "Daft Punk",
+        "isrc": "GBDUW2300090",
+        "spotify_id": "3HmKTOTV4sxvQocdkDdb0u",
+        "apple_id": "1708115298",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": true,
+        "data": {
+          "arousal": 0.3436,
+          "valence": 0.1977,
+          "vocal_instrumental": 0.69871,
+          "music_speech": 0.05311,
+          "electric_acoustic": 0.0073,
+          "danceability": 0.5723,
+          "studio_live": 0.05855,
+          "melodicity": 0.67684,
+          "dissonance": 0.37439,
+          "articulation": 0.42972,
+          "rhythmic_stability": 0.53224,
+          "event_density": 0.056701,
+          "pulse_clarity": 0.253377,
+          "bpm": 40,
+          "complexity": 0.314835,
+          "binary": 0.942268,
+          "roll_off": 750.575562,
+          "brightness": 0.075399,
+          "zero_cross_rate": 0.029686,
+          "centroid": 1738.293901,
+          "spread": 2731.495555,
+          "flatness": 0.117928,
+          "mfcc01": -10.269039,
+          "mfcc02": 3.073503,
+          "mfcc03": -1.14925,
+          "mfcc04": 0.574996,
+          "mfcc05": -0.157203,
+          "mfcc06": -0.198582,
+          "mfcc07": -0.280278,
+          "mfcc08": -0.180747,
+          "mfcc09": -0.238976,
+          "mfcc10": -0.24869,
+          "mfcc11": -0.339063,
+          "mfcc12": -0.229004,
+          "mfcc13": -0.311962,
+          "chroma01": 8104,
+          "chroma02": 2296,
+          "chroma03": 7647,
+          "chroma04": 827,
+          "chroma05": 4447,
+          "chroma06": 13003,
+          "chroma08": 5820,
+          "chroma09": 674,
+          "chroma10": 14862,
+          "chroma11": 1407,
+          "chroma12": 2274,
+          "complexity_chroma": 1,
+          "intensity": 0.16237,
+          "loudness": -16.1149,
+          "absolute_loudness": -15.974067,
+          "loudness_range": 5.332974,
+          "moods": [
+            {
+              "name": "Sad",
+              "value": 0.8
+            },
+            {
+              "name": "Uncomfortable",
+              "value": 0.59
+            },
+            {
+              "name": "Distrustful",
+              "value": 0.47
+            },
+            {
+              "name": "Miserable/Disappointed/Startled",
+              "value": 0.45
+            },
+            {
+              "name": "Depressed/Gloomy",
+              "value": 0.41
+            }
+          ],
+          "timbres": [
+            "Instrumental",
+            "Electric"
+          ],
+          "themes": [
+            "VideoGame"
+          ]
+        },
+        "songIdentity": {
+          "title": "Give Life Back to Music (Drumless Edition)",
+          "artist": "Daft Punk",
+          "isrc": "GBDUW2300090"
+        },
+        "recordingId": 23310573,
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 13,
+      "song": {
+        "title": "BEATS FOR THE UNDERGROUND",
+        "artist": "Mau P",
+        "isrc": "GBK6Y2452041",
+        "spotify_id": "62bjfb5YMLvZU44vfjJVxp",
+        "apple_id": "1720773656",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": true,
+        "data": {
+          "arousal": 0.85247,
+          "valence": 0.67251,
+          "vocal_instrumental": 0.26361,
+          "music_speech": 0.12679,
+          "electric_acoustic": 0,
+          "danceability": 0.68254,
+          "studio_live": 0.15127,
+          "melodicity": 0.4388,
+          "dissonance": 0.61579,
+          "articulation": 0.65465,
+          "rhythmic_stability": 0.62394,
+          "event_density": 0.061217,
+          "pulse_clarity": 0.704873,
+          "bpm": 42,
+          "complexity": 0.142186,
+          "binary": 0.791676,
+          "roll_off": 2778.562242,
+          "brightness": 0.184845,
+          "zero_cross_rate": 0.097361,
+          "centroid": 4380.357203,
+          "spread": 4133.950466,
+          "flatness": 0.280052,
+          "mfcc01": -5.696708,
+          "mfcc02": 3.104842,
+          "mfcc03": -0.323629,
+          "mfcc04": 0.172822,
+          "mfcc05": 0.144717,
+          "mfcc06": 0.053213,
+          "mfcc07": -0.151395,
+          "mfcc08": -0.18061,
+          "mfcc09": -0.386636,
+          "mfcc10": -0.388491,
+          "mfcc11": -0.485348,
+          "mfcc12": -0.369532,
+          "mfcc13": -0.62075,
+          "chroma01": 12323,
+          "chroma02": 5246,
+          "chroma03": 6122,
+          "chroma04": 2169,
+          "chroma05": 2652,
+          "chroma06": 5523,
+          "chroma08": 5438,
+          "chroma09": 2317,
+          "chroma10": 12080,
+          "chroma11": 4928,
+          "chroma12": 2174,
+          "complexity_chroma": 1,
+          "intensity": 0.347379,
+          "loudness": -10.00635,
+          "absolute_loudness": -10.00635,
+          "loudness_range": 2.932862,
+          "moods": [
+            {
+              "name": "Astonished/Aroused",
+              "value": 0.95
+            },
+            {
+              "name": "Energic",
+              "value": 0.85
+            },
+            {
+              "name": "Happy",
+              "value": 0.67
+            }
+          ],
+          "timbres": [
+            "Electric"
+          ],
+          "themes": [
+            "Roadtrip"
+          ]
+        },
+        "songIdentity": {
+          "title": "BEATS FOR THE UNDERGROUND",
+          "artist": "Mau P",
+          "isrc": "GBK6Y2452041"
+        },
+        "recordingId": 30153095,
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 14,
+      "song": {
+        "title": "D.O.P.E.",
+        "artist": "ChaseWest",
+        "isrc": "GBKQU2513464",
+        "spotify_id": "40IWLYJ6DvIIuR3yyCFAsW",
+        "apple_id": "1795483953",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "D.O.P.E.",
+          "artist": "ChaseWest",
+          "isrc": "GBKQU2513464"
+        },
+        "error": "No recording hit found",
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 15,
+      "song": {
+        "title": "Come Around",
+        "artist": "Subsonic",
+        "isrc": "GBPWR2200051",
+        "spotify_id": "2EK2hR0X1XYrPnfLCgCIXl",
+        "apple_id": "1631531472",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "Come Around",
+          "artist": "Subsonic",
+          "isrc": "GBPWR2200051"
+        },
+        "error": "No recording hit found",
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 16,
+      "song": {
+        "title": "Bad Memories (feat. Elley Duhé & FAST BOY)",
+        "artist": "MEDUZA",
+        "isrc": "GBUM72203666",
+        "spotify_id": "3rb0tMq42WfggucPm0HHkA",
+        "apple_id": "1632534359",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": true,
+        "data": {
+          "arousal": 0.67508,
+          "valence": 0.30812,
+          "vocal_instrumental": 0.0044,
+          "music_speech": 0.04941,
+          "electric_acoustic": 0.01235,
+          "danceability": 0.53447,
+          "studio_live": 0.20415,
+          "melodicity": 0.60955,
+          "dissonance": 0.46305,
+          "articulation": 0.47488,
+          "rhythmic_stability": 0.57054,
+          "event_density": 0.057498,
+          "pulse_clarity": 0.583528,
+          "bpm": 62,
+          "complexity": 0.423042,
+          "binary": 0.910256,
+          "roll_off": 1719.547393,
+          "brightness": 0.188684,
+          "zero_cross_rate": 0.066513,
+          "centroid": 3225.026195,
+          "spread": 3491.542717,
+          "flatness": 0.210369,
+          "mfcc01": -5.829882,
+          "mfcc02": 3.279982,
+          "mfcc03": -0.783223,
+          "mfcc04": 0.154524,
+          "mfcc05": -0.339575,
+          "mfcc06": 0.065337,
+          "mfcc07": -0.184421,
+          "mfcc08": -0.282389,
+          "mfcc09": -0.402773,
+          "mfcc10": -0.210374,
+          "mfcc11": -0.444951,
+          "mfcc12": -0.281304,
+          "mfcc13": -0.184684,
+          "chroma01": 14629,
+          "chroma02": 8457,
+          "chroma03": 5292,
+          "chroma04": 3135,
+          "chroma05": 3653,
+          "chroma06": 10717,
+          "chroma08": 6093,
+          "chroma09": 5922,
+          "chroma10": 5942,
+          "chroma11": 3769,
+          "chroma12": 2094,
+          "complexity_chroma": 1,
+          "intensity": 0.225731,
+          "loudness": -12.397637,
+          "absolute_loudness": -12.397637,
+          "loudness_range": 3.596134,
+          "moods": [
+            {
+              "name": "Frustrated",
+              "value": 0.94
+            },
+            {
+              "name": "Sad",
+              "value": 0.69
+            },
+            {
+              "name": "Energic",
+              "value": 0.68
+            }
+          ],
+          "timbres": [
+            "Vocal",
+            "Electric"
+          ],
+          "themes": null
+        },
+        "songIdentity": {
+          "title": "Bad Memories (feat. Elley Duhé & FAST BOY)",
+          "artist": "MEDUZA",
+          "isrc": "GBUM72203666"
+        },
+        "recordingId": 22297642,
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 17,
+      "song": {
+        "title": "Thrift Shop (feat. Wanz)",
+        "artist": "Macklemore & Ryan Lewis",
+        "isrc": "GMM881200003",
+        "spotify_id": "7bYZBVrnRfqeaPbhRyEvK3",
+        "apple_id": "560097715",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": true,
+        "data": {
+          "arousal": 0.67812,
+          "valence": 0.63571,
+          "vocal_instrumental": 0.02383,
+          "music_speech": 0.30126,
+          "electric_acoustic": 0.07354,
+          "danceability": 0.69025,
+          "studio_live": 0.21854,
+          "melodicity": 0.52477,
+          "dissonance": 0.53179,
+          "articulation": 0.51335,
+          "rhythmic_stability": 0.58947,
+          "event_density": 0.058718,
+          "pulse_clarity": 0.472977,
+          "bpm": 48,
+          "complexity": 0.560719,
+          "binary": 0.916648,
+          "roll_off": 2108.477141,
+          "brightness": 0.185447,
+          "zero_cross_rate": 0.070797,
+          "centroid": 4015.967923,
+          "spread": 4199.602507,
+          "flatness": 0.300419,
+          "mfcc01": -6.768505,
+          "mfcc02": 3.179659,
+          "mfcc03": -0.695186,
+          "mfcc04": 0.092942,
+          "mfcc05": -0.265321,
+          "mfcc06": 0.063408,
+          "mfcc07": -0.366902,
+          "mfcc08": -0.147935,
+          "mfcc09": -0.376756,
+          "mfcc10": -0.31049,
+          "mfcc11": -0.437612,
+          "mfcc12": -0.187978,
+          "mfcc13": -0.218711,
+          "chroma01": 10181,
+          "chroma02": 5426,
+          "chroma03": 9388,
+          "chroma04": 5388,
+          "chroma05": 3674,
+          "chroma06": 6025,
+          "chroma08": 4480,
+          "chroma09": 7244,
+          "chroma10": 7577,
+          "chroma11": 4554,
+          "chroma12": 4980,
+          "complexity_chroma": 0.090909,
+          "intensity": 0.220972,
+          "loudness": -13.310445,
+          "absolute_loudness": -13.310445,
+          "loudness_range": 8.874007,
+          "moods": [
+            {
+              "name": "Convinced",
+              "value": 0.95
+            },
+            {
+              "name": "Energic",
+              "value": 0.68
+            },
+            {
+              "name": "Happy",
+              "value": 0.64
+            }
+          ],
+          "timbres": [
+            "Electric",
+            "Vocal"
+          ],
+          "themes": [
+            "Party",
+            "Work"
+          ]
+        },
+        "songIdentity": {
+          "title": "Thrift Shop (feat. Wanz)",
+          "artist": "Macklemore & Ryan Lewis",
+          "isrc": "GMM881200003"
+        },
+        "recordingId": 5140564,
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 18,
+      "song": {
+        "title": "Rhythm Machine",
+        "artist": "Westend",
+        "isrc": "NL8RL2336010",
+        "spotify_id": "7qhYyXBbL12mPyj93PyUBb",
+        "apple_id": "1719018354",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "Rhythm Machine",
+          "artist": "Westend",
+          "isrc": "NL8RL2336010"
+        },
+        "error": "No recording hit found",
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 19,
+      "song": {
+        "title": "Perfect (Exceeder)",
+        "artist": "Mason",
+        "isrc": "NLF711312388",
+        "spotify_id": "0MclYmXbfR8QihpMkSZTDc",
+        "apple_id": "1526153470",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": true,
+        "data": {
+          "arousal": 0.83622,
+          "valence": 0.56946,
+          "vocal_instrumental": 0.16583,
+          "music_speech": 0.09778,
+          "electric_acoustic": 0.02679,
+          "danceability": 0.68881,
+          "studio_live": 0.25203,
+          "melodicity": 0.53326,
+          "dissonance": 0.55633,
+          "articulation": 0.58467,
+          "rhythmic_stability": 0.6572,
+          "event_density": 0.061807,
+          "pulse_clarity": 0.597687,
+          "bpm": 128,
+          "complexity": 0.310532,
+          "binary": 0.728783,
+          "roll_off": 1568.916241,
+          "brightness": 0.144052,
+          "zero_cross_rate": 0.069313,
+          "centroid": 3773.209926,
+          "spread": 4103.793288,
+          "flatness": 0.237625,
+          "mfcc01": -6.467207,
+          "mfcc02": 3.229464,
+          "mfcc03": -0.730975,
+          "mfcc04": 0.075909,
+          "mfcc05": -0.286407,
+          "mfcc06": -0.007779,
+          "mfcc07": -0.138579,
+          "mfcc08": -0.270449,
+          "mfcc09": -0.385882,
+          "mfcc10": -0.190883,
+          "mfcc11": -0.392084,
+          "mfcc12": -0.276526,
+          "mfcc13": -0.32455,
+          "chroma01": 10327,
+          "chroma02": 7334,
+          "chroma03": 7396,
+          "chroma04": 2125,
+          "chroma05": 2990,
+          "chroma06": 13570,
+          "chroma08": 4005,
+          "chroma09": 4731,
+          "chroma10": 8416,
+          "chroma11": 5916,
+          "chroma12": 3282,
+          "complexity_chroma": 0.272727,
+          "intensity": 0.235774,
+          "loudness": -13.440937,
+          "absolute_loudness": -13.440937,
+          "loudness_range": 4.352396,
+          "moods": [
+            {
+              "name": "Astonished/Aroused",
+              "value": 0.87
+            },
+            {
+              "name": "Energic",
+              "value": 0.84
+            },
+            {
+              "name": "Happy",
+              "value": 0.57
+            },
+            {
+              "name": "Tense/Alarmed/Afraid",
+              "value": 0.3
+            }
+          ],
+          "timbres": [
+            "Electric"
+          ],
+          "themes": [
+            "Diner",
+            "Party"
+          ]
+        },
+        "songIdentity": {
+          "title": "Perfect (Exceeder)",
+          "artist": "Mason",
+          "isrc": "NLF711312388"
+        },
+        "recordingId": 25336917,
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 20,
+      "song": {
+        "title": "It's A Killa",
+        "artist": "FISHER",
+        "isrc": "QM24S2200746",
+        "spotify_id": "2KjQ5zpQGCXgAPbwyPBVqx",
+        "apple_id": "1754201830",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": true,
+        "data": {
+          "arousal": 0.7426,
+          "valence": 0.57375,
+          "vocal_instrumental": 0.32034,
+          "music_speech": 0.08254,
+          "electric_acoustic": 0,
+          "danceability": 0.73057,
+          "studio_live": 0.15373,
+          "melodicity": 0.553,
+          "dissonance": 0.53427,
+          "articulation": 0.62782,
+          "rhythmic_stability": 0.67874,
+          "event_density": 0.045642,
+          "pulse_clarity": 0.802378,
+          "bpm": 42,
+          "complexity": 0.014056,
+          "binary": 0.811971,
+          "roll_off": 2229.853113,
+          "brightness": 0.186019,
+          "zero_cross_rate": 0.08453,
+          "centroid": 4664.576436,
+          "spread": 4586.048411,
+          "flatness": 0.352949,
+          "mfcc01": -7.150963,
+          "mfcc02": 3.12811,
+          "mfcc03": -0.160059,
+          "mfcc04": 0.077625,
+          "mfcc05": -0.382368,
+          "mfcc06": -0.16887,
+          "mfcc07": -0.604203,
+          "mfcc08": -0.183009,
+          "mfcc09": -0.267572,
+          "mfcc10": -0.009982,
+          "mfcc11": -0.284954,
+          "mfcc12": -0.308137,
+          "mfcc13": -0.446845,
+          "chroma01": 9080,
+          "chroma02": 4089,
+          "chroma03": 13058,
+          "chroma04": 1062,
+          "chroma05": 1931,
+          "chroma06": 6363,
+          "chroma08": 9731,
+          "chroma09": 3425,
+          "chroma10": 8111,
+          "chroma11": 3814,
+          "chroma12": 4503,
+          "complexity_chroma": 1,
+          "intensity": 0.211839,
+          "loudness": -14.148449,
+          "absolute_loudness": -14.148449,
+          "loudness_range": 3.813459,
+          "moods": [
+            {
+              "name": "Energic",
+              "value": 0.74
+            },
+            {
+              "name": "Astonished/Aroused",
+              "value": 0.72
+            },
+            {
+              "name": "Happy",
+              "value": 0.57
+            },
+            {
+              "name": "Convinced",
+              "value": 0.45
+            },
+            {
+              "name": "Impatient",
+              "value": 0.37
+            },
+            {
+              "name": "Tense/Alarmed/Afraid",
+              "value": 0.28
+            }
+          ],
+          "timbres": [
+            "Electric"
+          ],
+          "themes": [
+            "Party"
+          ]
+        },
+        "songIdentity": {
+          "title": "It's A Killa",
+          "artist": "FISHER",
+          "isrc": "QM24S2200746"
+        },
+        "recordingId": 22108422,
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 21,
+      "song": {
+        "title": "feel U luv Me",
+        "artist": "Knock2",
+        "isrc": "QMBZ92447777",
+        "spotify_id": "0xDSZ754ZOdthmF784uuE5",
+        "apple_id": "1764547929",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": true,
+        "data": {
+          "arousal": 0.74123,
+          "valence": 0.15153,
+          "vocal_instrumental": 0.17038,
+          "music_speech": 0.09226,
+          "electric_acoustic": 0.00535,
+          "danceability": 0.53121,
+          "studio_live": 0.25374,
+          "melodicity": 0.49481,
+          "dissonance": 0.56165,
+          "articulation": 0.53433,
+          "rhythmic_stability": 0.51796,
+          "event_density": 0.061509,
+          "pulse_clarity": 0.685096,
+          "bpm": 130,
+          "complexity": 0.30583,
+          "binary": 0.95174,
+          "roll_off": 2918.142089,
+          "brightness": 0.238986,
+          "zero_cross_rate": 0.10023,
+          "centroid": 4414.234456,
+          "spread": 4200.462926,
+          "flatness": 0.310683,
+          "mfcc01": -4.911732,
+          "mfcc02": 3.206362,
+          "mfcc03": -0.277588,
+          "mfcc04": 0.383121,
+          "mfcc05": -0.705578,
+          "mfcc06": -0.025217,
+          "mfcc07": -0.2815,
+          "mfcc08": -0.181002,
+          "mfcc09": -0.481992,
+          "mfcc10": -0.212211,
+          "mfcc11": -0.294741,
+          "mfcc12": -0.156007,
+          "mfcc13": -0.525459,
+          "chroma01": 6620,
+          "chroma02": 5418,
+          "chroma03": 9275,
+          "chroma04": 1764,
+          "chroma05": 6467,
+          "chroma06": 5886,
+          "chroma08": 4392,
+          "chroma09": 3215,
+          "chroma10": 8095,
+          "chroma11": 4072,
+          "chroma12": 6803,
+          "complexity_chroma": 1,
+          "intensity": 0.321876,
+          "loudness": -9.947102,
+          "absolute_loudness": -9.947102,
+          "loudness_range": 6.870684,
+          "moods": [
+            {
+              "name": "Sad",
+              "value": 0.85
+            },
+            {
+              "name": "Energic",
+              "value": 0.74
+            },
+            {
+              "name": "Distressed",
+              "value": 0.69
+            },
+            {
+              "name": "Discontented",
+              "value": 0.46
+            },
+            {
+              "name": "Frustrated",
+              "value": 0.4
+            },
+            {
+              "name": "Angry",
+              "value": 0.31
+            }
+          ],
+          "timbres": [
+            "Electric"
+          ],
+          "themes": [
+            "Party"
+          ]
+        },
+        "songIdentity": {
+          "title": "feel U luv Me",
+          "artist": "Knock2",
+          "isrc": "QMBZ92447777"
+        },
+        "recordingId": 31150996,
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 22,
+      "song": {
+        "title": "Positive",
+        "artist": "Jamback",
+        "isrc": "QMFMF2549064",
+        "spotify_id": "0cZN3g7rtfNE6vsmX0k8OF",
+        "apple_id": "1846394100",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "Positive",
+          "artist": "Jamback",
+          "isrc": "QMFMF2549064"
+        },
+        "error": "Music Story audiodescriptions failed (404)",
+        "rateLimit": {},
+        "recordingId": 37349258
+      }
+    },
+    {
+      "index": 23,
+      "song": {
+        "title": "Side Man",
+        "artist": "Juos",
+        "isrc": "QZFPL2500086",
+        "spotify_id": "1qMdHgiv9rEXu9gBUUqLhI",
+        "apple_id": "1830127508",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "Side Man",
+          "artist": "Juos",
+          "isrc": "QZFPL2500086"
+        },
+        "error": "No recording hit found",
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 24,
+      "song": {
+        "title": "GIVE ME A BEAT!",
+        "artist": "LaRussell",
+        "isrc": "QZQAY2425429",
+        "spotify_id": "01XhYQFGlrDCYAmyhgIYlA",
+        "apple_id": "1750530640",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "GIVE ME A BEAT!",
+          "artist": "LaRussell",
+          "isrc": "QZQAY2425429"
+        },
+        "error": "No recording hit found",
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 25,
+      "song": {
+        "title": "Flyday Chinatown",
+        "artist": "EVADE FROM 宇宙",
+        "isrc": "SE5BU2126286",
+        "spotify_id": "3UkeVNl2xvv998zZQcasS2",
+        "apple_id": "1780362490",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": true,
+        "data": {
+          "arousal": 0.72242,
+          "valence": 0.31131,
+          "vocal_instrumental": 0.15757,
+          "music_speech": 0.06609,
+          "electric_acoustic": 0,
+          "danceability": 0.5335,
+          "studio_live": 0.14488,
+          "melodicity": 0.54411,
+          "dissonance": 0.53588,
+          "articulation": 0.50204,
+          "rhythmic_stability": 0.56426,
+          "event_density": 0.065493,
+          "pulse_clarity": 0.605584,
+          "bpm": 128,
+          "complexity": 0.373822,
+          "binary": 0.826141,
+          "roll_off": 873.20762,
+          "brightness": 0.085242,
+          "zero_cross_rate": 0.052001,
+          "centroid": 3568.337027,
+          "spread": 4184.728923,
+          "flatness": 0.268574,
+          "mfcc01": -7.571506,
+          "mfcc02": 2.915808,
+          "mfcc03": -0.799536,
+          "mfcc04": 0.29137,
+          "mfcc05": -0.389987,
+          "mfcc06": 0.061132,
+          "mfcc07": -0.151221,
+          "mfcc08": -0.188904,
+          "mfcc09": -0.172997,
+          "mfcc10": -0.234618,
+          "mfcc11": -0.347453,
+          "mfcc12": -0.316835,
+          "mfcc13": -0.369339,
+          "chroma01": 7547,
+          "chroma02": 2507,
+          "chroma03": 9982,
+          "chroma04": 930,
+          "chroma05": 1379,
+          "chroma06": 10695,
+          "chroma08": 7663,
+          "chroma09": 1508,
+          "chroma10": 10281,
+          "chroma11": 4536,
+          "chroma12": 1437,
+          "complexity_chroma": 0.272727,
+          "intensity": 0.257506,
+          "loudness": -12.11919,
+          "absolute_loudness": -12.11919,
+          "loudness_range": 2.070362,
+          "moods": [
+            {
+              "name": "Frustrated",
+              "value": 0.74
+            },
+            {
+              "name": "Energic",
+              "value": 0.72
+            },
+            {
+              "name": "Sad",
+              "value": 0.69
+            },
+            {
+              "name": "Angry",
+              "value": 0.45
+            },
+            {
+              "name": "Tense/Alarmed/Afraid",
+              "value": 0.36
+            },
+            {
+              "name": "Impatient",
+              "value": 0.26
+            }
+          ],
+          "timbres": [
+            "Electric"
+          ],
+          "themes": [
+            "Roadtrip"
+          ]
+        },
+        "songIdentity": {
+          "title": "Flyday Chinatown",
+          "artist": "EVADE FROM 宇宙",
+          "isrc": "SE5BU2126286"
+        },
+        "recordingId": 30901444,
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 26,
+      "song": {
+        "title": "Done",
+        "artist": "GENESI",
+        "isrc": "US38Y2401131",
+        "spotify_id": "49WMXexA9yViG267eOhxGn",
+        "apple_id": "1726077722",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "Done",
+          "artist": "GENESI",
+          "isrc": "US38Y2401131"
+        },
+        "error": "No recording hit found",
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 27,
+      "song": {
+        "title": "frog",
+        "artist": "joyful",
+        "isrc": "US3DF2532422",
+        "spotify_id": "4ZXISN1tznbeQJa4GvRjDp",
+        "apple_id": "1801839878",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "frog",
+          "artist": "joyful",
+          "isrc": "US3DF2532422"
+        },
+        "error": "Music Story audiodescriptions failed (404)",
+        "rateLimit": {},
+        "recordingId": 31855210
+      }
+    },
+    {
+      "index": 28,
+      "song": {
+        "title": "PPP",
+        "artist": "El Padrinito Toys",
+        "isrc": "USA2P2417305",
+        "spotify_id": "1zNobOaHvQIFzYpGb3VBR9",
+        "apple_id": "1738194871",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "PPP",
+          "artist": "El Padrinito Toys",
+          "isrc": "USA2P2417305"
+        },
+        "error": "No recording hit found",
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 29,
+      "song": {
+        "title": "Englishman In New York",
+        "artist": "Sting",
+        "isrc": "USAM18700040",
+        "spotify_id": "5OwmbkrC2LVPX2mtklgYum",
+        "apple_id": "1440882895",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": true,
+        "data": {
+          "arousal": 0.43091,
+          "valence": 0.64856,
+          "vocal_instrumental": 0.07106,
+          "music_speech": 0.03864,
+          "electric_acoustic": 0.39996,
+          "danceability": 0.66273,
+          "studio_live": 0.14018,
+          "melodicity": 0.61922,
+          "dissonance": 0.40806,
+          "articulation": 0.4219,
+          "rhythmic_stability": 0.54375,
+          "event_density": 0.048833,
+          "pulse_clarity": 0.258915,
+          "bpm": 51,
+          "complexity": 0.384211,
+          "binary": 0.932115,
+          "roll_off": 1237.932534,
+          "brightness": 0.09974,
+          "zero_cross_rate": 0.054389,
+          "centroid": 3551.331187,
+          "spread": 4406.817936,
+          "flatness": 0.268173,
+          "mfcc01": -9.433334,
+          "mfcc02": 3.23663,
+          "mfcc03": -0.278685,
+          "mfcc04": 0.10713,
+          "mfcc05": -0.302913,
+          "mfcc06": -0.064006,
+          "mfcc07": -0.381378,
+          "mfcc08": -0.096412,
+          "mfcc09": -0.228489,
+          "mfcc10": -0.252228,
+          "mfcc11": -0.50194,
+          "mfcc12": -0.455341,
+          "mfcc13": -0.440891,
+          "chroma01": 6759,
+          "chroma02": 8151,
+          "chroma03": 8288,
+          "chroma04": 660,
+          "chroma05": 5263,
+          "chroma06": 7043,
+          "chroma08": 3650,
+          "chroma09": 1444,
+          "chroma10": 10792,
+          "chroma11": 2997,
+          "chroma12": 5465,
+          "complexity_chroma": 0.090909,
+          "intensity": 0.111062,
+          "loudness": -17.689345,
+          "absolute_loudness": -16.976722,
+          "loudness_range": 6.924211,
+          "moods": [
+            {
+              "name": "Happy",
+              "value": 0.65
+            },
+            {
+              "name": "Interested",
+              "value": 0.97
+            }
+          ],
+          "timbres": [
+            "Electric",
+            "Vocal"
+          ],
+          "themes": [
+            "VideoGame"
+          ]
+        },
+        "songIdentity": {
+          "title": "Englishman In New York",
+          "artist": "Sting",
+          "isrc": "USAM18700040"
+        },
+        "recordingId": 9031924,
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 30,
+      "song": {
+        "title": "Treasure",
+        "artist": "Bruno Mars",
+        "isrc": "USAT21206710",
+        "spotify_id": "3zsZDYxGWP5cl0p5kPCf5r",
+        "apple_id": "573962553",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "Treasure",
+          "artist": "Bruno Mars",
+          "isrc": "USAT21206710"
+        },
+        "error": "Music Story audiodescriptions failed (404)",
+        "rateLimit": {},
+        "recordingId": 32523791
+      }
+    },
+    {
+      "index": 31,
+      "song": {
+        "title": "Give It To Me Good",
+        "artist": "SIDEPIECE",
+        "isrc": "USAT22402624",
+        "spotify_id": "11FsUxXUbxzr5mNqwioFFK",
+        "apple_id": "1739189418",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "Give It To Me Good",
+          "artist": "SIDEPIECE",
+          "isrc": "USAT22402624"
+        },
+        "error": "No recording hit found",
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 32,
+      "song": {
+        "title": "Centerfold",
+        "artist": "The J. Geils Band",
+        "isrc": "USCA28100075",
+        "spotify_id": "1ynmMEK1fkyiZ6Z6F3ThEt",
+        "apple_id": "1452302709",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": true,
+        "data": {
+          "arousal": 0.73168,
+          "valence": 0.88262,
+          "vocal_instrumental": 0,
+          "music_speech": 0.0358,
+          "electric_acoustic": 0.17582,
+          "danceability": 0.65775,
+          "studio_live": 0.27937,
+          "melodicity": 0.6399,
+          "dissonance": 0.51431,
+          "articulation": 0.5466,
+          "rhythmic_stability": 0.57144,
+          "event_density": 0.054127,
+          "pulse_clarity": 0.297143,
+          "bpm": 57,
+          "complexity": 0.532743,
+          "binary": 0.942008,
+          "roll_off": 2422.742457,
+          "brightness": 0.348782,
+          "zero_cross_rate": 0.087901,
+          "centroid": 3656.147877,
+          "spread": 3831.577053,
+          "flatness": 0.25798,
+          "mfcc01": -6.13368,
+          "mfcc02": 3.089071,
+          "mfcc03": -1.430166,
+          "mfcc04": 0.406387,
+          "mfcc05": -0.157781,
+          "mfcc06": 0.158976,
+          "mfcc07": -0.326464,
+          "mfcc08": -0.133013,
+          "mfcc09": -0.362824,
+          "mfcc10": -0.311888,
+          "mfcc11": -0.226173,
+          "mfcc12": -0.197028,
+          "mfcc13": -0.239643,
+          "chroma01": 11399,
+          "chroma02": 3635,
+          "chroma03": 11534,
+          "chroma04": 2030,
+          "chroma05": 4868,
+          "chroma06": 7516,
+          "chroma08": 10246,
+          "chroma09": 2880,
+          "chroma10": 7116,
+          "chroma11": 3066,
+          "chroma12": 5033,
+          "complexity_chroma": 0.181818,
+          "intensity": 0.094097,
+          "loudness": -18.099711,
+          "absolute_loudness": -14.612542,
+          "loudness_range": 4.051221,
+          "moods": [
+            {
+              "name": "Happy",
+              "value": 0.88
+            },
+            {
+              "name": "Delighted",
+              "value": 0.86
+            },
+            {
+              "name": "Energic",
+              "value": 0.73
+            },
+            {
+              "name": "Excited",
+              "value": 0.49
+            }
+          ],
+          "timbres": [
+            "Vocal",
+            "Electric"
+          ],
+          "themes": [
+            "VideoGame"
+          ]
+        },
+        "songIdentity": {
+          "title": "Centerfold",
+          "artist": "The J. Geils Band",
+          "isrc": "USCA28100075"
+        },
+        "recordingId": 2260468,
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 33,
+      "song": {
+        "title": "Full Speed (feat. Aviella)",
+        "artist": "CHYL",
+        "isrc": "USDM32459901",
+        "spotify_id": "5pIJ99J4vVntZgDPFZYBtw",
+        "apple_id": "1729247212",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "Full Speed (feat. Aviella)",
+          "artist": "CHYL",
+          "isrc": "USDM32459901"
+        },
+        "error": "No recording hit found",
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 34,
+      "song": {
+        "title": "Smells Like Teen Spirit",
+        "artist": "Nirvana",
+        "isrc": "USGF19942501",
+        "spotify_id": "75aLTVBSGIquqzQ6AkmK3Q",
+        "apple_id": "1440783625",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": true,
+        "data": {
+          "arousal": 0.8289,
+          "valence": 0.60676,
+          "vocal_instrumental": 0,
+          "music_speech": 0.07144,
+          "electric_acoustic": 0,
+          "danceability": 0.53269,
+          "studio_live": 0.15828,
+          "melodicity": 0.53835,
+          "dissonance": 0.57999,
+          "articulation": 0.5994,
+          "rhythmic_stability": 0.62559,
+          "event_density": 0.057258,
+          "pulse_clarity": 0.236733,
+          "bpm": 58,
+          "complexity": 0.688341,
+          "binary": 0.964744,
+          "roll_off": 2261.866991,
+          "brightness": 0.262199,
+          "zero_cross_rate": 0.077895,
+          "centroid": 3378.976809,
+          "spread": 3589.480737,
+          "flatness": 0.228302,
+          "mfcc01": -5.664542,
+          "mfcc02": 2.694911,
+          "mfcc03": -1.848177,
+          "mfcc04": 1.036876,
+          "mfcc05": -0.140041,
+          "mfcc06": 0.157947,
+          "mfcc07": -0.284139,
+          "mfcc08": -0.349551,
+          "mfcc09": -0.226429,
+          "mfcc10": -0.125971,
+          "mfcc11": -0.279968,
+          "mfcc12": 0.001126,
+          "mfcc13": -0.267771,
+          "chroma01": 12782,
+          "chroma02": 4430,
+          "chroma03": 7323,
+          "chroma04": 2146,
+          "chroma05": 1973,
+          "chroma06": 12176,
+          "chroma08": 6905,
+          "chroma09": 3612,
+          "chroma10": 11437,
+          "chroma11": 3090,
+          "chroma12": 2015,
+          "complexity_chroma": 0.272727,
+          "intensity": 0.215308,
+          "loudness": -12.279539,
+          "absolute_loudness": -12.279539,
+          "loudness_range": 5.828184,
+          "moods": [
+            {
+              "name": "Astonished/Aroused",
+              "value": 0.98
+            },
+            {
+              "name": "Energic",
+              "value": 0.83
+            },
+            {
+              "name": "Happy",
+              "value": 0.61
+            }
+          ],
+          "timbres": [
+            "Vocal",
+            "Electric"
+          ],
+          "themes": [
+            "Teen"
+          ]
+        },
+        "songIdentity": {
+          "title": "Smells Like Teen Spirit",
+          "artist": "Nirvana",
+          "isrc": "USGF19942501"
+        },
+        "recordingId": 9040386,
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 35,
+      "song": {
+        "title": "Ring My Bell",
+        "artist": "Anita Ward",
+        "isrc": "USJR30200001",
+        "spotify_id": "2BEArHIJsI5fxYEpCZv2sF",
+        "apple_id": "1296251642",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": true,
+        "data": {
+          "arousal": 0.56043,
+          "valence": 0.73267,
+          "vocal_instrumental": 0.04327,
+          "music_speech": 0.03726,
+          "electric_acoustic": 0.08718,
+          "danceability": 0.64886,
+          "studio_live": 0.17854,
+          "melodicity": 0.57327,
+          "dissonance": 0.50084,
+          "articulation": 0.47252,
+          "rhythmic_stability": 0.54431,
+          "event_density": 0.048264,
+          "pulse_clarity": 0.399465,
+          "bpm": 125,
+          "complexity": 0.544801,
+          "binary": 0.793344,
+          "roll_off": 1961.120461,
+          "brightness": 0.195637,
+          "zero_cross_rate": 0.079034,
+          "centroid": 4256.068904,
+          "spread": 4442.417164,
+          "flatness": 0.324614,
+          "mfcc01": -7.479242,
+          "mfcc02": 3.253562,
+          "mfcc03": -0.634495,
+          "mfcc04": 0.319884,
+          "mfcc05": -0.082427,
+          "mfcc06": -0.228509,
+          "mfcc07": -0.109428,
+          "mfcc08": -0.130497,
+          "mfcc09": -0.405871,
+          "mfcc10": -0.159047,
+          "mfcc11": -0.481673,
+          "mfcc12": -0.468779,
+          "mfcc13": -0.564023,
+          "chroma01": 13189,
+          "chroma02": 2759,
+          "chroma03": 7812,
+          "chroma04": 3938,
+          "chroma05": 3249,
+          "chroma06": 8377,
+          "chroma08": 7234,
+          "chroma09": 2792,
+          "chroma10": 5351,
+          "chroma11": 3430,
+          "chroma12": 2423,
+          "complexity_chroma": 1,
+          "intensity": 0.161163,
+          "loudness": -14.408985,
+          "absolute_loudness": -14.408985,
+          "loudness_range": 5.531821,
+          "moods": [
+            {
+              "name": "Happy",
+              "value": 0.73
+            },
+            {
+              "name": "Convinced",
+              "value": 0.6
+            },
+            {
+              "name": "Delighted",
+              "value": 0.48
+            },
+            {
+              "name": "Pleased",
+              "value": 0.45
+            },
+            {
+              "name": "Interested",
+              "value": 0.4
+            }
+          ],
+          "timbres": [
+            "Vocal",
+            "Electric"
+          ],
+          "themes": null
+        },
+        "songIdentity": {
+          "title": "Ring My Bell",
+          "artist": "Anita Ward",
+          "isrc": "USJR30200001"
+        },
+        "recordingId": 7347729,
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 36,
+      "song": {
+        "title": "Superstition",
+        "artist": "Stevie Wonder",
+        "isrc": "USMO17200984",
+        "spotify_id": "4N0TP4Rmj6QQezWV88ARNJ",
+        "apple_id": "1440808985",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": true,
+        "data": {
+          "arousal": 0.49295,
+          "valence": 0.49508,
+          "vocal_instrumental": 0.02864,
+          "music_speech": 0.04934,
+          "electric_acoustic": 0.02395,
+          "danceability": 0.45923,
+          "studio_live": 0.23827,
+          "melodicity": 0.6274,
+          "dissonance": 0.49405,
+          "articulation": 0.40095,
+          "rhythmic_stability": 0.53788,
+          "event_density": 0.052731,
+          "pulse_clarity": 0.222096,
+          "bpm": 200,
+          "complexity": 0.810791,
+          "binary": 0.642347,
+          "roll_off": 1447.622591,
+          "brightness": 0.126921,
+          "zero_cross_rate": 0.064902,
+          "centroid": 3641.357072,
+          "spread": 4615.375998,
+          "flatness": 0.296888,
+          "mfcc01": -7.831708,
+          "mfcc02": 3.317865,
+          "mfcc03": -0.75574,
+          "mfcc04": 0.196386,
+          "mfcc05": -0.407181,
+          "mfcc06": -0.258698,
+          "mfcc07": -0.248581,
+          "mfcc08": -0.355281,
+          "mfcc09": -0.361639,
+          "mfcc10": -0.27375,
+          "mfcc11": -0.316627,
+          "mfcc12": -0.236149,
+          "mfcc13": -0.130639,
+          "chroma01": 7201,
+          "chroma02": 4843,
+          "chroma03": 8980,
+          "chroma04": 6381,
+          "chroma05": 3187,
+          "chroma06": 10061,
+          "chroma08": 8030,
+          "chroma09": 4522,
+          "chroma10": 8581,
+          "chroma11": 7464,
+          "chroma12": 2072,
+          "complexity_chroma": 0.181818,
+          "intensity": 0.102706,
+          "loudness": -18.907061,
+          "absolute_loudness": -17.419026,
+          "loudness_range": 4.775735,
+          "moods": [
+            {
+              "name": "Neutral",
+              "value": 0.77
+            },
+            {
+              "name": "Interested",
+              "value": 0.29
+            },
+            {
+              "name": "Convinced",
+              "value": 0.26
+            }
+          ],
+          "timbres": [
+            "Vocal",
+            "Electric"
+          ],
+          "themes": [
+            "VideoGame"
+          ]
+        },
+        "songIdentity": {
+          "title": "Superstition",
+          "artist": "Stevie Wonder",
+          "isrc": "USMO17200984"
+        },
+        "recordingId": 1508092,
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 37,
+      "song": {
+        "title": "Go Stupid",
+        "artist": "Polo G",
+        "isrc": "USQX92000261",
+        "spotify_id": "4PklAHGXT5ityno3IA8SKd",
+        "apple_id": "1511793609",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": true,
+        "data": {
+          "arousal": 0.83277,
+          "valence": 0.59153,
+          "vocal_instrumental": 0,
+          "music_speech": 0.21833,
+          "electric_acoustic": 0.01259,
+          "danceability": 0.80245,
+          "studio_live": 0.19141,
+          "melodicity": 0.52311,
+          "dissonance": 0.50825,
+          "articulation": 0.60072,
+          "rhythmic_stability": 0.70367,
+          "event_density": 0.05603,
+          "pulse_clarity": 0.658358,
+          "bpm": 71,
+          "complexity": 0.109393,
+          "binary": 0.760863,
+          "roll_off": 1334.588383,
+          "brightness": 0.13655,
+          "zero_cross_rate": 0.056326,
+          "centroid": 3821.760813,
+          "spread": 4293.357888,
+          "flatness": 0.283697,
+          "mfcc01": -7.027111,
+          "mfcc02": 3.080153,
+          "mfcc03": -0.101864,
+          "mfcc04": 0.184998,
+          "mfcc05": -0.076371,
+          "mfcc06": 0.0498,
+          "mfcc07": -0.511265,
+          "mfcc08": 0.055079,
+          "mfcc09": -0.518304,
+          "mfcc10": -0.321986,
+          "mfcc11": -0.484146,
+          "mfcc12": -0.444572,
+          "mfcc13": -0.366567,
+          "chroma01": 7596,
+          "chroma02": 4474,
+          "chroma03": 8470,
+          "chroma04": 3106,
+          "chroma05": 4149,
+          "chroma06": 6927,
+          "chroma08": 6241,
+          "chroma09": 3102,
+          "chroma10": 9196,
+          "chroma11": 6235,
+          "chroma12": 3135,
+          "complexity_chroma": 0.181818,
+          "intensity": 0.288183,
+          "loudness": -12.701463,
+          "absolute_loudness": -12.701463,
+          "loudness_range": 1.597158,
+          "moods": [
+            {
+              "name": "Astonished/Aroused",
+              "value": 0.97
+            },
+            {
+              "name": "Energic",
+              "value": 0.83
+            },
+            {
+              "name": "Happy",
+              "value": 0.59
+            }
+          ],
+          "timbres": [
+            "Vocal",
+            "Electric"
+          ],
+          "themes": [
+            "Party"
+          ]
+        },
+        "songIdentity": {
+          "title": "Go Stupid",
+          "artist": "Polo G",
+          "isrc": "USQX92000261"
+        },
+        "recordingId": 20284706,
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 38,
+      "song": {
+        "title": "Boulevard of Broken Dreams",
+        "artist": "Green Day",
+        "isrc": "USRE11200337",
+        "spotify_id": "0U87auHx1iZTEFcq9KVdmO",
+        "apple_id": "1161539476",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "Boulevard of Broken Dreams",
+          "artist": "Green Day",
+          "isrc": "USRE11200337"
+        },
+        "error": "Music Story audiodescriptions failed (404)",
+        "rateLimit": {},
+        "recordingId": 5238058
+      }
+    },
+    {
+      "index": 39,
+      "song": {
+        "title": "Last Train to London",
+        "artist": "Electric Light Orchestra",
+        "isrc": "USSM10015736",
+        "spotify_id": "6xE6ZWzK1YDDSYzqOCoQlz",
+        "apple_id": "1054530383",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": true,
+        "data": {
+          "arousal": 0.63088,
+          "valence": 0.84261,
+          "vocal_instrumental": 0.00549,
+          "music_speech": 0.03573,
+          "electric_acoustic": 0.13679,
+          "danceability": 0.69561,
+          "studio_live": 0.12122,
+          "melodicity": 0.64972,
+          "dissonance": 0.47798,
+          "articulation": 0.60515,
+          "rhythmic_stability": 0.65926,
+          "event_density": 0.053665,
+          "pulse_clarity": 0.390362,
+          "bpm": 120,
+          "complexity": 0.472804,
+          "binary": 0.658758,
+          "roll_off": 1720.79579,
+          "brightness": 0.155698,
+          "zero_cross_rate": 0.084456,
+          "centroid": 4521.88555,
+          "spread": 4629.546307,
+          "flatness": 0.335416,
+          "mfcc01": -7.636073,
+          "mfcc02": 2.883673,
+          "mfcc03": -0.321885,
+          "mfcc04": 0.407855,
+          "mfcc05": -0.10641,
+          "mfcc06": 0.162719,
+          "mfcc07": -0.129546,
+          "mfcc08": -0.489597,
+          "mfcc09": -0.254141,
+          "mfcc10": -0.443535,
+          "mfcc11": -0.513218,
+          "mfcc12": -0.33556,
+          "mfcc13": -0.431206,
+          "chroma01": 8997,
+          "chroma02": 3206,
+          "chroma03": 10325,
+          "chroma04": 991,
+          "chroma05": 4535,
+          "chroma06": 7527,
+          "chroma08": 9086,
+          "chroma09": 1260,
+          "chroma10": 7223,
+          "chroma11": 3874,
+          "chroma12": 6763,
+          "complexity_chroma": 0.181818,
+          "intensity": 0.12726,
+          "loudness": -16.48216,
+          "absolute_loudness": -16.126392,
+          "loudness_range": 3.114465,
+          "moods": [
+            {
+              "name": "Delighted",
+              "value": 0.99
+            },
+            {
+              "name": "Happy",
+              "value": 0.84
+            },
+            {
+              "name": "Energic",
+              "value": 0.63
+            }
+          ],
+          "timbres": [
+            "Vocal",
+            "Electric"
+          ],
+          "themes": [
+            "Morning"
+          ]
+        },
+        "songIdentity": {
+          "title": "Last Train to London",
+          "artist": "Electric Light Orchestra",
+          "isrc": "USSM10015736"
+        },
+        "recordingId": 168551,
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 40,
+      "song": {
+        "title": "TALES OF DOMINICA",
+        "artist": "Lil Nas X",
+        "isrc": "USSM12106488",
+        "spotify_id": "5S4PZ7AuYlYiVIVik3wHUf",
+        "apple_id": "1582660738",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": true,
+        "data": {
+          "arousal": 0.59573,
+          "valence": 0.24061,
+          "vocal_instrumental": 0,
+          "music_speech": 0.04691,
+          "electric_acoustic": 0.54171,
+          "danceability": 0.59158,
+          "studio_live": 0.12501,
+          "melodicity": 0.67998,
+          "dissonance": 0.41316,
+          "articulation": 0.44602,
+          "rhythmic_stability": 0.59246,
+          "event_density": 0.052995,
+          "pulse_clarity": 0.420715,
+          "bpm": 115,
+          "complexity": 0.270658,
+          "binary": 0.512978,
+          "roll_off": 804.369108,
+          "brightness": 0.049991,
+          "zero_cross_rate": 0.041146,
+          "centroid": 2659.798371,
+          "spread": 3636.980092,
+          "flatness": 0.187482,
+          "mfcc01": -7.752576,
+          "mfcc02": 3.195303,
+          "mfcc03": -0.125418,
+          "mfcc04": -0.02542,
+          "mfcc05": -0.260768,
+          "mfcc06": -0.233641,
+          "mfcc07": -0.39835,
+          "mfcc08": -0.347122,
+          "mfcc09": -0.335782,
+          "mfcc10": -0.30395,
+          "mfcc11": -0.281389,
+          "mfcc12": -0.244844,
+          "mfcc13": -0.311692,
+          "chroma01": 6751,
+          "chroma02": 5205,
+          "chroma03": 7298,
+          "chroma04": 3618,
+          "chroma05": 4758,
+          "chroma06": 5131,
+          "chroma08": 4830,
+          "chroma09": 6501,
+          "chroma10": 7286,
+          "chroma11": 9640,
+          "chroma12": 4302,
+          "complexity_chroma": 0.181818,
+          "intensity": 0.238045,
+          "loudness": -11.973002,
+          "absolute_loudness": -11.695586,
+          "loudness_range": 4.295213,
+          "moods": [
+            {
+              "name": "Frustrated",
+              "value": 0.95
+            },
+            {
+              "name": "Sad",
+              "value": 0.76
+            }
+          ],
+          "timbres": [
+            "Vocal"
+          ],
+          "themes": [
+            "Work",
+            "Party"
+          ]
+        },
+        "songIdentity": {
+          "title": "TALES OF DOMINICA",
+          "artist": "Lil Nas X",
+          "isrc": "USSM12106488"
+        },
+        "recordingId": 21810907,
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 41,
+      "song": {
+        "title": "The Longest Time",
+        "artist": "Billy Joel",
+        "isrc": "USSM18300273",
+        "spotify_id": "5DH7nDryMhpixm4G4B7RP9",
+        "apple_id": "259814647",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "The Longest Time",
+          "artist": "Billy Joel",
+          "isrc": "USSM18300273"
+        },
+        "error": "Music Story audiodescriptions failed (429)",
+        "rateLimit": {},
+        "recordingId": 1509380
+      }
+    },
+    {
+      "index": 42,
+      "song": {
+        "title": "Baby (Lil Baby feat. DaBaby)",
+        "artist": "Quality Control",
+        "isrc": "USUG11900748",
+        "spotify_id": "5MPPttjfGap2C6j6eKcO6J",
+        "apple_id": "1476226882",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "Baby (Lil Baby feat. DaBaby)",
+          "artist": "Quality Control",
+          "isrc": "USUG11900748"
+        },
+        "error": "Music Story recording search failed (429)",
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 43,
+      "song": {
+        "title": "Gangnam Style (강남스타일)",
+        "artist": "PSY",
+        "isrc": "USUM71210283",
+        "spotify_id": "03UrZgTINDqvnUMbbIMhql",
+        "apple_id": "1445144527",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "Gangnam Style (강남스타일)",
+          "artist": "PSY",
+          "isrc": "USUM71210283"
+        },
+        "error": "Music Story recording search failed (429)",
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 44,
+      "song": {
+        "title": "Party Out",
+        "artist": "Riordan",
+        "isrc": "USUM72512608",
+        "spotify_id": "33ZgCVQUBk3Vs5GJJVL5qk",
+        "apple_id": "1857795664",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "Party Out",
+          "artist": "Riordan",
+          "isrc": "USUM72512608"
+        },
+        "error": "Music Story recording search failed (429)",
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 45,
+      "song": {
+        "title": "Broccoli",
+        "artist": "DRAM",
+        "isrc": "USUYG1098775",
+        "spotify_id": "0qy5D3OJre7SPJNMOL9I71",
+        "apple_id": "1100826073",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "Broccoli",
+          "artist": "DRAM",
+          "isrc": "USUYG1098775"
+        },
+        "error": "Music Story recording search failed (429)",
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 46,
+      "song": {
+        "title": "Dancing in the Moonlight",
+        "artist": "King Harvest",
+        "isrc": "USY4W0610011",
+        "spotify_id": "0q21FNwES2bbtcduB6kjEU",
+        "apple_id": "208819580",
+        "musicStoryRecordingId": null
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "Dancing in the Moonlight",
+          "artist": "King Harvest",
+          "isrc": "USY4W0610011"
+        },
+        "error": "Music Story recording search failed (429)",
+        "rateLimit": {}
+      }
+    }
+  ]
+}
