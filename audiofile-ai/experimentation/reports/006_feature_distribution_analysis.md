@@ -2,9 +2,9 @@
 
 ## Dataset Context
 
-- Total entries: 141
-- Successful payloads: 88
-- Failed payloads: 53
+- Total entries: 209
+- Successful payloads: 140
+- Failed payloads: 69
 
 ## Summary (Observed, cautious)
 
@@ -14,11 +14,11 @@ This analysis summarizes distribution statistics for experimental composite feat
 
 | Feature | Std | Unique |
 | --- | --- | --- |
-| pulse_score_v1 | 0.200464 | 88 |
-| brightness_score_v1 | 0.17921 | 88 |
-| energy_score_v1 | 0.169399 | 88 |
-| vocal_presence_score_v1 | 0.157069 | 88 |
-| density_score_v1 | 0.106693 | 88 |
+| pulse_score_v1 | 0.182337 | 140 |
+| brightness_score_v1 | 0.163572 | 140 |
+| energy_score_v1 | 0.162686 | 140 |
+| vocal_presence_score_v1 | 0.154702 | 140 |
+| density_score_v1 | 0.096816 | 140 |
 
 ## Possible Collapse Flags (Observed)
 

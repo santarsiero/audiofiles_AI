@@ -2,18 +2,18 @@
 
 ## Dataset Context
 
-- Total entries: 141
-- Successful payloads: 88
-- Failed payloads: 53
-- Success rate: 62.41%
+- Total entries: 209
+- Successful payloads: 140
+- Failed payloads: 69
+- Success rate: 66.99%
 
 ## Failure Types (Observed)
 
 ```json
 {
-  "no_recording_hit": 34,
-  "audiodescriptions_404": 9,
-  "rate_limited_429": 10,
+  "no_recording_hit": 50,
+  "audiodescriptions_404": 14,
+  "rate_limited_429": 5,
   "other": 0
 }
 ```
@@ -27,82 +27,83 @@
 
 | Mood | Count |
 | --- | --- |
-| Energic | 66 |
-| Happy | 44 |
-| Astonished/Aroused | 28 |
-| Convinced | 26 |
-| Sad | 25 |
-| Impatient | 23 |
-| Frustrated | 22 |
-| Delighted | 19 |
-| Tense/Alarmed/Afraid | 18 |
-| Excited | 17 |
-| Angry | 10 |
-| Interested | 10 |
-| Distrustful | 9 |
-| Discontented | 7 |
-| Neutral | 6 |
+| Energic | 103 |
+| Happy | 65 |
+| Convinced | 42 |
+| Impatient | 41 |
+| Astonished/Aroused | 39 |
+| Sad | 37 |
+| Tense/Alarmed/Afraid | 32 |
+| Frustrated | 31 |
+| Delighted | 26 |
+| Excited | 21 |
+| Angry | 20 |
+| Interested | 17 |
+| Distrustful | 12 |
+| Neutral | 12 |
+| Discontented | 8 |
 
 ## Most Common Timbres (Observed)
 
 | Timbre | Count |
 | --- | --- |
-| Electric | 78 |
-| Vocal | 59 |
-| Instrumental | 8 |
-| Acoustic | 3 |
-| Piano | 3 |
-| Guitar | 2 |
+| Electric | 125 |
+| Vocal | 96 |
+| Instrumental | 13 |
+| Acoustic | 6 |
+| Piano | 5 |
+| Guitar | 3 |
 
 ## Most Common Themes (Observed)
 
 | Theme | Count |
 | --- | --- |
-| Party | 26 |
-| VideoGame | 18 |
-| Diner | 12 |
-| Teen | 8 |
-| Work | 7 |
-| Roadtrip | 7 |
-| Morning | 5 |
+| Party | 42 |
+| VideoGame | 25 |
+| Diner | 23 |
+| Roadtrip | 17 |
+| Teen | 15 |
+| Work | 11 |
+| Morning | 9 |
+| Concentration | 1 |
 
 ## Top 10 Strongest Correlations (Pearson, observed)
 
 | A | B | r | n |
 | --- | --- | --- | --- |
-| loudness | absolute_loudness | 0.979394 | 88 |
-| centroid | flatness | 0.953619 | 88 |
-| spread | flatness | 0.950265 | 88 |
-| roll_off | zero_cross_rate | 0.932708 | 88 |
-| roll_off | brightness | 0.92063 | 88 |
-| centroid | spread | 0.888 | 88 |
-| intensity | loudness | 0.883559 | 88 |
-| brightness | zero_cross_rate | 0.850833 | 88 |
-| intensity | absolute_loudness | 0.842913 | 88 |
-| zero_cross_rate | centroid | 0.832428 | 88 |
+| loudness | absolute_loudness | 0.971643 | 140 |
+| centroid | flatness | 0.95355 | 140 |
+| spread | flatness | 0.947541 | 140 |
+| roll_off | zero_cross_rate | 0.925847 | 140 |
+| roll_off | brightness | 0.895989 | 140 |
+| intensity | loudness | 0.893036 | 140 |
+| centroid | spread | 0.883262 | 140 |
+| intensity | absolute_loudness | 0.859229 | 140 |
+| arousal | mfcc01 | 0.849683 | 140 |
+| brightness | zero_cross_rate | 0.844638 | 140 |
 
 ## Top 10 V1-relevant Correlations (Pearson, observed)
 
 | A | B | r | n |
 | --- | --- | --- | --- |
-| intensity | loudness | 0.883559 | 88 |
-| danceability | rhythmic_stability | 0.68684 | 88 |
-| arousal | loudness | 0.65909 | 88 |
-| arousal | intensity | 0.621082 | 88 |
-| rhythmic_stability | pulse_clarity | 0.576525 | 88 |
-| brightness | centroid | 0.549184 | 88 |
-| arousal | centroid | 0.537639 | 88 |
-| pulse_clarity | intensity | 0.523043 | 88 |
-| arousal | rhythmic_stability | 0.50898 | 88 |
-| arousal | brightness | 0.508165 | 88 |
+| intensity | loudness | 0.893036 | 140 |
+| arousal | loudness | 0.736039 | 140 |
+| arousal | intensity | 0.665963 | 140 |
+| danceability | rhythmic_stability | 0.659374 | 140 |
+| rhythmic_stability | loudness_range | -0.589822 | 140 |
+| rhythmic_stability | pulse_clarity | 0.588676 | 140 |
+| pulse_clarity | intensity | 0.560778 | 140 |
+| brightness | centroid | 0.548363 | 140 |
+| arousal | rhythmic_stability | 0.52413 | 140 |
+| arousal | centroid | 0.504725 | 140 |
 
 ## Composite Feature Research (Observed, exploratory)
 
 ### Dataset Context (Feature generation)
 
-- Total entries: 141
-- Successful payloads: 88
-- Failed payloads: 53
+- Total entries: 209
+- Successful payloads: 140
+- Failed payloads: 69
 
 ### Summary (Cautious)
 
@@ -113,26 +114,26 @@
 
 | Feature | Count |
 | --- | --- |
-| energy_score_v1 | 88 |
-| brightness_score_v1 | 88 |
-| pulse_score_v1 | 88 |
-| vocal_presence_score_v1 | 88 |
-| density_score_v1 | 88 |
+| energy_score_v1 | 140 |
+| brightness_score_v1 | 140 |
+| pulse_score_v1 | 140 |
+| vocal_presence_score_v1 | 140 |
+| density_score_v1 | 140 |
 
 ### Strongest Feature vs Feature Correlations (Pearson, observed)
 
 | A | B | r | n |
 | --- | --- | --- | --- |
-| pulse_score_v1 | density_score_v1 | -0.77565 | 88 |
-| energy_score_v1 | pulse_score_v1 | 0.628978 | 88 |
-| energy_score_v1 | brightness_score_v1 | 0.433539 | 88 |
-| energy_score_v1 | density_score_v1 | -0.381114 | 88 |
-| brightness_score_v1 | vocal_presence_score_v1 | -0.173674 | 88 |
-| brightness_score_v1 | pulse_score_v1 | 0.127905 | 88 |
-| brightness_score_v1 | density_score_v1 | 0.121347 | 88 |
-| pulse_score_v1 | vocal_presence_score_v1 | 0.06701 | 88 |
-| energy_score_v1 | vocal_presence_score_v1 | 0.027262 | 88 |
-| vocal_presence_score_v1 | density_score_v1 | 0.022496 | 88 |
+| pulse_score_v1 | density_score_v1 | -0.769657 | 140 |
+| energy_score_v1 | pulse_score_v1 | 0.702706 | 140 |
+| energy_score_v1 | brightness_score_v1 | 0.466635 | 140 |
+| energy_score_v1 | density_score_v1 | -0.347334 | 140 |
+| brightness_score_v1 | pulse_score_v1 | 0.244262 | 140 |
+| brightness_score_v1 | vocal_presence_score_v1 | -0.09623 | 140 |
+| pulse_score_v1 | vocal_presence_score_v1 | 0.095077 | 140 |
+| brightness_score_v1 | density_score_v1 | 0.066338 | 140 |
+| vocal_presence_score_v1 | density_score_v1 | -0.043044 | 140 |
+| energy_score_v1 | vocal_presence_score_v1 | 0.019333 | 140 |
 
 ### Notes (Cautious)
 

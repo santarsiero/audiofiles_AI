@@ -2,9 +2,9 @@
 
 ## Dataset Context
 
-- Total entries: 141
-- Successful payloads: 88
-- Failed payloads: 53
+- Total entries: 209
+- Successful payloads: 140
+- Failed payloads: 69
 
 ## Method
 
@@ -16,36 +16,36 @@
 
 | Feature A | Feature B | r | n |
 | --- | --- | --- | --- |
-| pulse_score_v1 | density_score_v1 | -0.77565 | 88 |
-| energy_score_v1 | pulse_score_v1 | 0.628978 | 88 |
-| energy_score_v1 | brightness_score_v1 | 0.433539 | 88 |
-| energy_score_v1 | density_score_v1 | -0.381114 | 88 |
-| brightness_score_v1 | vocal_presence_score_v1 | -0.173674 | 88 |
-| brightness_score_v1 | pulse_score_v1 | 0.127905 | 88 |
-| brightness_score_v1 | density_score_v1 | 0.121347 | 88 |
-| pulse_score_v1 | vocal_presence_score_v1 | 0.06701 | 88 |
-| energy_score_v1 | vocal_presence_score_v1 | 0.027262 | 88 |
-| vocal_presence_score_v1 | density_score_v1 | 0.022496 | 88 |
+| pulse_score_v1 | density_score_v1 | -0.769657 | 140 |
+| energy_score_v1 | pulse_score_v1 | 0.702706 | 140 |
+| energy_score_v1 | brightness_score_v1 | 0.466635 | 140 |
+| energy_score_v1 | density_score_v1 | -0.347334 | 140 |
+| brightness_score_v1 | pulse_score_v1 | 0.244262 | 140 |
+| brightness_score_v1 | vocal_presence_score_v1 | -0.09623 | 140 |
+| pulse_score_v1 | vocal_presence_score_v1 | 0.095077 | 140 |
+| brightness_score_v1 | density_score_v1 | 0.066338 | 140 |
+| vocal_presence_score_v1 | density_score_v1 | -0.043044 | 140 |
+| energy_score_v1 | vocal_presence_score_v1 | 0.019333 | 140 |
 
 ## Strongest Feature vs Descriptor Correlations (Observed, cautious)
 
 | Feature | Descriptor | r | n |
 | --- | --- | --- | --- |
-| brightness_score_v1 | centroid | 0.914761 | 88 |
-| brightness_score_v1 | roll_off | 0.900204 | 88 |
-| energy_score_v1 | intensity | 0.898431 | 88 |
-| pulse_score_v1 | complexity | -0.878625 | 88 |
-| pulse_score_v1 | pulse_clarity | 0.867438 | 88 |
-| vocal_presence_score_v1 | vocal_instrumental | 0.846749 | 88 |
-| pulse_score_v1 | rhythmic_stability | 0.837378 | 88 |
-| energy_score_v1 | arousal | 0.835189 | 88 |
-| energy_score_v1 | loudness | 0.833816 | 88 |
-| brightness_score_v1 | flatness | 0.830045 | 88 |
-| brightness_score_v1 | brightness | 0.827104 | 88 |
-| density_score_v1 | complexity | 0.773799 | 88 |
-| pulse_score_v1 | danceability | 0.766254 | 88 |
-| energy_score_v1 | pulse_clarity | 0.698035 | 88 |
-| brightness_score_v1 | spread | 0.681719 | 88 |
+| brightness_score_v1 | centroid | 0.919824 | 140 |
+| brightness_score_v1 | roll_off | 0.897303 | 140 |
+| pulse_score_v1 | complexity | -0.895271 | 140 |
+| pulse_score_v1 | pulse_clarity | 0.890599 | 140 |
+| energy_score_v1 | intensity | 0.886621 | 140 |
+| energy_score_v1 | arousal | 0.870739 | 140 |
+| energy_score_v1 | loudness | 0.861565 | 140 |
+| brightness_score_v1 | flatness | 0.840768 | 140 |
+| vocal_presence_score_v1 | vocal_instrumental | 0.829445 | 140 |
+| pulse_score_v1 | rhythmic_stability | 0.822196 | 140 |
+| brightness_score_v1 | brightness | 0.818939 | 140 |
+| density_score_v1 | complexity | 0.792624 | 140 |
+| energy_score_v1 | pulse_clarity | 0.746454 | 140 |
+| pulse_score_v1 | danceability | 0.740899 | 140 |
+| brightness_score_v1 | spread | 0.6895 | 140 |
 
 ## Interpretation Notes (Cautious)
 

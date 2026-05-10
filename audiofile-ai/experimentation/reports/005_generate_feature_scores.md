@@ -2,9 +2,9 @@
 
 ## Dataset Context
 
-- Total entries: 141
-- Successful payloads: 88
-- Failed payloads: 53
+- Total entries: 209
+- Successful payloads: 140
+- Failed payloads: 69
 
 ## Feature Formulas (Exploratory)
 
@@ -28,11 +28,11 @@ These formulas are experimental composites built from Music Story descriptors. T
 
 | Feature | Count | Coverage among successes |
 | --- | --- | --- |
-| energy_score_v1 | 88 | 100% |
-| brightness_score_v1 | 88 | 100% |
-| pulse_score_v1 | 88 | 100% |
-| vocal_presence_score_v1 | 88 | 100% |
-| density_score_v1 | 88 | 100% |
+| energy_score_v1 | 140 | 100% |
+| brightness_score_v1 | 140 | 100% |
+| pulse_score_v1 | 140 | 100% |
+| vocal_presence_score_v1 | 140 | 100% |
+| density_score_v1 | 140 | 100% |
 
 ## Extremes (Observed, for later human sanity-review)
 

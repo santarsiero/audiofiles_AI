@@ -2,11 +2,11 @@
 
 ## Dataset Context
 
-- Total entries: 141
-- Successful payloads: 88
-- Failed payloads: 53
-- Success rate: 62.41%
-- Failure rate: 37.59%
+- Total entries: 209
+- Successful payloads: 140
+- Failed payloads: 69
+- Success rate: 66.99%
+- Failure rate: 33.01%
 
 ## Batch-by-batch Summary
 
@@ -14,25 +14,27 @@
 | --- | --- | --- | --- | --- |
 | batch_1_musicstory.json | 47 | 37 | 10 | 78.72% |
 | batch_2_musicstory.json | 47 | 28 | 19 | 59.57% |
-| batch_3_musicstory.json | 47 | 23 | 24 | 48.94% |
+| batch_3_musicstory.json | 47 | 28 | 19 | 59.57% |
+| batch_4_musicstory.json | 47 | 35 | 12 | 74.47% |
+| batch_5_musicstory.json | 21 | 12 | 9 | 57.14% |
 
 ## Failure Type Breakdown
 
 | Failure type | Count | % of failures |
 | --- | --- | --- |
-| no_recording_hit | 34 | 64.15% |
-| rate_limited_429 | 10 | 18.87% |
-| audiodescriptions_404 | 9 | 16.98% |
+| no_recording_hit | 50 | 72.46% |
+| audiodescriptions_404 | 14 | 20.29% |
+| rate_limited_429 | 5 | 7.25% |
 | other | 0 | 0% |
 
 ## Top Failure Messages (Observed)
 
 | Error message | Count | % of failures |
 | --- | --- | --- |
-| No recording hit found | 34 | 64.15% |
-| Music Story audiodescriptions failed (404) | 9 | 16.98% |
-| Music Story recording search failed (429) | 6 | 11.32% |
-| Music Story audiodescriptions failed (429) | 4 | 7.55% |
+| No recording hit found | 50 | 72.46% |
+| Music Story audiodescriptions failed (404) | 14 | 20.29% |
+| Music Story audiodescriptions failed (429) | 3 | 4.35% |
+| Music Story recording search failed (429) | 2 | 2.9% |
 
 ## Input recordingId vs ISRC-first (Observed)
 
@@ -41,10 +43,10 @@
 - Failures with input musicStoryRecordingId: 2
 - Success rate with input musicStoryRecordingId: 94.87%
 
-- Entries without input musicStoryRecordingId: 102
-- Successes without input musicStoryRecordingId: 51
-- Failures without input musicStoryRecordingId: 51
-- Success rate without input musicStoryRecordingId: 50%
+- Entries without input musicStoryRecordingId: 170
+- Successes without input musicStoryRecordingId: 103
+- Failures without input musicStoryRecordingId: 67
+- Success rate without input musicStoryRecordingId: 60.59%
 
 ## Observed Trends (Cautious)
 

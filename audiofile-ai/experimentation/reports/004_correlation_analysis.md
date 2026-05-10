@@ -2,9 +2,9 @@
 
 ## Dataset Context
 
-- Total entries: 141
-- Successful payloads: 88
-- Failed payloads: 53
+- Total entries: 209
+- Successful payloads: 140
+- Failed payloads: 69
 
 ## Method
 
@@ -16,61 +16,61 @@
 
 | A | B | r | n |
 | --- | --- | --- | --- |
-| loudness | absolute_loudness | 0.979394 | 88 |
-| centroid | flatness | 0.953619 | 88 |
-| spread | flatness | 0.950265 | 88 |
-| roll_off | zero_cross_rate | 0.932708 | 88 |
-| roll_off | brightness | 0.92063 | 88 |
-| centroid | spread | 0.888 | 88 |
-| intensity | loudness | 0.883559 | 88 |
-| brightness | zero_cross_rate | 0.850833 | 88 |
-| intensity | absolute_loudness | 0.842913 | 88 |
-| zero_cross_rate | centroid | 0.832428 | 88 |
-| articulation | rhythmic_stability | 0.826946 | 88 |
-| arousal | mfcc01 | 0.824636 | 88 |
-| absolute_loudness | mfcc01 | 0.752428 | 88 |
-| chroma05 | chroma12 | 0.745639 | 88 |
-| loudness | mfcc01 | 0.722499 | 88 |
+| loudness | absolute_loudness | 0.971643 | 140 |
+| centroid | flatness | 0.95355 | 140 |
+| spread | flatness | 0.947541 | 140 |
+| roll_off | zero_cross_rate | 0.925847 | 140 |
+| roll_off | brightness | 0.895989 | 140 |
+| intensity | loudness | 0.893036 | 140 |
+| centroid | spread | 0.883262 | 140 |
+| intensity | absolute_loudness | 0.859229 | 140 |
+| arousal | mfcc01 | 0.849683 | 140 |
+| brightness | zero_cross_rate | 0.844638 | 140 |
+| absolute_loudness | mfcc01 | 0.827296 | 140 |
+| zero_cross_rate | centroid | 0.825851 | 140 |
+| loudness | mfcc01 | 0.79635 | 140 |
+| articulation | rhythmic_stability | 0.78946 | 140 |
+| arousal | loudness | 0.736039 | 140 |
 
 ## Strongest Observed Negative Correlations (Cautious)
 
 | A | B | r | n |
 | --- | --- | --- | --- |
-| pulse_clarity | complexity | -0.829915 | 88 |
-| melodicity | dissonance | -0.720765 | 88 |
-| mfcc02 | mfcc04 | -0.630128 | 88 |
-| rhythmic_stability | complexity | -0.604768 | 88 |
-| electric_acoustic | spread | -0.577943 | 88 |
-| electric_acoustic | flatness | -0.573256 | 88 |
-| chroma02 | chroma08 | -0.566437 | 88 |
-| articulation | complexity | -0.564359 | 88 |
-| music_speech | melodicity | -0.556674 | 88 |
-| chroma04 | chroma10 | -0.556039 | 88 |
-| electric_acoustic | articulation | -0.545725 | 88 |
-| electric_acoustic | centroid | -0.541892 | 88 |
-| chroma03 | chroma09 | -0.500181 | 88 |
-| danceability | complexity | -0.495176 | 88 |
-| electric_acoustic | pulse_clarity | -0.479153 | 88 |
+| pulse_clarity | complexity | -0.838399 | 140 |
+| melodicity | dissonance | -0.74943 | 140 |
+| rhythmic_stability | loudness_range | -0.589822 | 140 |
+| articulation | complexity | -0.583659 | 140 |
+| chroma04 | chroma10 | -0.583638 | 140 |
+| rhythmic_stability | complexity | -0.582278 | 140 |
+| electric_acoustic | articulation | -0.581481 | 140 |
+| mfcc02 | mfcc04 | -0.56394 | 140 |
+| electric_acoustic | flatness | -0.557037 | 140 |
+| arousal | electric_acoustic | -0.551909 | 140 |
+| electric_acoustic | centroid | -0.538483 | 140 |
+| music_speech | melodicity | -0.535656 | 140 |
+| electric_acoustic | rhythmic_stability | -0.533726 | 140 |
+| electric_acoustic | spread | -0.530775 | 140 |
+| electric_acoustic | mfcc01 | -0.527613 | 140 |
 
 ## V1-relevant Pairs (Requested inspection)
 
 | A | B | r (Pearson) | n |
 | --- | --- | --- | --- |
-| arousal | intensity | 0.621082 | 88 |
-| arousal | loudness | 0.65909 | 88 |
-| arousal | danceability | 0.085509 | 88 |
-| arousal | pulse_clarity | 0.409874 | 88 |
-| danceability | pulse_clarity | 0.428703 | 88 |
-| danceability | rhythmic_stability | 0.68684 | 88 |
-| pulse_clarity | rhythmic_stability | 0.576525 | 88 |
-| brightness | centroid | 0.549184 | 88 |
-| brightness | roll_off | 0.92063 | 88 |
-| brightness | flatness | 0.40316 | 88 |
-| music_speech | vocal_instrumental | -0.001862 | 88 |
-| event_density | complexity | 0.308709 | 88 |
-| event_density | intensity | 0.269546 | 88 |
-| dissonance | valence | 0.220459 | 88 |
-| articulation | danceability | 0.592597 | 88 |
+| arousal | intensity | 0.665963 | 140 |
+| arousal | loudness | 0.736039 | 140 |
+| arousal | danceability | 0.122769 | 140 |
+| arousal | pulse_clarity | 0.484641 | 140 |
+| danceability | pulse_clarity | 0.447798 | 140 |
+| danceability | rhythmic_stability | 0.659374 | 140 |
+| pulse_clarity | rhythmic_stability | 0.588676 | 140 |
+| brightness | centroid | 0.548363 | 140 |
+| brightness | roll_off | 0.895989 | 140 |
+| brightness | flatness | 0.414028 | 140 |
+| music_speech | vocal_instrumental | -0.10816 | 140 |
+| event_density | complexity | 0.193391 | 140 |
+| event_density | intensity | 0.399865 | 140 |
+| dissonance | valence | 0.070598 | 140 |
+| articulation | danceability | 0.544937 | 140 |
 
 ## Interpretation Notes (Cautious)
 

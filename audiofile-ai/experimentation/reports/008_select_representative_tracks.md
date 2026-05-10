@@ -2,9 +2,9 @@
 
 ## Dataset Context
 
-- Total entries: 141
-- Successful payloads: 88
-- Failed payloads: 53
+- Total entries: 209
+- Successful payloads: 140
+- Failed payloads: 69
 
 ## Notes (Cautious)
 
@@ -14,206 +14,206 @@ These selections appear useful for later manual review. They do not validate sem
 
 ### Highest (top 10)
 
-- Dimension - DJ Turn It Up (UKFTL1600270) score=0.9599871473586996
-- Dimension - Angel (UKFTL1600316) score=0.8805031409648487
-- Mau P - BEATS FOR THE UNDERGROUND (GBK6Y2452041) score=0.8361506506276506
-- Kyary Pamyu Pamyu - にんじゃりばんばん (JPWP01370323) score=0.8342142431290649
-- Aitch - Raving In The Studio (QMFME2494355) score=0.8149717454567126
-- Ski Aggu - Friesenjung (DE1FB2300037) score=0.8085591006379593
-- Calvin Harris - I Need Your Love (GBARL1201390) score=0.7594392081515268
-- Jaxomy - Pedro (DEE862400427) score=0.7505298003887406
-- Knock2 - feel U luv Me (QMBZ92447777) score=0.7438703295768504
-- Vengaboys - Boom, Boom, Boom, Boom!! (NLC529811150) score=0.7422891116328162
+- Dimension - DJ Turn It Up (UKFTL1600270) score=0.9227192437180619
+- Chase & Status - Liquor & Cigarettes (feat. ArrDee) (GBUM72307879) score=0.9169924793334253
+- Diffrent - Back To The Sound (DEE862400746) score=0.8896864249019097
+- Dimension - Angel (UKFTL1600316) score=0.8497239746443203
+- Kyary Pamyu Pamyu - にんじゃりばんばん (JPWP01370323) score=0.8230903586841108
+- Mau P - BEATS FOR THE UNDERGROUND (GBK6Y2452041) score=0.822193657791039
+- Becky Hill - Disconnect (GBUM72306588) score=0.8130122574664731
+- Ski Aggu - Friesenjung (DE1FB2300037) score=0.8047878979255217
+- Aitch - Raving In The Studio (QMFME2494355) score=0.7993940274229082
+- James Hype - Wild (US38Y2405797) score=0.7783243842581923
 
 ### Lowest (bottom 10)
 
-- Derrick May - Strings of Life (BEZ350800105) score=0.15575258067174524
-- AYYBO - RIZZ (QZVEM2366898) score=0.16259683591001428
-- Bill Withers - Ain't No Sunshine (USSM10000372) score=0.2115396920945398
-- Frankie Valli - Grease - From “Grease” (NLF057890001) score=0.21949956011189722
-- Stevie Wonder - Superstition (USMO17200984) score=0.22431710676221428
-- Sting - Englishman In New York (USAM18700040) score=0.24936260221373768
-- Earth, Wind & Fire - Let's Groove (USSM18100641) score=0.26093070490427406
-- The Brothers Johnson - Strawberry Letter 23 (USAM17700852) score=0.2712728266280508
-- YoungBoy Never Broke Again - Nevada (USAT22103399) score=0.28174766774926585
-- Daft Punk - Give Life Back to Music (Drumless Edition) (GBDUW2300090) score=0.2929534179085669
+- Camille Saint-Saëns - Danse macabre, Op. 40 (GBF078010150) score=0.03584254678229344
+- Pyotr Ilyich Tchaikovsky - The Nutcracker (Suite), Op. 71a, TH. 35: 3. Waltz of the Flowers (DEF058203578) score=0.07864740186890085
+- Luther Vandross - If Only for One Night (USSM18500385) score=0.14882503676539766
+- King Harvest - Dancing in the Moonlight (USY4W0610011) score=0.21169944789324108
+- AYYBO - RIZZ (QZVEM2366898) score=0.21998522364621853
+- Derrick May - Strings of Life (BEZ350800105) score=0.25063873487830496
+- Gerry Rafferty - Baker Street (GBAYE7800619) score=0.2551496937300726
+- Bill Withers - Ain't No Sunshine (USSM10000372) score=0.28805722113748505
+- Frankie Valli - Grease - From “Grease” (NLF057890001) score=0.30250147348035633
+- Stevie Wonder - Superstition (USMO17200984) score=0.30765352390255685
 
 ### Near median
 
-- Mark Ronson - Uptown Funk (feat. Bruno Mars) (GBARL1401524) score=0.5579027139545957
-- Future - All Bad (feat. Lil Uzi Vert) (USSM12002490) score=0.5610982791894613
-- Ravyn Lenae - Love Me Not (USAT22401137) score=0.5668565499098803
-- Bingo Players - Cry (Just a Little) (NCL281111731) score=0.5697116178996595
-- Daft Punk - Robot Rock (GBDUW0400103) score=0.5697409983949216
-- MEDUZA - Bad Memories (feat. Elley Duhé & FAST BOY) (GBUM72203666) score=0.572356812828546
-- fun. - Some Nights (USAT21104050) score=0.5727809815741173
-- Four Tops - I Can't Help Myself (Sugar Pie, Honey Bunch) (USMO16582593) score=0.5763382180821646
-- Lady Gaga - Telephone (USUM70905541) score=0.5770338202418385
-- Nirvana - Smells Like Teen Spirit (USGF19942501) score=0.579430342411443
+- Tiësto - Wasted (CYA111400022) score=0.5943796717920409
+- TLC - No Scrubs (USLF29900479) score=0.5960833146410036
+- DRAM - Broccoli (USUYG1098775) score=0.5965005231261817
+- Black Coffee - Come To Me (ZAI911600033) score=0.5973065365009719
+- Baby Keem - 16 (USSM12106871) score=0.5982144232864222
+- Michael Jackson - Remember the Time (USSM10020715) score=0.5983047966635061
+- fun. - Some Nights (USAT21104050) score=0.5988938112255515
+- Mark Ronson - Uptown Funk (feat. Bruno Mars) (GBARL1401524) score=0.6025895801020732
+- Bingo Players - Cry (Just a Little) (NCL281111731) score=0.6027408555254389
+- Bad Bunny - Después de la Playa (QM6MZ2214876) score=0.6048445149910805
 
 ## brightness_score_v1
 
 ### Highest (top 10)
 
-- Dimension - DJ Turn It Up (UKFTL1600270) score=0.9881699436431057
-- JPEGMAFIA - Lean Beef Patty (QM4TX2330850) score=0.8466036264411678
-- Daft Punk - One More Time (GBDUW0000053) score=0.796193885301888
-- Justin Timberlake - Rock Your Body (USJI10200367) score=0.7372742228694952
-- Knock2 - feel U luv Me (QMBZ92447777) score=0.6929172895345539
-- Aitch - Raving In The Studio (QMFME2494355) score=0.6881737080417029
-- S Club - Don't Stop Movin' (GBCVL0100001) score=0.6872224285143032
-- The Offspring - Self Esteem (USEP40312208) score=0.6765448992694088
-- Billy Joel - Uptown Girl (USSM18300270) score=0.6589886038173339
-- FISHER - It's A Killa (QM24S2200746) score=0.6492555853069071
+- Dimension - DJ Turn It Up (UKFTL1600270) score=0.9351174586982007
+- Chris Lorenzo - Take Me as I Am (FR96X1965659) score=0.9132658052631056
+- JPEGMAFIA - Lean Beef Patty (QM4TX2330850) score=0.7975847450061533
+- GRiZ - Griztronics II (Another Level) (CA5KR0019318) score=0.7879430780989212
+- Daft Punk - One More Time (GBDUW0000053) score=0.7509807984366482
+- Justin Timberlake - Rock Your Body (USJI10200367) score=0.6960619465789224
+- TLC - No Scrubs (USLF29900479) score=0.6937364466907412
+- Terrence Parker - Something Here for the Club - Vocal (USAT22403023) score=0.6623197169479251
+- Knock2 - feel U luv Me (QMBZ92447777) score=0.6522447841316554
+- Chase & Status - Liquor & Cigarettes (feat. ArrDee) (GBUM72307879) score=0.6504077328109772
 
 ### Lowest (bottom 10)
 
-- AYYBO - RIZZ (QZVEM2366898) score=0.047971843130897474
-- Daft Punk - Give Life Back to Music (Drumless Edition) (GBDUW2300090) score=0.08213865138457246
-- Daft Punk - Veridis Quo (GBDUW0000066) score=0.09275476205446473
-- Alan Menken - Kingdom Dance - From "Tangled"/Score (USWD11054906) score=0.16991585011141097
-- Lil Nas X - TALES OF DOMINICA (USSM12106488) score=0.18220307833128763
-- Mochakk - From The Stars (GBCFB2401406) score=0.20403746767856654
-- Glass Animals - Heat Waves (GBUM72000433) score=0.20875922610181585
-- Vantage - 50//50 (QZES51852621) score=0.21100808775852709
-- Bill Withers - Ain't No Sunshine (USSM10000372) score=0.21149113330242553
-- Derrick May - Strings of Life (BEZ350800105) score=0.21247784387024737
+- AYYBO - RIZZ (QZVEM2366898) score=0.04761709813469831
+- Daft Punk - Give Life Back to Music (Drumless Edition) (GBDUW2300090) score=0.08133711884609993
+- Daft Punk - Veridis Quo (GBDUW0000066) score=0.0912639112807315
+- Pyotr Ilyich Tchaikovsky - The Nutcracker (Suite), Op. 71a, TH. 35: 3. Waltz of the Flowers (DEF058203578) score=0.10760241554041303
+- Camille Saint-Saëns - Danse macabre, Op. 40 (GBF078010150) score=0.15617681753723162
+- Alan Menken - Kingdom Dance - From "Tangled"/Score (USWD11054906) score=0.16384628918837005
+- Lil Nas X - TALES OF DOMINICA (USSM12106488) score=0.1745340672564081
+- Mochakk - From The Stars (GBCFB2401406) score=0.19485658780958073
+- Mark Knopfler - Boom, Like That (GBF080400361) score=0.19606460960957284
+- Glass Animals - Heat Waves (GBUM72000433) score=0.20085946450584213
 
 ### Near median
 
-- Ed Sheeran - Don't (GBAHS1400090) score=0.40429407002829865
-- MEDUZA - Bad Memories (feat. Elley Duhé & FAST BOY) (GBUM72203666) score=0.40731112376545975
-- Four Tops - I Can't Help Myself (Sugar Pie, Honey Bunch) (USMO16582593) score=0.40990458946256136
-- Mason - Perfect (Exceeder) (NLF711312388) score=0.4208953162579774
-- Polo G - Go Stupid (USQX92000261) score=0.43488483955290425
-- Stevie Wonder - Superstition (USMO17200984) score=0.4351667721063659
-- The Wanted - Glad You Came - 2021 Master (GBUM72105737) score=0.4436243607715913
-- Lil Jon & The East Side Boyz - Get Low (USTV10200084) score=0.4598136657021245
-- Kyary Pamyu Pamyu - にんじゃりばんばん (JPWP01370323) score=0.46425998119349166
-- Deorro - Tell Me Lies (USUS11700054) score=0.47239032308389284
+- Outkast - Hey Ya! (USAR10301095) score=0.41343496622160153
+- Polo G - Go Stupid (USQX92000261) score=0.4139749734440155
+- Nirvana - Smells Like Teen Spirit (USGF19942501) score=0.41409994800691696
+- Stevie Wonder - Superstition (USMO17200984) score=0.41437706576262057
+- Fred again.. - Victory Lap (GBAHS2500558) score=0.41822714064593924
+- The Wanted - Glad You Came - 2021 Master (GBUM72105737) score=0.42189942639448896
+- Songer - Toxic (Freestyle) (GBARL2301887) score=0.42417595756324517
+- Skrillex - Scary Monsters and Nice Sprites (GBTDG1000196) score=0.4254028454051225
+- Rauw Alejandro - Qué Pasaría... (USQX92404984) score=0.4281698494042645
+- King Harvest - Dancing in the Moonlight (USY4W0610011) score=0.4346333385082973
 
 ## pulse_score_v1
 
 ### Highest (top 10)
 
-- Dom Dolla - Take It (AUDCB1701202) score=0.9263731518457089
-- Gorillaz - Clint Eastwood - Ed Case / Sweetie Irie Refix (GBAYE1400479) score=0.9231520124008774
-- MK - Rhyme Dust (GBARL2300220) score=0.906296875142277
-- FISHER - It's A Killa (QM24S2200746) score=0.874070971630581
-- Bob Sinclar - The Beat Goes On (FR6V80309921) score=0.8638264016589999
-- Polo G - Go Stupid (USQX92000261) score=0.8590396338682171
-- Mr. Oizo - Cut Dick (FR0NT0800750) score=0.8326167065123589
-- Vengaboys - Boom, Boom, Boom, Boom!! (NLC529811150) score=0.8261017498657367
-- S Club - Don't Stop Movin' (GBCVL0100001) score=0.8241139595199303
-- Kyary Pamyu Pamyu - にんじゃりばんばん (JPWP01370323) score=0.8139219315753858
+- Gorillaz - Clint Eastwood - Ed Case / Sweetie Irie Refix (GBAYE1400479) score=0.900070715261417
+- Lil Kleine - Drank & Drugs (NLG661500224) score=0.8960857878232475
+- Dom Dolla - Take It (AUDCB1701202) score=0.891366056356513
+- MK - Rhyme Dust (GBARL2300220) score=0.8804724799928466
+- FISHER - It's A Killa (QM24S2200746) score=0.8641460373629074
+- FISHER - Crowd Control (GBKQU1810626) score=0.8621557013693
+- Kylie Minogue - Can't Get You Out of My Head (GBAYE0100913) score=0.8545609192128476
+- Terrence Parker - Something Here for the Club - Vocal (USAT22403023) score=0.8514865382492266
+- Bob Sinclar - The Beat Goes On (FR6V80309921) score=0.8435258391540758
+- Polo G - Go Stupid (USQX92000261) score=0.8387481203414404
 
 ### Lowest (bottom 10)
 
-- AYYBO - RIZZ (QZVEM2366898) score=0.0764032074507497
-- Mochakk - From The Stars (GBCFB2401406) score=0.1371561424068981
-- Alan Menken - Kingdom Dance - From "Tangled"/Score (USWD11054906) score=0.1856381059297336
-- Derrick May - Strings of Life (BEZ350800105) score=0.20462644944700997
-- NAPA - Deslocado (PTUM72500004) score=0.20857170896485738
-- Stevie Wonder - Superstition (USMO17200984) score=0.2244084975686704
-- Bobby Darin - Beyond the Sea (USEW10000026) score=0.23390890256143196
-- The Tokens - The Lion Sleeps Tonight (Wimoweh) (USRC16100933) score=0.24991516020050333
-- The Offspring - Self Esteem (USEP40312208) score=0.2524834289088799
-- Styx - Renegade (USAM17800365) score=0.26167649555978
+- Camille Saint-Saëns - Danse macabre, Op. 40 (GBF078010150) score=0.08514276219757343
+- Pyotr Ilyich Tchaikovsky - The Nutcracker (Suite), Op. 71a, TH. 35: 3. Waltz of the Flowers (DEF058203578) score=0.10003694559419314
+- AYYBO - RIZZ (QZVEM2366898) score=0.1445354012426004
+- Mochakk - From The Stars (GBCFB2401406) score=0.21673781858158872
+- Stevie Wonder - Maybe Your Baby (USMO17282853) score=0.2495489339914239
+- Alan Menken - Kingdom Dance - From "Tangled"/Score (USWD11054906) score=0.2597938595731161
+- Derrick May - Strings of Life (BEZ350800105) score=0.26893830390798384
+- Bobby Darin - Beyond the Sea (USEW10000026) score=0.28824425295416833
+- NAPA - Deslocado (PTUM72500004) score=0.2885691470903278
+- Stevie Wonder - Superstition (USMO17200984) score=0.2889247218833085
 
 ### Near median
 
-- Electric Light Orchestra - Last Train to London (USSM10015736) score=0.5861477276529231
-- fun. - Some Nights (USAT21104050) score=0.5921315359077304
-- GRiZ - Griztronics (CAUM81900241) score=0.5927600780150901
-- Ed Sheeran - Don't (GBAHS1400090) score=0.5985070445717027
-- Dom Dolla - Define (AUDCB1500530) score=0.6019665429257104
-- Dimension - Angel (UKFTL1600316) score=0.6076393864227192
-- FAST BOY - Forget You (DEUM72300002) score=0.6078206449950315
-- One Direction - Drag Me Down (GBHMU1500070) score=0.6195333387966606
-- Vantage - 50//50 (QZES51852621) score=0.6238657912830105
-- Lil Jon & The East Side Boyz - Get Low (USTV10200084) score=0.6242090397187652
+- Chase & Status - Liquor & Cigarettes (feat. ArrDee) (GBUM72307879) score=0.6141626336542181
+- GRiZ - Griztronics (CAUM81900241) score=0.6175328079781928
+- will.i.am - Scream & Shout (USUM71215597) score=0.6233958487653761
+- FAST BOY - Forget You (DEUM72300002) score=0.6269226190876561
+- Vantage - 50//50 (QZES51852621) score=0.6303803512539725
+- One Direction - Drag Me Down (GBHMU1500070) score=0.632423942600154
+- Daft Punk - Aerodynamic (GBDUW0000057) score=0.6340046607459967
+- Lil Jon & The East Side Boyz - Get Low (USTV10200084) score=0.6343889069043789
+- Scissor Sisters - I Can't Decide (GBUM70602614) score=0.6346928518710256
+- Dschinghis Khan - Moskau (DEC717900024) score=0.6358532575436504
 
 ## vocal_presence_score_v1
 
 ### Highest (top 10)
 
-- AYYBO - RIZZ (QZVEM2366898) score=0.6404192579447482
-- Daft Punk - Veridis Quo (GBDUW0000066) score=0.6116680096696213
-- Daft Punk - Robot Rock (GBDUW0400103) score=0.5941989518077038
-- Mr. Oizo - Cut Dick (FR0NT0800750) score=0.568564079237813
-- Alan Menken - Kingdom Dance - From "Tangled"/Score (USWD11054906) score=0.49469199244491796
-- Daft Punk - Give Life Back to Music (Drumless Edition) (GBDUW2300090) score=0.48331262771819083
-- JPEGMAFIA - Lean Beef Patty (QM4TX2330850) score=0.4722163939012449
-- Daft Punk - Give Life Back to Music (USQX91300101) score=0.4515554125198234
-- Macklemore & Ryan Lewis - Thrift Shop (feat. Wanz) (GMM881200003) score=0.44545483033396005
-- Dimension - DJ Turn It Up (UKFTL1600270) score=0.4098164799330861
+- AYYBO - RIZZ (QZVEM2366898) score=0.624559719629145
+- Daft Punk - Veridis Quo (GBDUW0000066) score=0.606941041812201
+- Pyotr Ilyich Tchaikovsky - The Nutcracker (Suite), Op. 71a, TH. 35: 3. Waltz of the Flowers (DEF058203578) score=0.5873004050631985
+- Daft Punk - Robot Rock (GBDUW0400103) score=0.58251488165311
+- Mr. Oizo - Cut Dick (FR0NT0800750) score=0.5627739358168524
+- Black Coffee - Come To Me (ZAI911600033) score=0.5563732496005007
+- Camille Saint-Saëns - Danse macabre, Op. 40 (GBF078010150) score=0.5538158453543112
+- FISHER - Crowd Control (GBKQU1810626) score=0.5062016965104019
+- Alan Menken - Kingdom Dance - From "Tangled"/Score (USWD11054906) score=0.4881946743585378
+- Daft Punk - Give Life Back to Music (Drumless Edition) (GBDUW2300090) score=0.4769034047693117
 
 ### Lowest (bottom 10)
 
 - Backstreet Boys - I Want It That Way (USJI19910614) score=0.0025353196251223947
 - Alok - Jungle (DEE862301476) score=0.009063039119690398
-- Four Tops - I Can't Help Myself (Sugar Pie, Honey Bunch) (USMO16582593) score=0.03006894081833647
-- The Tokens - The Lion Sleeps Tonight (Wimoweh) (USRC16100933) score=0.033865162503357506
-- The Wanted - Glad You Came - 2021 Master (GBUM72105737) score=0.038377652430835345
-- Sabrina Carpenter - Feather (USUM72301876) score=0.04286149162861491
-- Frankie Valli - Grease - From “Grease” (NLF057890001) score=0.042918793088011456
-- Kyary Pamyu Pamyu - にんじゃりばんばん (JPWP01370323) score=0.043114892935293476
-- One Direction - Drag Me Down (GBHMU1500070) score=0.046557435759692005
-- The J. Geils Band - Centerfold (USCA28100075) score=0.05128480615990688
+- Billy Joel - The Longest Time (USSM18300273) score=0.018431607911816892
+- Four Tops - I Can't Help Myself (Sugar Pie, Honey Bunch) (USMO16582593) score=0.027535903919504383
+- The Tokens - The Lion Sleeps Tonight (Wimoweh) (USRC16100933) score=0.031012328187569497
+- Steve Miller Band - Abracadabra (USCA28500258) score=0.03475112409850744
+- The Wanted - Glad You Came - 2021 Master (GBUM72105737) score=0.03514468156281669
+- The J. Geils Band - Centerfold (USCA28100075) score=0.03863422441302544
+- Sabrina Carpenter - Feather (USUM72301876) score=0.03925079777377661
+- Frankie Valli - Grease - From “Grease” (NLF057890001) score=0.03930327210235118
 
 ### Near median
 
-- Daft Punk - Get Lucky (feat. Pharrell Williams and Nile Rodgers) (USQX91300108) score=0.11481584947876868
-- Lil Jon & The East Side Boyz - Get Low (USTV10200084) score=0.11745366639806606
-- FAST BOY - Forget You (DEUM72300002) score=0.12216793589744888
-- Owl City - Fireflies (USUM70972068) score=0.12465798980429879
-- Perry Como - Papa Loves Mambo (USRC15404658) score=0.12483758286970707
-- The Offspring - Self Esteem (USEP40312208) score=0.1529948965887725
-- Dimension - Angel (UKFTL1600316) score=0.15517638124256383
-- Daft Punk - One More Time (GBDUW0000053) score=0.16238708696553733
-- Bad Bunny - Después de la Playa (QM6MZ2214876) score=0.1692181278760486
-- Vengaboys - Boom, Boom, Boom, Boom!! (NLC529811150) score=0.1805654553414979
+- PSY - Gangnam Style (강남스타일) (USUM71210283) score=0.12332779073237765
+- Rauw Alejandro - Qué Pasaría... (USQX92404984) score=0.12420643295714395
+- Becky Hill - Disconnect (GBUM72306588) score=0.12701825333172043
+- King Harvest - Dancing in the Moonlight (USY4W0610011) score=0.13005620530040457
+- The Offspring - Self Esteem (USEP40312208) score=0.14010645729409568
+- TLC - No Scrubs (USLF29900479) score=0.1420465303722227
+- Daft Punk - One More Time (GBDUW0000053) score=0.1444723207777726
+- D.O.D - Still Sleepless (GBKCF2101056) score=0.14513079821632918
+- Dimension - Angel (UKFTL1600316) score=0.14782707456610486
+- Stevie Wonder - Maybe Your Baby (USMO17282853) score=0.15052113409294854
 
 ## density_score_v1
 
 ### Highest (top 10)
 
-- Derrick May - Strings of Life (BEZ350800105) score=0.6803994038188715
-- The Offspring - Self Esteem (USEP40312208) score=0.659550307278398
-- AYYBO - RIZZ (QZVEM2366898) score=0.6378345784617088
-- Alan Menken - Kingdom Dance - From "Tangled"/Score (USWD11054906) score=0.6244426328867315
-- JPEGMAFIA - Lean Beef Patty (QM4TX2330850) score=0.6150611287574639
-- Stevie Wonder - Superstition (USMO17200984) score=0.6084723404901686
-- Macklemore & Ryan Lewis - Thrift Shop (feat. Wanz) (GMM881200003) score=0.5957779189123092
-- Daft Punk - One More Time (GBDUW0000053) score=0.5929133928570124
-- Owl City - Fireflies (USUM70972068) score=0.5781428234215723
-- Bad Bunny - Después de la Playa (QM6MZ2214876) score=0.5550808799526118
+- Derrick May - Strings of Life (BEZ350800105) score=0.6514327175561492
+- The Offspring - Self Esteem (USEP40312208) score=0.6501654044766607
+- AYYBO - RIZZ (QZVEM2366898) score=0.6142762701628761
+- Stevie Wonder - Superstition (USMO17200984) score=0.5970801060927924
+- JPEGMAFIA - Lean Beef Patty (QM4TX2330850) score=0.5952051777585139
+- Alan Menken - Kingdom Dance - From "Tangled"/Score (USWD11054906) score=0.5916807619477376
+- Macklemore & Ryan Lewis - Thrift Shop (feat. Wanz) (GMM881200003) score=0.5827376383474104
+- Gerry Rafferty - Baker Street (GBAYE7800619) score=0.5710603632553021
+- Daft Punk - One More Time (GBDUW0000053) score=0.5690071871039111
+- Stevie Wonder - Maybe Your Baby (USMO17282853) score=0.5643848753843169
 
 ### Lowest (bottom 10)
 
-- MK - Rhyme Dust (GBARL2300220) score=0.17285502111499784
-- Mr. Oizo - Cut Dick (FR0NT0800750) score=0.18503818754657458
-- Kyary Pamyu Pamyu - にんじゃりばんばん (JPWP01370323) score=0.24006194625061528
-- Dom Dolla - Take It (AUDCB1701202) score=0.2484336319114517
-- FISHER - It's A Killa (QM24S2200746) score=0.2558937794738818
-- Gorillaz - The Valley of The Pagans (feat. Beck) (GBAYE2000599) score=0.26719543415342073
-- Daft Punk - Veridis Quo (GBDUW0000066) score=0.26820287368563683
-- Vengaboys - Boom, Boom, Boom, Boom!! (NLC529811150) score=0.27024270981155435
-- Sabrina Carpenter - Feather (USUM72301876) score=0.27641185124381873
-- Billy Joel - Uptown Girl (USSM18300270) score=0.28317617823775015
+- MK - Rhyme Dust (GBARL2300220) score=0.17357345377233022
+- Mr. Oizo - Cut Dick (FR0NT0800750) score=0.18991261593105174
+- Kylie Minogue - Can't Get You Out of My Head (GBAYE0100913) score=0.2325728232003129
+- Dom Dolla - Take It (AUDCB1701202) score=0.23578991427034163
+- Kyary Pamyu Pamyu - にんじゃりばんばん (JPWP01370323) score=0.24347857369867104
+- Lil Kleine - Drank & Drugs (NLG661500224) score=0.24377004679086672
+- Daft Punk - Veridis Quo (GBDUW0000066) score=0.24490213210806483
+- Outkast - Hey Ya! (USAR10301095) score=0.25086025404765383
+- FISHER - It's A Killa (QM24S2200746) score=0.25138555443433
+- Terrence Parker - Something Here for the Club - Vocal (USAT22403023) score=0.2608472206130525
 
 ### Near median
 
-- Lil Jon & The East Side Boyz - Get Low (USTV10200084) score=0.389573129893013
-- Grimes - Oblivion (CA21O1200003) score=0.3924424553193691
-- Glass Animals - Heat Waves (GBUM72000433) score=0.39318598247041053
-- Bob Sinclar - The Beat Goes On (FR6V80309921) score=0.3945093098214567
-- The Brothers Johnson - Strawberry Letter 23 (USAM17700852) score=0.40208000046978726
-- Calvin Harris - I Need Your Love (GBARL1201390) score=0.40525778965864323
-- Future - All Bad (feat. Lil Uzi Vert) (USSM12002490) score=0.4073920311985929
-- MEDUZA - Bad Memories (feat. Elley Duhé & FAST BOY) (GBUM72203666) score=0.4090324221708363
-- Ravyn Lenae - Love Me Not (USAT22401137) score=0.40989132165589726
-- Bingo Players - Cry (Just a Little) (NCL281111731) score=0.4179542014443515
+- The Brothers Johnson - Strawberry Letter 23 (USAM17700852) score=0.37813705838493417
+- Lil Jon & The East Side Boyz - Get Low (USTV10200084) score=0.3797961426666878
+- Baby Keem - 16 (USSM12106871) score=0.38054443408560146
+- Glass Animals - Heat Waves (GBUM72000433) score=0.38563963657034245
+- Bob Sinclar - The Beat Goes On (FR6V80309921) score=0.3863938206087919
+- Chris Lorenzo - Take Me as I Am (FR96X1965659) score=0.39060122208021597
+- Calvin Harris - I Need Your Love (GBARL1201390) score=0.39650834063976764
+- James Hype - Wild (US38Y2405797) score=0.3970584816861375
+- Tiësto - Wasted (CYA111400022) score=0.3991229267990518
+- FAST BOY - Forget You (DEUM72300002) score=0.40084682237912284
 
 ## Output Artifacts
 
