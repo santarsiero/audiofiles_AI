@@ -1,0 +1,3544 @@
+{
+  "metadata": {
+    "version": "human-validation-v0.1",
+    "generatedAt": "2026-05-10T15:36:46.539Z",
+    "datasetContext": {
+      "totalEntries": 209,
+      "successfulPayloads": 140,
+      "failedPayloads": 69
+    },
+    "instructions": [
+      "This file is for human semantic validation only.",
+      "Do not interpret feature scores as ground truth.",
+      "Evaluate based on listening perception.",
+      "Use cautious interpretation."
+    ]
+  },
+  "features": [
+    {
+      "featureName": "energy_score_v1",
+      "featureDescription": "Experimental composite feature intended to represent perceived musical energy/activation.",
+      "questionsToConsider": [
+        "Does the song feel energetic?",
+        "Does it feel physically activating?",
+        "Does the score align with intensity?",
+        "Does it feel over-influenced by loudness?"
+      ],
+      "validationEntries": [
+        {
+          "group": "high",
+          "rank": 1,
+          "song": {
+            "title": "DJ Turn It Up",
+            "artist": "Dimension",
+            "isrc": "UKFTL1600270",
+            "score": 0.9227192437180619
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": 5,
+            "heardDescription": "Very high enegry song, it is very in your face and controling infectious sound",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "the energy in this sound carries well, but definatly hightens at points, but energy definatly describes this sound",
+            "possibleIssues": [],
+            "semanticThoughts": "Also very puncht",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 2,
+          "song": {
+            "title": "Liquor & Cigarettes (feat. ArrDee)",
+            "artist": "Chase & Status",
+            "isrc": "GBUM72307879",
+            "score": 0.9169924793334253
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "builds energy great and releeases it well",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "get build, incrediable, really builds the energy and releases it creatung that punchy energy",
+            "possibleIssues": ["this song is a real build, it has the energy byt it definlty builds to it"],
+            "semanticThoughts": "builds enery but keeps it high still",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 3,
+          "song": {
+            "title": "Back To The Sound",
+            "artist": "Diffrent",
+            "isrc": "DEE862400746",
+            "score": 0.8896864249019097
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "Energy from steady tempo and hgh funk",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "this is a song with energy, but not as high as some others",
+            "possibleIssues": ["not the highest energy"],
+            "semanticThoughts": "this meeasurs a steady and funky beat that is addictive and fun, it has energy, but not that full control ther others do",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "not the highest level of energy",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 4,
+          "song": {
+            "title": "Angel",
+            "artist": "Dimension",
+            "isrc": "UKFTL1600316",
+            "score": 0.8497239746443203
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "builds to a nice drop that creates energy well",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "not high energy, but definalty builds good energy, but the energy levels definlty build and change throughout the song",
+            "possibleIssues": ["big energy switches"],
+            "semanticThoughts": "energy is built hard, but this does have energy",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 5,
+          "song": {
+            "title": "にんじゃりばんばん",
+            "artist": "Kyary Pamyu Pamyu",
+            "isrc": "JPWP01370323",
+            "score": 0.8230903586841108
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "brings that energy for sure",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "brings and keeps that energy, but alot of it defintlly comes form the types of sounds, they are super bright",
+            "possibleIssues": [],
+            "semanticThoughts": "very bright energy",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 6,
+          "song": {
+            "title": "BEATS FOR THE UNDERGROUND",
+            "artist": "Mau P",
+            "isrc": "GBK6Y2452041",
+            "score": 0.822193657791039
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "a song with energy, but not that crazy high energy",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "its not overly loud nor in your face but that that sound and layering that energies",
+            "possibleIssues": ["relays on switches and good placements and user engadgement"],
+            "semanticThoughts": "builds and keeps with good sound quality",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 7,
+          "song": {
+            "title": "Disconnect",
+            "artist": "Becky Hill",
+            "isrc": "GBUM72306588",
+            "score": 0.8130122574664731
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "builds and keeps with an infectionous style",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "very catchy and builds great into a dnb track, really holding",
+            "possibleIssues": ["maybe dnb genre bais"],
+            "semanticThoughts": "energy built so well and keep so well with the dnb",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 8,
+          "song": {
+            "title": "Friesenjung",
+            "artist": "Ski Aggu",
+            "isrc": "DE1FB2300037",
+            "score": 0.8047878979255217
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "fun sounds bring energy, uniqueness",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "very good sounds and layering together",
+            "possibleIssues": [],
+            "semanticThoughts": "many switches and sounds in perfect cohesion makes this perfect for this label",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 9,
+          "song": {
+            "title": "Raving In The Studio",
+            "artist": "Aitch",
+            "isrc": "QMFME2494355",
+            "score": 0.7993940274229082
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "builds energy great, hopes well, great sample balancce",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "this is the perfect house sample uses in a way where it creates a unique song off a great song",
+            "possibleIssues": ["maybe dnb genre bias"],
+            "semanticThoughts": "perfect use of energy, builds great and samples great",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 10,
+          "song": {
+            "title": "Wild",
+            "artist": "James Hype",
+            "isrc": "US38Y2405797",
+            "score": 0.7783243842581923
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "energy through trad drops and builds but has raelly fun sounds and unique drops",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "cool sounds help alot here since basic style",
+            "possibleIssues": [],
+            "semanticThoughts": "",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 1,
+          "song": {
+            "title": "Danse macabre, Op. 40",
+            "artist": "Camille Saint-Saëns",
+            "isrc": "GBF078010150",
+            "score": 0.03584254678229344
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": null,
+            "heardDescription": "layers in a way with rising intensity that could resemble enrgery",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "this has that intensity wher it is energy in its own way, but this might be mistaken for another word",
+            "possibleIssues": ["has a spark about it, its a differenet engery, but I would still say energy", "genre bais, word might work ehre sitll, with genre needing a new mesaurement"],
+            "semanticThoughts": "this builds into great energy",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 2,
+          "song": {
+            "title": "The Nutcracker (Suite), Op. 71a, TH. 35: 3. Waltz of the Flowers",
+            "artist": "Pyotr Ilyich Tchaikovsky",
+            "isrc": "DEF058203578",
+            "score": 0.07864740186890085
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": false,
+            "heardDescription": "slow build, but builds into huge energy",
+            "doesFeatureMatch": false,
+            "confidence": null,
+            "notes": "this has emense energy, but only n the end, and in really builds into this",
+            "possibleIssues": ["long build"],
+            "semanticThoughts": "long build into huge energry",
+            "wouldKeepFeatureBehavior": false,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 3,
+          "song": {
+            "title": "If Only for One Night",
+            "artist": "Luther Vandross",
+            "isrc": "USSM18500385",
+            "score": 0.14882503676539766
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "soft and easy on teh ears, smooth",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "nothing is too strong nor overpowering, blends",
+            "possibleIssues": [],
+            "semanticThoughts": "slow sounds blend nice in a smooth way",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 4,
+          "song": {
+            "title": "Dancing in the Moonlight",
+            "artist": "King Harvest",
+            "isrc": "USY4W0610011",
+            "score": 0.21169944789324108
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": null,
+            "heardDescription": "soft sounds but very danceable",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "maybe brightness in the sound can make me think it has some enegery, but I am not sure, its moveable",
+            "possibleIssues": ["too dancble for true low enegry"],
+            "semanticThoughts": "has a vey dancabel and singable bright sound that might bring some energy, but maybe I am using enertgy wrong",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 5,
+          "song": {
+            "title": "RIZZ",
+            "artist": "AYYBO",
+            "isrc": "QZVEM2366898",
+            "score": 0.21998522364621853
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": null,
+            "heardDescription": "its a soft energy, so maybe I am using energy wrong",
+            "doesFeatureMatch": null,
+            "confidence": false,
+            "notes": "this isnt loud, but it does have something about it",
+            "possibleIssues": ["dancable and groovey confusing me alittle"],
+            "semanticThoughts": "dancable and groovy",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 6,
+          "song": {
+            "title": "Strings of Life",
+            "artist": "Derrick May",
+            "isrc": "BEZ350800105",
+            "score": 0.25063873487830496
+          },
+          "humanReview": {
+            "listened": false,
+            "heardRating": null,
+            "heardDescription": "infectious rift with punchy noise",
+            "doesFeatureMatch": false,
+            "confidence": null,
+            "notes": "builds to a crazy part with alot of energy",
+            "possibleIssues": ["too dancable for true low energy"],
+            "semanticThoughts": "infectious and punchy with energy",
+            "wouldKeepFeatureBehavior": false,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 7,
+          "song": {
+            "title": "Baker Street",
+            "artist": "Gerry Rafferty",
+            "isrc": "GBAYE7800619",
+            "score": 0.2551496937300726
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "good rift, hard to tell if that brings energy",
+            "doesFeatureMatch": true,
+            "confidence": null,
+            "notes": "the rift brings some energy but the rest of the song doesnt have it and because of the song structure I this the low energy dominates",
+            "possibleIssues": ["loud in your face rift"],
+            "semanticThoughts": "large contrast form chorus to rift",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 8,
+          "song": {
+            "title": "Ain't No Sunshine",
+            "artist": "Bill Withers",
+            "isrc": "USSM10000372",
+            "score": 0.28805722113748505
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "soft sound, where there is passsion and a loudness of the voacals, but energy stays low",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "good  balance",
+            "possibleIssues": [],
+            "semanticThoughts": "soft sounds with good contrast but still not too loud",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 9,
+          "song": {
+            "title": "Grease - From “Grease”",
+            "artist": "Frankie Valli",
+            "isrc": "NLF057890001",
+            "score": 0.30250147348035633
+          },
+          "humanReview": {
+            "listened": false,
+            "heardRating": false,
+            "heardDescription": "loud rifts mixed with passion",
+            "doesFeatureMatch": false,
+            "confidence": null,
+            "notes": "this brings energy and steadniess that is built and keep",
+            "possibleIssues": ["some quite parts, but they are steady to hold energy"],
+            "semanticThoughts": "builts and steady",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 10,
+          "song": {
+            "title": "Superstition",
+            "artist": "Stevie Wonder",
+            "isrc": "USMO17200984",
+            "score": 0.30765352390255685
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": null,
+            "heardDescription": "catchy, with moments of loudlness, but not earlly energyitic, more just infeuctionus, but that captiviity is somethign",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "mixing of sounds",
+            "possibleIssues": ["density and fullness makes enegergy"],
+            "semanticThoughts": "groovey and layered",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 1,
+          "song": {
+            "title": "Wasted",
+            "artist": "Tiësto",
+            "isrc": "CYA111400022",
+            "score": 0.5943796717920409
+          },
+          "humanReview": {
+            "listened": false,
+            "heardRating": true,
+            "heardDescription": "tradiation edm pop",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "not a crash drop, not the most energyitc",
+            "possibleIssues": ["build and drop set up"],
+            "semanticThoughts": "traditional, but sounds are the msot in your face",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 2,
+          "song": {
+            "title": "No Scrubs",
+            "artist": "TLC",
+            "isrc": "USLF29900479",
+            "score": 0.5960833146410036
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "catchy, pop, not super energetic, bt dncable and singable bringing some energy",
+            "doesFeatureMatch": true,
+            "confidence": null,
+            "notes": "catchy, and that beings some enegy, but not super",
+            "possibleIssues": ["singabel and dancabela and catchy"],
+            "semanticThoughts": "trad pop, but still good label",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 3,
+          "song": {
+            "title": "Broccoli",
+            "artist": "DRAM",
+            "isrc": "USUYG1098775",
+            "score": 0.5965005231261817
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "steady and easy, but in a way taht makes muedim energy",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "great balance",
+            "possibleIssues": ["danceable catchy, singable"],
+            "semanticThoughts": "contrast craetes interest but easy lsitening for a good balence",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 4,
+          "song": {
+            "title": "Come To Me",
+            "artist": "Black Coffee",
+            "isrc": "ZAI911600033",
+            "score": 0.5973065365009719
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "in switches, and gets really infectious that can create that deep energy",
+            "doesFeatureMatch": true,
+            "confidence": null,
+            "notes": "it siwches, balanceing high middle low, with some differing, but it needs a deep listen",
+            "possibleIssues": ["powerful"],
+            "semanticThoughts": "builds and layers good with a solo for a true climax",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 5,
+          "song": {
+            "title": "16",
+            "artist": "Baby Keem",
+            "isrc": "USSM12106871",
+            "score": 0.5982144232864222
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": false,
+            "heardDescription": "low soft sounds taking energy away",
+            "doesFeatureMatch": false,
+            "confidence": null,
+            "notes": "this has a low energy that almost tires the user, when I think energy, it is does this bring me up or down, like does it make me want to sit and listen or get up and move to it, so does it flow in or out",
+            "possibleIssues": ["rap genre bais"],
+            "semanticThoughts": "low energy all around",
+            "wouldKeepFeatureBehavior": false,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 6,
+          "song": {
+            "title": "Remember the Time",
+            "artist": "Michael Jackson",
+            "isrc": "USSM10020715",
+            "score": 0.5983047966635061
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "great balance of rising but soft enugh balance to fit here",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "balanced well here for this",
+            "possibleIssues": [],
+            "semanticThoughts": "very balenced energy",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 7,
+          "song": {
+            "title": "Some Nights",
+            "artist": "fun.",
+            "isrc": "USAT21104050",
+            "score": 0.5988938112255515
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "good energy but not overly, but it is infectious and interesting",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "some energy but not overly more interesting and full",
+            "possibleIssues": ["full and interesting"],
+            "semanticThoughts": "good mix",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 8,
+          "song": {
+            "title": "Uptown Funk (feat. Bruno Mars)",
+            "artist": "Mark Ronson",
+            "isrc": "GBARL1401524",
+            "score": 0.6025895801020732
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "very bright catchy and infectious",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "the mixing and sound quailty could bring some energy",
+            "possibleIssues": ["too bright and infectius and catchy"],
+            "semanticThoughts": "very colorful and bright, but maybe not pure energy",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 9,
+          "song": {
+            "title": "Cry (Just a Little)",
+            "artist": "Bingo Players",
+            "isrc": "NCL281111731",
+            "score": 0.6027408555254389
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "it is trad edm with an infectiouness, but not the louded nor intense drop",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "not very in your face, just interesting and catchyy",
+            "possibleIssues": ["interesting and catchy"],
+            "semanticThoughts": "builds nice and rises in energy at times, but never like super high",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 10,
+          "song": {
+            "title": "Después de la Playa",
+            "artist": "Bad Bunny",
+            "isrc": "QM6MZ2214876",
+            "score": 0.6048445149910805
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": false,
+            "heardDescription": "this builds into alot of energy",
+            "doesFeatureMatch": false,
+            "confidence": true,
+            "notes": "this is a sound that has a massive switch that builds into crazy energy",
+            "possibleIssues": ["builds for long"],
+            "semanticThoughts": "tension built slow and then has an explosion",
+            "wouldKeepFeatureBehavior": false,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        }
+      ],
+      "feature_note": [
+        "I was basing enegry on afew majory factors, with the largest being if it makesmem move, esspiaclly in a drastic way, so a high beat punchy infectionus catchy loud song is rewarded, but in other examples, energy came from tension being built properly, and sustained well, and then evlaoving, so it isnt super moveable, but it creeps into the mind, and rises captivaitng the listener in a wya, some keep it more steady, but is this the same as high energy, so it depends more deintions based"
+      ]
+    },
+    {
+      "featureName": "brightness_score_v1",
+      "featureDescription": "Experimental composite feature intended to represent perceived spectral/tonal brightness.",
+      "questionsToConsider": [
+        "Does the song sound bright/sharp/crisp?",
+        "Does it feel spectrally bright?",
+        "Does the score align with perceived tonal brightness?",
+        "Does it feel over-influenced by harshness?"
+      ],
+      "validationEntries": [
+        {
+          "group": "high",
+          "rank": 1,
+          "song": {
+            "title": "DJ Turn It Up",
+            "artist": "Dimension",
+            "isrc": "UKFTL1600270",
+            "score": 0.9351174586982007
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "flashy and energetic, in your face",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "in your face",
+            "possibleIssues": [],
+            "semanticThoughts": "flashes",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 2,
+          "song": {
+            "title": "Take Me as I Am",
+            "artist": "Chris Lorenzo",
+            "isrc": "FR96X1965659",
+            "score": 0.9132658052631056
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "upbeat and light sound with a heavy punuch contrast",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "funky and upbeat with fun energy",
+            "possibleIssues": [],
+            "semanticThoughts": "voice helps along, vey light and minial beats",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 3,
+          "song": {
+            "title": "Lean Beef Patty",
+            "artist": "JPEGMAFIA",
+            "isrc": "QM4TX2330850",
+            "score": 0.7975847450061533
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "very flashy and in your face",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "punchy interesting and in your face with a heavy contrast punchy but fun",
+            "possibleIssues": [],
+            "semanticThoughts": "in your face",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 4,
+          "song": {
+            "title": "Griztronics II (Another Level)",
+            "artist": "GRiZ",
+            "isrc": "CA5KR0019318",
+            "score": 0.7879430780989212
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "energizing and colorful",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "very flashy",
+            "possibleIssues": [],
+            "semanticThoughts": "great contast",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 5,
+          "song": {
+            "title": "One More Time",
+            "artist": "Daft Punk",
+            "isrc": "GBDUW0000053",
+            "score": 0.7509807984366482
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "flashy golden noise",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "thers is a hint of darkness here but I cant really palce it, i think its the deep heavy contrast",
+            "possibleIssues": [],
+            "semanticThoughts": "groovy heavy flashy",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 6,
+          "song": {
+            "title": "Rock Your Body",
+            "artist": "Justin Timberlake",
+            "isrc": "USJI10200367",
+            "score": 0.6960619465789224
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "enegrying and upbaet",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "",
+            "possibleIssues": [],
+            "semanticThoughts": "contast highlights voice",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 7,
+          "song": {
+            "title": "No Scrubs",
+            "artist": "TLC",
+            "isrc": "USLF29900479",
+            "score": 0.6937364466907412
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "some deep contrast is powerful here, but still brigth",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "deep contrast",
+            "possibleIssues": [],
+            "semanticThoughts": "not as intense, more of a burnt or smooth then bright",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 8,
+          "song": {
+            "title": "Something Here for the Club - Vocal",
+            "artist": "Terrence Parker",
+            "isrc": "USAT22403023",
+            "score": 0.6623197169479251
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "it has the bright rift, that is uplifting",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "it is shiny, but not many colors",
+            "possibleIssues": ["simple"],
+            "semanticThoughts": "repeative but uplifing dominaiting",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 9,
+          "song": {
+            "title": "feel U luv Me",
+            "artist": "Knock2",
+            "isrc": "QMBZ92447777",
+            "score": 0.6522447841316554
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "very dyunamic, but high tones dominate",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "flashes and crazy",
+            "possibleIssues": [],
+            "semanticThoughts": "builds bright into more colors",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 10,
+          "song": {
+            "title": "Liquor & Cigarettes (feat. ArrDee)",
+            "artist": "Chase & Status",
+            "isrc": "GBUM72307879",
+            "score": 0.6504077328109772
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "it has high but the low is very strong too",
+            "doesFeatureMatch": true,
+            "confidence": null,
+            "notes": "it is sharp, but its a very deep sound in the sharp, very low punchy",
+            "possibleIssues": [],
+            "semanticThoughts": "flashy and dense",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 1,
+          "song": {
+            "title": "RIZZ",
+            "artist": "AYYBO",
+            "isrc": "QZVEM2366898",
+            "score": 0.04761709813469831
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "soft sound then is smooth in color, but there are some sharp parts",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "contrast in deleiver",
+            "possibleIssues": [],
+            "semanticThoughts": "two main parts maybe more",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 2,
+          "song": {
+            "title": "Give Life Back to Music (Drumless Edition)",
+            "artist": "Daft Punk",
+            "isrc": "GBDUW2300090",
+            "score": 0.08133711884609993
+          },
+          "humanReview": {
+            "listened": false,
+            "heardRating": true,
+            "heardDescription": "very soft and light",
+            "doesFeatureMatch": true,
+            "confidence": false,
+            "notes": "it is a very ligth sound, so it sounds upligfitng, which confuses,",
+            "possibleIssues": [],
+            "semanticThoughts": "its a white bright sound, but does that bean brightness",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 3,
+          "song": {
+            "title": "Veridis Quo",
+            "artist": "Daft Punk",
+            "isrc": "GBDUW0000066",
+            "score": 0.0912639112807315
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "this is a soft minor tone song",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "good example",
+            "possibleIssues": [],
+            "semanticThoughts": "down",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 4,
+          "song": {
+            "title": "The Nutcracker (Suite), Op. 71a, TH. 35: 3. Waltz of the Flowers",
+            "artist": "Pyotr Ilyich Tchaikovsky",
+            "isrc": "DEF058203578",
+            "score": 0.10760241554041303
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": null,
+            "heardDescription": "this has a bolssoming sound that is light and bright sounding",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "it has might high parts",
+            "possibleIssues": ["long drawn parts"],
+            "semanticThoughts": "it is not as repeative",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 5,
+          "song": {
+            "title": "Danse macabre, Op. 40",
+            "artist": "Camille Saint-Saëns",
+            "isrc": "GBF078010150",
+            "score": 0.15617681753723162
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "it is not as bright, it rises but the highs are still now",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "intense but not bright",
+            "possibleIssues": [],
+            "semanticThoughts": "dominate dark",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 6,
+          "song": {
+            "title": "Kingdom Dance - From \"Tangled\"/Score",
+            "artist": "Alan Menken",
+            "isrc": "USWD11054906",
+            "score": 0.16384628918837005
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": null,
+            "heardDescription": "I think its brigth, ubt it is verty flowy in its nature with some sharp parts, so it is colorful to me, but if bfith means sharp, its medium, but it seems bright",
+            "doesFeatureMatch": null,
+            "confidence": false,
+            "notes": "it is full of life",
+            "possibleIssues": [],
+            "semanticThoughts": "colorful",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 7,
+          "song": {
+            "title": "TALES OF DOMINICA",
+            "artist": "Lil Nas X",
+            "isrc": "USSM12106488",
+            "score": 0.1745340672564081
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "it is alitle more dull then the others, it is light",
+            "doesFeatureMatch": true,
+            "confidence": null,
+            "notes": "it is not a sharp sound",
+            "possibleIssues": ["grows in intenity"],
+            "semanticThoughts": "deep and rounted",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 8,
+          "song": {
+            "title": "From The Stars",
+            "artist": "Mochakk",
+            "isrc": "GBCFB2401406",
+            "score": 0.19485658780958073
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "it is not the sharpest",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "it blossoms and is loud, but still low and funky",
+            "possibleIssues": ["its funky and groovy and happy"],
+            "semanticThoughts": "fun sounds",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 9,
+          "song": {
+            "title": "Boom, Like That",
+            "artist": "Mark Knopfler",
+            "isrc": "GBF080400361",
+            "score": 0.19606460960957284
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "low smooth sound",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "easy smooth low sound",
+            "possibleIssues": [],
+            "semanticThoughts": "this is a good example",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 10,
+          "song": {
+            "title": "Heat Waves",
+            "artist": "Glass Animals",
+            "isrc": "GBUM72000433",
+            "score": 0.20085946450584213
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "its a soft sound, with some flash",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "it is colorful but not bright",
+            "possibleIssues": [],
+            "semanticThoughts": "good example",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 1,
+          "song": {
+            "title": "Hey Ya!",
+            "artist": "Outkast",
+            "isrc": "USAR10301095",
+            "score": 0.41343496622160153
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "it is colorful and upbeat but not super in your face",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "very upbeat but also smooth",
+            "possibleIssues": [],
+            "semanticThoughts": "smooth can round out colorful brightness",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 2,
+          "song": {
+            "title": "Go Stupid",
+            "artist": "Polo G",
+            "isrc": "USQX92000261",
+            "score": 0.4139749734440155
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "it seems flash and punchy, but not a strong bright",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "it has as roll in the sharp",
+            "possibleIssues": [],
+            "semanticThoughts": "still some sharp and much at times",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 3,
+          "song": {
+            "title": "Smells Like Teen Spirit",
+            "artist": "Nirvana",
+            "isrc": "USGF19942501",
+            "score": 0.41409994800691696
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "it is heavy but in your face",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "dynaimic aswell",
+            "possibleIssues": [],
+            "semanticThoughts": "contrast and both in eqaul power",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 4,
+          "song": {
+            "title": "Superstition",
+            "artist": "Stevie Wonder",
+            "isrc": "USMO17200984",
+            "score": 0.41437706576262057
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "well backed in this",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "good example",
+            "possibleIssues": [],
+            "semanticThoughts": "",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 5,
+          "song": {
+            "title": "Victory Lap",
+            "artist": "Fred again..",
+            "isrc": "GBAHS2500558",
+            "score": 0.41822714064593924
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "it seems sharp, but has a super deep contrast which balances so much",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "this is jsut right in the balance, which is hard since it is punchy, colorful, heavy and deep",
+            "possibleIssues": [],
+            "semanticThoughts": "a big contrast of dark and bright putting it in the middble by contrast",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 6,
+          "song": {
+            "title": "Glad You Came - 2021 Master",
+            "artist": "The Wanted",
+            "isrc": "GBUM72105737",
+            "score": 0.42189942639448896
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "good true balance",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "has some sharp and some round",
+            "possibleIssues": [],
+            "semanticThoughts": "good example",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 7,
+          "song": {
+            "title": "Toxic (Freestyle)",
+            "artist": "Songer",
+            "isrc": "GBARL2301887",
+            "score": 0.42417595756324517
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": false,
+            "heardDescription": "this seems bright and sharp and phunchy",
+            "doesFeatureMatch": false,
+            "confidence": true,
+            "notes": "very fast and upbeat",
+            "possibleIssues": [],
+            "semanticThoughts": "alittle round in the back bout puunch dominaties",
+            "wouldKeepFeatureBehavior": false,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 8,
+          "song": {
+            "title": "Scary Monsters and Nice Sprites",
+            "artist": "Skrillex",
+            "isrc": "GBTDG1000196",
+            "score": 0.4254028454051225
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "this is a full song that has so many parts and is accaully about duaitly, so its balanced with contrast",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "this is a song that has every type of brightness elvel making it fully balanced",
+            "possibleIssues": [],
+            "semanticThoughts": "full spectrum balance",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 9,
+          "song": {
+            "title": "Qué Pasaría...",
+            "artist": "Rauw Alejandro",
+            "isrc": "USQX92404984",
+            "score": 0.4281698494042645
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "sits in the true middle",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "leans more dark then brigth, ubt spanish adds pop",
+            "possibleIssues": ["genre bais"],
+            "semanticThoughts": "upbeat pattern for some contrast",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 10,
+          "song": {
+            "title": "Dancing in the Moonlight",
+            "artist": "King Harvest",
+            "isrc": "USY4W0610011",
+            "score": 0.4346333385082973
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "smooth with some color and life",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "good true balance",
+            "possibleIssues": [],
+            "semanticThoughts": "balenced",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        }
+      ],
+      "feature_note": [
+        "I started by doing this on how colorful it was and the perscieverd light level, but then I realized it was more about texture, but I this very in your face songs have bright pop to them with sharp fast ligth tones, but the slower but lighter in cor songs are hard, but they are soft in tone, I think this is a hard feature to list for since it is too far from the human label"
+      ]
+    },
+    {
+      "featureName": "pulse_score_v1",
+      "featureDescription": "Experimental composite feature intended to represent rhythmic clarity/drive and groove stability.",
+      "questionsToConsider": [
+        "Does the song have a strong rhythmic drive?",
+        "Is the pulse clear and stable?",
+        "Does the song feel dance/groove-oriented?",
+        "Does complexity reduce pulse clarity?"
+      ],
+      "validationEntries": [
+        {
+          "group": "high",
+          "rank": 1,
+          "song": {
+            "title": "Clint Eastwood - Ed Case / Sweetie Irie Refix",
+            "artist": "Gorillaz",
+            "isrc": "GBAYE1400479",
+            "score": 0.900070715261417
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "one simple but loud driver, dancebale, groovy funky, and layered with patterns",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "very steady in beat and repeatieve",
+            "possibleIssues": ["steady and repeative"],
+            "semanticThoughts": "steady and repateive",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 2,
+          "song": {
+            "title": "Drank & Drugs",
+            "artist": "Lil Kleine",
+            "isrc": "NLG661500224",
+            "score": 0.8960857878232475
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "one simple loud present beat",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "one steady loud beat layered on well",
+            "possibleIssues": ["punchy"],
+            "semanticThoughts": "steady, punchy",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 3,
+          "song": {
+            "title": "Take It",
+            "artist": "Dom Dolla",
+            "isrc": "AUDCB1701202",
+            "score": 0.891366056356513
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "loud, steady repeative beat that is layered on",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "evolves into differnet parts but each of pulsy",
+            "possibleIssues": ["repetiive and switches"],
+            "semanticThoughts": "two many catchy interesting parts",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 4,
+          "song": {
+            "title": "Rhyme Dust",
+            "artist": "MK",
+            "isrc": "GBARL2300220",
+            "score": 0.8804724799928466
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "repreative catchy funky intresting",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "different parts that last long in layers creating that repeative pulse",
+            "possibleIssues": ["builds"],
+            "semanticThoughts": "repative parts",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 5,
+          "song": {
+            "title": "It's A Killa",
+            "artist": "FISHER",
+            "isrc": "QM24S2200746",
+            "score": 0.8641460373629074
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "repeative and builds",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "builds into differnet parts taht add funk and energy but still pulsey",
+            "possibleIssues": ["builds and many uniue solo sounds"],
+            "semanticThoughts": "like an exebition song that is like a sound museusm but builds well",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 6,
+          "song": {
+            "title": "Crowd Control",
+            "artist": "FISHER",
+            "isrc": "GBKQU1810626",
+            "score": 0.8621557013693
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "steady minimal beat",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "steady with not much but is interesting and infectious",
+            "possibleIssues": ["builds"],
+            "semanticThoughts": "infectious on a steady beat with cool sounds",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 7,
+          "song": {
+            "title": "Can't Get You Out of My Head",
+            "artist": "Kylie Minogue",
+            "isrc": "GBAYE0100913",
+            "score": 0.8545609192128476
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "simple catchy bassline",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "catchy repateive bassline that can be liented to all song",
+            "possibleIssues": ["singing and vocals"],
+            "semanticThoughts": "very catchy and layered well",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 8,
+          "song": {
+            "title": "Something Here for the Club - Vocal",
+            "artist": "Terrence Parker",
+            "isrc": "USAT22403023",
+            "score": 0.8514865382492266
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "very catchyb groovy infectious interesting repeaerive sound",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "very steady, carries whole song",
+            "possibleIssues": [],
+            "semanticThoughts": "very catchy and groovy",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 9,
+          "song": {
+            "title": "The Beat Goes On",
+            "artist": "Bob Sinclar",
+            "isrc": "FR6V80309921",
+            "score": 0.8435258391540758
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "this is a disco song, but the beat is a litte more hidden",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "it is repreative, but it is so desnse with song and long sections that it looses some",
+            "possibleIssues": ["long parts"],
+            "semanticThoughts": "slower repeateive with more layers",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 10,
+          "song": {
+            "title": "Go Stupid",
+            "artist": "Polo G",
+            "isrc": "USQX92000261",
+            "score": 0.8387481203414404
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "steady full choppy easy beat",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "beat and flow is pattren and punchy and choppy",
+            "possibleIssues": [],
+            "semanticThoughts": "reative but diffeent good rapping",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 1,
+          "song": {
+            "title": "Danse macabre, Op. 40",
+            "artist": "Camille Saint-Saëns",
+            "isrc": "GBF078010150",
+            "score": 0.08514276219757343
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "evolving sound that cahnges enough in the section, but it has a building aspect",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "repeateive parts, but they layer in loud and intesnty",
+            "possibleIssues": ["builds and progresses"],
+            "semanticThoughts": "repeative parts each add on a new aspect making it new",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 2,
+          "song": {
+            "title": "The Nutcracker (Suite), Op. 71a, TH. 35: 3. Waltz of the Flowers",
+            "artist": "Pyotr Ilyich Tchaikovsky",
+            "isrc": "DEF058203578",
+            "score": 0.10003694559419314
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "builds on same parts but each part is diffeent enough to be its own",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "evolves",
+            "possibleIssues": ["dynamic"],
+            "semanticThoughts": "builds into new parts wit the same",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 3,
+          "song": {
+            "title": "RIZZ",
+            "artist": "AYYBO",
+            "isrc": "QZVEM2366898",
+            "score": 0.1445354012426004
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": false,
+            "heardDescription": "there is a distinct groovy backbeat that caries the song, it is soft but there",
+            "doesFeatureMatch": false,
+            "confidence": true,
+            "notes": "switches with long parts but on steady beat",
+            "possibleIssues": ["soft"],
+            "semanticThoughts": "switches with long parts but on steady beat",
+            "wouldKeepFeatureBehavior": false,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 4,
+          "song": {
+            "title": "From The Stars",
+            "artist": "Mochakk",
+            "isrc": "GBCFB2401406",
+            "score": 0.21673781858158872
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": null,
+            "heardDescription": "distinct back beat and steady ryrhm pattern",
+            "doesFeatureMatch": false,
+            "confidence": null,
+            "notes": "steady backbeat and order",
+            "possibleIssues": ["not as repetitive"],
+            "semanticThoughts": "builds alot to differet parts, so there is some switching, but also some pulse within",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 5,
+          "song": {
+            "title": "Maybe Your Baby",
+            "artist": "Stevie Wonder",
+            "isrc": "USMO17282853",
+            "score": 0.2495489339914239
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": null,
+            "heardDescription": "its alot of sounds",
+            "doesFeatureMatch": null,
+            "confidence": false,
+            "notes": "it is in a distinct reythmaic pattern but it also changes alot",
+            "possibleIssues": ["layers"],
+            "semanticThoughts": "it has steady evoliving energy witha steady swing",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 6,
+          "song": {
+            "title": "Kingdom Dance - From \"Tangled\"/Score",
+            "artist": "Alan Menken",
+            "isrc": "USWD11054906",
+            "score": 0.2597938595731161
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "it has a cadenance and punchness on the first beat but it evolves so muhc",
+            "doesFeatureMatch": true,
+            "confidence": null,
+            "notes": "has such a large switch",
+            "possibleIssues": ["evolves"],
+            "semanticThoughts": "is has patterns that evolve and play so much that it is ahrd to tell",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 7,
+          "song": {
+            "title": "Strings of Life",
+            "artist": "Derrick May",
+            "isrc": "BEZ350800105",
+            "score": 0.26893830390798384
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": false,
+            "heardDescription": "there is a very steady beat and back beat",
+            "doesFeatureMatch": false,
+            "confidence": false,
+            "notes": "there is a very present back beat but it eveolevs os much, so I cant tell if that counts as pulsing since it cahnges througghtout he song",
+            "possibleIssues": ["repeative but eveoling"],
+            "semanticThoughts": "repeative and catchy and progessigin, 3 parts",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 8,
+          "song": {
+            "title": "Beyond the Sea",
+            "artist": "Bobby Darin",
+            "isrc": "USEW10000026",
+            "score": 0.28824425295416833
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "distinct backbeat the song is built on",
+            "doesFeatureMatch": true,
+            "confidence": null,
+            "notes": "the beat evoloves so it is hard to tell, it grows so much",
+            "possibleIssues": ["backbeat"],
+            "semanticThoughts": "alot of progression",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 9,
+          "song": {
+            "title": "Deslocado",
+            "artist": "NAPA",
+            "isrc": "PTUM72500004",
+            "score": 0.2885691470903278
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "very flow, we a large evolving sound",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "very flowy in its progression",
+            "possibleIssues": [],
+            "semanticThoughts": "very dynmaic and evolving",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 10,
+          "song": {
+            "title": "Superstition",
+            "artist": "Stevie Wonder",
+            "isrc": "USMO17200984",
+            "score": 0.2889247218833085
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "it is a very layered and semi repaeteive groovy beat, that is very full and techinaly",
+            "doesFeatureMatch": false,
+            "confidence": null,
+            "notes": "song is rich and adding alot, is is more medium to me",
+            "possibleIssues": ["different parts"],
+            "semanticThoughts": "very layered repeateive parts at different times",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 1,
+          "song": {
+            "title": "Liquor & Cigarettes (feat. ArrDee)",
+            "artist": "Chase & Status",
+            "isrc": "GBUM72307879",
+            "score": 0.6141626336542181
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "2 semi repeateive parts taht evolove enough to be both",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "steady beat with many sounds on it",
+            "possibleIssues": ["switches"],
+            "semanticThoughts": "dnb is always steady",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 2,
+          "song": {
+            "title": "Griztronics",
+            "artist": "GRiZ",
+            "isrc": "CAUM81900241",
+            "score": 0.6175328079781928
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "many sections of intense sounds, it some paterns",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "many parts and sounds with some patterns",
+            "possibleIssues": ["switches"],
+            "semanticThoughts": "so rich and dense it sounds and aprts",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 3,
+          "song": {
+            "title": "Scream & Shout",
+            "artist": "will.i.am",
+            "isrc": "USUM71215597",
+            "score": 0.6233958487653761
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": null,
+            "heardDescription": "it has a steady back beat it is built on",
+            "doesFeatureMatch": true,
+            "confidence": null,
+            "notes": "it has a stready back beat but it carries alot",
+            "possibleIssues": ["backbeat"],
+            "semanticThoughts": "underdriver deleivers the energy making it pulsy",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 4,
+          "song": {
+            "title": "Forget You",
+            "artist": "FAST BOY",
+            "isrc": "DEUM72300002",
+            "score": 0.6269226190876561
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "semi repeative but building enough",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "builds and layers well",
+            "possibleIssues": ["edm"],
+            "semanticThoughts": "switches and layers well",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 5,
+          "song": {
+            "title": "50//50",
+            "artist": "Vantage",
+            "isrc": "QZES51852621",
+            "score": 0.6303803512539725
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "many differrt repetive parts that evolve and are dense",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "so dense",
+            "possibleIssues": ["repeative"],
+            "semanticThoughts": "builds and switches",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 6,
+          "song": {
+            "title": "Drag Me Down",
+            "artist": "One Direction",
+            "isrc": "GBHMU1500070",
+            "score": 0.632423942600154
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "steady bassline, but not the driver",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "steady but evolving",
+            "possibleIssues": [],
+            "semanticThoughts": "many parts that layer",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 7,
+          "song": {
+            "title": "Aerodynamic",
+            "artist": "Daft Punk",
+            "isrc": "GBDUW0000057",
+            "score": 0.6340046607459967
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "steady but building in a dymanic way",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "builds so muc and changes",
+            "possibleIssues": ["long parts"],
+            "semanticThoughts": "dense many sounds",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 8,
+          "song": {
+            "title": "Get Low",
+            "artist": "Lil Jon & The East Side Boyz",
+            "isrc": "USTV10200084",
+            "score": 0.6343889069043789
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "presnet parttern but it builds and eveolves so much",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "different and cahnges enough",
+            "possibleIssues": [],
+            "semanticThoughts": "intereting",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 9,
+          "song": {
+            "title": "I Can't Decide",
+            "artist": "Scissor Sisters",
+            "isrc": "GBUM70602614",
+            "score": 0.6346928518710256
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "steady backbeat but also other aprts",
+            "doesFeatureMatch": true,
+            "confidence": null,
+            "notes": "it is repeative but also cahgnes at parts and is so full with noise",
+            "possibleIssues": [],
+            "semanticThoughts": "dense",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 10,
+          "song": {
+            "title": "Moskau",
+            "artist": "Dschinghis Khan",
+            "isrc": "DEC717900024",
+            "score": 0.6358532575436504
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "eovling over time with steady backbeat",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "maybe even low pulse rate",
+            "possibleIssues": [],
+            "semanticThoughts": "long parts but so different that losses pulse",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        }
+      ],
+      "feature_note": [
+        "I was basesing this off a few things, but a main one was the backbeat, and how crutial it was to the song, like was it the main driver and how steady and groove was it, but repeativeitve aslo got points, it felt hard to disprove beaceu must songs have a backbeat and it often is important, so I might have rejcted too much"
+      ]
+    },
+    {
+      "featureName": "vocal_presence_score_v1",
+      "featureDescription": "Experimental composite feature intended to represent vocal prominence (orientation may be uncertain).",
+      "questionsToConsider": [
+        "Does the song actually feel vocal-heavy?",
+        "Does the feature appear inverted?",
+        "Does the feature seem to measure instrumentalness instead?",
+        "Does speech affect the score unexpectedly?"
+      ],
+      "validationEntries": [
+        {
+          "group": "high",
+          "rank": 1,
+          "song": {
+            "title": "RIZZ",
+            "artist": "AYYBO",
+            "isrc": "QZVEM2366898",
+            "score": 0.624559719629145
+          },
+          "humanReview": {
+            "listened": false,
+            "heardRating": null,
+            "heardDescription": "",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "",
+            "possibleIssues": [],
+            "semanticThoughts": "",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 2,
+          "song": {
+            "title": "Veridis Quo",
+            "artist": "Daft Punk",
+            "isrc": "GBDUW0000066",
+            "score": 0.606941041812201
+          },
+          "humanReview": {
+            "listened": false,
+            "heardRating": null,
+            "heardDescription": "",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "",
+            "possibleIssues": [],
+            "semanticThoughts": "",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 3,
+          "song": {
+            "title": "The Nutcracker (Suite), Op. 71a, TH. 35: 3. Waltz of the Flowers",
+            "artist": "Pyotr Ilyich Tchaikovsky",
+            "isrc": "DEF058203578",
+            "score": 0.5873004050631985
+          },
+          "humanReview": {
+            "listened": false,
+            "heardRating": null,
+            "heardDescription": "",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "",
+            "possibleIssues": [],
+            "semanticThoughts": "",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 4,
+          "song": {
+            "title": "Robot Rock",
+            "artist": "Daft Punk",
+            "isrc": "GBDUW0400103",
+            "score": 0.58251488165311
+          },
+          "humanReview": {
+            "listened": false,
+            "heardRating": null,
+            "heardDescription": "",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "",
+            "possibleIssues": [],
+            "semanticThoughts": "",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 5,
+          "song": {
+            "title": "Cut Dick",
+            "artist": "Mr. Oizo",
+            "isrc": "FR0NT0800750",
+            "score": 0.5627739358168524
+          },
+          "humanReview": {
+            "listened": false,
+            "heardRating": null,
+            "heardDescription": "",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "",
+            "possibleIssues": [],
+            "semanticThoughts": "",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 6,
+          "song": {
+            "title": "Come To Me",
+            "artist": "Black Coffee",
+            "isrc": "ZAI911600033",
+            "score": 0.5563732496005007
+          },
+          "humanReview": {
+            "listened": false,
+            "heardRating": null,
+            "heardDescription": "",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "",
+            "possibleIssues": [],
+            "semanticThoughts": "",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 7,
+          "song": {
+            "title": "Danse macabre, Op. 40",
+            "artist": "Camille Saint-Saëns",
+            "isrc": "GBF078010150",
+            "score": 0.5538158453543112
+          },
+          "humanReview": {
+            "listened": false,
+            "heardRating": null,
+            "heardDescription": "",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "",
+            "possibleIssues": [],
+            "semanticThoughts": "",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 8,
+          "song": {
+            "title": "Crowd Control",
+            "artist": "FISHER",
+            "isrc": "GBKQU1810626",
+            "score": 0.5062016965104019
+          },
+          "humanReview": {
+            "listened": false,
+            "heardRating": null,
+            "heardDescription": "",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "",
+            "possibleIssues": [],
+            "semanticThoughts": "",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 9,
+          "song": {
+            "title": "Kingdom Dance - From \"Tangled\"/Score",
+            "artist": "Alan Menken",
+            "isrc": "USWD11054906",
+            "score": 0.4881946743585378
+          },
+          "humanReview": {
+            "listened": false,
+            "heardRating": null,
+            "heardDescription": "",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "",
+            "possibleIssues": [],
+            "semanticThoughts": "",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 10,
+          "song": {
+            "title": "Give Life Back to Music (Drumless Edition)",
+            "artist": "Daft Punk",
+            "isrc": "GBDUW2300090",
+            "score": 0.4769034047693117
+          },
+          "humanReview": {
+            "listened": false,
+            "heardRating": null,
+            "heardDescription": "",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "",
+            "possibleIssues": [],
+            "semanticThoughts": "",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 1,
+          "song": {
+            "title": "I Want It That Way",
+            "artist": "Backstreet Boys",
+            "isrc": "USJI19910614",
+            "score": 0.0025353196251223947
+          },
+          "humanReview": {
+            "listened": false,
+            "heardRating": null,
+            "heardDescription": "",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "",
+            "possibleIssues": [],
+            "semanticThoughts": "",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 2,
+          "song": {
+            "title": "Jungle",
+            "artist": "Alok",
+            "isrc": "DEE862301476",
+            "score": 0.009063039119690398
+          },
+          "humanReview": {
+            "listened": false,
+            "heardRating": null,
+            "heardDescription": "",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "",
+            "possibleIssues": [],
+            "semanticThoughts": "",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 3,
+          "song": {
+            "title": "The Longest Time",
+            "artist": "Billy Joel",
+            "isrc": "USSM18300273",
+            "score": 0.018431607911816892
+          },
+          "humanReview": {
+            "listened": false,
+            "heardRating": null,
+            "heardDescription": "",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "",
+            "possibleIssues": [],
+            "semanticThoughts": "",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 4,
+          "song": {
+            "title": "I Can't Help Myself (Sugar Pie, Honey Bunch)",
+            "artist": "Four Tops",
+            "isrc": "USMO16582593",
+            "score": 0.027535903919504383
+          },
+          "humanReview": {
+            "listened": false,
+            "heardRating": null,
+            "heardDescription": "",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "",
+            "possibleIssues": [],
+            "semanticThoughts": "",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 5,
+          "song": {
+            "title": "The Lion Sleeps Tonight (Wimoweh)",
+            "artist": "The Tokens",
+            "isrc": "USRC16100933",
+            "score": 0.031012328187569497
+          },
+          "humanReview": {
+            "listened": false,
+            "heardRating": null,
+            "heardDescription": "",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "",
+            "possibleIssues": [],
+            "semanticThoughts": "",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 6,
+          "song": {
+            "title": "Abracadabra",
+            "artist": "Steve Miller Band",
+            "isrc": "USCA28500258",
+            "score": 0.03475112409850744
+          },
+          "humanReview": {
+            "listened": false,
+            "heardRating": null,
+            "heardDescription": "",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "",
+            "possibleIssues": [],
+            "semanticThoughts": "",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 7,
+          "song": {
+            "title": "Glad You Came - 2021 Master",
+            "artist": "The Wanted",
+            "isrc": "GBUM72105737",
+            "score": 0.03514468156281669
+          },
+          "humanReview": {
+            "listened": false,
+            "heardRating": null,
+            "heardDescription": "",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "",
+            "possibleIssues": [],
+            "semanticThoughts": "",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 8,
+          "song": {
+            "title": "Centerfold",
+            "artist": "The J. Geils Band",
+            "isrc": "USCA28100075",
+            "score": 0.03863422441302544
+          },
+          "humanReview": {
+            "listened": false,
+            "heardRating": null,
+            "heardDescription": "",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "",
+            "possibleIssues": [],
+            "semanticThoughts": "",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 9,
+          "song": {
+            "title": "Feather",
+            "artist": "Sabrina Carpenter",
+            "isrc": "USUM72301876",
+            "score": 0.03925079777377661
+          },
+          "humanReview": {
+            "listened": false,
+            "heardRating": null,
+            "heardDescription": "",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "",
+            "possibleIssues": [],
+            "semanticThoughts": "",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 10,
+          "song": {
+            "title": "Grease - From “Grease”",
+            "artist": "Frankie Valli",
+            "isrc": "NLF057890001",
+            "score": 0.03930327210235118
+          },
+          "humanReview": {
+            "listened": false,
+            "heardRating": null,
+            "heardDescription": "",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "",
+            "possibleIssues": [],
+            "semanticThoughts": "",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 1,
+          "song": {
+            "title": "Gangnam Style (강남스타일)",
+            "artist": "PSY",
+            "isrc": "USUM71210283",
+            "score": 0.12332779073237765
+          },
+          "humanReview": {
+            "listened": false,
+            "heardRating": null,
+            "heardDescription": "",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "",
+            "possibleIssues": [],
+            "semanticThoughts": "",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 2,
+          "song": {
+            "title": "Qué Pasaría...",
+            "artist": "Rauw Alejandro",
+            "isrc": "USQX92404984",
+            "score": 0.12420643295714395
+          },
+          "humanReview": {
+            "listened": false,
+            "heardRating": null,
+            "heardDescription": "",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "",
+            "possibleIssues": [],
+            "semanticThoughts": "",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 3,
+          "song": {
+            "title": "Disconnect",
+            "artist": "Becky Hill",
+            "isrc": "GBUM72306588",
+            "score": 0.12701825333172043
+          },
+          "humanReview": {
+            "listened": false,
+            "heardRating": null,
+            "heardDescription": "",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "",
+            "possibleIssues": [],
+            "semanticThoughts": "",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 4,
+          "song": {
+            "title": "Dancing in the Moonlight",
+            "artist": "King Harvest",
+            "isrc": "USY4W0610011",
+            "score": 0.13005620530040457
+          },
+          "humanReview": {
+            "listened": false,
+            "heardRating": null,
+            "heardDescription": "",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "",
+            "possibleIssues": [],
+            "semanticThoughts": "",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 5,
+          "song": {
+            "title": "Self Esteem",
+            "artist": "The Offspring",
+            "isrc": "USEP40312208",
+            "score": 0.14010645729409568
+          },
+          "humanReview": {
+            "listened": false,
+            "heardRating": null,
+            "heardDescription": "",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "",
+            "possibleIssues": [],
+            "semanticThoughts": "",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 6,
+          "song": {
+            "title": "No Scrubs",
+            "artist": "TLC",
+            "isrc": "USLF29900479",
+            "score": 0.1420465303722227
+          },
+          "humanReview": {
+            "listened": false,
+            "heardRating": null,
+            "heardDescription": "",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "",
+            "possibleIssues": [],
+            "semanticThoughts": "",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 7,
+          "song": {
+            "title": "One More Time",
+            "artist": "Daft Punk",
+            "isrc": "GBDUW0000053",
+            "score": 0.1444723207777726
+          },
+          "humanReview": {
+            "listened": false,
+            "heardRating": null,
+            "heardDescription": "",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "",
+            "possibleIssues": [],
+            "semanticThoughts": "",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 8,
+          "song": {
+            "title": "Still Sleepless",
+            "artist": "D.O.D",
+            "isrc": "GBKCF2101056",
+            "score": 0.14513079821632918
+          },
+          "humanReview": {
+            "listened": false,
+            "heardRating": null,
+            "heardDescription": "",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "",
+            "possibleIssues": [],
+            "semanticThoughts": "",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 9,
+          "song": {
+            "title": "Angel",
+            "artist": "Dimension",
+            "isrc": "UKFTL1600316",
+            "score": 0.14782707456610486
+          },
+          "humanReview": {
+            "listened": false,
+            "heardRating": null,
+            "heardDescription": "",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "",
+            "possibleIssues": [],
+            "semanticThoughts": "",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 10,
+          "song": {
+            "title": "Maybe Your Baby",
+            "artist": "Stevie Wonder",
+            "isrc": "USMO17282853",
+            "score": 0.15052113409294854
+          },
+          "humanReview": {
+            "listened": false,
+            "heardRating": null,
+            "heardDescription": "",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "",
+            "possibleIssues": [],
+            "semanticThoughts": "",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        }
+      ],
+      "feature_note": [
+        "I just did a scan over this one, it is definialy inverted, where the low score means vocals, and it was decent here with its assesments, everything seemed correct, knowing that we will support this in other ways, this seems liked a good bassline, and everything seemed placed right, so say put true for all"
+      ]
+    },
+    {
+      "featureName": "density_score_v1",
+      "featureDescription": "Experimental composite feature intended to represent perceived density/fullness/layering.",
+      "questionsToConsider": [
+        "Does the song feel dense/full/layered?",
+        "Does the feature feel more like complexity?",
+        "Does the feature feel more like arrangement busyness?",
+        "Does the score align with perceived sonic fullness?"
+      ],
+      "validationEntries": [
+        {
+          "group": "high",
+          "rank": 1,
+          "song": {
+            "title": "Strings of Life",
+            "artist": "Derrick May",
+            "isrc": "BEZ350800105",
+            "score": 0.6514327175561492
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "it is not the most dense, but it is more then less",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "it is decently full",
+            "possibleIssues": [],
+            "semanticThoughts": "not a strong example but one",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 2,
+          "song": {
+            "title": "Self Esteem",
+            "artist": "The Offspring",
+            "isrc": "USEP40312208",
+            "score": 0.6501654044766607
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "its full in some parts, and heavy not extremely complex, but more dense then not",
+            "doesFeatureMatch": true,
+            "confidence": null,
+            "notes": "its more dense then not",
+            "possibleIssues": [],
+            "semanticThoughts": "not fully complex",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 3,
+          "song": {
+            "title": "RIZZ",
+            "artist": "AYYBO",
+            "isrc": "QZVEM2366898",
+            "score": 0.6142762701628761
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "this is neutrul ",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "it is more in the middle due to a balance",
+            "possibleIssues": [],
+            "semanticThoughts": "not the most",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 4,
+          "song": {
+            "title": "Superstition",
+            "artist": "Stevie Wonder",
+            "isrc": "USMO17200984",
+            "score": 0.5970801060927924
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "this is a dense full sound, that is complex",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "this is a good example",
+            "possibleIssues": [],
+            "semanticThoughts": "many different parts, crowded sound",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 5,
+          "song": {
+            "title": "Lean Beef Patty",
+            "artist": "JPEGMAFIA",
+            "isrc": "QM4TX2330850",
+            "score": 0.5952051777585139
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "this is very dense in the differnet sounds and types and quailtys,",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "good example",
+            "possibleIssues": [],
+            "semanticThoughts": "it is very complex znd all overthe place",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 6,
+          "song": {
+            "title": "Kingdom Dance - From \"Tangled\"/Score",
+            "artist": "Alan Menken",
+            "isrc": "USWD11054906",
+            "score": 0.5916807619477376
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "very full of parts and sounds",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "good example",
+            "possibleIssues": [],
+            "semanticThoughts": "very full and changing",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 7,
+          "song": {
+            "title": "Thrift Shop (feat. Wanz)",
+            "artist": "Macklemore & Ryan Lewis",
+            "isrc": "GMM881200003",
+            "score": 0.5827376383474104
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": null,
+            "heardDescription": "this is more nutreul, nothing is super complex, its just afew layers",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "its more in. the true middle, but it is more dense then not",
+            "possibleIssues": [],
+            "semanticThoughts": "many layers",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 8,
+          "song": {
+            "title": "Baker Street",
+            "artist": "Gerry Rafferty",
+            "isrc": "GBAYE7800619",
+            "score": 0.5710603632553021
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "this has a very full sound that overpowers within the layers",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "it is so grand and overpowering, but it switches fully",
+            "possibleIssues": [],
+            "semanticThoughts": "different parts are differnet densiites, so its very dynamic",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 9,
+          "song": {
+            "title": "One More Time",
+            "artist": "Daft Punk",
+            "isrc": "GBDUW0000053",
+            "score": 0.5690071871039111
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "its vey layered with decently complex sounds, not the msot dense but dense",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "not the msot dense but still fits",
+            "possibleIssues": [],
+            "semanticThoughts": "complex layers, but not crowded, everything is perfect",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "high",
+          "rank": 10,
+          "song": {
+            "title": "Maybe Your Baby",
+            "artist": "Stevie Wonder",
+            "isrc": "USMO17282853",
+            "score": 0.5643848753843169
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "many layers and complex sounds",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "many things, crowded",
+            "possibleIssues": [],
+            "semanticThoughts": "very full",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 1,
+          "song": {
+            "title": "Rhyme Dust",
+            "artist": "MK",
+            "isrc": "GBARL2300220",
+            "score": 0.17357345377233022
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "simple parts, that are loud",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "very simple",
+            "possibleIssues": [],
+            "semanticThoughts": "minial",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 2,
+          "song": {
+            "title": "Cut Dick",
+            "artist": "Mr. Oizo",
+            "isrc": "FR0NT0800750",
+            "score": 0.18991261593105174
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "this is not many layerrs, but very complex sounds",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "it has a compelx sounds that fills alot, but its not with layers",
+            "possibleIssues": [],
+            "semanticThoughts": "interesting example",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 3,
+          "song": {
+            "title": "Can't Get You Out of My Head",
+            "artist": "Kylie Minogue",
+            "isrc": "GBAYE0100913",
+            "score": 0.2325728232003129
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": null,
+            "heardDescription": "this is more middle, since it has a decnet amout of layers and souunds",
+            "doesFeatureMatch": false,
+            "confidence": null,
+            "notes": "not very empty",
+            "possibleIssues": [],
+            "semanticThoughts": "complex, but not many parts",
+            "wouldKeepFeatureBehavior": null,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 4,
+          "song": {
+            "title": "Take It",
+            "artist": "Dom Dolla",
+            "isrc": "AUDCB1701202",
+            "score": 0.23578991427034163
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "not many parts but complex parts",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "minial but good sounds",
+            "possibleIssues": [],
+            "semanticThoughts": "minimal",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 5,
+          "song": {
+            "title": "にんじゃりばんばん",
+            "artist": "Kyary Pamyu Pamyu",
+            "isrc": "JPWP01370323",
+            "score": 0.24347857369867104
+          },
+          "humanReview": {
+            "listened": false,
+            "heardRating": false,
+            "heardDescription": "this is a very dense song with a full and crowded sound",
+            "doesFeatureMatch": false,
+            "confidence": true,
+            "notes": "very loud and full",
+            "possibleIssues": [],
+            "semanticThoughts": "many sounds and compelx sounds",
+            "wouldKeepFeatureBehavior": false,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 6,
+          "song": {
+            "title": "Drank & Drugs",
+            "artist": "Lil Kleine",
+            "isrc": "NLG661500224",
+            "score": 0.24377004679086672
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "not many sounds",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "good example, with few simple layers",
+            "possibleIssues": [],
+            "semanticThoughts": "very simple",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 7,
+          "song": {
+            "title": "Veridis Quo",
+            "artist": "Daft Punk",
+            "isrc": "GBDUW0000066",
+            "score": 0.24490213210806483
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "it has layering, and transiations, bt not dense",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "it has transitions",
+            "possibleIssues": [],
+            "semanticThoughts": "minimal",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 8,
+          "song": {
+            "title": "Hey Ya!",
+            "artist": "Outkast",
+            "isrc": "USAR10301095",
+            "score": 0.25086025404765383
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "it is not full of sounfs, but it does have loud sounds",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "interesting sounds",
+            "possibleIssues": [],
+            "semanticThoughts": "complex sounds but not many",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 9,
+          "song": {
+            "title": "It's A Killa",
+            "artist": "FISHER",
+            "isrc": "QM24S2200746",
+            "score": 0.25138555443433
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "minimal layers",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "many sounds, but so spare",
+            "possibleIssues": [],
+            "semanticThoughts": "minimal",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "low",
+          "rank": 10,
+          "song": {
+            "title": "Something Here for the Club - Vocal",
+            "artist": "Terrence Parker",
+            "isrc": "USAT22403023",
+            "score": 0.2608472206130525
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "minimal complex sounds",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "good example",
+            "possibleIssues": [],
+            "semanticThoughts": "",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 1,
+          "song": {
+            "title": "Strawberry Letter 23",
+            "artist": "The Brothers Johnson",
+            "isrc": "USAM17700852",
+            "score": 0.37813705838493417
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "layered complex but not crowded",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "full but not crowded",
+            "possibleIssues": [],
+            "semanticThoughts": "",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 2,
+          "song": {
+            "title": "Get Low",
+            "artist": "Lil Jon & The East Side Boyz",
+            "isrc": "USTV10200084",
+            "score": 0.3797961426666878
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "not super full but not empty",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "good balance",
+            "possibleIssues": [],
+            "semanticThoughts": "true middle",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 3,
+          "song": {
+            "title": "16",
+            "artist": "Baby Keem",
+            "isrc": "USSM12106871",
+            "score": 0.38054443408560146
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "not many sounds, more in the less dense but some good layering",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "layered in a full way, but simple sounds",
+            "possibleIssues": [],
+            "semanticThoughts": "layered",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 4,
+          "song": {
+            "title": "Heat Waves",
+            "artist": "Glass Animals",
+            "isrc": "GBUM72000433",
+            "score": 0.38563963657034245
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "not many sounds, but they are interesting",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "less dense then more",
+            "possibleIssues": [],
+            "semanticThoughts": "not super complexed nor layered",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 5,
+          "song": {
+            "title": "The Beat Goes On",
+            "artist": "Bob Sinclar",
+            "isrc": "FR6V80309921",
+            "score": 0.3863938206087919
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "layered, more then less dense",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "has a decent amount of sounds",
+            "possibleIssues": [],
+            "semanticThoughts": "not super layered, pretty simple",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 6,
+          "song": {
+            "title": "Take Me as I Am",
+            "artist": "Chris Lorenzo",
+            "isrc": "FR96X1965659",
+            "score": 0.39060122208021597
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": false,
+            "heardDescription": "this is pretty simple, with minil alters",
+            "doesFeatureMatch": null,
+            "confidence": null,
+            "notes": "it has a dense drop so weird balaance",
+            "possibleIssues": [],
+            "semanticThoughts": "big switch in type of sound, but minal",
+            "wouldKeepFeatureBehavior": false,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 7,
+          "song": {
+            "title": "I Need Your Love",
+            "artist": "Calvin Harris",
+            "isrc": "GBARL1201390",
+            "score": 0.39650834063976764
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "some sounds but not too many, but dynaimc",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "good balacne",
+            "possibleIssues": [],
+            "semanticThoughts": "",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 8,
+          "song": {
+            "title": "Wild",
+            "artist": "James Hype",
+            "isrc": "US38Y2405797",
+            "score": 0.3970584816861375
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "not many layers ut complex sounds",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "good nueturl",
+            "possibleIssues": [],
+            "semanticThoughts": "",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 9,
+          "song": {
+            "title": "Wasted",
+            "artist": "Tiësto",
+            "isrc": "CYA111400022",
+            "score": 0.3991229267990518
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "builds to decent dense but not super full",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "good balance but more dense then not",
+            "possibleIssues": [],
+            "semanticThoughts": "switches",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        },
+        {
+          "group": "median",
+          "rank": 10,
+          "song": {
+            "title": "Forget You",
+            "artist": "FAST BOY",
+            "isrc": "DEUM72300002",
+            "score": 0.40084682237912284
+          },
+          "humanReview": {
+            "listened": true,
+            "heardRating": true,
+            "heardDescription": "good balance",
+            "doesFeatureMatch": true,
+            "confidence": true,
+            "notes": "good example",
+            "possibleIssues": [],
+            "semanticThoughts": "",
+            "wouldKeepFeatureBehavior": true,
+            "suggestedFeatureChanges": "",
+            "possibleFeatureRename": ""
+          }
+        }
+      ],
+      "feature_note": [
+          "I based this off of how crowded the song was and how complex the sound was, with a full song meaning many differnt small sounds or simple sounds, or many big complex, but not needing as much, a balanced song has parts typleically, and not dense is jsut minmal with lkow parts even if complex"
+      ]
+    }
+  ]
+}
