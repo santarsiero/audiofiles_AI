@@ -10,6 +10,11 @@ function isRateLimited(providerResult) {
   return err.includes('(429)') || err.toLowerCase().includes('rate limit') || err.includes('429');
 }
 
+function rowWasRateLimited(row) {
+  if (!row || typeof row !== 'object') return false;
+  return isRateLimited(row.musicStory);
+}
+
 function readJson(p) {
   return JSON.parse(fs.readFileSync(p, 'utf8'));
 }
@@ -77,7 +82,9 @@ async function run() {
     // if the file explicitly has a stoppedAtIndex, resume after it; otherwise resume after the max index present
     const stoppedAt = typeof existing.stoppedAtIndex === 'number' ? existing.stoppedAtIndex : null;
     if (stoppedAt !== null) {
-      startIndex = stoppedAt + 1;
+      // If we stopped due to rate limit, we want to retry the same index on the next run
+      // (the 429 result is not useful descriptor data).
+      startIndex = existing.stoppedEarly ? stoppedAt : stoppedAt + 1;
     } else {
       startIndex = Math.max(...Array.from(existingIndexMap.keys())) + 1;
     }
@@ -94,8 +101,11 @@ async function run() {
     console.log(`[musicstory_batch] (${i + 1}/${batch.length}) ${label}`);
 
     if (resume && existingIndexMap.has(i)) {
-      // Already have a cached result for this index. Skip to avoid wasting API calls.
-      continue;
+      const existingRow = existingIndexMap.get(i);
+      if (!rowWasRateLimited(existingRow)) {
+        // Already have a cached non-rate-limited result for this index. Skip to avoid wasting API calls.
+        continue;
+      }
     }
 
     const providerResult = await fetchMusicStoryDescriptors(
