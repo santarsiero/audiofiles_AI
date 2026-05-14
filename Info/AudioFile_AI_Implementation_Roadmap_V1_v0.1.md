@@ -300,8 +300,8 @@ V1 is considered minimally successful when:
 
 ## 10. Immediate Next Action
 
-- Begin implementation in Windsurf
-- Confirm descriptor API provider selection before writing any integration code
-- Begin implementation with Input Handling and Descriptor Integration
-- Proceed through steps in order — do not skip ahead or parallelize steps
-- Do not expand features, labels, or APIs during this phase
+- Continue expanding cached descriptor coverage via batch runs (rate-limit-aware, resume-capable)
+- Calibrate and validate descriptor → dimension formulas against representative tracks
+- Tune conservative label firing thresholds and confidence propagation rules
+- Record systematic mismatches and failure patterns into the Experiment & Findings Log
+- Avoid expanding into new APIs or large new label sets until calibration behavior is stable

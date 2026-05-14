@@ -185,15 +185,14 @@ The system will likely combine descriptor inference, LLM fallback, and future va
 
 ## 10. Immediate Next Step
 
-**Build the minimal descriptor-based vertical slice.**
+**Calibrate and refine the descriptor → dimension → label inference pipeline.**
 
-- Select one descriptor API/provider to integrate
-- Define a limited set of normalized features derivable from that provider's output
-- Define a limited label subset that can be inferred from those features
-- Run the pipeline on a real song set
-- Compare outputs against existing LLM baseline batch
-- Identify failures, gaps, and discrepancies
+- Continue expanding cached descriptor coverage via batch runs (rate-limit-aware, resume-capable)
+- Validate and tune dimension formulas against representative tracks
+- Tune conservative label firing thresholds (precision over recall)
+- Validate confidence propagation behavior under missing descriptor coverage
+- Compare descriptor-derived outputs against the LLM baseline where useful, and log systematic mismatches
 
-This is validation work, not coverage work. The goal is to establish that the pipeline functions end-to-end and that the dimension-first approach is viable in practice.
+This is still validation work (controlled refinement), not coverage chasing. The goal is to produce stable, explainable V1 behavior from cached descriptor evidence.
 
-**Do NOT expand features, labels, or APIs during this step.**
+**Do NOT expand into new APIs or large new label sets until calibration behavior is stable.**
