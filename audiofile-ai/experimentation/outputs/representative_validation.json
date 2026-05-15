@@ -1,0 +1,42 @@
+{
+  "generatedAt": "2026-05-15T14:42:23.369Z",
+  "versions": {
+    "ontologyVersion": "audiofile-ontology-v0.1",
+    "mappingVersion": "descriptor-mapper-v0.1"
+  },
+  "cacheSummary": {
+    "filesAttempted": null,
+    "filesLoaded": 8,
+    "usableFilesLoaded": 8,
+    "totalEntries": 489,
+    "totalSuccesses": 306,
+    "totalFailures": 183,
+    "duplicateIsrcCount": 18,
+    "duplicateRecordingIdCount": 12,
+    "duplicateTitleArtistCount": 12
+  },
+  "summary": {
+    "requestedCount": 1,
+    "matchedCount": 0,
+    "missingCount": 1
+  },
+  "aggregate": {
+    "labelFireFrequency": [],
+    "avgConfidenceFired": [],
+    "missingFeatureFrequency": [],
+    "conflictFrequency": []
+  },
+  "tracks": [
+    {
+      "track": {
+        "artist": "",
+        "title": "",
+        "recordingId": null,
+        "expectedSemanticNotes": "",
+        "expectedLabels": [],
+        "comments": ""
+      },
+      "cacheHit": false
+    }
+  ]
+}

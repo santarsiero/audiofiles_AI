@@ -15,6 +15,13 @@ function loudnessToScore(lufs) {
   return clamp((n + 30) / 24, 0, 1);
 }
 
+function rolloffToScore(v) {
+  const n = toNumberOrNull(v);
+  if (n === null) return null;
+  if (n >= 0 && n <= 1) return clamp(n, 0, 1);
+  return clamp(n / 8000, 0, 1);
+}
+
 function computeSourceReliability(sourcesUsed) {
   let best = 0;
   for (const s of sourcesUsed) {
@@ -119,10 +126,18 @@ function normalizeFromDescriptors({ musicStory, acousticBrainz }) {
     { source: 'acousticbrainz', path: ['rhythm', 'rhythmic_stability'] }
   ]);
 
-  const loudnessScore = requireRaw('loudness', [{ source: 'music_story', path: ['loudness_lufs'] }], loudnessToScore);
+  const loudnessScore = requireRaw(
+    'loudness',
+    [
+      { source: 'music_story', path: ['loudness'] },
+      { source: 'music_story', path: ['absolute_loudness'] }
+    ],
+    loudnessToScore
+  );
 
   const spectralComplexity = require01('spectral_complexity', [
-    { source: 'music_story', path: ['spectral_complexity'] }
+    { source: 'music_story', path: ['spectral_complexity'] },
+    { source: 'music_story', path: ['complexity'] }
   ]);
 
   const timbralComplexity = require01('timbral_complexity', [
@@ -144,6 +159,8 @@ function normalizeFromDescriptors({ musicStory, acousticBrainz }) {
   const spectralRolloff = require01('spectral_rolloff', [
     { source: 'music_story', path: ['spectral_rolloff'] }
   ]);
+
+  const spectralRolloffFromPayload = requireRaw('spectral_rolloff', [{ source: 'music_story', path: ['roll_off'] }], rolloffToScore);
 
   const flatness = require01('flatness', [
     { source: 'music_story', path: ['flatness'] }
@@ -196,7 +213,12 @@ function normalizeFromDescriptors({ musicStory, acousticBrainz }) {
   const energyScore = computeEnergyScore({ arousal, intensity, loudnessScore, eventDensity, pulseClarity });
   const densityScore = computeDensityScore({ eventDensity, spectralComplexity, timbralComplexity, loudnessRange, intensity });
   const layeredScore = computeLayeredScore({ timbralComplexity, instrumentationDiversity, spectralComplexity, densityScore });
-  const brightnessScore = computeBrightnessScore({ spectralCentroidOrBrightness, spectralRolloff, flatness, valence });
+  const brightnessScore = computeBrightnessScore({
+    spectralCentroidOrBrightness,
+    spectralRolloff: spectralRolloff.available ? spectralRolloff : spectralRolloffFromPayload,
+    flatness,
+    valence
+  });
   const darknessScore = computeDarknessScore({ lowEndScore, brightnessScore, lowValenceScore });
   const pulseScore = computePulseScore({ pulseClarity, rhythmicStability });
   const drivingScore = computeDrivingScore({ pulseScore, energyScore, eventDensity, lowEndScore });
@@ -235,6 +257,33 @@ function normalizeFromDescriptors({ musicStory, acousticBrainz }) {
   analysis.sourceCoverage = {
     sourcesUsed,
     sourceReliability: computeSourceReliability(sourcesUsed)
+  };
+
+  analysis.inputTrace = {
+    arousal,
+    intensity,
+    loudness_score: loudnessScore,
+    event_density: eventDensity,
+    pulse_clarity: pulseClarity,
+    rhythmic_stability: rhythmicStability,
+    spectral_complexity: spectralComplexity,
+    timbral_complexity: timbralComplexity,
+    loudness_range: loudnessRange,
+    instrumentation_diversity: instrumentationDiversity,
+    spectral_centroid_or_brightness: spectralCentroidOrBrightness,
+    spectral_rolloff: spectralRolloff.available ? spectralRolloff : spectralRolloffFromPayload,
+    flatness,
+    valence,
+    low_end_score: lowEndScore,
+    vocal_instrumental: vocalInstrumental,
+    music_speech: musicSpeech,
+    harshness_score: harshness,
+    dissonance,
+    articulation,
+    transient_strength: transientStrength,
+    provider_syncopation_or_rhythm_complexity: providerSyncopationOrRhythmComplexity,
+    offbeat_score: offbeat,
+    low_valence_score: lowValenceScore
   };
 
   return {
