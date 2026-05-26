@@ -1,0 +1,908 @@
+{
+  "datasetName": "control_1",
+  "version": "0.1",
+  "description": "Representative semantic calibration dataset for descriptor → dimension → label validation.",
+  "groups": {
+    "calm": [
+      {
+        "artist": "Daft Punk",
+        "title": "Something About Us",
+        "recordingId": null,
+        "descriptors": [
+          "calm",
+          "steady",
+          "vocal"
+        ],
+        "appleId": "697195941",
+        "spotifyId": null,
+        "isrc": "GBDUW0000064"
+      },
+      {
+        "artist": "ANOTR",
+        "title": "Relax My Eyes",
+        "recordingId": null,
+        "descriptors": [
+          "calm",
+          "steady"
+        ],
+        "appleId": "1679316677",
+        "spotifyId": null,
+        "isrc": "GBKQU2296427"
+      },
+      {
+        "artist": "Paul Anka",
+        "title": "Put Your Head on My Shoulder",
+        "recordingId": null,
+        "descriptors": [
+          "calm",
+          "vocal"
+        ],
+        "appleId": "1184119192",
+        "spotifyId": null,
+        "isrc": "USRC11602670"
+      },
+      {
+        "artist": "Suzanne Vega",
+        "title": "Tom's Diner",
+        "recordingId": null,
+        "descriptors": [
+          "calm",
+          "vocal",
+          "sparse"
+        ],
+        "appleId": "1443836345",
+        "spotifyId": null,
+        "isrc": "USAM10300195"
+      },
+      {
+        "artist": "Ben E. King",
+        "title": "Stand By Me",
+        "recordingId": null,
+        "descriptors": [
+          "calm",
+          "steady",
+          "vocal"
+        ],
+        "appleId": "738196409",
+        "spotifyId": null,
+        "isrc": "USAT20000556"
+      },
+      {
+        "artist": "Bill Withers",
+        "title": "Lean on Me",
+        "recordingId": null,
+        "descriptors": [
+          "calm",
+          "vocal"
+        ],
+        "appleId": "391725484",
+        "spotifyId": null,
+        "isrc": "USSM17200084"
+      },
+      {
+        "artist": "Luther Vandross",
+        "title": "If Only for One Night",
+        "recordingId": null,
+        "descriptors": [
+          "calm",
+          "vocal",
+          "dense"
+        ],
+        "appleId": "197980923",
+        "spotifyId": null,
+        "isrc": "USSM18500385"
+      },
+      {
+        "artist": "Electric Light Orchestra",
+        "title": "Telephone Line",
+        "recordingId": null,
+        "descriptors": [
+          "calm",
+          "steady",
+          "vocal"
+        ],
+        "appleId": "1054523238",
+        "spotifyId": null,
+        "isrc": "USSM18600411"
+      },
+      {
+        "artist": "Tame Impala",
+        "title": "Borderline",
+        "recordingId": null,
+        "descriptors": [
+          "calm",
+          "steady",
+          "dense"
+        ],
+        "appleId": "1497230972",
+        "spotifyId": null,
+        "isrc": "AUUM71900956"
+      }
+    ],
+    "steady": [
+      {
+        "artist": "Daft Punk",
+        "title": "One More Time",
+        "recordingId": null,
+        "descriptors": [
+          "steady",
+          "driving",
+          "dense"
+        ],
+        "appleId": "697195462",
+        "spotifyId": null,
+        "isrc": "GBDUW0000053"
+      },
+      {
+        "artist": "Daft Punk",
+        "title": "Get Lucky",
+        "recordingId": null,
+        "descriptors": [
+          "steady",
+          "bouncy",
+          "vocal"
+        ],
+        "appleId": "617154366",
+        "spotifyId": null,
+        "isrc": "USQX91300108"
+      },
+      {
+        "artist": "Ninetoes",
+        "title": "Finder",
+        "recordingId": null,
+        "descriptors": [
+          "steady",
+          "driving",
+          "sparse"
+        ],
+        "appleId": "1613029096",
+        "spotifyId": null,
+        "isrc": "DENC31200185"
+      },
+      {
+        "artist": "Dom Dolla",
+        "title": "Take It",
+        "recordingId": null,
+        "descriptors": [
+          "steady",
+          "driving",
+          "dense"
+        ],
+        "appleId": "1454818194",
+        "spotifyId": null,
+        "isrc": "AUDCB1701202"
+      },
+      {
+        "artist": "ANOTR",
+        "title": "Relax My Eyes",
+        "recordingId": null,
+        "descriptors": [
+          "steady",
+          "calm"
+        ],
+        "appleId": "1679316677",
+        "spotifyId": null,
+        "isrc": "GBKQU2296427"
+      },
+      {
+        "artist": "PAWSA",
+        "title": "Hendrix Flow",
+        "recordingId": null,
+        "descriptors": [
+          "steady",
+          "driving"
+        ],
+        "appleId": "1661026961",
+        "spotifyId": null,
+        "isrc": "GBLV62215793"
+      },
+      {
+        "artist": "Ahmed Spins",
+        "title": "Mood",
+        "recordingId": null,
+        "descriptors": [
+          "steady",
+          "calm"
+        ],
+        "appleId": "1817691454",
+        "spotifyId": null,
+        "isrc": "GXFCP2500150"
+      },
+      {
+        "artist": "FISHER",
+        "title": "Ocean",
+        "recordingId": null,
+        "descriptors": [
+          "steady",
+          "driving"
+        ],
+        "appleId": "1775693513",
+        "spotifyId": null,
+        "isrc": "USCRR2400013"
+      },
+      {
+        "artist": "Starjunk 95",
+        "title": "Groove District",
+        "recordingId": null,
+        "descriptors": [
+          "steady",
+          "bouncy"
+        ],
+        "appleId": "1760785805",
+        "spotifyId": null,
+        "isrc": "GBWUL2177149"
+      },
+      {
+        "artist": "Subsonic",
+        "title": "Feel Ur Touch",
+        "recordingId": null,
+        "descriptors": [
+          "steady",
+          "driving"
+        ],
+        "appleId": "1724780173",
+        "spotifyId": null,
+        "isrc": "CAUM82300384"
+      }
+    ],
+    "driving": [
+      {
+        "artist": "Sub Focus",
+        "title": "Push The Tempo",
+        "recordingId": null,
+        "descriptors": [
+          "driving",
+          "aggressive",
+          "dense"
+        ],
+        "appleId": "1772191847",
+        "spotifyId": null,
+        "isrc": "GBUM72405427"
+      },
+      {
+        "artist": "Darude",
+        "title": "Sandstorm",
+        "recordingId": null,
+        "descriptors": [
+          "driving",
+          "steady",
+          "dense"
+        ],
+        "appleId": "338349243",
+        "spotifyId": null,
+        "isrc": "FISGC9900001"
+      },
+      {
+        "artist": "Dimitri Vegas & Like Mike",
+        "title": "Tremor",
+        "recordingId": null,
+        "descriptors": [
+          "driving",
+          "aggressive",
+          "dense"
+        ],
+        "appleId": "1350850469",
+        "spotifyId": null,
+        "isrc": "NLZ541400192"
+      },
+      {
+        "artist": "Skrillex",
+        "title": "Scary Monsters and Nice Sprites",
+        "recordingId": null,
+        "descriptors": [
+          "driving",
+          "aggressive",
+          "dense"
+        ],
+        "appleId": "409001935",
+        "spotifyId": null,
+        "isrc": "GBTDG1000196"
+      },
+      {
+        "artist": "Benny Benassi",
+        "title": "Satisfaction",
+        "recordingId": null,
+        "descriptors": [
+          "driving",
+          "steady",
+          "dark"
+        ],
+        "appleId": "1712041112",
+        "spotifyId": null,
+        "isrc": "USUS10410043"
+      },
+      {
+        "artist": "Daft Punk",
+        "title": "Harder, Better, Faster, Stronger",
+        "recordingId": null,
+        "descriptors": [
+          "driving",
+          "steady",
+          "vocal"
+        ],
+        "appleId": "697195787",
+        "spotifyId": null,
+        "isrc": "GBDUW0000059"
+      },
+      {
+        "artist": "Ray Volpe",
+        "title": "SEE YOU DROP",
+        "recordingId": null,
+        "descriptors": [
+          "driving",
+          "aggressive",
+          "punchy"
+        ],
+        "appleId": "1728174662",
+        "spotifyId": null,
+        "isrc": "CA6D22400048"
+      },
+      {
+        "artist": "Riordan",
+        "title": "Jump Higher",
+        "recordingId": null,
+        "descriptors": [
+          "driving",
+          "bouncy"
+        ],
+        "appleId": "1838903378",
+        "spotifyId": null,
+        "isrc": "US38Y2586365"
+      },
+      {
+        "artist": "Grafix",
+        "title": "We're On Fire",
+        "recordingId": null,
+        "descriptors": [
+          "driving",
+          "energetic",
+          "dense"
+        ],
+        "appleId": "1797618321",
+        "spotifyId": null,
+        "isrc": "GB2LD2510084"
+      },
+      {
+        "artist": "Dimension",
+        "title": "DJ Turn It Up",
+        "recordingId": null,
+        "descriptors": [
+          "driving",
+          "aggressive",
+          "steady"
+        ],
+        "appleId": "1683585916",
+        "spotifyId": null,
+        "isrc": "UKFTL1600270"
+      }
+    ],
+    "bouncy": [
+      {
+        "artist": "Justice",
+        "title": "D.A.N.C.E.",
+        "recordingId": null,
+        "descriptors": [
+          "bouncy",
+          "bright",
+          "vocal"
+        ],
+        "appleId": "259751997",
+        "spotifyId": null,
+        "isrc": "FR0NT0700420"
+      },
+      {
+        "artist": "Gala",
+        "title": "Freed From Desire",
+        "recordingId": null,
+        "descriptors": [
+          "bouncy",
+          "steady",
+          "vocal"
+        ],
+        "appleId": "287592533",
+        "spotifyId": null,
+        "isrc": "ITA179700143"
+      },
+      {
+        "artist": "Enur",
+        "title": "Calabria 2008",
+        "recordingId": null,
+        "descriptors": [
+          "bouncy",
+          "bright",
+          "driving"
+        ],
+        "appleId": "1712041151",
+        "spotifyId": null,
+        "isrc": "USUS10800243"
+      },
+      {
+        "artist": "Cupid",
+        "title": "Cupid Shuffle",
+        "recordingId": null,
+        "descriptors": [
+          "bouncy",
+          "steady",
+          "vocal"
+        ],
+        "appleId": "263059061",
+        "spotifyId": null,
+        "isrc": "USAT20700490"
+      },
+      {
+        "artist": "The Jacksons",
+        "title": "Blame It on the Boogie",
+        "recordingId": null,
+        "descriptors": [
+          "bouncy",
+          "bright",
+          "dense"
+        ],
+        "appleId": "159293217",
+        "spotifyId": null,
+        "isrc": "USSM17801024"
+      },
+      {
+        "artist": "Wild Cherry",
+        "title": "Play That Funky Music",
+        "recordingId": null,
+        "descriptors": [
+          "bouncy",
+          "steady",
+          "bright"
+        ],
+        "appleId": "198226129",
+        "spotifyId": null,
+        "isrc": "USSM19912699"
+      },
+      {
+        "artist": "Bellaire",
+        "title": "Carnaval",
+        "recordingId": null,
+        "descriptors": [
+          "bouncy",
+          "steady",
+          "bright"
+        ],
+        "appleId": "1756351146",
+        "spotifyId": null,
+        "isrc": "FRPGV2300036"
+      },
+      {
+        "artist": "Bellini",
+        "title": "Samba do Brasil",
+        "recordingId": null,
+        "descriptors": [
+          "bouncy",
+          "bright",
+          "syncopated"
+        ],
+        "appleId": "1639595554",
+        "spotifyId": null,
+        "isrc": "DEUM71401697"
+      },
+      {
+        "artist": "Anita Ward",
+        "title": "Ring My Bell",
+        "recordingId": null,
+        "descriptors": [
+          "bouncy",
+          "steady",
+          "vocal"
+        ],
+        "appleId": "1296251642",
+        "spotifyId": null,
+        "isrc": "USJR30200001"
+      },
+      {
+        "artist": "Bruno Mars",
+        "title": "Treasure",
+        "recordingId": null,
+        "descriptors": [
+          "bouncy",
+          "bright",
+          "vocal"
+        ],
+        "appleId": "573962553",
+        "spotifyId": null,
+        "isrc": "USAT21206710"
+      }
+    ],
+    "aggressive": [
+      {
+        "artist": "Denzel Curry",
+        "title": "STILL IN THE PAINT",
+        "recordingId": null,
+        "descriptors": [
+          "aggressive",
+          "dense",
+          "vocal"
+        ],
+        "appleId": "1772770231",
+        "spotifyId": null,
+        "isrc": "USC4R2447762"
+      },
+      {
+        "artist": "Brutalismus 3000",
+        "title": "Romantika",
+        "recordingId": null,
+        "descriptors": [
+          "aggressive",
+          "dark",
+          "driving"
+        ],
+        "appleId": "1664863432",
+        "spotifyId": null,
+        "isrc": "QZHN72225465"
+      },
+      {
+        "artist": "Knife Party",
+        "title": "Internet Friends",
+        "recordingId": null,
+        "descriptors": [
+          "aggressive",
+          "dense",
+          "driving"
+        ],
+        "appleId": "554535548",
+        "spotifyId": null,
+        "isrc": "GBAHT1200462"
+      },
+      {
+        "artist": "CHYL",
+        "title": "Smash!",
+        "recordingId": null,
+        "descriptors": [
+          "aggressive",
+          "punchy",
+          "bright"
+        ],
+        "appleId": "1694777777",
+        "spotifyId": null,
+        "isrc": "USDM32351901"
+      },
+      {
+        "artist": "Mötley Crüe",
+        "title": "Kickstart My Heart",
+        "recordingId": null,
+        "descriptors": [
+          "aggressive",
+          "driving",
+          "bright"
+        ],
+        "appleId": "1764396024",
+        "spotifyId": null,
+        "isrc": "USBY29900215"
+      },
+      {
+        "artist": "The White Stripes",
+        "title": "Seven Nation Army",
+        "recordingId": null,
+        "descriptors": [
+          "aggressive",
+          "steady",
+          "dark"
+        ],
+        "appleId": "1533513537",
+        "spotifyId": null,
+        "isrc": "USVT10300001"
+      },
+      {
+        "artist": "Ray Volpe",
+        "title": "SEE YOU DROP",
+        "recordingId": null,
+        "descriptors": [
+          "aggressive",
+          "punchy",
+          "dense"
+        ],
+        "appleId": "1728174662",
+        "spotifyId": null,
+        "isrc": "CA6D22400048"
+      },
+      {
+        "artist": "3 Are Legend",
+        "title": "Pump It Up",
+        "recordingId": null,
+        "descriptors": [
+          "aggressive",
+          "driving",
+          "dense"
+        ],
+        "appleId": "1648949557",
+        "spotifyId": null,
+        "isrc": "BEIW12200476"
+      },
+      {
+        "artist": "DATSKO",
+        "title": "JAGERBOMB",
+        "recordingId": null,
+        "descriptors": [
+          "aggressive",
+          "punchy",
+          "dark"
+        ],
+        "appleId": "1775694301",
+        "spotifyId": null,
+        "isrc": "QZFZ72208831"
+      },
+      {
+        "artist": "GRiZ",
+        "title": "Griztronics",
+        "recordingId": null,
+        "descriptors": [
+          "aggressive",
+          "dense",
+          "driving"
+        ],
+        "appleId": "1474897054",
+        "spotifyId": null,
+        "isrc": "CAUM81900241"
+      }
+    ],
+    "emotional_reflective": [
+      {
+        "artist": "Arctic Monkeys",
+        "title": "505",
+        "recordingId": null,
+        "descriptors": [
+          "reflective",
+          "dark",
+          "vocal"
+        ],
+        "appleId": "251499791",
+        "spotifyId": null,
+        "isrc": "GBCEL0700074"
+      },
+      {
+        "artist": "Empire Of The Sun",
+        "title": "We Are The People",
+        "recordingId": null,
+        "descriptors": [
+          "reflective",
+          "bright",
+          "vocal"
+        ],
+        "appleId": "1449912319",
+        "spotifyId": null,
+        "isrc": "AUEI10800041"
+      },
+      {
+        "artist": "Ofenbach",
+        "title": "Feelings don't lie",
+        "recordingId": null,
+        "descriptors": [
+          "reflective",
+          "vocal",
+          "steady"
+        ],
+        "appleId": "1746176816",
+        "spotifyId": null,
+        "isrc": "FR9W12422341"
+      },
+      {
+        "artist": "Coldplay",
+        "title": "Paradise",
+        "recordingId": null,
+        "descriptors": [
+          "reflective",
+          "dense",
+          "vocal"
+        ],
+        "appleId": "726373148",
+        "spotifyId": null,
+        "isrc": "GBAYE1101143"
+      },
+      {
+        "artist": "Santana",
+        "title": "Europa (Earth's Cry Heaven's Smile)",
+        "recordingId": null,
+        "descriptors": [
+          "reflective",
+          "instrumental",
+          "dynamic"
+        ],
+        "appleId": "265816838",
+        "spotifyId": null,
+        "isrc": "USSM10013400"
+      },
+      {
+        "artist": "Suki Waterhouse",
+        "title": "Good Looking",
+        "recordingId": null,
+        "descriptors": [
+          "reflective",
+          "calm",
+          "vocal"
+        ],
+        "appleId": "1623489918",
+        "spotifyId": null,
+        "isrc": "QZ9Y21712533"
+      },
+      {
+        "artist": "Tame Impala",
+        "title": "Dracula",
+        "recordingId": null,
+        "descriptors": [
+          "reflective",
+          "dark",
+          "dense"
+        ],
+        "appleId": "1836226730",
+        "spotifyId": null,
+        "isrc": "USQX92504223"
+      },
+      {
+        "artist": "Midnight Generation",
+        "title": "Trouble",
+        "recordingId": null,
+        "descriptors": [
+          "reflective",
+          "steady",
+          "vocal"
+        ],
+        "appleId": "1508709850",
+        "spotifyId": null,
+        "isrc": "USDHM1614585"
+      },
+      {
+        "artist": "OneRepublic",
+        "title": "Counting Stars",
+        "recordingId": null,
+        "descriptors": [
+          "reflective",
+          "driving",
+          "vocal"
+        ],
+        "appleId": "1471704175",
+        "spotifyId": null,
+        "isrc": "USUM71301306"
+      },
+      {
+        "artist": "Pretty Lights",
+        "title": "Rainbows & Waterfalls",
+        "recordingId": null,
+        "descriptors": [
+          "reflective",
+          "layered",
+          "calm"
+        ],
+        "appleId": "1704397162",
+        "spotifyId": null,
+        "isrc": "QMUY41700198"
+      }
+    ],
+    "euphoric": [
+      {
+        "artist": "Galantis",
+        "title": "Runaway (U & I)",
+        "recordingId": null,
+        "descriptors": [
+          "euphoric",
+          "driving",
+          "bright"
+        ],
+        "appleId": "984746629",
+        "spotifyId": null,
+        "isrc": "USAT21404266"
+      },
+      {
+        "artist": "Natasha Bedingfield",
+        "title": "Unwritten",
+        "recordingId": null,
+        "descriptors": [
+          "euphoric",
+          "bright",
+          "vocal"
+        ],
+        "appleId": "430514893",
+        "spotifyId": null,
+        "isrc": "GBARL0400707"
+      },
+      {
+        "artist": "Deorro",
+        "title": "Five Hours",
+        "recordingId": null,
+        "descriptors": [
+          "euphoric",
+          "driving",
+          "instrumental"
+        ],
+        "appleId": "929911882",
+        "spotifyId": null,
+        "isrc": "CH3131340319"
+      },
+      {
+        "artist": "Zedd",
+        "title": "Beautiful Now",
+        "recordingId": null,
+        "descriptors": [
+          "euphoric",
+          "dense",
+          "vocal"
+        ],
+        "appleId": "1470706638",
+        "spotifyId": null,
+        "isrc": "USUM71505090"
+      },
+      {
+        "artist": "Sub Focus & Dimension",
+        "title": "Desire",
+        "recordingId": null,
+        "descriptors": [
+          "euphoric",
+          "driving",
+          "vocal"
+        ],
+        "appleId": "1434840301",
+        "spotifyId": null,
+        "isrc": "GBUM71806016"
+      },
+      {
+        "artist": "Sean Kingston",
+        "title": "Fire Burning",
+        "recordingId": null,
+        "descriptors": [
+          "euphoric",
+          "bright",
+          "bouncy"
+        ],
+        "appleId": "312051360",
+        "spotifyId": null,
+        "isrc": "USSM10902107"
+      },
+      {
+        "artist": "Martin Garrix",
+        "title": "Summer Days",
+        "recordingId": null,
+        "descriptors": [
+          "euphoric",
+          "bright",
+          "vocal"
+        ],
+        "appleId": "1460655320",
+        "spotifyId": null,
+        "isrc": "NLM5S1900528"
+      },
+      {
+        "artist": "D.O.D",
+        "title": "Still Sleepless",
+        "recordingId": null,
+        "descriptors": [
+          "euphoric",
+          "driving",
+          "steady"
+        ],
+        "appleId": "1581786456",
+        "spotifyId": null,
+        "isrc": "GBKCF2101056"
+      },
+      {
+        "artist": "Becky Hill",
+        "title": "Disconnect",
+        "recordingId": null,
+        "descriptors": [
+          "euphoric",
+          "driving",
+          "vocal"
+        ],
+        "appleId": "1696160175",
+        "spotifyId": null,
+        "isrc": "GBUM72306588"
+      },
+      {
+        "artist": "BL3SS",
+        "title": "Kisses",
+        "recordingId": null,
+        "descriptors": [
+          "euphoric",
+          "bouncy",
+          "bright"
+        ],
+        "appleId": "1735803279",
+        "spotifyId": null,
+        "isrc": "GBAHS2400105"
+      }
+    ]
+  }
+}
