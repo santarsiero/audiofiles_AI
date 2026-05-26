@@ -1,0 +1,705 @@
+{
+  "batchFile": "control_1_missing_musicstory.json",
+  "createdAt": "2026-05-26T15:59:04.941Z",
+  "stoppedEarly": false,
+  "stoppedAtIndex": null,
+  "stoppedSong": null,
+  "results": [
+    {
+      "index": 0,
+      "song": {
+        "title": "Something About Us",
+        "artist": "Daft Punk",
+        "isrc": "GBDUW0000064",
+        "musicStoryRecordingId": null,
+        "controlGroup": "calm",
+        "expectedDescriptors": [
+          "calm",
+          "steady",
+          "vocal"
+        ]
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "Something About Us",
+          "artist": "Daft Punk",
+          "isrc": "GBDUW0000064"
+        },
+        "error": "Music Story recording search failed (401)",
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 1,
+      "song": {
+        "title": "Put Your Head on My Shoulder",
+        "artist": "Paul Anka",
+        "isrc": "USRC11602670",
+        "musicStoryRecordingId": null,
+        "controlGroup": "calm",
+        "expectedDescriptors": [
+          "calm",
+          "vocal"
+        ]
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "Put Your Head on My Shoulder",
+          "artist": "Paul Anka",
+          "isrc": "USRC11602670"
+        },
+        "error": "Music Story recording search failed (401)",
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 2,
+      "song": {
+        "title": "Tom's Diner",
+        "artist": "Suzanne Vega",
+        "isrc": "USAM10300195",
+        "musicStoryRecordingId": null,
+        "controlGroup": "calm",
+        "expectedDescriptors": [
+          "calm",
+          "vocal",
+          "sparse"
+        ]
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "Tom's Diner",
+          "artist": "Suzanne Vega",
+          "isrc": "USAM10300195"
+        },
+        "error": "Music Story recording search failed (401)",
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 3,
+      "song": {
+        "title": "Hendrix Flow",
+        "artist": "PAWSA",
+        "isrc": "GBLV62215793",
+        "musicStoryRecordingId": null,
+        "controlGroup": "steady",
+        "expectedDescriptors": [
+          "steady",
+          "driving"
+        ]
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "Hendrix Flow",
+          "artist": "PAWSA",
+          "isrc": "GBLV62215793"
+        },
+        "error": "Music Story recording search failed (401)",
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 4,
+      "song": {
+        "title": "Mood",
+        "artist": "Ahmed Spins",
+        "isrc": "GXFCP2500150",
+        "musicStoryRecordingId": null,
+        "controlGroup": "steady",
+        "expectedDescriptors": [
+          "steady",
+          "calm"
+        ]
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "Mood",
+          "artist": "Ahmed Spins",
+          "isrc": "GXFCP2500150"
+        },
+        "error": "Music Story recording search failed (401)",
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 5,
+      "song": {
+        "title": "Ocean",
+        "artist": "FISHER",
+        "isrc": "USCRR2400013",
+        "musicStoryRecordingId": null,
+        "controlGroup": "steady",
+        "expectedDescriptors": [
+          "steady",
+          "driving"
+        ]
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "Ocean",
+          "artist": "FISHER",
+          "isrc": "USCRR2400013"
+        },
+        "error": "Music Story recording search failed (401)",
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 6,
+      "song": {
+        "title": "Feel Ur Touch",
+        "artist": "Subsonic",
+        "isrc": "CAUM82300384",
+        "musicStoryRecordingId": null,
+        "controlGroup": "steady",
+        "expectedDescriptors": [
+          "steady",
+          "driving"
+        ]
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "Feel Ur Touch",
+          "artist": "Subsonic",
+          "isrc": "CAUM82300384"
+        },
+        "error": "Music Story recording search failed (401)",
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 7,
+      "song": {
+        "title": "Push The Tempo",
+        "artist": "Sub Focus",
+        "isrc": "GBUM72405427",
+        "musicStoryRecordingId": null,
+        "controlGroup": "driving",
+        "expectedDescriptors": [
+          "driving",
+          "aggressive",
+          "dense"
+        ]
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "Push The Tempo",
+          "artist": "Sub Focus",
+          "isrc": "GBUM72405427"
+        },
+        "error": "Music Story recording search failed (401)",
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 8,
+      "song": {
+        "title": "SEE YOU DROP",
+        "artist": "Ray Volpe",
+        "isrc": "CA6D22400048",
+        "musicStoryRecordingId": null,
+        "controlGroup": "driving",
+        "expectedDescriptors": [
+          "driving",
+          "aggressive",
+          "punchy"
+        ]
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "SEE YOU DROP",
+          "artist": "Ray Volpe",
+          "isrc": "CA6D22400048"
+        },
+        "error": "Music Story recording search failed (401)",
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 9,
+      "song": {
+        "title": "Jump Higher",
+        "artist": "Riordan",
+        "isrc": "US38Y2586365",
+        "musicStoryRecordingId": null,
+        "controlGroup": "driving",
+        "expectedDescriptors": [
+          "driving",
+          "bouncy"
+        ]
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "Jump Higher",
+          "artist": "Riordan",
+          "isrc": "US38Y2586365"
+        },
+        "error": "Music Story recording search failed (401)",
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 10,
+      "song": {
+        "title": "We're On Fire",
+        "artist": "Grafix",
+        "isrc": "GB2LD2510084",
+        "musicStoryRecordingId": null,
+        "controlGroup": "driving",
+        "expectedDescriptors": [
+          "driving",
+          "energetic",
+          "dense"
+        ]
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "We're On Fire",
+          "artist": "Grafix",
+          "isrc": "GB2LD2510084"
+        },
+        "error": "Music Story recording search failed (401)",
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 11,
+      "song": {
+        "title": "D.A.N.C.E.",
+        "artist": "Justice",
+        "isrc": "FR0NT0700420",
+        "musicStoryRecordingId": null,
+        "controlGroup": "bouncy",
+        "expectedDescriptors": [
+          "bouncy",
+          "bright",
+          "vocal"
+        ]
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "D.A.N.C.E.",
+          "artist": "Justice",
+          "isrc": "FR0NT0700420"
+        },
+        "error": "Music Story recording search failed (401)",
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 12,
+      "song": {
+        "title": "Freed From Desire",
+        "artist": "Gala",
+        "isrc": "ITA179700143",
+        "musicStoryRecordingId": null,
+        "controlGroup": "bouncy",
+        "expectedDescriptors": [
+          "bouncy",
+          "steady",
+          "vocal"
+        ]
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "Freed From Desire",
+          "artist": "Gala",
+          "isrc": "ITA179700143"
+        },
+        "error": "Music Story recording search failed (401)",
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 13,
+      "song": {
+        "title": "Blame It on the Boogie",
+        "artist": "The Jacksons",
+        "isrc": "USSM17801024",
+        "musicStoryRecordingId": null,
+        "controlGroup": "bouncy",
+        "expectedDescriptors": [
+          "bouncy",
+          "bright",
+          "dense"
+        ]
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "Blame It on the Boogie",
+          "artist": "The Jacksons",
+          "isrc": "USSM17801024"
+        },
+        "error": "Music Story recording search failed (401)",
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 14,
+      "song": {
+        "title": "Play That Funky Music",
+        "artist": "Wild Cherry",
+        "isrc": "USSM19912699",
+        "musicStoryRecordingId": null,
+        "controlGroup": "bouncy",
+        "expectedDescriptors": [
+          "bouncy",
+          "steady",
+          "bright"
+        ]
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "Play That Funky Music",
+          "artist": "Wild Cherry",
+          "isrc": "USSM19912699"
+        },
+        "error": "Music Story recording search failed (401)",
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 15,
+      "song": {
+        "title": "Carnaval",
+        "artist": "Bellaire",
+        "isrc": "FRPGV2300036",
+        "musicStoryRecordingId": null,
+        "controlGroup": "bouncy",
+        "expectedDescriptors": [
+          "bouncy",
+          "steady",
+          "bright"
+        ]
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "Carnaval",
+          "artist": "Bellaire",
+          "isrc": "FRPGV2300036"
+        },
+        "error": "Music Story recording search failed (401)",
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 16,
+      "song": {
+        "title": "Treasure",
+        "artist": "Bruno Mars",
+        "isrc": "USAT21206710",
+        "musicStoryRecordingId": null,
+        "controlGroup": "bouncy",
+        "expectedDescriptors": [
+          "bouncy",
+          "bright",
+          "vocal"
+        ]
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "Treasure",
+          "artist": "Bruno Mars",
+          "isrc": "USAT21206710"
+        },
+        "error": "Music Story recording search failed (401)",
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 17,
+      "song": {
+        "title": "STILL IN THE PAINT",
+        "artist": "Denzel Curry",
+        "isrc": "USC4R2447762",
+        "musicStoryRecordingId": null,
+        "controlGroup": "aggressive",
+        "expectedDescriptors": [
+          "aggressive",
+          "dense",
+          "vocal"
+        ]
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "STILL IN THE PAINT",
+          "artist": "Denzel Curry",
+          "isrc": "USC4R2447762"
+        },
+        "error": "Music Story recording search failed (401)",
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 18,
+      "song": {
+        "title": "Smash!",
+        "artist": "CHYL",
+        "isrc": "USDM32351901",
+        "musicStoryRecordingId": null,
+        "controlGroup": "aggressive",
+        "expectedDescriptors": [
+          "aggressive",
+          "punchy",
+          "bright"
+        ]
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "Smash!",
+          "artist": "CHYL",
+          "isrc": "USDM32351901"
+        },
+        "error": "Music Story recording search failed (401)",
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 19,
+      "song": {
+        "title": "SEE YOU DROP",
+        "artist": "Ray Volpe",
+        "isrc": "CA6D22400048",
+        "musicStoryRecordingId": null,
+        "controlGroup": "aggressive",
+        "expectedDescriptors": [
+          "aggressive",
+          "punchy",
+          "dense"
+        ]
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "SEE YOU DROP",
+          "artist": "Ray Volpe",
+          "isrc": "CA6D22400048"
+        },
+        "error": "Music Story recording search failed (401)",
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 20,
+      "song": {
+        "title": "JAGERBOMB",
+        "artist": "DATSKO",
+        "isrc": "QZFZ72208831",
+        "musicStoryRecordingId": null,
+        "controlGroup": "aggressive",
+        "expectedDescriptors": [
+          "aggressive",
+          "punchy",
+          "dark"
+        ]
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "JAGERBOMB",
+          "artist": "DATSKO",
+          "isrc": "QZFZ72208831"
+        },
+        "error": "Music Story recording search failed (401)",
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 21,
+      "song": {
+        "title": "Europa (Earth's Cry Heaven's Smile)",
+        "artist": "Santana",
+        "isrc": "USSM10013400",
+        "musicStoryRecordingId": null,
+        "controlGroup": "emotional_reflective",
+        "expectedDescriptors": [
+          "reflective",
+          "instrumental",
+          "dynamic"
+        ]
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "Europa (Earth's Cry Heaven's Smile)",
+          "artist": "Santana",
+          "isrc": "USSM10013400"
+        },
+        "error": "Music Story recording search failed (401)",
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 22,
+      "song": {
+        "title": "Dracula",
+        "artist": "Tame Impala",
+        "isrc": "USQX92504223",
+        "musicStoryRecordingId": null,
+        "controlGroup": "emotional_reflective",
+        "expectedDescriptors": [
+          "reflective",
+          "dark",
+          "dense"
+        ]
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "Dracula",
+          "artist": "Tame Impala",
+          "isrc": "USQX92504223"
+        },
+        "error": "Music Story recording search failed (401)",
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 23,
+      "song": {
+        "title": "Rainbows & Waterfalls",
+        "artist": "Pretty Lights",
+        "isrc": "QMUY41700198",
+        "musicStoryRecordingId": null,
+        "controlGroup": "emotional_reflective",
+        "expectedDescriptors": [
+          "reflective",
+          "layered",
+          "calm"
+        ]
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "Rainbows & Waterfalls",
+          "artist": "Pretty Lights",
+          "isrc": "QMUY41700198"
+        },
+        "error": "Music Story recording search failed (401)",
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 24,
+      "song": {
+        "title": "Unwritten",
+        "artist": "Natasha Bedingfield",
+        "isrc": "GBARL0400707",
+        "musicStoryRecordingId": null,
+        "controlGroup": "euphoric",
+        "expectedDescriptors": [
+          "euphoric",
+          "bright",
+          "vocal"
+        ]
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "Unwritten",
+          "artist": "Natasha Bedingfield",
+          "isrc": "GBARL0400707"
+        },
+        "error": "Music Story recording search failed (401)",
+        "rateLimit": {}
+      }
+    },
+    {
+      "index": 25,
+      "song": {
+        "title": "Desire",
+        "artist": "Sub Focus & Dimension",
+        "isrc": "GBUM71806016",
+        "musicStoryRecordingId": null,
+        "controlGroup": "euphoric",
+        "expectedDescriptors": [
+          "euphoric",
+          "driving",
+          "vocal"
+        ]
+      },
+      "musicStory": {
+        "provider": "music_story",
+        "available": false,
+        "data": null,
+        "songIdentity": {
+          "title": "Desire",
+          "artist": "Sub Focus & Dimension",
+          "isrc": "GBUM71806016"
+        },
+        "error": "Music Story recording search failed (401)",
+        "rateLimit": {}
+      }
+    }
+  ]
+}
