@@ -255,6 +255,43 @@ MONITORING
 
 ---
 
+## 2026-05-27 — Music Story-only Experimentation Phase Closure (CONTROL_1–3)
+
+### Context
+- Pipeline version: AudioFile AI semantic inference (Music Story-only)
+- Descriptor provider: Music Story v2 (`audiodescriptions`, cached)
+- Evidence source: CONTROL_1–3 experimentation outputs + closure reports
+
+Canonical closure reports:
+- `audiofile-ai/experimentation/reports/final_feature_stability_report.md`
+- `audiofile-ai/experimentation/reports/final_descriptor_dependency_report.md`
+- `audiofile-ai/experimentation/reports/final_latent_structure_summary.md`
+- `audiofile-ai/experimentation/reports/musicstory_phase_closure_summary.md`
+
+### Observation
+- The Music Story-only static descriptor representation appears intrinsically compressed/low-rank.
+- Several normalized dimensions are strongly coupled and behave as multiple projections of shared latent axes.
+- Several dimensions are descriptor-starved under current cache coverage and should be treated as untrusted in Music Story-only V1.
+
+### Evidence
+- CONTROL_3 feature PCA: PC1–3 explain the majority of variance (low-rank behavior).
+- CONTROL_3 descriptor PCA: PC1–3 explain a large fraction of variance (upstream compression).
+- CONTROL_2/3 redundancy analysis: multiple high |r| pairs persist under dataset expansion.
+- CONTROL_1 coverage: several features are 100% missing (descriptor-starved).
+
+### Interpretation
+- Static averaged descriptors support a constrained semantic projection layer useful for filtering/retrieval, but cannot support full temporal/structural semantics.
+- Overlap and entanglement are expected and should be handled via confidence-aware abstention rather than forced orthogonality.
+
+### Impact
+- Documentation should explicitly represent V1 as bounded and partially coupled.
+- Do not treat coupled dimensions as independent evidence for confidence agreement.
+
+### Status
+VALIDATED
+
+---
+
 ## 2026-05-14 — Key Descriptor / Semantics Findings (Handoff Snapshot)
 
 ### Context

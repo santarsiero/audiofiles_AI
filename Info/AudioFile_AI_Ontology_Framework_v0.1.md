@@ -10,6 +10,8 @@
 
 This document defines the **architecture, philosophy, layer system, and rules** that guide the AudioFile AI ontology going forward.
 
+**Closure note (2026-05):** Music Story-only experimentation indicates the static descriptor representation space is intrinsically compressed/low-rank and partially coupled. This reinforces the framework’s emphasis on overlap tolerance, probabilistic interpretation, and confidence-aware abstention rather than attempting to force orthogonal semantics from limited evidence.
+
 It is not a final label list, final formula set, or final model specification. It is the structural contract that all future ontology work should follow.
 
 Anything that contradicts this document should be treated as a deviation and resolved before implementation proceeds.

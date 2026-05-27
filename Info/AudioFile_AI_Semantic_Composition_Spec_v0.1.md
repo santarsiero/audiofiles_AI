@@ -11,6 +11,8 @@
 
 This document defines how the AudioFile AI semantic inference system operationally generates expressive labels from Music Story descriptor data in V1.
 
+**Alignment note (2026-05):** Closure experiments indicate several dimensions are partially coupled due to shared descriptor ancestry and compressed latent structure. This spec should be read as a conservative semantic projection contract over a bounded representation space, not as a claim of independent semantic axes.
+
 It is the implementation contract for the semantic composition layer. It answers: *"Exactly how does the system translate descriptor data into semantic label suggestions?"*
 
 **This document does not:**
@@ -40,6 +42,8 @@ The system does not predict labels from descriptors directly. It constructs dime
 ### Directional Weights, Not Final Formulas
 
 Exact dimension weights are directional in this specification and should be treated as starting points for calibration, not hard-coded constants. Where this document says "higher weight," it means that descriptor should dominate the score. Final weights must be validated against the representative track set.
+
+**Stabilization note (2026-05):** Major Music Story-only descriptor calibration and representation diagnostics are considered sufficient to proceed beyond calibration-heavy experimentation. Future emphasis is expected to shift toward semantic projection quality, retrieval usefulness, and explainability rather than repeated descriptor retuning loops.
 
 ### Prefer Conservative Firing
 

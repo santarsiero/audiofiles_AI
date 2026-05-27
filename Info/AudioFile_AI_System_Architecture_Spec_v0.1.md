@@ -81,6 +81,8 @@ Output Layer
 - Output continuous values on a consistent scale across all descriptor sources
 - Apply config-driven mappings (descriptor field → feature score)
 
+**Representation note (2026-05):** Under Music Story-only static descriptors, normalized features are **not fully orthogonal semantic axes**. Empirical analysis shows the feature space behaves as low-rank with partial coupling due to shared descriptor ancestry and compressed latent structure. Downstream systems must not treat coupled features as independent evidence channels.
+
 **Design:**
 - Feature definitions and their descriptor sources are defined in a configuration file, not hardcoded
 - Each feature draws from one or more descriptor fields with defined priority ordering
@@ -110,6 +112,8 @@ Output Layer
 - Each label references one or more feature scores as inputs
 - Confidence is influenced by the strength of feature signals and the completeness of available inputs, as defined by mapping configuration
 - If required features for a label are undefined, label handling (omission vs. low-confidence output) is defined in configuration — not assumed
+
+**Confidence note (2026-05):** Because several dimensions are coupled, confidence logic must avoid double-counting multiple correlated features as “agreement.”
 
 **Conflict handling:**
 - Opposing labels (e.g., bright vs. dark) are resolved by confidence weighting
@@ -161,6 +165,8 @@ Output Layer
 ## 5. Observability & Experimentation Layer
 
 This layer exists alongside the core pipeline to support testing, validation, and pattern discovery. It is not part of inference — it captures and stores data to enable analysis.
+
+**Status note (2026-05):** Major representation-level experimentation for Music Story-only static descriptors is considered largely complete. Ongoing experimentation is expected to emphasize semantic projection behavior, explainability, and retrieval/selector usefulness rather than open-ended descriptor recalibration.
 
 **What is logged per run:**
 - Raw descriptor values returned by the API

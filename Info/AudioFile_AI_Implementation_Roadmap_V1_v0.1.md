@@ -300,8 +300,21 @@ V1 is considered minimally successful when:
 
 ## 10. Immediate Next Action
 
-- Continue expanding cached descriptor coverage via batch runs (rate-limit-aware, resume-capable)
-- Calibrate and validate descriptor → dimension formulas against representative tracks
-- Tune conservative label firing thresholds and confidence propagation rules
-- Record systematic mismatches and failure patterns into the Experiment & Findings Log
-- Avoid expanding into new APIs or large new label sets until calibration behavior is stable
+The Music Story-only descriptor experimentation phase has produced stabilized findings about representation ceilings and dimension coupling. The immediate work is no longer dominated by repeated calibration loops.
+
+Immediate next actions (V1 continuation):
+
+- Consolidate and treat the current system as a **constrained semantic projection layer** (useful for filtering/retrieval/discovery), not a full “semantic understanding” system.
+- Improve semantic projection quality and trustworthiness:
+  - reduce confidence inflation from coupled dimensions (avoid double-counting)
+  - ensure abstention/low-confidence behavior is consistent under weak evidence
+- Improve explainability and observability outputs:
+  - make it clear which dimensions are trusted vs coupled vs descriptor-starved
+  - ensure logs and reports consistently reflect representation ceilings
+- Focus roadmap execution on retrieval usefulness (selector/search utility) rather than expanding label sets.
+
+Do NOT:
+
+- Re-enter open-ended calibration framing
+- Expand ontology aggressively
+- Assume dimension independence

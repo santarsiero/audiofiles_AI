@@ -5,6 +5,15 @@
 **Date:** May 2026
 **Depends on:** Master Development Plan v0.1, System Architecture Spec v0.1
 
+> **Status / Authority Note (2026-05):** This document is a **lower-level implementation reference** and is **not** the primary ontology authority.
+>
+> Source of truth hierarchy:
+> - AudioFile AI Ontology Framework v0.1.3 (frozen)
+> - AudioFile AI Semantic Composition Spec v0.1.1
+> - Music Story-only closure findings (representation ceiling, coupling, descriptor-starved dimensions)
+>
+> Several V1 dimensions are now known to be **partially coupled / low-rank** under static descriptor evidence. This spec must be interpreted accordingly: dimensions are useful projections, not guaranteed independent semantic axes.
+
 ---
 
 ## 1. Ontology Overview
@@ -46,6 +55,10 @@ A feature or label must not be produced if its required descriptor inputs are in
   - Low → calm, subdued, minimal music
 - **Missing data behavior:** If arousal and intensity are both absent, energy score may be computed using available inputs with reduced confidence if sufficient supporting descriptors exist; otherwise marked undefined. If no inputs are available, energy score is marked undefined and energy-dependent labels are omitted or flagged.
 
+**Reliability tier (Music Story-only):** PARTIALLY TRUSTED / COUPLED
+
+Observed: strongly coupled with Calm and highly entangled with Pulse/Driving/Punch family under static descriptors.
+
 ---
 
 ### Density / Texture
@@ -57,6 +70,10 @@ A feature or label must not be produced if its required descriptor inputs are in
   - High → thick, layered, busy texture
   - Low → sparse, minimal, open texture
 - **Missing data behavior:** If event density is absent, rhythmic stability may serve as a weak proxy at reduced confidence. If no inputs are available, density score is marked undefined.
+
+**Reliability tier (Music Story-only):** PARTIALLY TRUSTED / COUPLED
+
+Observed: distribution compression and coupling with Energy in static descriptor space; treat as partially unstable conceptually under current descriptor set.
 
 ---
 
@@ -70,6 +87,10 @@ A feature or label must not be produced if its required descriptor inputs are in
   - Low → bass-forward, muffled, warm, or heavy sound
 - **Missing data behavior:** If brightness is absent, spectral centroid may be used as a fallback. If both are absent, brightness score is marked undefined and timbre-dependent labels are omitted or flagged.
 
+**Reliability tier (Music Story-only):** PARTIALLY TRUSTED / COUPLED
+
+Observed: best treated as an **internal support dimension** (spectral evidence) rather than a clean user-facing semantic axis. Coupling with Valence/Darkness semantics is expected under static descriptors.
+
 ---
 
 ### Pulse / Rhythmic Regularity
@@ -81,6 +102,10 @@ A feature or label must not be produced if its required descriptor inputs are in
   - High → clear, steady, consistent beat
   - Low → irregular, ambiguous, or arrhythmic feel
 - **Missing data behavior:** If pulse clarity is absent, rhythmic stability may be used. Danceability is a weak proxy only and should not be the sole input. If no inputs are available, pulse score is marked undefined.
+
+**Reliability tier (Music Story-only):** PARTIALLY TRUSTED / COUPLED
+
+Observed: strongly coupled with Driving and Punch family under static descriptors; do not treat as an independent axis.
 
 ---
 
@@ -95,6 +120,11 @@ A feature or label must not be produced if its required descriptor inputs are in
   - High speech → track contains spoken rather than sung content
 - **Missing data behavior:** If both vocal/instrumental and music/speech descriptors are absent, vocal presence score is marked undefined and all vocal-dependent labels are omitted.
 
+**Reliability tier (Music Story-only):**
+
+- Vocal/Instrumental: PARTIALLY TRUSTED / COUPLED (complementary pair)
+- Speech: TRUSTED CORE (direct, stable, strong unique variance)
+
 ---
 
 ### Aggression
@@ -107,6 +137,10 @@ A feature or label must not be produced if its required descriptor inputs are in
   - Low → smooth, soft, controlled dynamics
 - **Missing data behavior:** Depends on loudness and dynamic range descriptors. Reliability under real API data is not yet validated.
 - **Note:** Relationship to Energy is significant — overlap must be managed carefully during testing.
+
+**Reliability tier (Music Story-only):** LOW CONFIDENCE
+
+Observed: high coupling risk with Energy/Motion axes and limited descriptor support for distinct “aggression” semantics under static averaged descriptors. Treat as conceptually valid but not reliably inferable in V1 without richer representations.
 
 ---
 

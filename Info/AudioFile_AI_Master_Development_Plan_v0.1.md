@@ -85,8 +85,8 @@ The system will likely combine descriptor inference, LLM fallback, and future va
 
 **Descriptor pipeline notes:**
 - Real system foundation
-- Has not yet produced validated outputs against real descriptor data
-- Initial implementation begins with a minimal vertical slice (see Phase 1)
+- Has produced validated experimentation outputs against real Music Story descriptor data (CONTROL_1–3) with explicit representation ceiling findings
+- Static averaged descriptor inference is now considered partially validated with known limitations (low-rank coupling, descriptor-starved features)
 
 ---
 
@@ -157,6 +157,7 @@ The system will likely combine descriptor inference, LLM fallback, and future va
 - The LLM baseline pipeline already exists
 - The YAMNet/audio ML system is historical only — excluded from current architecture
 - The ontology is evolving — no label set is permanent or finalized
+- In Music Story-only static descriptor space, the representation is low-rank and partially coupled; semantic overlap and dimension entanglement are expected
 - Both the ontology and model behavior must be versioned
 - User-defined label semantics are never silently overridden
 
@@ -164,7 +165,7 @@ The system will likely combine descriptor inference, LLM fallback, and future va
 
 ## 8. Working Assumptions
 
-- Descriptor APIs will provide enough useful coverage to support meaningful label inference for a meaningful portion of songs
+- Descriptor APIs provide meaningful signal but do not yield fully independent semantic axes under static averaged descriptors; coupling and redundancy are expected
 - A minimal set of core normalized features (e.g., energy, density, brightness, pulse, vocal presence) is expected to be derivable from initial descriptor data
 - LLM baseline outputs are useful as a comparison signal even if not authoritative
 - Label inference confidence can be usefully estimated from descriptor completeness and signal agreement
@@ -185,14 +186,17 @@ The system will likely combine descriptor inference, LLM fallback, and future va
 
 ## 10. Immediate Next Step
 
-**Calibrate and refine the descriptor → dimension → label inference pipeline.**
+**Consolidate the Music Story-only phase findings and proceed beyond calibration-heavy experimentation.**
 
-- Continue expanding cached descriptor coverage via batch runs (rate-limit-aware, resume-capable)
-- Validate and tune dimension formulas against representative tracks
-- Tune conservative label firing thresholds (precision over recall)
-- Validate confidence propagation behavior under missing descriptor coverage
-- Compare descriptor-derived outputs against the LLM baseline where useful, and log systematic mismatches
+- Treat V1 as a **constrained semantic projection layer** with known representation ceilings (low-rank structure, partial coupling, descriptor-starved dimensions)
+- Improve trustworthiness and usability of semantic projection:
+  - avoid confidence inflation from coupled dimensions
+  - ensure missing-data behavior suppresses unsupported dimensions/labels cleanly
+  - make reliability tiers explicit in documentation and observability
+- Focus engineering effort on retrieval/filtering/selector usefulness rather than expanding label sets or attempting to “discover semantics” through endless tuning
 
-This is still validation work (controlled refinement), not coverage chasing. The goal is to produce stable, explainable V1 behavior from cached descriptor evidence.
+Do NOT:
 
-**Do NOT expand into new APIs or large new label sets until calibration behavior is stable.**
+- Assume dimension independence
+- Present broad V1 label sets as equally viable
+- Use open-ended calibration framing as the primary direction

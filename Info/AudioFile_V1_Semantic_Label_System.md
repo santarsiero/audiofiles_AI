@@ -1,6 +1,18 @@
 # AudioFile V1 Semantic Label System
 ## Consolidated Review + Final Design
 
+> **Status / Alignment Note (2026-05):** This document represents a conceptual semantic simplification layer and is partially superseded by:
+>
+> - AudioFile AI Ontology Framework v0.1.3 (frozen)
+> - AudioFile AI Semantic Composition Spec v0.1.1
+>
+> Closure findings from Music Story-only experimentation indicate the V1 representation space is low-rank with partially coupled dimensions. As a result, not all primitives are equally inferable from static averaged descriptors.
+>
+> Reliability tiers (Music Story-only):
+> - **Most trusted:** `speech_score`, `rhythm_stability_score`, `layered_score`
+> - **Partially trusted / coupled:** energy/pulse/driving/calm/darkness/valence/punch/syncopation/brightness/vocal/instrumental
+> - **Descriptor-starved / low confidence:** acoustic/harshness/low_end/offbeat
+
 ---
 
 ## 0. Purpose

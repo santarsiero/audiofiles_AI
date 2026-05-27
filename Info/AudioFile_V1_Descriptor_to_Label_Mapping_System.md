@@ -1,6 +1,19 @@
 # AudioFile V1 Descriptor-to-Label Mapping System
 ## Initial Baseline Spec for Testing
 
+> **DEPRECATION / HISTORICAL NOTE (2026-05):** This document is a historical baseline mapping reference and is **superseded operationally** by:
+>
+> - AudioFile AI Ontology Framework v0.1.3 (frozen)
+> - AudioFile AI Semantic Composition Spec v0.1.1
+> - Music Story-only phase closure findings (representation ceilings and coupled dimensions)
+>
+> This document should be treated as calibration context and historical intent, not implementation authority. Many mappings here were intentionally over-ambitious prior to representation ceiling analysis.
+>
+> Known downgrades from closure evidence:
+> - Dimensions are partially coupled / low-rank under static descriptors; do not assume independence.
+> - `offbeat`, `harshness`, `low_end`, and `acoustic` signals were descriptor-starved in experimentation and should not be presented as reliably inferable from Music Story-only V1.
+> - “syncopation” behavior is not reliably separable from pulse clarity under static averaged descriptors.
+
 Version: v0.1  
 Status: Experimental baseline, not final production mapping  
 Purpose: Create the first runnable system that converts legally available song descriptors into AudioFile V1 labels, while recording metadata and other contextual signals for later analysis.
