@@ -93,7 +93,7 @@ Seven dimensions are active in V1. Five are perceptual/measurable; two are pass-
 
 ### 3.2 pulse_score
 
-**Semantic meaning:** Strength and clarity of the rhythmic anchor — the degree to which a song has a clear, persistent, driving beat that carries the listener. High pulse = the rhythmic engine is running strong and obvious. Low pulse = rhythmically loose, complex, or arrhythmic.
+**Semantic meaning:** Strength and clarity of the rhythmic anchor — the degree to which a song has a clear, persistent beat that carries the listener. High pulse = the rhythmic engine is running strong and obvious. Low pulse = rhythmically loose, complex, or arrhythmic. Note: under static averaged descriptors, pulse-related dimensions may be partially coupled (expected).
 
 **Primary descriptors:**
 - `pulse_clarity` — the most direct available signal; use as primary anchor
@@ -120,6 +120,8 @@ Seven dimensions are active in V1. Five are perceptual/measurable; two are pass-
 ### 3.3 brightness_score
 
 **Semantic meaning:** Spectral brightness — degree of treble energy, spectral sharpness, and high-frequency content. Used internally to support label generation (e.g., `heavy` requires low brightness; `airy` requires high brightness). Not surfaced directly as a user-facing label in V1 due to semantic ambiguity of "bright" as a descriptor.
+
+**Guardrail:** Brightness here refers to spectral/timbral sharpness (high-frequency emphasis), not emotional positivity.
 
 **Primary descriptors:**
 - `brightness` — direct field; primary

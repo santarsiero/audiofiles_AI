@@ -53,6 +53,8 @@ These principles apply to every decision made within the ontology system. When i
 
 **Descriptors are evidence, not meaning.** Raw descriptor values (arousal, pulse_clarity, roll_off, etc.) are signals. They do not carry musical meaning on their own. Meaning is constructed through normalization, combination, and interpretation.
 
+**Terminology guardrail:** In V1, “brightness” refers primarily to **spectral/timbral sharpness** (high-frequency emphasis), not emotional positivity or “uplifting” affect.
+
 **Labels are derived interpretations.** No label should be assigned directly from a single raw descriptor. Labels should emerge from combinations of normalized dimensions, weighted by confidence.
 
 **Specificity comes from combinations.** The system should not try to create one ultra-specific label per scenario. Instead, it should surface a set of simpler labels whose combination produces the specificity. `dark + driving + heavy + bass-dominant` is more useful and more flexible than `dark-driving-heavy-bass-club-track`.

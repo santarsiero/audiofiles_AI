@@ -91,6 +91,8 @@ Observed: distribution compression and coupling with Energy in static descriptor
 
 Observed: best treated as an **internal support dimension** (spectral evidence) rather than a clean user-facing semantic axis. Coupling with Valence/Darkness semantics is expected under static descriptors.
 
+Guardrail: Brightness in V1 refers to spectral/timbral sharpness (high-frequency emphasis), not emotional positivity.
+
 ---
 
 ### Pulse / Rhythmic Regularity

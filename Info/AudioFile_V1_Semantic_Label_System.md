@@ -9,7 +9,8 @@
 > Closure findings from Music Story-only experimentation indicate the V1 representation space is low-rank with partially coupled dimensions. As a result, not all primitives are equally inferable from static averaged descriptors.
 >
 > Reliability tiers (Music Story-only):
-> - **Most trusted:** `speech_score`, `rhythm_stability_score`, `layered_score`
+> - **Most trusted:** `speech_score`, `rhythm_stability_score`
+> - **Moderately trusted (proxy-based / conceptually compressed):** `layered_score`
 > - **Partially trusted / coupled:** energy/pulse/driving/calm/darkness/valence/punch/syncopation/brightness/vocal/instrumental
 > - **Descriptor-starved / low confidence:** acoustic/harshness/low_end/offbeat
 
@@ -29,7 +30,7 @@ Goal:
 Create a **small, consistent, inferable label system** that:
 
 - Works without raw audio
-- Maps to descriptor APIs (Music Story, AcousticBrainz)
+- Maps primarily to descriptor APIs (Music Story). AcousticBrainz may be considered as a future experimental provider, but is not assumed as part of the stabilized V1 Music Story-only phase.
 - Powers filtering + AI selection
 - Is scalable for future expansion
 
@@ -143,7 +144,7 @@ These are the ONLY labels stored as ground truth.
 
 ### Definitions
 - steady → predictable pulse
-- driving → strong forward momentum
+- driving → strong forward momentum (operationally useful, but partially coupled to pulse and rhythmic stability under static descriptors)
 - bouncy → off-beat emphasis
 - syncopated → displaced accents
 
@@ -342,7 +343,7 @@ signals → primitives → derived semantics
 1. Implement core labels ONLY
 2. Build mapping from:
    - Music Story
-   - AcousticBrainz
+   - AcousticBrainz (optional future experiment only; not assumed as near-term dependency)
 3. Run on small dataset (100–500 songs)
 4. Evaluate:
    - consistency
@@ -362,7 +363,7 @@ signals → primitives → derived semantics
 
 ## 7. Outcome
 
-If implemented correctly, this system will:
+If implemented correctly, this system will support a first constrained semantic runtime:
 
 - Auto-label songs reliably
 - Enable strong filtering immediately

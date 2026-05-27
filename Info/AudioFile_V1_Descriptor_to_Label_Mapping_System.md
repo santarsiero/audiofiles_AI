@@ -16,19 +16,19 @@
 
 Version: v0.1  
 Status: Experimental baseline, not final production mapping  
-Purpose: Create the first runnable system that converts legally available song descriptors into AudioFile V1 labels, while recording metadata and other contextual signals for later analysis.
+Purpose: Create a runnable, constrained semantic projection system that converts legally available song descriptors into AudioFile V1 labels, while recording metadata and other contextual signals for later analysis.
 
 ---
 
 ## 0. Executive Summary
 
-AudioFile has now moved from label research into system calibration. The V1 goal is no longer to keep researching what labels might exist. The V1 goal is to build a first working label-generation pipeline:
+AudioFile has now moved from label research into system calibration. The V1 goal is no longer to keep researching what labels might exist. The V1 goal is to build a working, constrained label-generation pipeline:
 
 ```text
 song identity → descriptor lookup → feature normalization → label scoring → confidence assignment → stored AI labels
 ```
 
-This system should be descriptor-first. Descriptor data should drive the initial labels. Metadata, provider tags, user labels, genre/style information, and LLM outputs should still be stored, but they should not be treated as equal truth sources in the first test version.
+This system should be descriptor-first. Descriptor data should drive the initial labels. Metadata, provider tags, user labels, genre/style information, and LLM outputs should still be stored, but they should not be treated as equal truth sources in the constrained semantic runtime.
 
 The purpose of this document is to define the best baseline that can be responsibly built before seeing real dataset distributions. The mapping rules below are deliberately conservative. They are good enough to run the first test set, but they must be calibrated against real songs before being locked.
 
@@ -62,7 +62,7 @@ Descriptor data should drive label assignment in the first version. However, all
 
 - MusicBrainz identity
 - Music Story descriptors
-- AcousticBrainz descriptors
+- AcousticBrainz descriptors (optional future experiment only; not assumed as near-term dependency)
 - genre/style/tags
 - provider metadata
 - user labels
@@ -78,7 +78,7 @@ Metadata explains, audits, and later improves labels.
 
 ### 1.4 This is a baseline, not a final model
 
-Exact weights and thresholds cannot be known from research alone. They depend on the actual value distribution returned by Music Story, AcousticBrainz, and any future providers. The values below are starting points only.
+Exact weights and thresholds cannot be known from research alone. They depend on the actual value distribution returned by Music Story and any future providers. (AcousticBrainz is treated as a possible future experimental source, not an assumed near-term dependency.) The values below are starting points only.
 
 ---
 
@@ -191,7 +191,7 @@ Example:
 
 ```text
 Music Story arousal
-AcousticBrainz high-level intensity
+AcousticBrainz high-level intensity (optional future experiment only; not assumed)
 future provider energy/activity
 
 all map into:
@@ -467,7 +467,7 @@ pulse_score = available value
 
 ### 6.7 Driving score
 
-Purpose: Forward rhythmic momentum.
+Purpose: Forward rhythmic momentum (operationally useful, but partially coupled to pulse and rhythmic stability under static descriptors).
 
 Initial formula:
 
@@ -741,7 +741,7 @@ confidence =
 
 ```text
 Music Story descriptor = 0.90
-AcousticBrainz descriptor = 0.75
+AcousticBrainz descriptor = 0.75 (if ever added; not assumed in Music Story-only V1)
 metadata / tags = 0.45
 LLM fallback = 0.30
 user label = separate authority, not merged globally
@@ -848,7 +848,7 @@ This is important because the ontology and mapping will change.
 
 ---
 
-## 10. First Test Plan
+## 10. First Constrained Runtime Plan
 
 ### 10.1 Do not start with 2,000 songs
 
@@ -870,7 +870,7 @@ Phase C: 2,000+ songs, large-scale correlation and calibration
 Choose songs with:
 - strong identity match
 - Music Story descriptor coverage
-- AcousticBrainz descriptor coverage if available
+- AcousticBrainz descriptor coverage if available (optional; not assumed)
 - genre/metadata available
 - diverse styles
 
@@ -1046,7 +1046,7 @@ These cannot be answered responsibly without real descriptor distributions:
 
 ## 16. Final Recommendation
 
-The system is ready for a first test version, but not a production lock.
+The system is ready for a first constrained semantic runtime, but not a production lock.
 
 The safest path is:
 
@@ -1062,7 +1062,7 @@ Descriptor-first baseline
 Do not attempt to perfect the mapping before running data. The correct next milestone is not “final ontology.” It is:
 
 ```text
-first runnable descriptor-to-label mapper with full debug trace
+first constrained semantic runtime with full debug trace
 ```
 
 That is the point where AudioFile AI becomes measurable.
