@@ -2,6 +2,19 @@
 
 This repository contains a minimal, auditable LLM-based labeling baseline for AudioFile.
 
+## Current Status (2026-05)
+
+The Music Story descriptor experimentation phase (AudioFile AI semantic inference) has been completed in `experimentation/` and closed with finalized reports. This phase is **diagnostic only** and does not redesign ontology or runtime logic.
+
+Final closure reports:
+
+- `experimentation/reports/final_feature_stability_report.md`
+- `experimentation/reports/final_descriptor_dependency_report.md`
+- `experimentation/reports/final_latent_structure_summary.md`
+- `experimentation/reports/musicstory_phase_closure_summary.md`
+
+Next phase work (not implemented here) transitions into representation + semantic mapping beyond Music Story-only static descriptors.
+
 The baseline pipeline:
 
 - Generates structured labels for each song using multiple LLMs and multiple prompt types.

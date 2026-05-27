@@ -1,5 +1,14 @@
 # Latest Experiment Summary (Music Story cache analysis)
 
+## Status (2026-05)
+
+This summary is a historical snapshot from an earlier Music Story cache analysis run. The Music Story-only experimentation phase has since been closed; use these final reports as the canonical status:
+
+- `experimentation/reports/final_feature_stability_report.md`
+- `experimentation/reports/final_descriptor_dependency_report.md`
+- `experimentation/reports/final_latent_structure_summary.md`
+- `experimentation/reports/musicstory_phase_closure_summary.md`
+
 ## Dataset Context
 
 - Total entries: 209

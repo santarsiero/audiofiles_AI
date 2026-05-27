@@ -19,6 +19,21 @@ This folder contains **isolated research tooling** for analyzing cached descript
 4. Correlation / redundancy analysis
 5. Small human sanity-review support (later)
 
+## Music Story Phase Closure (2026-05)
+
+The Music Story-only experimentation phase has been closed with finalized diagnostic reports:
+
+- `experimentation/reports/final_feature_stability_report.md`
+- `experimentation/reports/final_descriptor_dependency_report.md`
+- `experimentation/reports/final_latent_structure_summary.md`
+- `experimentation/reports/musicstory_phase_closure_summary.md`
+
+Primary experimental runs that produced the core evidence:
+
+- CONTROL_1: join + semantic validation + feature calibration
+- CONTROL_2: dimension independence analysis
+- CONTROL_3: manifold stress test (coverage-maximizing sampling from cache)
+
 ## Data Sources
 
 By default, scripts read cached Music Story batch files from:
@@ -34,6 +49,11 @@ Run all experiments:
 Or run a single script with Node:
 
 - `node experimentation/scripts/001_coverage_analysis.js`
+
+Regenerate the final closure reports (will refuse to overwrite unless `--overwrite` is passed):
+
+- `node experimentation/scripts/finalize_musicstory_experimentation_phase.js`
+- `node experimentation/scripts/finalize_musicstory_experimentation_phase.js --overwrite`
 
 Outputs:
 

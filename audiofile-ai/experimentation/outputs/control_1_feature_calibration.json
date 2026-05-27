@@ -1,0 +1,5686 @@
+{
+  "meta": {
+    "generatedAt": "2026-05-27T18:00:56.990Z",
+    "sourcePath": "/Users/nicksantarsiero/Documents/GitHub/audiofiles_AI/audiofile-ai/experimentation/outputs/control_1_semantic_validation.json",
+    "outputJsonPath": "/Users/nicksantarsiero/Documents/GitHub/audiofiles_AI/audiofile-ai/experimentation/outputs/control_1_feature_calibration.json"
+  },
+  "summary": {
+    "tracks": 56,
+    "groups": [
+      "aggressive",
+      "bouncy",
+      "calm",
+      "driving",
+      "emotional_reflective",
+      "euphoric",
+      "steady"
+    ]
+  },
+  "featureIds": [
+    "acoustic_score",
+    "brightness_score",
+    "calm_score",
+    "darkness_score",
+    "density_score",
+    "driving_score",
+    "energy_score",
+    "harshness_score",
+    "instrumental_score",
+    "layered_score",
+    "low_end_score",
+    "offbeat_score",
+    "pulse_score",
+    "punch_score",
+    "rhythm_stability_score",
+    "speech_score",
+    "syncopation_score",
+    "valence_score",
+    "vocal_score"
+  ],
+  "inputIds": [
+    "arousal",
+    "articulation",
+    "dissonance",
+    "event_density",
+    "flatness",
+    "harshness_score",
+    "instrumentation_diversity",
+    "intensity",
+    "loudness_range",
+    "loudness_score",
+    "low_end_score",
+    "low_valence_score",
+    "music_speech",
+    "offbeat_score",
+    "provider_syncopation_or_rhythm_complexity",
+    "pulse_clarity",
+    "rhythmic_stability",
+    "spectral_centroid_or_brightness",
+    "spectral_complexity",
+    "spectral_rolloff",
+    "timbral_complexity",
+    "transient_strength",
+    "valence",
+    "vocal_instrumental"
+  ],
+  "featureStats": {
+    "acoustic_score": {
+      "nTotal": 56,
+      "nNumeric": 0,
+      "missingRate": 1,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null,
+      "p10": null,
+      "p25": null,
+      "p50": null,
+      "p75": null,
+      "p90": null,
+      "saturation": {
+        "low_le_0_02": null,
+        "high_ge_0_98": null
+      },
+      "histogram": {
+        "bins": 10,
+        "counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 0
+      }
+    },
+    "brightness_score": {
+      "nTotal": 56,
+      "nNumeric": 56,
+      "missingRate": 0,
+      "mean": 0.21237674020848218,
+      "std": 0.0651044647286311,
+      "min": 0.092627523775,
+      "max": 0.4243791049,
+      "p10": 0.1298462718,
+      "p25": 0.175113929625,
+      "p50": 0.2031491602125,
+      "p75": 0.23505096065000003,
+      "p90": 0.29588882555,
+      "saturation": {
+        "low_le_0_02": 0,
+        "high_ge_0_98": 0
+      },
+      "histogram": {
+        "bins": 10,
+        "counts": [
+          1,
+          23,
+          27,
+          4,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 56
+      }
+    },
+    "calm_score": {
+      "nTotal": 56,
+      "nNumeric": 56,
+      "missingRate": 0,
+      "mean": 0.6354833459612166,
+      "std": 0.06632827884264002,
+      "min": 0.5102266628906249,
+      "max": 0.8370411953125001,
+      "p10": 0.57459536484375,
+      "p25": 0.5952985490234375,
+      "p50": 0.6137826056640625,
+      "p75": 0.6705658171875,
+      "p90": 0.7369792769531249,
+      "saturation": {
+        "low_le_0_02": 0,
+        "high_ge_0_98": 0
+      },
+      "histogram": {
+        "bins": 10,
+        "counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          18,
+          28,
+          9,
+          1,
+          0
+        ],
+        "total": 56
+      }
+    },
+    "darkness_score": {
+      "nTotal": 56,
+      "nNumeric": 56,
+      "missingRate": 0,
+      "mean": 0.678740382423859,
+      "std": 0.1124467164094267,
+      "min": 0.4334355013194444,
+      "max": 0.8485715159305555,
+      "p10": 0.5181575000555556,
+      "p25": 0.587023694888889,
+      "p50": 0.6946184110902778,
+      "p75": 0.7720676555034722,
+      "p90": 0.8039976474791666,
+      "saturation": {
+        "low_le_0_02": 0,
+        "high_ge_0_98": 0
+      },
+      "histogram": {
+        "bins": 10,
+        "counts": [
+          0,
+          0,
+          0,
+          0,
+          5,
+          10,
+          14,
+          19,
+          8,
+          0
+        ],
+        "total": 56
+      }
+    },
+    "density_score": {
+      "nTotal": 56,
+      "nNumeric": 56,
+      "missingRate": 0,
+      "mean": 0.2379892357142858,
+      "std": 0.01835416498765557,
+      "min": 0.19455319999999998,
+      "max": 0.27985205,
+      "p10": 0.217409325,
+      "p25": 0.227028675,
+      "p50": 0.23454809999999998,
+      "p75": 0.2487028375,
+      "p90": 0.26199615,
+      "saturation": {
+        "low_le_0_02": 0,
+        "high_ge_0_98": 0
+      },
+      "histogram": {
+        "bins": 10,
+        "counts": [
+          0,
+          1,
+          55,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 56
+      }
+    },
+    "driving_score": {
+      "nTotal": 56,
+      "nNumeric": 56,
+      "missingRate": 0,
+      "mean": 0.4153476967145647,
+      "std": 0.09167825151704476,
+      "min": 0.1619214140625,
+      "max": 0.570721958203125,
+      "p10": 0.27510374882812494,
+      "p25": 0.3701739264648437,
+      "p50": 0.43432844394531245,
+      "p75": 0.48056594160156246,
+      "p90": 0.5080880820312499,
+      "saturation": {
+        "low_le_0_02": 0,
+        "high_ge_0_98": 0
+      },
+      "histogram": {
+        "bins": 10,
+        "counts": [
+          0,
+          2,
+          5,
+          12,
+          28,
+          9,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 56
+      }
+    },
+    "energy_score": {
+      "nTotal": 56,
+      "nNumeric": 56,
+      "missingRate": 0,
+      "mean": 0.4879785255580356,
+      "std": 0.10731396629737988,
+      "min": 0.161140125,
+      "max": 0.72477905625,
+      "p10": 0.32744419375,
+      "p25": 0.42517986874999997,
+      "p50": 0.51382361875,
+      "p75": 0.555630359375,
+      "p90": 0.601558525,
+      "saturation": {
+        "low_le_0_02": 0,
+        "high_ge_0_98": 0
+      },
+      "histogram": {
+        "bins": 10,
+        "counts": [
+          0,
+          1,
+          3,
+          7,
+          13,
+          26,
+          5,
+          1,
+          0,
+          0
+        ],
+        "total": 56
+      }
+    },
+    "harshness_score": {
+      "nTotal": 56,
+      "nNumeric": 0,
+      "missingRate": 1,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null,
+      "p10": null,
+      "p25": null,
+      "p50": null,
+      "p75": null,
+      "p90": null,
+      "saturation": {
+        "low_le_0_02": null,
+        "high_ge_0_98": null
+      },
+      "histogram": {
+        "bins": 10,
+        "counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 0
+      }
+    },
+    "instrumental_score": {
+      "nTotal": 56,
+      "nNumeric": 56,
+      "missingRate": 0,
+      "mean": 0.16551874999999996,
+      "std": 0.20906758550135424,
+      "min": 0,
+      "max": 0.91001,
+      "p10": 0,
+      "p25": 0.010757500000000001,
+      "p50": 0.054724999999999996,
+      "p75": 0.27096,
+      "p90": 0.48646,
+      "saturation": {
+        "low_le_0_02": 0.35714285714285715,
+        "high_ge_0_98": 0
+      },
+      "histogram": {
+        "bins": 10,
+        "counts": [
+          31,
+          8,
+          5,
+          3,
+          4,
+          3,
+          1,
+          0,
+          0,
+          1
+        ],
+        "total": 56
+      }
+    },
+    "layered_score": {
+      "nTotal": 56,
+      "nNumeric": 56,
+      "missingRate": 0,
+      "mean": 0.26512216249999987,
+      "std": 0.09570827537884667,
+      "min": 0.12592045,
+      "max": 0.48299309999999995,
+      "p10": 0.158568575,
+      "p25": 0.18202189375,
+      "p50": 0.24657802500000003,
+      "p75": 0.33305229999999997,
+      "p90": 0.40055676249999994,
+      "saturation": {
+        "low_le_0_02": 0,
+        "high_ge_0_98": 0
+      },
+      "histogram": {
+        "bins": 10,
+        "counts": [
+          0,
+          18,
+          21,
+          11,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 56
+      }
+    },
+    "low_end_score": {
+      "nTotal": 56,
+      "nNumeric": 0,
+      "missingRate": 1,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null,
+      "p10": null,
+      "p25": null,
+      "p50": null,
+      "p75": null,
+      "p90": null,
+      "saturation": {
+        "low_le_0_02": null,
+        "high_ge_0_98": null
+      },
+      "histogram": {
+        "bins": 10,
+        "counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 0
+      }
+    },
+    "offbeat_score": {
+      "nTotal": 56,
+      "nNumeric": 0,
+      "missingRate": 1,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null,
+      "p10": null,
+      "p25": null,
+      "p50": null,
+      "p75": null,
+      "p90": null,
+      "saturation": {
+        "low_le_0_02": null,
+        "high_ge_0_98": null
+      },
+      "histogram": {
+        "bins": 10,
+        "counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 0
+      }
+    },
+    "pulse_score": {
+      "nTotal": 56,
+      "nNumeric": 56,
+      "missingRate": 0,
+      "mean": 0.5699585232142856,
+      "std": 0.14832854803259957,
+      "min": 0.19988505,
+      "max": 0.8160119,
+      "p10": 0.3595278,
+      "p25": 0.4774653625,
+      "p50": 0.5943976,
+      "p75": 0.7085652,
+      "p90": 0.7247341250000001,
+      "saturation": {
+        "low_le_0_02": 0,
+        "high_ge_0_98": 0
+      },
+      "histogram": {
+        "bins": 10,
+        "counts": [
+          0,
+          1,
+          4,
+          4,
+          6,
+          13,
+          12,
+          15,
+          1,
+          0
+        ],
+        "total": 56
+      }
+    },
+    "punch_score": {
+      "nTotal": 56,
+      "nNumeric": 56,
+      "missingRate": 0,
+      "mean": 0.394131260267857,
+      "std": 0.07090127759033558,
+      "min": 0.21114924999999998,
+      "max": 0.5032220374999999,
+      "p10": 0.28347515,
+      "p25": 0.35297188749999997,
+      "p50": 0.41303267499999996,
+      "p75": 0.438126553125,
+      "p90": 0.47310193749999996,
+      "saturation": {
+        "low_le_0_02": 0,
+        "high_ge_0_98": 0
+      },
+      "histogram": {
+        "bins": 10,
+        "counts": [
+          0,
+          0,
+          6,
+          16,
+          33,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 56
+      }
+    },
+    "rhythm_stability_score": {
+      "nTotal": 56,
+      "nNumeric": 56,
+      "missingRate": 0,
+      "mean": 0.59835375,
+      "std": 0.06607249591391748,
+      "min": 0.40694,
+      "max": 0.70384,
+      "p10": 0.5199849999999999,
+      "p25": 0.5676075,
+      "p50": 0.60461,
+      "p75": 0.6493975000000001,
+      "p90": 0.66913,
+      "saturation": {
+        "low_le_0_02": 0,
+        "high_ge_0_98": 0
+      },
+      "histogram": {
+        "bins": 10,
+        "counts": [
+          0,
+          0,
+          0,
+          0,
+          5,
+          20,
+          30,
+          1,
+          0,
+          0
+        ],
+        "total": 56
+      }
+    },
+    "speech_score": {
+      "nTotal": 56,
+      "nNumeric": 56,
+      "missingRate": 0,
+      "mean": 0.07265910714285713,
+      "std": 0.04697322969661952,
+      "min": 0,
+      "max": 0.2,
+      "p10": 0.025155,
+      "p25": 0.03776,
+      "p50": 0.060935,
+      "p75": 0.10257,
+      "p90": 0.14362999999999998,
+      "saturation": {
+        "low_le_0_02": 0.07142857142857142,
+        "high_ge_0_98": 0
+      },
+      "histogram": {
+        "bins": 10,
+        "counts": [
+          40,
+          15,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 56
+      }
+    },
+    "syncopation_score": {
+      "nTotal": 56,
+      "nNumeric": 56,
+      "missingRate": 0,
+      "mean": 0.4858023866071431,
+      "std": 0.05715926377495152,
+      "min": 0.37106275,
+      "max": 0.5830459499999999,
+      "p10": 0.4006567625,
+      "p25": 0.44802713750000006,
+      "p50": 0.4926660500000001,
+      "p75": 0.53254866875,
+      "p90": 0.5559739375,
+      "saturation": {
+        "low_le_0_02": 0,
+        "high_ge_0_98": 0
+      },
+      "histogram": {
+        "bins": 10,
+        "counts": [
+          0,
+          0,
+          0,
+          6,
+          26,
+          24,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 56
+      }
+    },
+    "valence_score": {
+      "nTotal": 56,
+      "nNumeric": 56,
+      "missingRate": 0,
+      "mean": 0.4573632142857143,
+      "std": 0.20632709588614684,
+      "min": 0.12119,
+      "max": 0.96,
+      "p10": 0.23138,
+      "p25": 0.29503,
+      "p50": 0.42396,
+      "p75": 0.58,
+      "p90": 0.74766,
+      "saturation": {
+        "low_le_0_02": 0,
+        "high_ge_0_98": 0
+      },
+      "histogram": {
+        "bins": 10,
+        "counts": [
+          0,
+          4,
+          11,
+          11,
+          10,
+          7,
+          4,
+          4,
+          4,
+          1
+        ],
+        "total": 56
+      }
+    },
+    "vocal_score": {
+      "nTotal": 56,
+      "nNumeric": 56,
+      "missingRate": 0,
+      "mean": 0.83448125,
+      "std": 0.20906758550135418,
+      "min": 0.08999000000000001,
+      "max": 1,
+      "p10": 0.51354,
+      "p25": 0.72904,
+      "p50": 0.945275,
+      "p75": 0.9892425,
+      "p90": 1,
+      "saturation": {
+        "low_le_0_02": 0,
+        "high_ge_0_98": 0.35714285714285715
+      },
+      "histogram": {
+        "bins": 10,
+        "counts": [
+          1,
+          0,
+          0,
+          1,
+          3,
+          4,
+          3,
+          5,
+          8,
+          31
+        ],
+        "total": 56
+      }
+    }
+  },
+  "deadBroken": [
+    {
+      "featureId": "acoustic_score",
+      "severityScore": 2,
+      "flags": [
+        "missingRate>1.00"
+      ],
+      "stats": {
+        "nTotal": 56,
+        "nNumeric": 0,
+        "missingRate": 1,
+        "mean": null,
+        "std": null,
+        "min": null,
+        "max": null,
+        "p10": null,
+        "p25": null,
+        "p50": null,
+        "p75": null,
+        "p90": null,
+        "saturation": {
+          "low_le_0_02": null,
+          "high_ge_0_98": null
+        },
+        "histogram": {
+          "bins": 10,
+          "counts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 0
+        }
+      }
+    },
+    {
+      "featureId": "harshness_score",
+      "severityScore": 2,
+      "flags": [
+        "missingRate>1.00"
+      ],
+      "stats": {
+        "nTotal": 56,
+        "nNumeric": 0,
+        "missingRate": 1,
+        "mean": null,
+        "std": null,
+        "min": null,
+        "max": null,
+        "p10": null,
+        "p25": null,
+        "p50": null,
+        "p75": null,
+        "p90": null,
+        "saturation": {
+          "low_le_0_02": null,
+          "high_ge_0_98": null
+        },
+        "histogram": {
+          "bins": 10,
+          "counts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 0
+        }
+      }
+    },
+    {
+      "featureId": "low_end_score",
+      "severityScore": 2,
+      "flags": [
+        "missingRate>1.00"
+      ],
+      "stats": {
+        "nTotal": 56,
+        "nNumeric": 0,
+        "missingRate": 1,
+        "mean": null,
+        "std": null,
+        "min": null,
+        "max": null,
+        "p10": null,
+        "p25": null,
+        "p50": null,
+        "p75": null,
+        "p90": null,
+        "saturation": {
+          "low_le_0_02": null,
+          "high_ge_0_98": null
+        },
+        "histogram": {
+          "bins": 10,
+          "counts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 0
+        }
+      }
+    },
+    {
+      "featureId": "offbeat_score",
+      "severityScore": 2,
+      "flags": [
+        "missingRate>1.00"
+      ],
+      "stats": {
+        "nTotal": 56,
+        "nNumeric": 0,
+        "missingRate": 1,
+        "mean": null,
+        "std": null,
+        "min": null,
+        "max": null,
+        "p10": null,
+        "p25": null,
+        "p50": null,
+        "p75": null,
+        "p90": null,
+        "saturation": {
+          "low_le_0_02": null,
+          "high_ge_0_98": null
+        },
+        "histogram": {
+          "bins": 10,
+          "counts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 0
+        }
+      }
+    },
+    {
+      "featureId": "density_score",
+      "severityScore": 1,
+      "flags": [
+        "stdVeryLow(0.018)"
+      ],
+      "stats": {
+        "nTotal": 56,
+        "nNumeric": 56,
+        "missingRate": 0,
+        "mean": 0.2379892357142858,
+        "std": 0.01835416498765557,
+        "min": 0.19455319999999998,
+        "max": 0.27985205,
+        "p10": 0.217409325,
+        "p25": 0.227028675,
+        "p50": 0.23454809999999998,
+        "p75": 0.2487028375,
+        "p90": 0.26199615,
+        "saturation": {
+          "low_le_0_02": 0,
+          "high_ge_0_98": 0
+        },
+        "histogram": {
+          "bins": 10,
+          "counts": [
+            0,
+            1,
+            55,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 56
+        }
+      }
+    }
+  ],
+  "groupSeparability": [
+    {
+      "group": "aggressive",
+      "topSeparatingFeatures": [
+        {
+          "featureId": "valence_score",
+          "d": -1.2737414058144239,
+          "absD": 1.2737414058144239,
+          "meanIn": 0.24437714285714288,
+          "meanOut": 0.4877897959183673,
+          "stdIn": 0.0952090897092568,
+          "stdOut": 0.19987806586577742,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "darkness_score",
+          "d": 1.1585633886472795,
+          "absD": 1.1585633886472795,
+          "meanIn": 0.7857860401686507,
+          "meanOut": 0.6634481456031746,
+          "stdIn": 0.04477483521227462,
+          "stdOut": 0.1108754681039792,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "density_score",
+          "d": 1.0218406446005006,
+          "absD": 1.0218406446005006,
+          "meanIn": 0.25352555,
+          "meanOut": 0.23576976224489798,
+          "stdIn": 0.01819997595793154,
+          "stdOut": 0.017270554442790204,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "vocal_score",
+          "d": -0.700159628186435,
+          "absD": 0.700159628186435,
+          "meanIn": 0.71094,
+          "meanOut": 0.8521300000000002,
+          "stdIn": 0.30983302231086624,
+          "stdOut": 0.1837058019369724,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "instrumental_score",
+          "d": 0.7001596281864343,
+          "absD": 0.7001596281864343,
+          "meanIn": 0.28906,
+          "meanOut": 0.14786999999999997,
+          "stdIn": 0.3098330223108662,
+          "stdOut": 0.1837058019369724,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "speech_score",
+          "d": 0.6886826818009185,
+          "absD": 0.6886826818009185,
+          "meanIn": 0.1002057142857143,
+          "meanOut": 0.06872387755102038,
+          "stdIn": 0.05125234373934045,
+          "stdOut": 0.0449727757928685,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "energy_score",
+          "d": 0.4871216226383543,
+          "absD": 0.4871216226383543,
+          "meanIn": 0.5332492071428572,
+          "meanOut": 0.4815112853316326,
+          "stdIn": 0.08722953978011525,
+          "stdOut": 0.10835068415986412,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "calm_score",
+          "d": -0.41357278245845686,
+          "absD": 0.41357278245845686,
+          "meanIn": 0.6116412397321429,
+          "meanOut": 0.6388893611367984,
+          "stdIn": 0.053823033189440955,
+          "stdOut": 0.06724045666437081,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "brightness_score",
+          "d": -0.3943281854550503,
+          "absD": 0.3943281854550503,
+          "meanIn": 0.1900834134107143,
+          "meanOut": 0.21556150117959186,
+          "stdIn": 0.061026281973359034,
+          "stdOut": 0.06504562376023557,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "rhythm_stability_score",
+          "d": -0.3261193919310302,
+          "absD": 0.3261193919310302,
+          "meanIn": 0.5795057142857143,
+          "meanOut": 0.6010463265306123,
+          "stdIn": 0.03597161136910324,
+          "stdOut": 0.06889395855429656,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "layered_score",
+          "d": 0.3075249563606977,
+          "absD": 0.3075249563606977,
+          "meanIn": 0.290734275,
+          "meanOut": 0.26146328928571416,
+          "stdIn": 0.09739561725233713,
+          "stdOut": 0.09490220061341438,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "driving_score",
+          "d": 0.13849988715377506,
+          "absD": 0.13849988715377506,
+          "meanIn": 0.42646605044642855,
+          "meanOut": 0.4137593604671555,
+          "stdIn": 0.0806341772232743,
+          "stdOut": 0.09304074867601604,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "syncopation_score",
+          "d": 0.10814908806645969,
+          "absD": 0.10814908806645969,
+          "meanIn": 0.4912207285714286,
+          "meanOut": 0.48502833775510207,
+          "stdIn": 0.04782977474485953,
+          "stdOut": 0.05832937466196662,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "punch_score",
+          "d": 0.0742045872627101,
+          "absD": 0.0742045872627101,
+          "meanIn": 0.39874527499999995,
+          "meanOut": 0.3934721153061223,
+          "stdIn": 0.05823123768171721,
+          "stdOut": 0.0725068684757101,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "pulse_score",
+          "d": -0.06162611918086764,
+          "absD": 0.06162611918086764,
+          "meanIn": 0.5619471714285714,
+          "meanOut": 0.5711030020408162,
+          "stdIn": 0.1299489128019652,
+          "stdOut": 0.15073666478490405,
+          "nIn": 7,
+          "nOut": 49
+        }
+      ],
+      "allSeparatingFeatures": [
+        {
+          "featureId": "valence_score",
+          "d": -1.2737414058144239,
+          "absD": 1.2737414058144239,
+          "meanIn": 0.24437714285714288,
+          "meanOut": 0.4877897959183673,
+          "stdIn": 0.0952090897092568,
+          "stdOut": 0.19987806586577742,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "darkness_score",
+          "d": 1.1585633886472795,
+          "absD": 1.1585633886472795,
+          "meanIn": 0.7857860401686507,
+          "meanOut": 0.6634481456031746,
+          "stdIn": 0.04477483521227462,
+          "stdOut": 0.1108754681039792,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "density_score",
+          "d": 1.0218406446005006,
+          "absD": 1.0218406446005006,
+          "meanIn": 0.25352555,
+          "meanOut": 0.23576976224489798,
+          "stdIn": 0.01819997595793154,
+          "stdOut": 0.017270554442790204,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "vocal_score",
+          "d": -0.700159628186435,
+          "absD": 0.700159628186435,
+          "meanIn": 0.71094,
+          "meanOut": 0.8521300000000002,
+          "stdIn": 0.30983302231086624,
+          "stdOut": 0.1837058019369724,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "instrumental_score",
+          "d": 0.7001596281864343,
+          "absD": 0.7001596281864343,
+          "meanIn": 0.28906,
+          "meanOut": 0.14786999999999997,
+          "stdIn": 0.3098330223108662,
+          "stdOut": 0.1837058019369724,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "speech_score",
+          "d": 0.6886826818009185,
+          "absD": 0.6886826818009185,
+          "meanIn": 0.1002057142857143,
+          "meanOut": 0.06872387755102038,
+          "stdIn": 0.05125234373934045,
+          "stdOut": 0.0449727757928685,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "energy_score",
+          "d": 0.4871216226383543,
+          "absD": 0.4871216226383543,
+          "meanIn": 0.5332492071428572,
+          "meanOut": 0.4815112853316326,
+          "stdIn": 0.08722953978011525,
+          "stdOut": 0.10835068415986412,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "calm_score",
+          "d": -0.41357278245845686,
+          "absD": 0.41357278245845686,
+          "meanIn": 0.6116412397321429,
+          "meanOut": 0.6388893611367984,
+          "stdIn": 0.053823033189440955,
+          "stdOut": 0.06724045666437081,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "brightness_score",
+          "d": -0.3943281854550503,
+          "absD": 0.3943281854550503,
+          "meanIn": 0.1900834134107143,
+          "meanOut": 0.21556150117959186,
+          "stdIn": 0.061026281973359034,
+          "stdOut": 0.06504562376023557,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "rhythm_stability_score",
+          "d": -0.3261193919310302,
+          "absD": 0.3261193919310302,
+          "meanIn": 0.5795057142857143,
+          "meanOut": 0.6010463265306123,
+          "stdIn": 0.03597161136910324,
+          "stdOut": 0.06889395855429656,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "layered_score",
+          "d": 0.3075249563606977,
+          "absD": 0.3075249563606977,
+          "meanIn": 0.290734275,
+          "meanOut": 0.26146328928571416,
+          "stdIn": 0.09739561725233713,
+          "stdOut": 0.09490220061341438,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "driving_score",
+          "d": 0.13849988715377506,
+          "absD": 0.13849988715377506,
+          "meanIn": 0.42646605044642855,
+          "meanOut": 0.4137593604671555,
+          "stdIn": 0.0806341772232743,
+          "stdOut": 0.09304074867601604,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "syncopation_score",
+          "d": 0.10814908806645969,
+          "absD": 0.10814908806645969,
+          "meanIn": 0.4912207285714286,
+          "meanOut": 0.48502833775510207,
+          "stdIn": 0.04782977474485953,
+          "stdOut": 0.05832937466196662,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "punch_score",
+          "d": 0.0742045872627101,
+          "absD": 0.0742045872627101,
+          "meanIn": 0.39874527499999995,
+          "meanOut": 0.3934721153061223,
+          "stdIn": 0.05823123768171721,
+          "stdOut": 0.0725068684757101,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "pulse_score",
+          "d": -0.06162611918086764,
+          "absD": 0.06162611918086764,
+          "meanIn": 0.5619471714285714,
+          "meanOut": 0.5711030020408162,
+          "stdIn": 0.1299489128019652,
+          "stdOut": 0.15073666478490405,
+          "nIn": 7,
+          "nOut": 49
+        }
+      ]
+    },
+    {
+      "group": "bouncy",
+      "topSeparatingFeatures": [
+        {
+          "featureId": "darkness_score",
+          "d": -2.297389991115075,
+          "absD": 2.297389991115075,
+          "meanIn": 0.5126871633518518,
+          "meanOut": 0.7105378073525415,
+          "stdIn": 0.062158368343821234,
+          "stdOut": 0.08963545484505091,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "valence_score",
+          "d": 2.0227257834397863,
+          "absD": 2.0227257834397863,
+          "meanIn": 0.7386555555555555,
+          "meanOut": 0.40349872340425524,
+          "stdIn": 0.15819406816460954,
+          "stdOut": 0.16696585387459445,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "brightness_score",
+          "d": 1.5556558543474117,
+          "absD": 1.5556558543474117,
+          "meanIn": 0.28623866152222227,
+          "meanOut": 0.19823296804202126,
+          "stdIn": 0.05258259682208213,
+          "stdOut": 0.057236783754769885,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "rhythm_stability_score",
+          "d": 0.8844273203418622,
+          "absD": 0.8844273203418622,
+          "meanIn": 0.6450666666666667,
+          "meanOut": 0.5894087234042554,
+          "stdIn": 0.055738440754812796,
+          "stdOut": 0.06409960937302629,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "syncopation_score",
+          "d": -0.7725368668730237,
+          "absD": 0.7725368668730237,
+          "meanIn": 0.45013355277777783,
+          "meanOut": 0.4926325888297872,
+          "stdIn": 0.053260519649715246,
+          "stdOut": 0.05531130358535781,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "speech_score",
+          "d": 0.7491558321229909,
+          "absD": 0.7491558321229909,
+          "meanIn": 0.10120222222222222,
+          "meanOut": 0.06719340425531913,
+          "stdIn": 0.036878593844541,
+          "stdOut": 0.04671925810383495,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "instrumental_score",
+          "d": -0.4852311851550632,
+          "absD": 0.4852311851550632,
+          "meanIn": 0.0812377777777778,
+          "meanOut": 0.18165765957446808,
+          "stdIn": 0.10132523857775766,
+          "stdOut": 0.220210039678879,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "vocal_score",
+          "d": 0.4852311851550631,
+          "absD": 0.4852311851550631,
+          "meanIn": 0.9187622222222223,
+          "meanOut": 0.818342340425532,
+          "stdIn": 0.10132523857775766,
+          "stdOut": 0.220210039678879,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "calm_score",
+          "d": -0.4797641174684398,
+          "absD": 0.4797641174684398,
+          "meanIn": 0.6091006041232638,
+          "meanOut": 0.640535360355718,
+          "stdIn": 0.04970581723247159,
+          "stdOut": 0.06789676804738883,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "punch_score",
+          "d": 0.46334999876463595,
+          "absD": 0.46334999876463595,
+          "meanIn": 0.4213809430555555,
+          "meanOut": 0.3889132359042553,
+          "stdIn": 0.056561809224769666,
+          "stdOut": 0.07216348878337914,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "density_score",
+          "d": -0.4163052465227602,
+          "absD": 0.4163052465227602,
+          "meanIn": 0.2316204166666667,
+          "meanOut": 0.23920879680851068,
+          "stdIn": 0.010899050738099469,
+          "stdOut": 0.019219314261048347,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "layered_score",
+          "d": 0.36636198841546,
+          "absD": 0.36636198841546,
+          "meanIn": 0.29426665277777775,
+          "meanOut": 0.25954130265957437,
+          "stdIn": 0.09944935052645967,
+          "stdOut": 0.09394929699941855,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "pulse_score",
+          "d": -0.19795878408228176,
+          "absD": 0.19795878408228176,
+          "meanIn": 0.5453337722222222,
+          "meanOut": 0.5746739010638297,
+          "stdIn": 0.12810992209869815,
+          "stdOut": 0.15143738594304204,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "energy_score",
+          "d": 0.18909804167943706,
+          "absD": 0.18909804167943706,
+          "meanIn": 0.5050362381944444,
+          "meanOut": 0.48471215505319143,
+          "stdIn": 0.07328436469491435,
+          "stdOut": 0.11236874783133653,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "driving_score",
+          "d": -0.07463852647837328,
+          "absD": 0.07463852647837328,
+          "meanIn": 0.4095892942274305,
+          "meanOut": 0.41645036953124975,
+          "stdIn": 0.07042986179252708,
+          "stdOut": 0.09516789558812379,
+          "nIn": 9,
+          "nOut": 47
+        }
+      ],
+      "allSeparatingFeatures": [
+        {
+          "featureId": "darkness_score",
+          "d": -2.297389991115075,
+          "absD": 2.297389991115075,
+          "meanIn": 0.5126871633518518,
+          "meanOut": 0.7105378073525415,
+          "stdIn": 0.062158368343821234,
+          "stdOut": 0.08963545484505091,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "valence_score",
+          "d": 2.0227257834397863,
+          "absD": 2.0227257834397863,
+          "meanIn": 0.7386555555555555,
+          "meanOut": 0.40349872340425524,
+          "stdIn": 0.15819406816460954,
+          "stdOut": 0.16696585387459445,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "brightness_score",
+          "d": 1.5556558543474117,
+          "absD": 1.5556558543474117,
+          "meanIn": 0.28623866152222227,
+          "meanOut": 0.19823296804202126,
+          "stdIn": 0.05258259682208213,
+          "stdOut": 0.057236783754769885,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "rhythm_stability_score",
+          "d": 0.8844273203418622,
+          "absD": 0.8844273203418622,
+          "meanIn": 0.6450666666666667,
+          "meanOut": 0.5894087234042554,
+          "stdIn": 0.055738440754812796,
+          "stdOut": 0.06409960937302629,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "syncopation_score",
+          "d": -0.7725368668730237,
+          "absD": 0.7725368668730237,
+          "meanIn": 0.45013355277777783,
+          "meanOut": 0.4926325888297872,
+          "stdIn": 0.053260519649715246,
+          "stdOut": 0.05531130358535781,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "speech_score",
+          "d": 0.7491558321229909,
+          "absD": 0.7491558321229909,
+          "meanIn": 0.10120222222222222,
+          "meanOut": 0.06719340425531913,
+          "stdIn": 0.036878593844541,
+          "stdOut": 0.04671925810383495,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "instrumental_score",
+          "d": -0.4852311851550632,
+          "absD": 0.4852311851550632,
+          "meanIn": 0.0812377777777778,
+          "meanOut": 0.18165765957446808,
+          "stdIn": 0.10132523857775766,
+          "stdOut": 0.220210039678879,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "vocal_score",
+          "d": 0.4852311851550631,
+          "absD": 0.4852311851550631,
+          "meanIn": 0.9187622222222223,
+          "meanOut": 0.818342340425532,
+          "stdIn": 0.10132523857775766,
+          "stdOut": 0.220210039678879,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "calm_score",
+          "d": -0.4797641174684398,
+          "absD": 0.4797641174684398,
+          "meanIn": 0.6091006041232638,
+          "meanOut": 0.640535360355718,
+          "stdIn": 0.04970581723247159,
+          "stdOut": 0.06789676804738883,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "punch_score",
+          "d": 0.46334999876463595,
+          "absD": 0.46334999876463595,
+          "meanIn": 0.4213809430555555,
+          "meanOut": 0.3889132359042553,
+          "stdIn": 0.056561809224769666,
+          "stdOut": 0.07216348878337914,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "density_score",
+          "d": -0.4163052465227602,
+          "absD": 0.4163052465227602,
+          "meanIn": 0.2316204166666667,
+          "meanOut": 0.23920879680851068,
+          "stdIn": 0.010899050738099469,
+          "stdOut": 0.019219314261048347,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "layered_score",
+          "d": 0.36636198841546,
+          "absD": 0.36636198841546,
+          "meanIn": 0.29426665277777775,
+          "meanOut": 0.25954130265957437,
+          "stdIn": 0.09944935052645967,
+          "stdOut": 0.09394929699941855,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "pulse_score",
+          "d": -0.19795878408228176,
+          "absD": 0.19795878408228176,
+          "meanIn": 0.5453337722222222,
+          "meanOut": 0.5746739010638297,
+          "stdIn": 0.12810992209869815,
+          "stdOut": 0.15143738594304204,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "energy_score",
+          "d": 0.18909804167943706,
+          "absD": 0.18909804167943706,
+          "meanIn": 0.5050362381944444,
+          "meanOut": 0.48471215505319143,
+          "stdIn": 0.07328436469491435,
+          "stdOut": 0.11236874783133653,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "driving_score",
+          "d": -0.07463852647837328,
+          "absD": 0.07463852647837328,
+          "meanIn": 0.4095892942274305,
+          "meanOut": 0.41645036953124975,
+          "stdIn": 0.07042986179252708,
+          "stdOut": 0.09516789558812379,
+          "nIn": 9,
+          "nOut": 47
+        }
+      ]
+    },
+    {
+      "group": "calm",
+      "topSeparatingFeatures": [
+        {
+          "featureId": "calm_score",
+          "d": 2.258430818726172,
+          "absD": 2.258430818726172,
+          "meanIn": 0.7320642966145833,
+          "meanOut": 0.6169891213680184,
+          "stdIn": 0.061216398776285555,
+          "stdOut": 0.04894960857584431,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "energy_score",
+          "d": -2.2056918700265733,
+          "absD": 2.2056918700265733,
+          "meanIn": 0.3338474013888889,
+          "meanOut": 0.517492996143617,
+          "stdIn": 0.09645618671281657,
+          "stdOut": 0.08074499009393711,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "driving_score",
+          "d": -1.8117291604266064,
+          "absD": 1.8117291604266064,
+          "meanIn": 0.2997235563368055,
+          "meanOut": 0.43748848955285896,
+          "stdIn": 0.10017019456609853,
+          "stdOut": 0.07101203406525927,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "punch_score",
+          "d": -1.7756428250329017,
+          "absD": 1.7756428250329017,
+          "meanIn": 0.30599248333333334,
+          "meanOut": 0.41100889840425525,
+          "stdIn": 0.07946431975306285,
+          "stdOut": 0.054845263321689174,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "rhythm_stability_score",
+          "d": -1.568433129593952,
+          "absD": 1.568433129593952,
+          "meanIn": 0.5234666666666666,
+          "meanOut": 0.6126938297872341,
+          "stdIn": 0.08357248483934306,
+          "stdOut": 0.05083876978244364,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "density_score",
+          "d": -1.4477889995751358,
+          "absD": 1.4477889995751358,
+          "meanIn": 0.21826853333333332,
+          "meanOut": 0.24176554042553194,
+          "stdIn": 0.013997517156961964,
+          "stdOut": 0.016587132363229052,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "pulse_score",
+          "d": -1.374065159941684,
+          "absD": 1.374065159941684,
+          "meanIn": 0.4179175722222223,
+          "meanOut": 0.5990727478723401,
+          "stdIn": 0.17460404244793912,
+          "stdOut": 0.12289156833103212,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "syncopation_score",
+          "d": -0.8439379021088261,
+          "absD": 0.8439379021088261,
+          "meanIn": 0.44722545277777775,
+          "meanOut": 0.4931894590425532,
+          "stdIn": 0.06360051970702281,
+          "stdOut": 0.05271330962770213,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "brightness_score",
+          "d": -0.7158512375804642,
+          "absD": 0.7158512375804642,
+          "meanIn": 0.17437159604999997,
+          "meanOut": 0.2196543210047873,
+          "stdIn": 0.03641738132302655,
+          "stdOut": 0.06683359694295804,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "speech_score",
+          "d": -0.4147665196077056,
+          "absD": 0.4147665196077056,
+          "meanIn": 0.05655222222222221,
+          "meanOut": 0.07574340425531913,
+          "stdIn": 0.056738490908881986,
+          "stdOut": 0.0441968090345511,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "instrumental_score",
+          "d": -0.40391904016340735,
+          "absD": 0.40391904016340735,
+          "meanIn": 0.09505666666666665,
+          "meanOut": 0.17901148936170216,
+          "stdIn": 0.11466182722345838,
+          "stdOut": 0.22006534813771406,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "vocal_score",
+          "d": 0.4039190401634063,
+          "absD": 0.4039190401634063,
+          "meanIn": 0.9049433333333332,
+          "meanOut": 0.8209885106382979,
+          "stdIn": 0.11466182722345838,
+          "stdOut": 0.22006534813771406,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "darkness_score",
+          "d": 0.27092119087080696,
+          "absD": 0.27092119087080696,
+          "meanIn": 0.7042933108364198,
+          "meanOut": 0.6738472684725177,
+          "stdIn": 0.07193487054664899,
+          "stdOut": 0.1180069674716214,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "layered_score",
+          "d": 0.23979641223512305,
+          "absD": 0.23979641223512305,
+          "meanIn": 0.2842384888888889,
+          "meanOut": 0.26146158936170205,
+          "stdIn": 0.11677693438671043,
+          "stdOut": 0.09066113845305589,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "valence_score",
+          "d": -0.057417348304225506,
+          "absD": 0.057417348304225506,
+          "meanIn": 0.4473755555555555,
+          "meanOut": 0.4592757446808511,
+          "stdIn": 0.12477594284789133,
+          "stdOut": 0.21844604618195898,
+          "nIn": 9,
+          "nOut": 47
+        }
+      ],
+      "allSeparatingFeatures": [
+        {
+          "featureId": "calm_score",
+          "d": 2.258430818726172,
+          "absD": 2.258430818726172,
+          "meanIn": 0.7320642966145833,
+          "meanOut": 0.6169891213680184,
+          "stdIn": 0.061216398776285555,
+          "stdOut": 0.04894960857584431,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "energy_score",
+          "d": -2.2056918700265733,
+          "absD": 2.2056918700265733,
+          "meanIn": 0.3338474013888889,
+          "meanOut": 0.517492996143617,
+          "stdIn": 0.09645618671281657,
+          "stdOut": 0.08074499009393711,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "driving_score",
+          "d": -1.8117291604266064,
+          "absD": 1.8117291604266064,
+          "meanIn": 0.2997235563368055,
+          "meanOut": 0.43748848955285896,
+          "stdIn": 0.10017019456609853,
+          "stdOut": 0.07101203406525927,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "punch_score",
+          "d": -1.7756428250329017,
+          "absD": 1.7756428250329017,
+          "meanIn": 0.30599248333333334,
+          "meanOut": 0.41100889840425525,
+          "stdIn": 0.07946431975306285,
+          "stdOut": 0.054845263321689174,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "rhythm_stability_score",
+          "d": -1.568433129593952,
+          "absD": 1.568433129593952,
+          "meanIn": 0.5234666666666666,
+          "meanOut": 0.6126938297872341,
+          "stdIn": 0.08357248483934306,
+          "stdOut": 0.05083876978244364,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "density_score",
+          "d": -1.4477889995751358,
+          "absD": 1.4477889995751358,
+          "meanIn": 0.21826853333333332,
+          "meanOut": 0.24176554042553194,
+          "stdIn": 0.013997517156961964,
+          "stdOut": 0.016587132363229052,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "pulse_score",
+          "d": -1.374065159941684,
+          "absD": 1.374065159941684,
+          "meanIn": 0.4179175722222223,
+          "meanOut": 0.5990727478723401,
+          "stdIn": 0.17460404244793912,
+          "stdOut": 0.12289156833103212,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "syncopation_score",
+          "d": -0.8439379021088261,
+          "absD": 0.8439379021088261,
+          "meanIn": 0.44722545277777775,
+          "meanOut": 0.4931894590425532,
+          "stdIn": 0.06360051970702281,
+          "stdOut": 0.05271330962770213,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "brightness_score",
+          "d": -0.7158512375804642,
+          "absD": 0.7158512375804642,
+          "meanIn": 0.17437159604999997,
+          "meanOut": 0.2196543210047873,
+          "stdIn": 0.03641738132302655,
+          "stdOut": 0.06683359694295804,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "speech_score",
+          "d": -0.4147665196077056,
+          "absD": 0.4147665196077056,
+          "meanIn": 0.05655222222222221,
+          "meanOut": 0.07574340425531913,
+          "stdIn": 0.056738490908881986,
+          "stdOut": 0.0441968090345511,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "instrumental_score",
+          "d": -0.40391904016340735,
+          "absD": 0.40391904016340735,
+          "meanIn": 0.09505666666666665,
+          "meanOut": 0.17901148936170216,
+          "stdIn": 0.11466182722345838,
+          "stdOut": 0.22006534813771406,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "vocal_score",
+          "d": 0.4039190401634063,
+          "absD": 0.4039190401634063,
+          "meanIn": 0.9049433333333332,
+          "meanOut": 0.8209885106382979,
+          "stdIn": 0.11466182722345838,
+          "stdOut": 0.22006534813771406,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "darkness_score",
+          "d": 0.27092119087080696,
+          "absD": 0.27092119087080696,
+          "meanIn": 0.7042933108364198,
+          "meanOut": 0.6738472684725177,
+          "stdIn": 0.07193487054664899,
+          "stdOut": 0.1180069674716214,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "layered_score",
+          "d": 0.23979641223512305,
+          "absD": 0.23979641223512305,
+          "meanIn": 0.2842384888888889,
+          "meanOut": 0.26146158936170205,
+          "stdIn": 0.11677693438671043,
+          "stdOut": 0.09066113845305589,
+          "nIn": 9,
+          "nOut": 47
+        },
+        {
+          "featureId": "valence_score",
+          "d": -0.057417348304225506,
+          "absD": 0.057417348304225506,
+          "meanIn": 0.4473755555555555,
+          "meanOut": 0.4592757446808511,
+          "stdIn": 0.12477594284789133,
+          "stdOut": 0.21844604618195898,
+          "nIn": 9,
+          "nOut": 47
+        }
+      ]
+    },
+    {
+      "group": "driving",
+      "topSeparatingFeatures": [
+        {
+          "featureId": "vocal_score",
+          "d": -1.1172011229123187,
+          "absD": 1.1172011229123187,
+          "meanIn": 0.643012857142857,
+          "meanOut": 0.8618338775510206,
+          "stdIn": 0.21290689593034295,
+          "stdOut": 0.19362975974904992,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "instrumental_score",
+          "d": 1.1172011229123167,
+          "absD": 1.1172011229123167,
+          "meanIn": 0.35698714285714284,
+          "meanOut": 0.13816612244897958,
+          "stdIn": 0.21290689593034295,
+          "stdOut": 0.19362975974904997,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "energy_score",
+          "d": 1.0581270579623336,
+          "absD": 1.0581270579623336,
+          "meanIn": 0.5820648321428571,
+          "meanOut": 0.4745376246173469,
+          "stdIn": 0.07433899987167757,
+          "stdOut": 0.10453104404531514,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "calm_score",
+          "d": -1.009659645220422,
+          "absD": 1.009659645220422,
+          "meanIn": 0.5796408323660714,
+          "meanOut": 0.64346084790338,
+          "stdIn": 0.036619381247964974,
+          "stdOut": 0.06578175542281323,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "density_score",
+          "d": 0.8930185280104598,
+          "absD": 0.8930185280104598,
+          "meanIn": 0.251707,
+          "meanOut": 0.23602955510204085,
+          "stdIn": 0.020568965499214022,
+          "stdOut": 0.017141683296790722,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "driving_score",
+          "d": 0.8140430865241672,
+          "absD": 0.8140430865241672,
+          "meanIn": 0.4787402216517857,
+          "meanOut": 0.4062916217235331,
+          "stdIn": 0.0465416753697707,
+          "stdOut": 0.09295189784117726,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "punch_score",
+          "d": 0.7367630166481528,
+          "absD": 0.7367630166481528,
+          "meanIn": 0.4388409857142857,
+          "meanOut": 0.387744156632653,
+          "stdIn": 0.020740586025589654,
+          "stdOut": 0.07319370796867607,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "layered_score",
+          "d": -0.6506143163617498,
+          "absD": 0.6506143163617498,
+          "meanIn": 0.21156678571428572,
+          "meanOut": 0.2727729306122448,
+          "stdIn": 0.0497188713466129,
+          "stdOut": 0.09822038447749813,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "syncopation_score",
+          "d": 0.6330250789641098,
+          "absD": 0.6330250789641098,
+          "meanIn": 0.51687465,
+          "meanOut": 0.4813634918367347,
+          "stdIn": 0.04489297409567953,
+          "stdOut": 0.057344398529992374,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "brightness_score",
+          "d": 0.6190466764618431,
+          "absD": 0.6190466764618431,
+          "meanIn": 0.24683849185,
+          "meanOut": 0.2074536328311225,
+          "stdIn": 0.07351551635331044,
+          "stdOut": 0.06227465460840615,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "pulse_score",
+          "d": 0.6019735409900695,
+          "absD": 0.6019735409900695,
+          "meanIn": 0.6470407285714286,
+          "meanOut": 0.5589467795918366,
+          "stdIn": 0.06751476195413462,
+          "stdOut": 0.15337263042481283,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "speech_score",
+          "d": 0.4257395639147596,
+          "absD": 0.4257395639147596,
+          "meanIn": 0.08996285714285714,
+          "meanOut": 0.07018714285714285,
+          "stdIn": 0.05046734296673889,
+          "stdOut": 0.04592342655031796,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "rhythm_stability_score",
+          "d": 0.2576890158444959,
+          "absD": 0.2576890158444959,
+          "meanIn": 0.6132914285714285,
+          "meanOut": 0.5962197959183674,
+          "stdIn": 0.029228969694256327,
+          "stdOut": 0.06950360165355098,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "darkness_score",
+          "d": -0.20935621594321266,
+          "absD": 0.20935621594321266,
+          "meanIn": 0.6581836950039682,
+          "meanOut": 0.6816770520552722,
+          "stdIn": 0.10968134853242961,
+          "stdOut": 0.11253010291654433,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "valence_score",
+          "d": 0.01758472234116808,
+          "absD": 0.01758472234116808,
+          "meanIn": 0.4605385714285714,
+          "meanOut": 0.45690959183673474,
+          "stdIn": 0.2033050723440424,
+          "stdOut": 0.2067512267116502,
+          "nIn": 7,
+          "nOut": 49
+        }
+      ],
+      "allSeparatingFeatures": [
+        {
+          "featureId": "vocal_score",
+          "d": -1.1172011229123187,
+          "absD": 1.1172011229123187,
+          "meanIn": 0.643012857142857,
+          "meanOut": 0.8618338775510206,
+          "stdIn": 0.21290689593034295,
+          "stdOut": 0.19362975974904992,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "instrumental_score",
+          "d": 1.1172011229123167,
+          "absD": 1.1172011229123167,
+          "meanIn": 0.35698714285714284,
+          "meanOut": 0.13816612244897958,
+          "stdIn": 0.21290689593034295,
+          "stdOut": 0.19362975974904997,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "energy_score",
+          "d": 1.0581270579623336,
+          "absD": 1.0581270579623336,
+          "meanIn": 0.5820648321428571,
+          "meanOut": 0.4745376246173469,
+          "stdIn": 0.07433899987167757,
+          "stdOut": 0.10453104404531514,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "calm_score",
+          "d": -1.009659645220422,
+          "absD": 1.009659645220422,
+          "meanIn": 0.5796408323660714,
+          "meanOut": 0.64346084790338,
+          "stdIn": 0.036619381247964974,
+          "stdOut": 0.06578175542281323,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "density_score",
+          "d": 0.8930185280104598,
+          "absD": 0.8930185280104598,
+          "meanIn": 0.251707,
+          "meanOut": 0.23602955510204085,
+          "stdIn": 0.020568965499214022,
+          "stdOut": 0.017141683296790722,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "driving_score",
+          "d": 0.8140430865241672,
+          "absD": 0.8140430865241672,
+          "meanIn": 0.4787402216517857,
+          "meanOut": 0.4062916217235331,
+          "stdIn": 0.0465416753697707,
+          "stdOut": 0.09295189784117726,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "punch_score",
+          "d": 0.7367630166481528,
+          "absD": 0.7367630166481528,
+          "meanIn": 0.4388409857142857,
+          "meanOut": 0.387744156632653,
+          "stdIn": 0.020740586025589654,
+          "stdOut": 0.07319370796867607,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "layered_score",
+          "d": -0.6506143163617498,
+          "absD": 0.6506143163617498,
+          "meanIn": 0.21156678571428572,
+          "meanOut": 0.2727729306122448,
+          "stdIn": 0.0497188713466129,
+          "stdOut": 0.09822038447749813,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "syncopation_score",
+          "d": 0.6330250789641098,
+          "absD": 0.6330250789641098,
+          "meanIn": 0.51687465,
+          "meanOut": 0.4813634918367347,
+          "stdIn": 0.04489297409567953,
+          "stdOut": 0.057344398529992374,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "brightness_score",
+          "d": 0.6190466764618431,
+          "absD": 0.6190466764618431,
+          "meanIn": 0.24683849185,
+          "meanOut": 0.2074536328311225,
+          "stdIn": 0.07351551635331044,
+          "stdOut": 0.06227465460840615,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "pulse_score",
+          "d": 0.6019735409900695,
+          "absD": 0.6019735409900695,
+          "meanIn": 0.6470407285714286,
+          "meanOut": 0.5589467795918366,
+          "stdIn": 0.06751476195413462,
+          "stdOut": 0.15337263042481283,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "speech_score",
+          "d": 0.4257395639147596,
+          "absD": 0.4257395639147596,
+          "meanIn": 0.08996285714285714,
+          "meanOut": 0.07018714285714285,
+          "stdIn": 0.05046734296673889,
+          "stdOut": 0.04592342655031796,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "rhythm_stability_score",
+          "d": 0.2576890158444959,
+          "absD": 0.2576890158444959,
+          "meanIn": 0.6132914285714285,
+          "meanOut": 0.5962197959183674,
+          "stdIn": 0.029228969694256327,
+          "stdOut": 0.06950360165355098,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "darkness_score",
+          "d": -0.20935621594321266,
+          "absD": 0.20935621594321266,
+          "meanIn": 0.6581836950039682,
+          "meanOut": 0.6816770520552722,
+          "stdIn": 0.10968134853242961,
+          "stdOut": 0.11253010291654433,
+          "nIn": 7,
+          "nOut": 49
+        },
+        {
+          "featureId": "valence_score",
+          "d": 0.01758472234116808,
+          "absD": 0.01758472234116808,
+          "meanIn": 0.4605385714285714,
+          "meanOut": 0.45690959183673474,
+          "stdIn": 0.2033050723440424,
+          "stdOut": 0.2067512267116502,
+          "nIn": 7,
+          "nOut": 49
+        }
+      ]
+    },
+    {
+      "group": "emotional_reflective",
+      "topSeparatingFeatures": [
+        {
+          "featureId": "speech_score",
+          "d": -0.9311506654547951,
+          "absD": 0.9311506654547951,
+          "meanIn": 0.03680625,
+          "meanOut": 0.0786345833333333,
+          "stdIn": 0.018150015108464788,
+          "stdOut": 0.04763804825444737,
+          "nIn": 8,
+          "nOut": 48
+        },
+        {
+          "featureId": "darkness_score",
+          "d": 0.7642576789517354,
+          "absD": 0.7642576789517354,
+          "meanIn": 0.7502392885954862,
+          "meanOut": 0.6668238980619212,
+          "stdIn": 0.0631067221545037,
+          "stdOut": 0.1144284934334681,
+          "nIn": 8,
+          "nOut": 48
+        },
+        {
+          "featureId": "brightness_score",
+          "d": -0.7385223333903704,
+          "absD": 0.7385223333903704,
+          "meanIn": 0.17231728052812503,
+          "meanOut": 0.21905331682187504,
+          "stdIn": 0.042331952521898045,
+          "stdOut": 0.06583555868901139,
+          "nIn": 8,
+          "nOut": 48
+        },
+        {
+          "featureId": "valence_score",
+          "d": -0.6384732455621747,
+          "absD": 0.6384732455621747,
+          "meanIn": 0.346565,
+          "meanOut": 0.4758295833333333,
+          "stdIn": 0.10201780567626419,
+          "stdOut": 0.21341125235835087,
+          "nIn": 8,
+          "nOut": 48
+        },
+        {
+          "featureId": "punch_score",
+          "d": -0.6149792824951559,
+          "absD": 0.6149792824951559,
+          "meanIn": 0.35753625156249996,
+          "meanOut": 0.40023042838541656,
+          "stdIn": 0.06144599053916501,
+          "stdOut": 0.07053478411600776,
+          "nIn": 8,
+          "nOut": 48
+        },
+        {
+          "featureId": "calm_score",
+          "d": 0.486865966544642,
+          "absD": 0.486865966544642,
+          "meanIn": 0.6629090195312499,
+          "meanOut": 0.6309124003662108,
+          "stdIn": 0.036868115247741945,
+          "stdOut": 0.06899190443463063,
+          "nIn": 8,
+          "nOut": 48
+        },
+        {
+          "featureId": "layered_score",
+          "d": 0.48571215398934836,
+          "absD": 0.48571215398934836,
+          "meanIn": 0.304318465625,
+          "meanOut": 0.2585894453124999,
+          "stdIn": 0.10724820969655721,
+          "stdOut": 0.09203797296682974,
+          "nIn": 8,
+          "nOut": 48
+        },
+        {
+          "featureId": "instrumental_score",
+          "d": -0.35208297939155997,
+          "absD": 0.35208297939155997,
+          "meanIn": 0.10278875,
+          "meanOut": 0.17597375,
+          "stdIn": 0.1819371151275558,
+          "stdOut": 0.21145242894507227,
+          "nIn": 8,
+          "nOut": 48
+        },
+        {
+          "featureId": "vocal_score",
+          "d": 0.3520829793915591,
+          "absD": 0.3520829793915591,
+          "meanIn": 0.8972112499999999,
+          "meanOut": 0.8240262500000001,
+          "stdIn": 0.18193711512755578,
+          "stdOut": 0.21145242894507227,
+          "nIn": 8,
+          "nOut": 48
+        },
+        {
+          "featureId": "rhythm_stability_score",
+          "d": -0.3168948828747306,
+          "absD": 0.3168948828747306,
+          "meanIn": 0.5804362500000001,
+          "meanOut": 0.60134,
+          "stdIn": 0.04207814098124464,
+          "stdOut": 0.06881607143320519,
+          "nIn": 8,
+          "nOut": 48
+        },
+        {
+          "featureId": "energy_score",
+          "d": -0.2511606872178216,
+          "absD": 0.2511606872178216,
+          "meanIn": 0.46482706250000005,
+          "meanOut": 0.4918371027343749,
+          "stdIn": 0.04979050302072945,
+          "stdOut": 0.11365854961065533,
+          "nIn": 8,
+          "nOut": 48
+        },
+        {
+          "featureId": "driving_score",
+          "d": -0.22289159675419784,
+          "absD": 0.22289159675419784,
+          "meanIn": 0.3978322917968749,
+          "meanOut": 0.41826693086751293,
+          "stdIn": 0.07087314414033094,
+          "stdOut": 0.09438695979013949,
+          "nIn": 8,
+          "nOut": 48
+        },
+        {
+          "featureId": "pulse_score",
+          "d": -0.19045202567884584,
+          "absD": 0.19045202567884584,
+          "meanIn": 0.54577719375,
+          "meanOut": 0.5739887447916666,
+          "stdIn": 0.13933339062968367,
+          "stdOut": 0.14939518096612828,
+          "nIn": 8,
+          "nOut": 48
+        },
+        {
+          "featureId": "syncopation_score",
+          "d": -0.06388253150576365,
+          "absD": 0.06388253150576365,
+          "meanIn": 0.48267047187500006,
+          "meanOut": 0.4863243723958335,
+          "stdIn": 0.05365310318401537,
+          "stdOut": 0.057706398924376685,
+          "nIn": 8,
+          "nOut": 48
+        },
+        {
+          "featureId": "density_score",
+          "d": -0.011968224694704667,
+          "absD": 0.011968224694704667,
+          "meanIn": 0.23780030624999998,
+          "meanOut": 0.2380207239583334,
+          "stdIn": 0.013674026638677924,
+          "stdOut": 0.019022385754875505,
+          "nIn": 8,
+          "nOut": 48
+        }
+      ],
+      "allSeparatingFeatures": [
+        {
+          "featureId": "speech_score",
+          "d": -0.9311506654547951,
+          "absD": 0.9311506654547951,
+          "meanIn": 0.03680625,
+          "meanOut": 0.0786345833333333,
+          "stdIn": 0.018150015108464788,
+          "stdOut": 0.04763804825444737,
+          "nIn": 8,
+          "nOut": 48
+        },
+        {
+          "featureId": "darkness_score",
+          "d": 0.7642576789517354,
+          "absD": 0.7642576789517354,
+          "meanIn": 0.7502392885954862,
+          "meanOut": 0.6668238980619212,
+          "stdIn": 0.0631067221545037,
+          "stdOut": 0.1144284934334681,
+          "nIn": 8,
+          "nOut": 48
+        },
+        {
+          "featureId": "brightness_score",
+          "d": -0.7385223333903704,
+          "absD": 0.7385223333903704,
+          "meanIn": 0.17231728052812503,
+          "meanOut": 0.21905331682187504,
+          "stdIn": 0.042331952521898045,
+          "stdOut": 0.06583555868901139,
+          "nIn": 8,
+          "nOut": 48
+        },
+        {
+          "featureId": "valence_score",
+          "d": -0.6384732455621747,
+          "absD": 0.6384732455621747,
+          "meanIn": 0.346565,
+          "meanOut": 0.4758295833333333,
+          "stdIn": 0.10201780567626419,
+          "stdOut": 0.21341125235835087,
+          "nIn": 8,
+          "nOut": 48
+        },
+        {
+          "featureId": "punch_score",
+          "d": -0.6149792824951559,
+          "absD": 0.6149792824951559,
+          "meanIn": 0.35753625156249996,
+          "meanOut": 0.40023042838541656,
+          "stdIn": 0.06144599053916501,
+          "stdOut": 0.07053478411600776,
+          "nIn": 8,
+          "nOut": 48
+        },
+        {
+          "featureId": "calm_score",
+          "d": 0.486865966544642,
+          "absD": 0.486865966544642,
+          "meanIn": 0.6629090195312499,
+          "meanOut": 0.6309124003662108,
+          "stdIn": 0.036868115247741945,
+          "stdOut": 0.06899190443463063,
+          "nIn": 8,
+          "nOut": 48
+        },
+        {
+          "featureId": "layered_score",
+          "d": 0.48571215398934836,
+          "absD": 0.48571215398934836,
+          "meanIn": 0.304318465625,
+          "meanOut": 0.2585894453124999,
+          "stdIn": 0.10724820969655721,
+          "stdOut": 0.09203797296682974,
+          "nIn": 8,
+          "nOut": 48
+        },
+        {
+          "featureId": "instrumental_score",
+          "d": -0.35208297939155997,
+          "absD": 0.35208297939155997,
+          "meanIn": 0.10278875,
+          "meanOut": 0.17597375,
+          "stdIn": 0.1819371151275558,
+          "stdOut": 0.21145242894507227,
+          "nIn": 8,
+          "nOut": 48
+        },
+        {
+          "featureId": "vocal_score",
+          "d": 0.3520829793915591,
+          "absD": 0.3520829793915591,
+          "meanIn": 0.8972112499999999,
+          "meanOut": 0.8240262500000001,
+          "stdIn": 0.18193711512755578,
+          "stdOut": 0.21145242894507227,
+          "nIn": 8,
+          "nOut": 48
+        },
+        {
+          "featureId": "rhythm_stability_score",
+          "d": -0.3168948828747306,
+          "absD": 0.3168948828747306,
+          "meanIn": 0.5804362500000001,
+          "meanOut": 0.60134,
+          "stdIn": 0.04207814098124464,
+          "stdOut": 0.06881607143320519,
+          "nIn": 8,
+          "nOut": 48
+        },
+        {
+          "featureId": "energy_score",
+          "d": -0.2511606872178216,
+          "absD": 0.2511606872178216,
+          "meanIn": 0.46482706250000005,
+          "meanOut": 0.4918371027343749,
+          "stdIn": 0.04979050302072945,
+          "stdOut": 0.11365854961065533,
+          "nIn": 8,
+          "nOut": 48
+        },
+        {
+          "featureId": "driving_score",
+          "d": -0.22289159675419784,
+          "absD": 0.22289159675419784,
+          "meanIn": 0.3978322917968749,
+          "meanOut": 0.41826693086751293,
+          "stdIn": 0.07087314414033094,
+          "stdOut": 0.09438695979013949,
+          "nIn": 8,
+          "nOut": 48
+        },
+        {
+          "featureId": "pulse_score",
+          "d": -0.19045202567884584,
+          "absD": 0.19045202567884584,
+          "meanIn": 0.54577719375,
+          "meanOut": 0.5739887447916666,
+          "stdIn": 0.13933339062968367,
+          "stdOut": 0.14939518096612828,
+          "nIn": 8,
+          "nOut": 48
+        },
+        {
+          "featureId": "syncopation_score",
+          "d": -0.06388253150576365,
+          "absD": 0.06388253150576365,
+          "meanIn": 0.48267047187500006,
+          "meanOut": 0.4863243723958335,
+          "stdIn": 0.05365310318401537,
+          "stdOut": 0.057706398924376685,
+          "nIn": 8,
+          "nOut": 48
+        },
+        {
+          "featureId": "density_score",
+          "d": -0.011968224694704667,
+          "absD": 0.011968224694704667,
+          "meanIn": 0.23780030624999998,
+          "meanOut": 0.2380207239583334,
+          "stdIn": 0.013674026638677924,
+          "stdOut": 0.019022385754875505,
+          "nIn": 8,
+          "nOut": 48
+        }
+      ]
+    },
+    {
+      "group": "euphoric",
+      "topSeparatingFeatures": [
+        {
+          "featureId": "driving_score",
+          "d": 0.6445013436178443,
+          "absD": 0.6445013436178443,
+          "meanIn": 0.46262653968749995,
+          "meanOut": 0.4050696873726222,
+          "stdIn": 0.06350539258606959,
+          "stdOut": 0.09361495353507757,
+          "nIn": 10,
+          "nOut": 46
+        },
+        {
+          "featureId": "energy_score",
+          "d": 0.6296747352318657,
+          "absD": 0.6296747352318657,
+          "meanIn": 0.5420780599999999,
+          "meanOut": 0.4762177572010868,
+          "stdIn": 0.08213806491105509,
+          "stdOut": 0.10852923449357292,
+          "nIn": 10,
+          "nOut": 46
+        },
+        {
+          "featureId": "pulse_score",
+          "d": 0.5770544141014334,
+          "absD": 0.5770544141014334,
+          "meanIn": 0.638881305,
+          "meanOut": 0.5549753097826087,
+          "stdIn": 0.09480347907399932,
+          "stdOut": 0.1535357708361516,
+          "nIn": 10,
+          "nOut": 46
+        },
+        {
+          "featureId": "syncopation_score",
+          "d": 0.5133774494816952,
+          "absD": 0.5133774494816952,
+          "meanIn": 0.5095386525000001,
+          "meanOut": 0.4806423288043481,
+          "stdIn": 0.0390353390761955,
+          "stdOut": 0.05913611329196673,
+          "nIn": 10,
+          "nOut": 46
+        },
+        {
+          "featureId": "calm_score",
+          "d": -0.4982013568342864,
+          "absD": 0.4982013568342864,
+          "meanIn": 0.6087076299999999,
+          "meanOut": 0.6413041537788723,
+          "stdIn": 0.04087024726273063,
+          "stdOut": 0.06930351462686869,
+          "nIn": 10,
+          "nOut": 46
+        },
+        {
+          "featureId": "vocal_score",
+          "d": 0.4883215159047539,
+          "absD": 0.4883215159047539,
+          "meanIn": 0.9172020000000002,
+          "meanOut": 0.8164984782608695,
+          "stdIn": 0.14515392683630712,
+          "stdOut": 0.21637924456407343,
+          "nIn": 10,
+          "nOut": 46
+        },
+        {
+          "featureId": "instrumental_score",
+          "d": -0.48832151590475276,
+          "absD": 0.48832151590475276,
+          "meanIn": 0.08279799999999998,
+          "meanOut": 0.1835015217391304,
+          "stdIn": 0.14515392683630712,
+          "stdOut": 0.2163792445640734,
+          "nIn": 10,
+          "nOut": 46
+        },
+        {
+          "featureId": "rhythm_stability_score",
+          "d": 0.3981887200615906,
+          "absD": 0.3981887200615906,
+          "meanIn": 0.619804,
+          "meanOut": 0.5936906521739129,
+          "stdIn": 0.04283346056531039,
+          "stdOut": 0.06923867860374042,
+          "nIn": 10,
+          "nOut": 46
+        },
+        {
+          "featureId": "punch_score",
+          "d": 0.38780168305971896,
+          "absD": 0.38780168305971896,
+          "meanIn": 0.41659417000000004,
+          "meanOut": 0.3892480190217391,
+          "stdIn": 0.03331430126560335,
+          "stdOut": 0.07579582661493885,
+          "nIn": 10,
+          "nOut": 46
+        },
+        {
+          "featureId": "density_score",
+          "d": 0.3875809215221036,
+          "absD": 0.3875809215221036,
+          "meanIn": 0.24379260499999997,
+          "meanOut": 0.23672763369565217,
+          "stdIn": 0.011911334831274155,
+          "stdOut": 0.019244544966617937,
+          "nIn": 10,
+          "nOut": 46
+        },
+        {
+          "featureId": "speech_score",
+          "d": -0.2567512917518545,
+          "absD": 0.2567512917518545,
+          "meanIn": 0.06275700000000001,
+          "meanOut": 0.07481173913043478,
+          "stdIn": 0.029295485334774708,
+          "stdOut": 0.04973564758253064,
+          "nIn": 10,
+          "nOut": 46
+        },
+        {
+          "featureId": "layered_score",
+          "d": -0.19876154745442634,
+          "absD": 0.19876154745442634,
+          "meanIn": 0.2494575525,
+          "meanOut": 0.2685275124999999,
+          "stdIn": 0.048062452536303556,
+          "stdOut": 0.10287993364538396,
+          "nIn": 10,
+          "nOut": 46
+        },
+        {
+          "featureId": "brightness_score",
+          "d": 0.05525074910325166,
+          "absD": 0.05525074910325166,
+          "meanIn": 0.21534318384,
+          "meanOut": 0.2117318611581522,
+          "stdIn": 0.04221978753995291,
+          "stdOut": 0.0690665844288638,
+          "nIn": 10,
+          "nOut": 46
+        },
+        {
+          "featureId": "darkness_score",
+          "d": -0.012175312010308609,
+          "absD": 0.012175312010308609,
+          "meanIn": 0.6776128978666666,
+          "meanOut": 0.6789854877623791,
+          "stdIn": 0.0902103780112274,
+          "stdOut": 0.11672004661864334,
+          "nIn": 10,
+          "nOut": 46
+        },
+        {
+          "featureId": "valence_score",
+          "d": -0.006894174163736535,
+          "absD": 0.006894174163736535,
+          "meanIn": 0.45619200000000004,
+          "meanOut": 0.4576178260869565,
+          "stdIn": 0.16914649625694292,
+          "stdOut": 0.2135541208454117,
+          "nIn": 10,
+          "nOut": 46
+        }
+      ],
+      "allSeparatingFeatures": [
+        {
+          "featureId": "driving_score",
+          "d": 0.6445013436178443,
+          "absD": 0.6445013436178443,
+          "meanIn": 0.46262653968749995,
+          "meanOut": 0.4050696873726222,
+          "stdIn": 0.06350539258606959,
+          "stdOut": 0.09361495353507757,
+          "nIn": 10,
+          "nOut": 46
+        },
+        {
+          "featureId": "energy_score",
+          "d": 0.6296747352318657,
+          "absD": 0.6296747352318657,
+          "meanIn": 0.5420780599999999,
+          "meanOut": 0.4762177572010868,
+          "stdIn": 0.08213806491105509,
+          "stdOut": 0.10852923449357292,
+          "nIn": 10,
+          "nOut": 46
+        },
+        {
+          "featureId": "pulse_score",
+          "d": 0.5770544141014334,
+          "absD": 0.5770544141014334,
+          "meanIn": 0.638881305,
+          "meanOut": 0.5549753097826087,
+          "stdIn": 0.09480347907399932,
+          "stdOut": 0.1535357708361516,
+          "nIn": 10,
+          "nOut": 46
+        },
+        {
+          "featureId": "syncopation_score",
+          "d": 0.5133774494816952,
+          "absD": 0.5133774494816952,
+          "meanIn": 0.5095386525000001,
+          "meanOut": 0.4806423288043481,
+          "stdIn": 0.0390353390761955,
+          "stdOut": 0.05913611329196673,
+          "nIn": 10,
+          "nOut": 46
+        },
+        {
+          "featureId": "calm_score",
+          "d": -0.4982013568342864,
+          "absD": 0.4982013568342864,
+          "meanIn": 0.6087076299999999,
+          "meanOut": 0.6413041537788723,
+          "stdIn": 0.04087024726273063,
+          "stdOut": 0.06930351462686869,
+          "nIn": 10,
+          "nOut": 46
+        },
+        {
+          "featureId": "vocal_score",
+          "d": 0.4883215159047539,
+          "absD": 0.4883215159047539,
+          "meanIn": 0.9172020000000002,
+          "meanOut": 0.8164984782608695,
+          "stdIn": 0.14515392683630712,
+          "stdOut": 0.21637924456407343,
+          "nIn": 10,
+          "nOut": 46
+        },
+        {
+          "featureId": "instrumental_score",
+          "d": -0.48832151590475276,
+          "absD": 0.48832151590475276,
+          "meanIn": 0.08279799999999998,
+          "meanOut": 0.1835015217391304,
+          "stdIn": 0.14515392683630712,
+          "stdOut": 0.2163792445640734,
+          "nIn": 10,
+          "nOut": 46
+        },
+        {
+          "featureId": "rhythm_stability_score",
+          "d": 0.3981887200615906,
+          "absD": 0.3981887200615906,
+          "meanIn": 0.619804,
+          "meanOut": 0.5936906521739129,
+          "stdIn": 0.04283346056531039,
+          "stdOut": 0.06923867860374042,
+          "nIn": 10,
+          "nOut": 46
+        },
+        {
+          "featureId": "punch_score",
+          "d": 0.38780168305971896,
+          "absD": 0.38780168305971896,
+          "meanIn": 0.41659417000000004,
+          "meanOut": 0.3892480190217391,
+          "stdIn": 0.03331430126560335,
+          "stdOut": 0.07579582661493885,
+          "nIn": 10,
+          "nOut": 46
+        },
+        {
+          "featureId": "density_score",
+          "d": 0.3875809215221036,
+          "absD": 0.3875809215221036,
+          "meanIn": 0.24379260499999997,
+          "meanOut": 0.23672763369565217,
+          "stdIn": 0.011911334831274155,
+          "stdOut": 0.019244544966617937,
+          "nIn": 10,
+          "nOut": 46
+        },
+        {
+          "featureId": "speech_score",
+          "d": -0.2567512917518545,
+          "absD": 0.2567512917518545,
+          "meanIn": 0.06275700000000001,
+          "meanOut": 0.07481173913043478,
+          "stdIn": 0.029295485334774708,
+          "stdOut": 0.04973564758253064,
+          "nIn": 10,
+          "nOut": 46
+        },
+        {
+          "featureId": "layered_score",
+          "d": -0.19876154745442634,
+          "absD": 0.19876154745442634,
+          "meanIn": 0.2494575525,
+          "meanOut": 0.2685275124999999,
+          "stdIn": 0.048062452536303556,
+          "stdOut": 0.10287993364538396,
+          "nIn": 10,
+          "nOut": 46
+        },
+        {
+          "featureId": "brightness_score",
+          "d": 0.05525074910325166,
+          "absD": 0.05525074910325166,
+          "meanIn": 0.21534318384,
+          "meanOut": 0.2117318611581522,
+          "stdIn": 0.04221978753995291,
+          "stdOut": 0.0690665844288638,
+          "nIn": 10,
+          "nOut": 46
+        },
+        {
+          "featureId": "darkness_score",
+          "d": -0.012175312010308609,
+          "absD": 0.012175312010308609,
+          "meanIn": 0.6776128978666666,
+          "meanOut": 0.6789854877623791,
+          "stdIn": 0.0902103780112274,
+          "stdOut": 0.11672004661864334,
+          "nIn": 10,
+          "nOut": 46
+        },
+        {
+          "featureId": "valence_score",
+          "d": -0.006894174163736535,
+          "absD": 0.006894174163736535,
+          "meanIn": 0.45619200000000004,
+          "meanOut": 0.4576178260869565,
+          "stdIn": 0.16914649625694292,
+          "stdOut": 0.2135541208454117,
+          "nIn": 10,
+          "nOut": 46
+        }
+      ]
+    },
+    {
+      "group": "steady",
+      "topSeparatingFeatures": [
+        {
+          "featureId": "layered_score",
+          "d": -0.791456571062706,
+          "absD": 0.791456571062706,
+          "meanIn": 0.1991773583333333,
+          "meanOut": 0.27303553899999994,
+          "stdIn": 0.0657759455786898,
+          "stdOut": 0.09568509946631962,
+          "nIn": 6,
+          "nOut": 50
+        },
+        {
+          "featureId": "pulse_score",
+          "d": 0.7871537072878898,
+          "absD": 0.7871537072878898,
+          "meanIn": 0.6717448833333334,
+          "meanOut": 0.5577441599999997,
+          "stdIn": 0.08640494349285743,
+          "stdOut": 0.14950978960639735,
+          "nIn": 6,
+          "nOut": 50
+        },
+        {
+          "featureId": "punch_score",
+          "d": 0.7271030162801188,
+          "absD": 0.7271030162801188,
+          "meanIn": 0.4392757,
+          "meanOut": 0.3887139274999999,
+          "stdIn": 0.03896229733606328,
+          "stdOut": 0.07193158473859171,
+          "nIn": 6,
+          "nOut": 50
+        },
+        {
+          "featureId": "syncopation_score",
+          "d": 0.6655434090921933,
+          "absD": 0.6655434090921933,
+          "meanIn": 0.5192141083333334,
+          "meanOut": 0.48179298000000004,
+          "stdIn": 0.037460961554454324,
+          "stdOut": 0.0577997218978889,
+          "nIn": 6,
+          "nOut": 50
+        },
+        {
+          "featureId": "rhythm_stability_score",
+          "d": 0.6013518624444264,
+          "absD": 0.6013518624444264,
+          "meanIn": 0.6333166666666666,
+          "meanOut": 0.5941582,
+          "stdIn": 0.05391081111943647,
+          "stdOut": 0.06615426902899012,
+          "nIn": 6,
+          "nOut": 50
+        },
+        {
+          "featureId": "driving_score",
+          "d": 0.48745119266747045,
+          "absD": 0.48745119266747045,
+          "meanIn": 0.4550479541666667,
+          "meanOut": 0.41058366582031247,
+          "stdIn": 0.042144311368539265,
+          "stdOut": 0.09480782465761381,
+          "nIn": 6,
+          "nOut": 50
+        },
+        {
+          "featureId": "vocal_score",
+          "d": -0.46458826202359843,
+          "absD": 0.46458826202359843,
+          "meanIn": 0.74837,
+          "meanOut": 0.8448146000000001,
+          "stdIn": 0.16110775741720196,
+          "stdOut": 0.21176185916458143,
+          "nIn": 6,
+          "nOut": 50
+        },
+        {
+          "featureId": "instrumental_score",
+          "d": 0.46458826202359815,
+          "absD": 0.46458826202359815,
+          "meanIn": 0.25163,
+          "meanOut": 0.15518539999999997,
+          "stdIn": 0.16110775741720196,
+          "stdOut": 0.21176185916458143,
+          "nIn": 6,
+          "nOut": 50
+        },
+        {
+          "featureId": "brightness_score",
+          "d": -0.3364464590470106,
+          "absD": 0.3364464590470106,
+          "meanIn": 0.19286361901250001,
+          "meanOut": 0.21471831475200007,
+          "stdIn": 0.050622520522609085,
+          "stdOut": 0.06624598959655129,
+          "nIn": 6,
+          "nOut": 50
+        },
+        {
+          "featureId": "density_score",
+          "d": -0.2687759939609686,
+          "absD": 0.2687759939609686,
+          "meanIn": 0.23357338333333333,
+          "meanOut": 0.23851913800000002,
+          "stdIn": 0.009233056194983448,
+          "stdOut": 0.019090566549344625,
+          "nIn": 6,
+          "nOut": 50
+        },
+        {
+          "featureId": "energy_score",
+          "d": -0.16878589815742243,
+          "absD": 0.16878589815742243,
+          "meanIn": 0.4717082166666667,
+          "meanOut": 0.489930962625,
+          "stdIn": 0.030860891534695203,
+          "stdOut": 0.11290870527175188,
+          "nIn": 6,
+          "nOut": 50
+        },
+        {
+          "featureId": "darkness_score",
+          "d": 0.1627940942698349,
+          "absD": 0.1627940942698349,
+          "meanIn": 0.6951342857337964,
+          "meanOut": 0.6767731140266667,
+          "stdIn": 0.0769424303334797,
+          "stdOut": 0.11582330444217141,
+          "nIn": 6,
+          "nOut": 50
+        },
+        {
+          "featureId": "speech_score",
+          "d": -0.1586128898014725,
+          "absD": 0.1586128898014725,
+          "meanIn": 0.06598666666666667,
+          "meanOut": 0.07345979999999998,
+          "stdIn": 0.032428454926019666,
+          "stdOut": 0.04836410009459496,
+          "nIn": 6,
+          "nOut": 50
+        },
+        {
+          "featureId": "calm_score",
+          "d": -0.07167834202859713,
+          "absD": 0.07167834202859713,
+          "meanIn": 0.6312100510416666,
+          "meanOut": 0.6359961413515623,
+          "stdIn": 0.02530818446210727,
+          "stdOut": 0.06962800193882765,
+          "nIn": 6,
+          "nOut": 50
+        },
+        {
+          "featureId": "valence_score",
+          "d": -0.06764945711266368,
+          "absD": 0.06764945711266368,
+          "meanIn": 0.44486833333333325,
+          "meanOut": 0.4588626,
+          "stdIn": 0.1666683323666763,
+          "stdOut": 0.210535014169235,
+          "nIn": 6,
+          "nOut": 50
+        }
+      ],
+      "allSeparatingFeatures": [
+        {
+          "featureId": "layered_score",
+          "d": -0.791456571062706,
+          "absD": 0.791456571062706,
+          "meanIn": 0.1991773583333333,
+          "meanOut": 0.27303553899999994,
+          "stdIn": 0.0657759455786898,
+          "stdOut": 0.09568509946631962,
+          "nIn": 6,
+          "nOut": 50
+        },
+        {
+          "featureId": "pulse_score",
+          "d": 0.7871537072878898,
+          "absD": 0.7871537072878898,
+          "meanIn": 0.6717448833333334,
+          "meanOut": 0.5577441599999997,
+          "stdIn": 0.08640494349285743,
+          "stdOut": 0.14950978960639735,
+          "nIn": 6,
+          "nOut": 50
+        },
+        {
+          "featureId": "punch_score",
+          "d": 0.7271030162801188,
+          "absD": 0.7271030162801188,
+          "meanIn": 0.4392757,
+          "meanOut": 0.3887139274999999,
+          "stdIn": 0.03896229733606328,
+          "stdOut": 0.07193158473859171,
+          "nIn": 6,
+          "nOut": 50
+        },
+        {
+          "featureId": "syncopation_score",
+          "d": 0.6655434090921933,
+          "absD": 0.6655434090921933,
+          "meanIn": 0.5192141083333334,
+          "meanOut": 0.48179298000000004,
+          "stdIn": 0.037460961554454324,
+          "stdOut": 0.0577997218978889,
+          "nIn": 6,
+          "nOut": 50
+        },
+        {
+          "featureId": "rhythm_stability_score",
+          "d": 0.6013518624444264,
+          "absD": 0.6013518624444264,
+          "meanIn": 0.6333166666666666,
+          "meanOut": 0.5941582,
+          "stdIn": 0.05391081111943647,
+          "stdOut": 0.06615426902899012,
+          "nIn": 6,
+          "nOut": 50
+        },
+        {
+          "featureId": "driving_score",
+          "d": 0.48745119266747045,
+          "absD": 0.48745119266747045,
+          "meanIn": 0.4550479541666667,
+          "meanOut": 0.41058366582031247,
+          "stdIn": 0.042144311368539265,
+          "stdOut": 0.09480782465761381,
+          "nIn": 6,
+          "nOut": 50
+        },
+        {
+          "featureId": "vocal_score",
+          "d": -0.46458826202359843,
+          "absD": 0.46458826202359843,
+          "meanIn": 0.74837,
+          "meanOut": 0.8448146000000001,
+          "stdIn": 0.16110775741720196,
+          "stdOut": 0.21176185916458143,
+          "nIn": 6,
+          "nOut": 50
+        },
+        {
+          "featureId": "instrumental_score",
+          "d": 0.46458826202359815,
+          "absD": 0.46458826202359815,
+          "meanIn": 0.25163,
+          "meanOut": 0.15518539999999997,
+          "stdIn": 0.16110775741720196,
+          "stdOut": 0.21176185916458143,
+          "nIn": 6,
+          "nOut": 50
+        },
+        {
+          "featureId": "brightness_score",
+          "d": -0.3364464590470106,
+          "absD": 0.3364464590470106,
+          "meanIn": 0.19286361901250001,
+          "meanOut": 0.21471831475200007,
+          "stdIn": 0.050622520522609085,
+          "stdOut": 0.06624598959655129,
+          "nIn": 6,
+          "nOut": 50
+        },
+        {
+          "featureId": "density_score",
+          "d": -0.2687759939609686,
+          "absD": 0.2687759939609686,
+          "meanIn": 0.23357338333333333,
+          "meanOut": 0.23851913800000002,
+          "stdIn": 0.009233056194983448,
+          "stdOut": 0.019090566549344625,
+          "nIn": 6,
+          "nOut": 50
+        },
+        {
+          "featureId": "energy_score",
+          "d": -0.16878589815742243,
+          "absD": 0.16878589815742243,
+          "meanIn": 0.4717082166666667,
+          "meanOut": 0.489930962625,
+          "stdIn": 0.030860891534695203,
+          "stdOut": 0.11290870527175188,
+          "nIn": 6,
+          "nOut": 50
+        },
+        {
+          "featureId": "darkness_score",
+          "d": 0.1627940942698349,
+          "absD": 0.1627940942698349,
+          "meanIn": 0.6951342857337964,
+          "meanOut": 0.6767731140266667,
+          "stdIn": 0.0769424303334797,
+          "stdOut": 0.11582330444217141,
+          "nIn": 6,
+          "nOut": 50
+        },
+        {
+          "featureId": "speech_score",
+          "d": -0.1586128898014725,
+          "absD": 0.1586128898014725,
+          "meanIn": 0.06598666666666667,
+          "meanOut": 0.07345979999999998,
+          "stdIn": 0.032428454926019666,
+          "stdOut": 0.04836410009459496,
+          "nIn": 6,
+          "nOut": 50
+        },
+        {
+          "featureId": "calm_score",
+          "d": -0.07167834202859713,
+          "absD": 0.07167834202859713,
+          "meanIn": 0.6312100510416666,
+          "meanOut": 0.6359961413515623,
+          "stdIn": 0.02530818446210727,
+          "stdOut": 0.06962800193882765,
+          "nIn": 6,
+          "nOut": 50
+        },
+        {
+          "featureId": "valence_score",
+          "d": -0.06764945711266368,
+          "absD": 0.06764945711266368,
+          "meanIn": 0.44486833333333325,
+          "meanOut": 0.4588626,
+          "stdIn": 0.1666683323666763,
+          "stdOut": 0.210535014169235,
+          "nIn": 6,
+          "nOut": 50
+        }
+      ]
+    }
+  ],
+  "correlations": {
+    "totalPairs": 105,
+    "topAbsolute": [
+      {
+        "a": "instrumental_score",
+        "b": "vocal_score",
+        "r": -1,
+        "n": 56,
+        "absR": 1
+      },
+      {
+        "a": "calm_score",
+        "b": "energy_score",
+        "r": -0.970651284949861,
+        "n": 56,
+        "absR": 0.970651284949861
+      },
+      {
+        "a": "driving_score",
+        "b": "pulse_score",
+        "r": 0.9631318187860477,
+        "n": 56,
+        "absR": 0.9631318187860477
+      },
+      {
+        "a": "darkness_score",
+        "b": "valence_score",
+        "r": -0.9574347923040405,
+        "n": 56,
+        "absR": 0.9574347923040405
+      },
+      {
+        "a": "driving_score",
+        "b": "punch_score",
+        "r": 0.9192704591116966,
+        "n": 56,
+        "absR": 0.9192704591116966
+      },
+      {
+        "a": "pulse_score",
+        "b": "syncopation_score",
+        "r": 0.9053797910241106,
+        "n": 56,
+        "absR": 0.9053797910241106
+      },
+      {
+        "a": "pulse_score",
+        "b": "punch_score",
+        "r": 0.8914614578568943,
+        "n": 56,
+        "absR": 0.8914614578568943
+      },
+      {
+        "a": "calm_score",
+        "b": "punch_score",
+        "r": -0.8841923549529461,
+        "n": 56,
+        "absR": 0.8841923549529461
+      },
+      {
+        "a": "calm_score",
+        "b": "driving_score",
+        "r": -0.8667918308892311,
+        "n": 56,
+        "absR": 0.8667918308892311
+      },
+      {
+        "a": "driving_score",
+        "b": "energy_score",
+        "r": 0.8634509595723313,
+        "n": 56,
+        "absR": 0.8634509595723313
+      },
+      {
+        "a": "driving_score",
+        "b": "syncopation_score",
+        "r": 0.8364574352948304,
+        "n": 56,
+        "absR": 0.8364574352948304
+      },
+      {
+        "a": "punch_score",
+        "b": "rhythm_stability_score",
+        "r": 0.8163738511193656,
+        "n": 56,
+        "absR": 0.8163738511193656
+      },
+      {
+        "a": "density_score",
+        "b": "energy_score",
+        "r": 0.8018065098424572,
+        "n": 56,
+        "absR": 0.8018065098424572
+      },
+      {
+        "a": "energy_score",
+        "b": "punch_score",
+        "r": 0.7888597372095095,
+        "n": 56,
+        "absR": 0.7888597372095095
+      },
+      {
+        "a": "layered_score",
+        "b": "pulse_score",
+        "r": -0.7740430395206653,
+        "n": 56,
+        "absR": 0.7740430395206653
+      },
+      {
+        "a": "calm_score",
+        "b": "density_score",
+        "r": -0.7496597185628815,
+        "n": 56,
+        "absR": 0.7496597185628815
+      },
+      {
+        "a": "calm_score",
+        "b": "rhythm_stability_score",
+        "r": -0.7353945950711318,
+        "n": 56,
+        "absR": 0.7353945950711318
+      },
+      {
+        "a": "layered_score",
+        "b": "syncopation_score",
+        "r": -0.7323399421979784,
+        "n": 56,
+        "absR": 0.7323399421979784
+      },
+      {
+        "a": "calm_score",
+        "b": "pulse_score",
+        "r": -0.7184352220102748,
+        "n": 56,
+        "absR": 0.7184352220102748
+      },
+      {
+        "a": "driving_score",
+        "b": "rhythm_stability_score",
+        "r": 0.7149323062504124,
+        "n": 56,
+        "absR": 0.7149323062504124
+      },
+      {
+        "a": "layered_score",
+        "b": "punch_score",
+        "r": -0.7067960589822101,
+        "n": 56,
+        "absR": 0.7067960589822101
+      },
+      {
+        "a": "density_score",
+        "b": "driving_score",
+        "r": 0.6972986874809662,
+        "n": 56,
+        "absR": 0.6972986874809662
+      },
+      {
+        "a": "energy_score",
+        "b": "pulse_score",
+        "r": 0.6964676391928397,
+        "n": 56,
+        "absR": 0.6964676391928397
+      },
+      {
+        "a": "punch_score",
+        "b": "syncopation_score",
+        "r": 0.6848349730051317,
+        "n": 56,
+        "absR": 0.6848349730051317
+      },
+      {
+        "a": "driving_score",
+        "b": "layered_score",
+        "r": -0.6835755148256101,
+        "n": 56,
+        "absR": 0.6835755148256101
+      },
+      {
+        "a": "brightness_score",
+        "b": "darkness_score",
+        "r": -0.6814939277167128,
+        "n": 56,
+        "absR": 0.6814939277167128
+      },
+      {
+        "a": "pulse_score",
+        "b": "rhythm_stability_score",
+        "r": 0.6784496760601711,
+        "n": 56,
+        "absR": 0.6784496760601711
+      },
+      {
+        "a": "energy_score",
+        "b": "rhythm_stability_score",
+        "r": 0.6400526777912471,
+        "n": 56,
+        "absR": 0.6400526777912471
+      },
+      {
+        "a": "density_score",
+        "b": "punch_score",
+        "r": 0.5850168371100577,
+        "n": 56,
+        "absR": 0.5850168371100577
+      },
+      {
+        "a": "density_score",
+        "b": "pulse_score",
+        "r": 0.5623311542137086,
+        "n": 56,
+        "absR": 0.5623311542137086
+      },
+      {
+        "a": "energy_score",
+        "b": "syncopation_score",
+        "r": 0.5337381178958676,
+        "n": 56,
+        "absR": 0.5337381178958676
+      },
+      {
+        "a": "calm_score",
+        "b": "syncopation_score",
+        "r": -0.5071364913530779,
+        "n": 56,
+        "absR": 0.5071364913530779
+      },
+      {
+        "a": "layered_score",
+        "b": "rhythm_stability_score",
+        "r": -0.4705839529551815,
+        "n": 56,
+        "absR": 0.4705839529551815
+      },
+      {
+        "a": "density_score",
+        "b": "syncopation_score",
+        "r": 0.46550281716009256,
+        "n": 56,
+        "absR": 0.46550281716009256
+      },
+      {
+        "a": "density_score",
+        "b": "rhythm_stability_score",
+        "r": 0.4569854153728384,
+        "n": 56,
+        "absR": 0.4569854153728384
+      },
+      {
+        "a": "calm_score",
+        "b": "layered_score",
+        "r": 0.45423267136063455,
+        "n": 56,
+        "absR": 0.45423267136063455
+      },
+      {
+        "a": "brightness_score",
+        "b": "valence_score",
+        "r": 0.44124532531122496,
+        "n": 56,
+        "absR": 0.44124532531122496
+      },
+      {
+        "a": "energy_score",
+        "b": "layered_score",
+        "r": -0.3874838443039718,
+        "n": 56,
+        "absR": 0.3874838443039718
+      },
+      {
+        "a": "brightness_score",
+        "b": "energy_score",
+        "r": 0.3785713661739837,
+        "n": 56,
+        "absR": 0.3785713661739837
+      },
+      {
+        "a": "brightness_score",
+        "b": "calm_score",
+        "r": -0.3686346660275273,
+        "n": 56,
+        "absR": 0.3686346660275273
+      }
+    ],
+    "topPositive": [
+      {
+        "a": "driving_score",
+        "b": "pulse_score",
+        "r": 0.9631318187860477,
+        "n": 56,
+        "absR": 0.9631318187860477
+      },
+      {
+        "a": "driving_score",
+        "b": "punch_score",
+        "r": 0.9192704591116966,
+        "n": 56,
+        "absR": 0.9192704591116966
+      },
+      {
+        "a": "pulse_score",
+        "b": "syncopation_score",
+        "r": 0.9053797910241106,
+        "n": 56,
+        "absR": 0.9053797910241106
+      },
+      {
+        "a": "pulse_score",
+        "b": "punch_score",
+        "r": 0.8914614578568943,
+        "n": 56,
+        "absR": 0.8914614578568943
+      },
+      {
+        "a": "driving_score",
+        "b": "energy_score",
+        "r": 0.8634509595723313,
+        "n": 56,
+        "absR": 0.8634509595723313
+      },
+      {
+        "a": "driving_score",
+        "b": "syncopation_score",
+        "r": 0.8364574352948304,
+        "n": 56,
+        "absR": 0.8364574352948304
+      },
+      {
+        "a": "punch_score",
+        "b": "rhythm_stability_score",
+        "r": 0.8163738511193656,
+        "n": 56,
+        "absR": 0.8163738511193656
+      },
+      {
+        "a": "density_score",
+        "b": "energy_score",
+        "r": 0.8018065098424572,
+        "n": 56,
+        "absR": 0.8018065098424572
+      },
+      {
+        "a": "energy_score",
+        "b": "punch_score",
+        "r": 0.7888597372095095,
+        "n": 56,
+        "absR": 0.7888597372095095
+      },
+      {
+        "a": "driving_score",
+        "b": "rhythm_stability_score",
+        "r": 0.7149323062504124,
+        "n": 56,
+        "absR": 0.7149323062504124
+      },
+      {
+        "a": "density_score",
+        "b": "driving_score",
+        "r": 0.6972986874809662,
+        "n": 56,
+        "absR": 0.6972986874809662
+      },
+      {
+        "a": "energy_score",
+        "b": "pulse_score",
+        "r": 0.6964676391928397,
+        "n": 56,
+        "absR": 0.6964676391928397
+      },
+      {
+        "a": "punch_score",
+        "b": "syncopation_score",
+        "r": 0.6848349730051317,
+        "n": 56,
+        "absR": 0.6848349730051317
+      },
+      {
+        "a": "pulse_score",
+        "b": "rhythm_stability_score",
+        "r": 0.6784496760601711,
+        "n": 56,
+        "absR": 0.6784496760601711
+      },
+      {
+        "a": "energy_score",
+        "b": "rhythm_stability_score",
+        "r": 0.6400526777912471,
+        "n": 56,
+        "absR": 0.6400526777912471
+      },
+      {
+        "a": "density_score",
+        "b": "punch_score",
+        "r": 0.5850168371100577,
+        "n": 56,
+        "absR": 0.5850168371100577
+      },
+      {
+        "a": "density_score",
+        "b": "pulse_score",
+        "r": 0.5623311542137086,
+        "n": 56,
+        "absR": 0.5623311542137086
+      },
+      {
+        "a": "energy_score",
+        "b": "syncopation_score",
+        "r": 0.5337381178958676,
+        "n": 56,
+        "absR": 0.5337381178958676
+      },
+      {
+        "a": "density_score",
+        "b": "syncopation_score",
+        "r": 0.46550281716009256,
+        "n": 56,
+        "absR": 0.46550281716009256
+      },
+      {
+        "a": "density_score",
+        "b": "rhythm_stability_score",
+        "r": 0.4569854153728384,
+        "n": 56,
+        "absR": 0.4569854153728384
+      },
+      {
+        "a": "calm_score",
+        "b": "layered_score",
+        "r": 0.45423267136063455,
+        "n": 56,
+        "absR": 0.45423267136063455
+      },
+      {
+        "a": "brightness_score",
+        "b": "valence_score",
+        "r": 0.44124532531122496,
+        "n": 56,
+        "absR": 0.44124532531122496
+      },
+      {
+        "a": "brightness_score",
+        "b": "energy_score",
+        "r": 0.3785713661739837,
+        "n": 56,
+        "absR": 0.3785713661739837
+      },
+      {
+        "a": "rhythm_stability_score",
+        "b": "valence_score",
+        "r": 0.35634694452178534,
+        "n": 56,
+        "absR": 0.35634694452178534
+      },
+      {
+        "a": "instrumental_score",
+        "b": "syncopation_score",
+        "r": 0.31821091952937736,
+        "n": 56,
+        "absR": 0.31821091952937736
+      }
+    ],
+    "topNegative": [
+      {
+        "a": "instrumental_score",
+        "b": "vocal_score",
+        "r": -1,
+        "n": 56,
+        "absR": 1
+      },
+      {
+        "a": "calm_score",
+        "b": "energy_score",
+        "r": -0.970651284949861,
+        "n": 56,
+        "absR": 0.970651284949861
+      },
+      {
+        "a": "darkness_score",
+        "b": "valence_score",
+        "r": -0.9574347923040405,
+        "n": 56,
+        "absR": 0.9574347923040405
+      },
+      {
+        "a": "calm_score",
+        "b": "punch_score",
+        "r": -0.8841923549529461,
+        "n": 56,
+        "absR": 0.8841923549529461
+      },
+      {
+        "a": "calm_score",
+        "b": "driving_score",
+        "r": -0.8667918308892311,
+        "n": 56,
+        "absR": 0.8667918308892311
+      },
+      {
+        "a": "layered_score",
+        "b": "pulse_score",
+        "r": -0.7740430395206653,
+        "n": 56,
+        "absR": 0.7740430395206653
+      },
+      {
+        "a": "calm_score",
+        "b": "density_score",
+        "r": -0.7496597185628815,
+        "n": 56,
+        "absR": 0.7496597185628815
+      },
+      {
+        "a": "calm_score",
+        "b": "rhythm_stability_score",
+        "r": -0.7353945950711318,
+        "n": 56,
+        "absR": 0.7353945950711318
+      },
+      {
+        "a": "layered_score",
+        "b": "syncopation_score",
+        "r": -0.7323399421979784,
+        "n": 56,
+        "absR": 0.7323399421979784
+      },
+      {
+        "a": "calm_score",
+        "b": "pulse_score",
+        "r": -0.7184352220102748,
+        "n": 56,
+        "absR": 0.7184352220102748
+      },
+      {
+        "a": "layered_score",
+        "b": "punch_score",
+        "r": -0.7067960589822101,
+        "n": 56,
+        "absR": 0.7067960589822101
+      },
+      {
+        "a": "driving_score",
+        "b": "layered_score",
+        "r": -0.6835755148256101,
+        "n": 56,
+        "absR": 0.6835755148256101
+      },
+      {
+        "a": "brightness_score",
+        "b": "darkness_score",
+        "r": -0.6814939277167128,
+        "n": 56,
+        "absR": 0.6814939277167128
+      },
+      {
+        "a": "calm_score",
+        "b": "syncopation_score",
+        "r": -0.5071364913530779,
+        "n": 56,
+        "absR": 0.5071364913530779
+      },
+      {
+        "a": "layered_score",
+        "b": "rhythm_stability_score",
+        "r": -0.4705839529551815,
+        "n": 56,
+        "absR": 0.4705839529551815
+      },
+      {
+        "a": "energy_score",
+        "b": "layered_score",
+        "r": -0.3874838443039718,
+        "n": 56,
+        "absR": 0.3874838443039718
+      },
+      {
+        "a": "brightness_score",
+        "b": "calm_score",
+        "r": -0.3686346660275273,
+        "n": 56,
+        "absR": 0.3686346660275273
+      },
+      {
+        "a": "darkness_score",
+        "b": "rhythm_stability_score",
+        "r": -0.3412771034833127,
+        "n": 56,
+        "absR": 0.3412771034833127
+      },
+      {
+        "a": "syncopation_score",
+        "b": "vocal_score",
+        "r": -0.31821091952937736,
+        "n": 56,
+        "absR": 0.31821091952937736
+      },
+      {
+        "a": "darkness_score",
+        "b": "speech_score",
+        "r": -0.31680637727366706,
+        "n": 56,
+        "absR": 0.31680637727366706
+      },
+      {
+        "a": "instrumental_score",
+        "b": "layered_score",
+        "r": -0.3119711225811076,
+        "n": 56,
+        "absR": 0.3119711225811076
+      },
+      {
+        "a": "density_score",
+        "b": "layered_score",
+        "r": -0.3070519859564915,
+        "n": 56,
+        "absR": 0.3070519859564915
+      },
+      {
+        "a": "pulse_score",
+        "b": "vocal_score",
+        "r": -0.2923763826453135,
+        "n": 56,
+        "absR": 0.2923763826453135
+      },
+      {
+        "a": "syncopation_score",
+        "b": "valence_score",
+        "r": -0.27577033705400505,
+        "n": 56,
+        "absR": 0.27577033705400505
+      },
+      {
+        "a": "driving_score",
+        "b": "vocal_score",
+        "r": -0.27049524394477636,
+        "n": 56,
+        "absR": 0.27049524394477636
+      }
+    ]
+  },
+  "inputAvailability": {
+    "arousal": {
+      "availableCount": 56,
+      "total": 56,
+      "availabilityRate": 1
+    },
+    "articulation": {
+      "availableCount": 56,
+      "total": 56,
+      "availabilityRate": 1
+    },
+    "dissonance": {
+      "availableCount": 56,
+      "total": 56,
+      "availabilityRate": 1
+    },
+    "event_density": {
+      "availableCount": 56,
+      "total": 56,
+      "availabilityRate": 1
+    },
+    "flatness": {
+      "availableCount": 56,
+      "total": 56,
+      "availabilityRate": 1
+    },
+    "harshness_score": {
+      "availableCount": 0,
+      "total": 56,
+      "availabilityRate": 0
+    },
+    "instrumentation_diversity": {
+      "availableCount": 0,
+      "total": 56,
+      "availabilityRate": 0
+    },
+    "intensity": {
+      "availableCount": 56,
+      "total": 56,
+      "availabilityRate": 1
+    },
+    "loudness_range": {
+      "availableCount": 56,
+      "total": 56,
+      "availabilityRate": 1
+    },
+    "loudness_score": {
+      "availableCount": 56,
+      "total": 56,
+      "availabilityRate": 1
+    },
+    "low_end_score": {
+      "availableCount": 0,
+      "total": 56,
+      "availabilityRate": 0
+    },
+    "low_valence_score": {
+      "availableCount": 56,
+      "total": 56,
+      "availabilityRate": 1
+    },
+    "music_speech": {
+      "availableCount": 56,
+      "total": 56,
+      "availabilityRate": 1
+    },
+    "offbeat_score": {
+      "availableCount": 0,
+      "total": 56,
+      "availabilityRate": 0
+    },
+    "provider_syncopation_or_rhythm_complexity": {
+      "availableCount": 0,
+      "total": 56,
+      "availabilityRate": 0
+    },
+    "pulse_clarity": {
+      "availableCount": 56,
+      "total": 56,
+      "availabilityRate": 1
+    },
+    "rhythmic_stability": {
+      "availableCount": 56,
+      "total": 56,
+      "availabilityRate": 1
+    },
+    "spectral_centroid_or_brightness": {
+      "availableCount": 56,
+      "total": 56,
+      "availabilityRate": 1
+    },
+    "spectral_complexity": {
+      "availableCount": 56,
+      "total": 56,
+      "availabilityRate": 1
+    },
+    "spectral_rolloff": {
+      "availableCount": 56,
+      "total": 56,
+      "availabilityRate": 1
+    },
+    "timbral_complexity": {
+      "availableCount": 0,
+      "total": 56,
+      "availabilityRate": 0
+    },
+    "transient_strength": {
+      "availableCount": 0,
+      "total": 56,
+      "availabilityRate": 0
+    },
+    "valence": {
+      "availableCount": 56,
+      "total": 56,
+      "availabilityRate": 1
+    },
+    "vocal_instrumental": {
+      "availableCount": 56,
+      "total": 56,
+      "availabilityRate": 1
+    }
+  },
+  "featureDependency": [
+    {
+      "featureId": "acoustic_score",
+      "topInputCorrelations": [],
+      "topPresenceCoupling": [
+        {
+          "inputId": "arousal",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 1
+        },
+        {
+          "inputId": "articulation",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 1
+        },
+        {
+          "inputId": "dissonance",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 1
+        },
+        {
+          "inputId": "event_density",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 1
+        },
+        {
+          "inputId": "flatness",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 1
+        },
+        {
+          "inputId": "intensity",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 1
+        },
+        {
+          "inputId": "loudness_range",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 1
+        },
+        {
+          "inputId": "loudness_score",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 1
+        }
+      ]
+    },
+    {
+      "featureId": "brightness_score",
+      "topInputCorrelations": [
+        {
+          "inputId": "spectral_centroid_or_brightness",
+          "r": 0.9325807143165997,
+          "n": 56
+        },
+        {
+          "inputId": "spectral_rolloff",
+          "r": 0.9175229116647542,
+          "n": 56
+        },
+        {
+          "inputId": "arousal",
+          "r": 0.5046309064328249,
+          "n": 56
+        },
+        {
+          "inputId": "low_valence_score",
+          "r": -0.44124532531122496,
+          "n": 56
+        },
+        {
+          "inputId": "valence",
+          "r": 0.44124532531122496,
+          "n": 56
+        },
+        {
+          "inputId": "flatness",
+          "r": 0.3766692144750866,
+          "n": 56
+        },
+        {
+          "inputId": "dissonance",
+          "r": 0.3064475327424035,
+          "n": 56
+        },
+        {
+          "inputId": "music_speech",
+          "r": 0.2980608050570291,
+          "n": 56
+        }
+      ],
+      "topPresenceCoupling": [
+        {
+          "inputId": "arousal",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "articulation",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "dissonance",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "event_density",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "flatness",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "harshness_score",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 1,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "instrumentation_diversity",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 1,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "intensity",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        }
+      ]
+    },
+    {
+      "featureId": "calm_score",
+      "topInputCorrelations": [
+        {
+          "inputId": "arousal",
+          "r": -0.9299931035027186,
+          "n": 56
+        },
+        {
+          "inputId": "articulation",
+          "r": -0.8583556333961413,
+          "n": 56
+        },
+        {
+          "inputId": "dissonance",
+          "r": -0.7768101129354574,
+          "n": 56
+        },
+        {
+          "inputId": "intensity",
+          "r": -0.7480008255513918,
+          "n": 56
+        },
+        {
+          "inputId": "rhythmic_stability",
+          "r": -0.7353945950711318,
+          "n": 56
+        },
+        {
+          "inputId": "loudness_score",
+          "r": -0.734889652901898,
+          "n": 56
+        },
+        {
+          "inputId": "pulse_clarity",
+          "r": -0.6697304077205266,
+          "n": 56
+        },
+        {
+          "inputId": "flatness",
+          "r": -0.5512544244920744,
+          "n": 56
+        }
+      ],
+      "topPresenceCoupling": [
+        {
+          "inputId": "arousal",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "articulation",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "dissonance",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "event_density",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "flatness",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "harshness_score",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 1,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "instrumentation_diversity",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 1,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "intensity",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        }
+      ]
+    },
+    {
+      "featureId": "darkness_score",
+      "topInputCorrelations": [
+        {
+          "inputId": "valence",
+          "r": -0.9574347923040405,
+          "n": 56
+        },
+        {
+          "inputId": "low_valence_score",
+          "r": 0.9574347923040403,
+          "n": 56
+        },
+        {
+          "inputId": "articulation",
+          "r": -0.42806359515500314,
+          "n": 56
+        },
+        {
+          "inputId": "spectral_centroid_or_brightness",
+          "r": -0.42437347949094567,
+          "n": 56
+        },
+        {
+          "inputId": "spectral_rolloff",
+          "r": -0.3829499875651891,
+          "n": 56
+        },
+        {
+          "inputId": "rhythmic_stability",
+          "r": -0.3412771034833127,
+          "n": 56
+        },
+        {
+          "inputId": "music_speech",
+          "r": -0.31680637727366706,
+          "n": 56
+        },
+        {
+          "inputId": "arousal",
+          "r": -0.27535550567641515,
+          "n": 56
+        }
+      ],
+      "topPresenceCoupling": [
+        {
+          "inputId": "arousal",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "articulation",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "dissonance",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "event_density",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "flatness",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "harshness_score",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 1,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "instrumentation_diversity",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 1,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "intensity",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        }
+      ]
+    },
+    {
+      "featureId": "density_score",
+      "topInputCorrelations": [
+        {
+          "inputId": "intensity",
+          "r": 0.9763476061089917,
+          "n": 56
+        },
+        {
+          "inputId": "loudness_score",
+          "r": 0.8577119804370468,
+          "n": 56
+        },
+        {
+          "inputId": "dissonance",
+          "r": 0.6410241719184646,
+          "n": 56
+        },
+        {
+          "inputId": "arousal",
+          "r": 0.6240927095566842,
+          "n": 56
+        },
+        {
+          "inputId": "pulse_clarity",
+          "r": 0.5447226890617519,
+          "n": 56
+        },
+        {
+          "inputId": "articulation",
+          "r": 0.4797267321084096,
+          "n": 56
+        },
+        {
+          "inputId": "rhythmic_stability",
+          "r": 0.4569854153728384,
+          "n": 56
+        },
+        {
+          "inputId": "flatness",
+          "r": 0.4116369983222295,
+          "n": 56
+        }
+      ],
+      "topPresenceCoupling": [
+        {
+          "inputId": "arousal",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "articulation",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "dissonance",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "event_density",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "flatness",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "harshness_score",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 1,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "instrumentation_diversity",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 1,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "intensity",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        }
+      ]
+    },
+    {
+      "featureId": "driving_score",
+      "topInputCorrelations": [
+        {
+          "inputId": "pulse_clarity",
+          "r": 0.944692554636386,
+          "n": 56
+        },
+        {
+          "inputId": "arousal",
+          "r": 0.727151232590637,
+          "n": 56
+        },
+        {
+          "inputId": "spectral_complexity",
+          "r": -0.7261269491707701,
+          "n": 56
+        },
+        {
+          "inputId": "rhythmic_stability",
+          "r": 0.7149323062504124,
+          "n": 56
+        },
+        {
+          "inputId": "intensity",
+          "r": 0.7028387720459837,
+          "n": 56
+        },
+        {
+          "inputId": "articulation",
+          "r": 0.7020759161183844,
+          "n": 56
+        },
+        {
+          "inputId": "dissonance",
+          "r": 0.6245178732786558,
+          "n": 56
+        },
+        {
+          "inputId": "loudness_score",
+          "r": 0.6060546763489227,
+          "n": 56
+        }
+      ],
+      "topPresenceCoupling": [
+        {
+          "inputId": "arousal",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "articulation",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "dissonance",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "event_density",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "flatness",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "harshness_score",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 1,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "instrumentation_diversity",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 1,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "intensity",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        }
+      ]
+    },
+    {
+      "featureId": "energy_score",
+      "topInputCorrelations": [
+        {
+          "inputId": "arousal",
+          "r": 0.9494453572245488,
+          "n": 56
+        },
+        {
+          "inputId": "loudness_score",
+          "r": 0.814134517308422,
+          "n": 56
+        },
+        {
+          "inputId": "intensity",
+          "r": 0.7842634888644483,
+          "n": 56
+        },
+        {
+          "inputId": "dissonance",
+          "r": 0.736096679479321,
+          "n": 56
+        },
+        {
+          "inputId": "articulation",
+          "r": 0.7112993956038056,
+          "n": 56
+        },
+        {
+          "inputId": "pulse_clarity",
+          "r": 0.661851401602986,
+          "n": 56
+        },
+        {
+          "inputId": "rhythmic_stability",
+          "r": 0.6400526777912471,
+          "n": 56
+        },
+        {
+          "inputId": "flatness",
+          "r": 0.5456830440120354,
+          "n": 56
+        }
+      ],
+      "topPresenceCoupling": [
+        {
+          "inputId": "arousal",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "articulation",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "dissonance",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "event_density",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "flatness",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "harshness_score",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 1,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "instrumentation_diversity",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 1,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "intensity",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        }
+      ]
+    },
+    {
+      "featureId": "harshness_score",
+      "topInputCorrelations": [],
+      "topPresenceCoupling": [
+        {
+          "inputId": "arousal",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 1
+        },
+        {
+          "inputId": "articulation",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 1
+        },
+        {
+          "inputId": "dissonance",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 1
+        },
+        {
+          "inputId": "event_density",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 1
+        },
+        {
+          "inputId": "flatness",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 1
+        },
+        {
+          "inputId": "intensity",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 1
+        },
+        {
+          "inputId": "loudness_range",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 1
+        },
+        {
+          "inputId": "loudness_score",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 1
+        }
+      ]
+    },
+    {
+      "featureId": "instrumental_score",
+      "topInputCorrelations": [
+        {
+          "inputId": "vocal_instrumental",
+          "r": 1,
+          "n": 56
+        },
+        {
+          "inputId": "spectral_complexity",
+          "r": -0.3165391177425793,
+          "n": 56
+        },
+        {
+          "inputId": "pulse_clarity",
+          "r": 0.3060148268817091,
+          "n": 56
+        },
+        {
+          "inputId": "dissonance",
+          "r": 0.30299779313828373,
+          "n": 56
+        },
+        {
+          "inputId": "low_valence_score",
+          "r": 0.2301091426947501,
+          "n": 56
+        },
+        {
+          "inputId": "valence",
+          "r": -0.23010914269475002,
+          "n": 56
+        },
+        {
+          "inputId": "articulation",
+          "r": 0.19741076605785446,
+          "n": 56
+        },
+        {
+          "inputId": "intensity",
+          "r": 0.1927830617134076,
+          "n": 56
+        }
+      ],
+      "topPresenceCoupling": [
+        {
+          "inputId": "arousal",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "articulation",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "dissonance",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "event_density",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "flatness",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "harshness_score",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 1,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "instrumentation_diversity",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 1,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "intensity",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        }
+      ]
+    },
+    {
+      "featureId": "layered_score",
+      "topInputCorrelations": [
+        {
+          "inputId": "spectral_complexity",
+          "r": 0.9960941119913155,
+          "n": 56
+        },
+        {
+          "inputId": "pulse_clarity",
+          "r": -0.7772070636009256,
+          "n": 56
+        },
+        {
+          "inputId": "articulation",
+          "r": -0.5317205643612277,
+          "n": 56
+        },
+        {
+          "inputId": "rhythmic_stability",
+          "r": -0.4705839529551815,
+          "n": 56
+        },
+        {
+          "inputId": "intensity",
+          "r": -0.39930170127628173,
+          "n": 56
+        },
+        {
+          "inputId": "flatness",
+          "r": -0.39094500873617155,
+          "n": 56
+        },
+        {
+          "inputId": "event_density",
+          "r": 0.33401837840182425,
+          "n": 56
+        },
+        {
+          "inputId": "vocal_instrumental",
+          "r": -0.3119711225811076,
+          "n": 56
+        }
+      ],
+      "topPresenceCoupling": [
+        {
+          "inputId": "arousal",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "articulation",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "dissonance",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "event_density",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "flatness",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "harshness_score",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 1,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "instrumentation_diversity",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 1,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "intensity",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        }
+      ]
+    },
+    {
+      "featureId": "low_end_score",
+      "topInputCorrelations": [],
+      "topPresenceCoupling": [
+        {
+          "inputId": "arousal",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 1
+        },
+        {
+          "inputId": "articulation",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 1
+        },
+        {
+          "inputId": "dissonance",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 1
+        },
+        {
+          "inputId": "event_density",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 1
+        },
+        {
+          "inputId": "flatness",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 1
+        },
+        {
+          "inputId": "intensity",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 1
+        },
+        {
+          "inputId": "loudness_range",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 1
+        },
+        {
+          "inputId": "loudness_score",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 1
+        }
+      ]
+    },
+    {
+      "featureId": "offbeat_score",
+      "topInputCorrelations": [],
+      "topPresenceCoupling": [
+        {
+          "inputId": "arousal",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 1
+        },
+        {
+          "inputId": "articulation",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 1
+        },
+        {
+          "inputId": "dissonance",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 1
+        },
+        {
+          "inputId": "event_density",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 1
+        },
+        {
+          "inputId": "flatness",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 1
+        },
+        {
+          "inputId": "intensity",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 1
+        },
+        {
+          "inputId": "loudness_range",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 1
+        },
+        {
+          "inputId": "loudness_score",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 1
+        }
+      ]
+    },
+    {
+      "featureId": "pulse_score",
+      "topInputCorrelations": [
+        {
+          "inputId": "pulse_clarity",
+          "r": 0.9918967826057146,
+          "n": 56
+        },
+        {
+          "inputId": "spectral_complexity",
+          "r": -0.8011415908763289,
+          "n": 56
+        },
+        {
+          "inputId": "rhythmic_stability",
+          "r": 0.6784496760601711,
+          "n": 56
+        },
+        {
+          "inputId": "articulation",
+          "r": 0.6269518705451642,
+          "n": 56
+        },
+        {
+          "inputId": "intensity",
+          "r": 0.5846620605346033,
+          "n": 56
+        },
+        {
+          "inputId": "arousal",
+          "r": 0.5293694980151733,
+          "n": 56
+        },
+        {
+          "inputId": "flatness",
+          "r": 0.5135153905610815,
+          "n": 56
+        },
+        {
+          "inputId": "dissonance",
+          "r": 0.5002052185252871,
+          "n": 56
+        }
+      ],
+      "topPresenceCoupling": [
+        {
+          "inputId": "arousal",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "articulation",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "dissonance",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "event_density",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "flatness",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "harshness_score",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 1,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "instrumentation_diversity",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 1,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "intensity",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        }
+      ]
+    },
+    {
+      "featureId": "punch_score",
+      "topInputCorrelations": [
+        {
+          "inputId": "articulation",
+          "r": 0.9111695929421386,
+          "n": 56
+        },
+        {
+          "inputId": "pulse_clarity",
+          "r": 0.8476512051450394,
+          "n": 56
+        },
+        {
+          "inputId": "rhythmic_stability",
+          "r": 0.8163738511193656,
+          "n": 56
+        },
+        {
+          "inputId": "spectral_complexity",
+          "r": -0.7381777914821217,
+          "n": 56
+        },
+        {
+          "inputId": "arousal",
+          "r": 0.6929146578764914,
+          "n": 56
+        },
+        {
+          "inputId": "dissonance",
+          "r": 0.6789003584973249,
+          "n": 56
+        },
+        {
+          "inputId": "intensity",
+          "r": 0.6189760888984196,
+          "n": 56
+        },
+        {
+          "inputId": "flatness",
+          "r": 0.5344503206638709,
+          "n": 56
+        }
+      ],
+      "topPresenceCoupling": [
+        {
+          "inputId": "arousal",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "articulation",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "dissonance",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "event_density",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "flatness",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "harshness_score",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 1,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "instrumentation_diversity",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 1,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "intensity",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        }
+      ]
+    },
+    {
+      "featureId": "rhythm_stability_score",
+      "topInputCorrelations": [
+        {
+          "inputId": "rhythmic_stability",
+          "r": 1,
+          "n": 56
+        },
+        {
+          "inputId": "articulation",
+          "r": 0.7855913798174474,
+          "n": 56
+        },
+        {
+          "inputId": "arousal",
+          "r": 0.5914120604710692,
+          "n": 56
+        },
+        {
+          "inputId": "pulse_clarity",
+          "r": 0.5796178532238626,
+          "n": 56
+        },
+        {
+          "inputId": "spectral_complexity",
+          "r": -0.4977388341703542,
+          "n": 56
+        },
+        {
+          "inputId": "intensity",
+          "r": 0.4733436070607939,
+          "n": 56
+        },
+        {
+          "inputId": "loudness_score",
+          "r": 0.4279334392503824,
+          "n": 56
+        },
+        {
+          "inputId": "dissonance",
+          "r": 0.3907689501118434,
+          "n": 56
+        }
+      ],
+      "topPresenceCoupling": [
+        {
+          "inputId": "arousal",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "articulation",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "dissonance",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "event_density",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "flatness",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "harshness_score",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 1,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "instrumentation_diversity",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 1,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "intensity",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        }
+      ]
+    },
+    {
+      "featureId": "speech_score",
+      "topInputCorrelations": [
+        {
+          "inputId": "music_speech",
+          "r": 1,
+          "n": 56
+        },
+        {
+          "inputId": "dissonance",
+          "r": 0.4371515040051279,
+          "n": 56
+        },
+        {
+          "inputId": "articulation",
+          "r": 0.3598566852596593,
+          "n": 56
+        },
+        {
+          "inputId": "low_valence_score",
+          "r": -0.2709158059785001,
+          "n": 56
+        },
+        {
+          "inputId": "valence",
+          "r": 0.2709158059785001,
+          "n": 56
+        },
+        {
+          "inputId": "spectral_centroid_or_brightness",
+          "r": 0.2228733467175372,
+          "n": 56
+        },
+        {
+          "inputId": "flatness",
+          "r": 0.19152589851923002,
+          "n": 56
+        },
+        {
+          "inputId": "spectral_rolloff",
+          "r": 0.1879331871658116,
+          "n": 56
+        }
+      ],
+      "topPresenceCoupling": [
+        {
+          "inputId": "arousal",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "articulation",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "dissonance",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "event_density",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "flatness",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "harshness_score",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 1,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "instrumentation_diversity",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 1,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "intensity",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        }
+      ]
+    },
+    {
+      "featureId": "syncopation_score",
+      "topInputCorrelations": [
+        {
+          "inputId": "pulse_clarity",
+          "r": 0.9519875181723128,
+          "n": 56
+        },
+        {
+          "inputId": "spectral_complexity",
+          "r": -0.7518057107477749,
+          "n": 56
+        },
+        {
+          "inputId": "flatness",
+          "r": 0.5230489923332438,
+          "n": 56
+        },
+        {
+          "inputId": "intensity",
+          "r": 0.4850227008149506,
+          "n": 56
+        },
+        {
+          "inputId": "dissonance",
+          "r": 0.4231652992688975,
+          "n": 56
+        },
+        {
+          "inputId": "articulation",
+          "r": 0.3594244808073923,
+          "n": 56
+        },
+        {
+          "inputId": "arousal",
+          "r": 0.3450406413536243,
+          "n": 56
+        },
+        {
+          "inputId": "vocal_instrumental",
+          "r": 0.31821091952937736,
+          "n": 56
+        }
+      ],
+      "topPresenceCoupling": [
+        {
+          "inputId": "arousal",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "articulation",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "dissonance",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "event_density",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "flatness",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "harshness_score",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 1,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "instrumentation_diversity",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 1,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "intensity",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        }
+      ]
+    },
+    {
+      "featureId": "valence_score",
+      "topInputCorrelations": [
+        {
+          "inputId": "low_valence_score",
+          "r": -1,
+          "n": 56
+        },
+        {
+          "inputId": "valence",
+          "r": 1,
+          "n": 56
+        },
+        {
+          "inputId": "articulation",
+          "r": 0.4183357638488734,
+          "n": 56
+        },
+        {
+          "inputId": "rhythmic_stability",
+          "r": 0.35634694452178534,
+          "n": 56
+        },
+        {
+          "inputId": "event_density",
+          "r": -0.3009745139155315,
+          "n": 56
+        },
+        {
+          "inputId": "music_speech",
+          "r": 0.2709158059785001,
+          "n": 56
+        },
+        {
+          "inputId": "vocal_instrumental",
+          "r": -0.23010914269475002,
+          "n": 56
+        },
+        {
+          "inputId": "spectral_centroid_or_brightness",
+          "r": 0.1525475811237352,
+          "n": 56
+        }
+      ],
+      "topPresenceCoupling": [
+        {
+          "inputId": "arousal",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "articulation",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "dissonance",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "event_density",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "flatness",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "harshness_score",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 1,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "instrumentation_diversity",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 1,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "intensity",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        }
+      ]
+    },
+    {
+      "featureId": "vocal_score",
+      "topInputCorrelations": [
+        {
+          "inputId": "vocal_instrumental",
+          "r": -1,
+          "n": 56
+        },
+        {
+          "inputId": "spectral_complexity",
+          "r": 0.31653911774257937,
+          "n": 56
+        },
+        {
+          "inputId": "pulse_clarity",
+          "r": -0.3060148268817089,
+          "n": 56
+        },
+        {
+          "inputId": "dissonance",
+          "r": -0.30299779313828373,
+          "n": 56
+        },
+        {
+          "inputId": "low_valence_score",
+          "r": -0.23010914269475002,
+          "n": 56
+        },
+        {
+          "inputId": "valence",
+          "r": 0.23010914269475002,
+          "n": 56
+        },
+        {
+          "inputId": "articulation",
+          "r": -0.19741076605785463,
+          "n": 56
+        },
+        {
+          "inputId": "intensity",
+          "r": -0.1927830617134076,
+          "n": 56
+        }
+      ],
+      "topPresenceCoupling": [
+        {
+          "inputId": "arousal",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "articulation",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "dissonance",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "event_density",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "flatness",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "harshness_score",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 1,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "instrumentation_diversity",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 1,
+          "featureMissingWhenInputPresentRate": 0
+        },
+        {
+          "inputId": "intensity",
+          "n": 56,
+          "featurePresentWhenInputMissingRate": 0,
+          "featureMissingWhenInputPresentRate": 0
+        }
+      ]
+    }
+  ]
+}
