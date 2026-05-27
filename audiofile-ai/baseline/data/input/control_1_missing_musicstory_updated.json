@@ -1,0 +1,166 @@
+[
+  {
+    "title": "Hendrix Flow",
+    "artist": "PAWSA",
+    "isrc": "GBLV62215793",
+    "musicStoryRecordingId": null,
+    "controlGroup": "steady",
+    "expectedDescriptors": [
+      "steady",
+      "driving"
+    ],
+    "note": null
+  },
+  {
+    "title": "Mood",
+    "artist": "Ahmed Spins",
+    "isrc": "GXFCP2500150",
+    "musicStoryRecordingId": null,
+    "controlGroup": "steady",
+    "expectedDescriptors": [
+      "steady",
+      "calm"
+    ],
+    "note": null
+  },
+  {
+    "title": "Ocean",
+    "artist": "FISHER",
+    "isrc": "USCRR2400013",
+    "musicStoryRecordingId": null,
+    "controlGroup": "steady",
+    "expectedDescriptors": [
+      "steady",
+      "driving"
+    ],
+    "note": "Song found on Music Story but no audio descriptors available"
+  },
+  {
+    "title": "Feel Ur Touch",
+    "artist": "Subsonic",
+    "isrc": "CAUM82300384",
+    "musicStoryRecordingId": null,
+    "controlGroup": "steady",
+    "expectedDescriptors": [
+      "steady",
+      "driving"
+    ],
+    "note": null
+  },
+  {
+    "title": "SEE YOU DROP",
+    "artist": "Ray Volpe",
+    "isrc": "CA6D22400048",
+    "musicStoryRecordingId": null,
+    "controlGroup": "driving",
+    "expectedDescriptors": [
+      "driving",
+      "aggressive",
+      "punchy"
+    ],
+    "note": null
+  },
+  {
+    "title": "Jump Higher",
+    "artist": "Riordan",
+    "isrc": "US38Y2586365",
+    "musicStoryRecordingId": null,
+    "controlGroup": "driving",
+    "expectedDescriptors": [
+      "driving",
+      "bouncy"
+    ],
+    "note": null
+  },
+  {
+    "title": "We're On Fire",
+    "artist": "Grafix",
+    "isrc": "GB2LD2510084",
+    "musicStoryRecordingId": null,
+    "controlGroup": "driving",
+    "expectedDescriptors": [
+      "driving",
+      "energetic",
+      "dense"
+    ],
+    "note": "Song found on Music Story but no audio descriptors available"
+  },
+  {
+    "title": "Carnaval",
+    "artist": "Bellaire",
+    "isrc": "FRPGV2300036",
+    "musicStoryRecordingId": null,
+    "controlGroup": "bouncy",
+    "expectedDescriptors": [
+      "bouncy",
+      "steady",
+      "bright"
+    ],
+    "note": null
+  },
+  {
+    "title": "Smash!",
+    "artist": "CHYL",
+    "isrc": "USDM32351901",
+    "musicStoryRecordingId": null,
+    "controlGroup": "aggressive",
+    "expectedDescriptors": [
+      "aggressive",
+      "punchy",
+      "bright"
+    ],
+    "note": null
+  },
+  {
+    "title": "SEE YOU DROP",
+    "artist": "Ray Volpe",
+    "isrc": "CA6D22400048",
+    "musicStoryRecordingId": null,
+    "controlGroup": "aggressive",
+    "expectedDescriptors": [
+      "aggressive",
+      "punchy",
+      "dense"
+    ],
+    "note": null
+  },
+  {
+    "title": "JAGERBOMB",
+    "artist": "DATSKO",
+    "isrc": "QZFZ72208831",
+    "musicStoryRecordingId": null,
+    "controlGroup": "aggressive",
+    "expectedDescriptors": [
+      "aggressive",
+      "punchy",
+      "dark"
+    ],
+    "note": null
+  },
+  {
+    "title": "Dracula",
+    "artist": "Tame Impala",
+    "isrc": "USQX92504223",
+    "musicStoryRecordingId": null,
+    "controlGroup": "emotional_reflective",
+    "expectedDescriptors": [
+      "reflective",
+      "dark",
+      "dense"
+    ],
+    "note": "Song found on Music Story but no audio descriptors available"
+  },
+  {
+    "title": "Rainbows & Waterfalls",
+    "artist": "Pretty Lights",
+    "isrc": "QMUY41700198",
+    "musicStoryRecordingId": null,
+    "controlGroup": "emotional_reflective",
+    "expectedDescriptors": [
+      "reflective",
+      "layered",
+      "calm"
+    ],
+    "note": null
+  }
+]

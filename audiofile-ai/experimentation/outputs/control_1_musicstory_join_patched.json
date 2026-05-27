@@ -38,61 +38,67 @@
   },
   "summary": {
     "total": 69,
-    "found": 43,
-    "missing": 26,
+    "found": 56,
+    "missing": 13,
     "groups": [
       {
         "group": "aggressive",
         "total": 10,
-        "found": 6,
-        "missing": 4,
+        "found": 7,
+        "missing": 3,
         "matchTypes": {
+          "isrc_screenshot": 1,
           "isrc": 6
         }
       },
       {
         "group": "bouncy",
         "total": 10,
-        "found": 4,
-        "missing": 6,
+        "found": 9,
+        "missing": 1,
         "matchTypes": {
+          "isrc_screenshot": 5,
           "isrc": 4
         }
       },
       {
         "group": "calm",
         "total": 9,
-        "found": 6,
-        "missing": 3,
+        "found": 9,
+        "missing": 0,
         "matchTypes": {
+          "isrc_screenshot": 3,
           "isrc": 6
         }
       },
       {
         "group": "driving",
         "total": 10,
-        "found": 6,
-        "missing": 4,
+        "found": 7,
+        "missing": 3,
         "matchTypes": {
+          "isrc_screenshot": 1,
           "isrc": 6
         }
       },
       {
         "group": "emotional_reflective",
         "total": 10,
-        "found": 7,
-        "missing": 3,
+        "found": 8,
+        "missing": 2,
         "matchTypes": {
-          "isrc": 7
+          "isrc": 7,
+          "isrc_screenshot": 1
         }
       },
       {
         "group": "euphoric",
         "total": 10,
-        "found": 8,
-        "missing": 2,
+        "found": 10,
+        "missing": 0,
         "matchTypes": {
-          "isrc": 8
+          "isrc": 8,
+          "isrc_screenshot": 2
         }
       },
       {
@@ -118,12 +124,94 @@
         "steady",
         "vocal"
       ],
-      "found": false,
-      "match": null,
-      "cacheMeta": null,
+      "found": true,
+      "match": {
+        "matchType": "isrc_screenshot",
+        "matchValue": "GBDUW0000064"
+      },
+      "cacheMeta": {
+        "batchFile": "screenshot_manual",
+        "index": null,
+        "providerRecordingId": 554601,
+        "providerError": null,
+        "inputMusicStoryRecordingId": null
+      },
       "musicStory": {
-        "available": false,
-        "data": null
+        "available": true,
+        "data": {
+          "arousal": 0.31,
+          "valence": 0.58,
+          "vocal_instrumental": 0.21,
+          "music_speech": 0.2,
+          "electric_acoustic": 0.56,
+          "danceability": 0.84,
+          "studio_live": 0.11,
+          "melodicity": 0.5,
+          "dissonance": 0.46,
+          "articulation": 0.46925,
+          "rhythmic_stability": 0.44292,
+          "event_density": 0.04182,
+          "pulse_clarity": 0.578611,
+          "bpm": 50,
+          "complexity": 0.093231,
+          "binary": 0.786346,
+          "roll_off": 1116.72892,
+          "brightness": 0.104129,
+          "zero_cross_rate": 0.045275,
+          "centroid": 3153.290624,
+          "spread": 4151.569625,
+          "flatness": 0.252152,
+          "mfcc01": -12.640365,
+          "mfcc02": 3.135803,
+          "mfcc03": -0.170477,
+          "mfcc04": 0.049224,
+          "mfcc05": -0.07452,
+          "mfcc06": -0.128165,
+          "mfcc07": -0.26381,
+          "mfcc08": -0.22271,
+          "mfcc09": -0.387564,
+          "mfcc10": -0.364805,
+          "mfcc11": -0.377087,
+          "mfcc12": -0.352222,
+          "mfcc13": -0.420643,
+          "complexity_chroma": 0.272727,
+          "chroma01": 7591,
+          "chroma02": 2746,
+          "chroma03": 10040,
+          "chroma04": 404,
+          "chroma05": 4460,
+          "chroma06": 5876,
+          "chroma07": 1426,
+          "chroma08": 7976,
+          "chroma09": 1260,
+          "chroma10": 15177,
+          "chroma11": 1755,
+          "chroma12": 1471,
+          "intensity": 0.114917,
+          "loudness": -18.584414,
+          "absolute_loudness": -18.297414,
+          "loudness_range": 11.871387,
+          "moods": [
+            {
+              "name": "Confident",
+              "value": 0.77
+            },
+            {
+              "name": "Happy",
+              "value": 0.58
+            },
+            {
+              "name": "Interested",
+              "value": 0.3
+            },
+            {
+              "name": "Neutral",
+              "value": 0.27
+            }
+          ],
+          "timbres": null,
+          "themes": null
+        }
       }
     },
     {
@@ -228,18 +316,104 @@
       "group": "calm",
       "artist": "Paul Anka",
       "title": "Put Your Head on My Shoulder",
-      "isrc": "USRC11602670",
+      "isrc": "ZA42A1544718",
       "recordingId": null,
       "expectedDescriptors": [
         "calm",
         "vocal"
       ],
-      "found": false,
-      "match": null,
-      "cacheMeta": null,
+      "found": true,
+      "match": {
+        "matchType": "isrc_screenshot",
+        "matchValue": "ZA42A1544718"
+      },
+      "cacheMeta": {
+        "batchFile": "screenshot_manual",
+        "index": null,
+        "providerRecordingId": 20748971,
+        "providerError": null,
+        "inputMusicStoryRecordingId": null
+      },
       "musicStory": {
-        "available": false,
-        "data": null
+        "available": true,
+        "data": {
+          "arousal": 0.37,
+          "valence": 0.54,
+          "vocal_instrumental": 0.0,
+          "music_speech": 0.04,
+          "electric_acoustic": 0.83,
+          "danceability": 0.53,
+          "studio_live": 0.28,
+          "melodicity": 0.71,
+          "dissonance": 0.33,
+          "articulation": 0.30904,
+          "rhythmic_stability": 0.55377,
+          "event_density": 0.062032,
+          "pulse_clarity": 0.161846,
+          "bpm": 37,
+          "complexity": 0.746871,
+          "binary": 0.716914,
+          "roll_off": 1718.975893,
+          "brightness": 0.160133,
+          "zero_cross_rate": 0.0616,
+          "centroid": 2535.001782,
+          "spread": 2839.691307,
+          "flatness": 0.139255,
+          "mfcc01": -8.038919,
+          "mfcc02": 3.075609,
+          "mfcc03": -0.831647,
+          "mfcc04": 0.835366,
+          "mfcc05": -0.446424,
+          "mfcc06": -0.034648,
+          "mfcc07": -0.041711,
+          "mfcc08": 0.068814,
+          "mfcc09": -0.582572,
+          "mfcc10": -0.336485,
+          "mfcc11": -0.514882,
+          "mfcc12": -0.49297,
+          "mfcc13": -0.422546,
+          "complexity_chroma": 0.272727,
+          "chroma01": 8335,
+          "chroma02": 3935,
+          "chroma03": 7392,
+          "chroma04": 3306,
+          "chroma05": 8048,
+          "chroma06": 5453,
+          "chroma07": 5059,
+          "chroma08": 5484,
+          "chroma09": 2060,
+          "chroma10": 8842,
+          "chroma11": 3747,
+          "chroma12": 5074,
+          "intensity": 0.127584,
+          "loudness": -15.113188,
+          "absolute_loudness": -13.830356,
+          "loudness_range": 4.356161,
+          "moods": [
+            {
+              "name": "Interested",
+              "value": 0.58
+            },
+            {
+              "name": "Neutral",
+              "value": 0.45
+            },
+            {
+              "name": "Worried",
+              "value": 0.43
+            },
+            {
+              "name": "Confident",
+              "value": 0.42
+            }
+          ],
+          "timbres": [
+            "Acoustic",
+            "Piano",
+            "Vocal"
+          ],
+          "themes": null
+        }
       }
     },
     {
@@ -253,12 +427,88 @@
         "vocal",
         "sparse"
       ],
-      "found": false,
-      "match": null,
-      "cacheMeta": null,
+      "found": true,
+      "match": {
+        "matchType": "isrc_screenshot",
+        "matchValue": "USAM10300195"
+      },
+      "cacheMeta": {
+        "batchFile": "screenshot_manual",
+        "index": null,
+        "providerRecordingId": 5248854,
+        "providerError": null,
+        "inputMusicStoryRecordingId": null
+      },
       "musicStory": {
-        "available": false,
-        "data": null
+        "available": true,
+        "data": {
+          "arousal": 0.52,
+          "valence": 0.47,
+          "vocal_instrumental": 0.28,
+          "music_speech": 0.05,
+          "electric_acoustic": 0.0,
+          "danceability": 0.76,
+          "studio_live": 0.11,
+          "melodicity": 0.57,
+          "dissonance": 0.45,
+          "articulation": 0.56193,
+          "rhythmic_stability": 0.63053,
+          "event_density": 0.042419,
+          "pulse_clarity": 0.609766,
+          "bpm": 50,
+          "complexity": 0.06757,
+          "binary": 0.785426,
+          "roll_off": 1952.606972,
+          "brightness": 0.143103,
+          "zero_cross_rate": 0.069809,
+          "centroid": 3867.445132,
+          "spread": 3813.603386,
+          "flatness": 0.225467,
+          "mfcc01": -8.740331,
+          "mfcc02": 2.471239,
+          "mfcc03": 0.698059,
+          "mfcc04": 0.559556,
+          "mfcc05": -0.404099,
+          "mfcc06": 0.561618,
+          "mfcc07": -0.952352,
+          "mfcc08": -0.222038,
+          "mfcc09": -0.690131,
+          "mfcc10": -0.432562,
+          "mfcc11": -0.437714,
+          "mfcc12": -0.347844,
+          "mfcc13": -0.699788,
+          "complexity_chroma": 0.181818,
+          "chroma01": 6442,
+          "chroma02": 8001,
+          "chroma03": 4420,
+          "chroma04": 780,
+          "chroma05": 5394,
+          "chroma06": 10882,
+          "chroma07": 3364,
+          "chroma08": 3502,
+          "chroma09": 3303,
+          "chroma10": 11322,
+          "chroma11": 3049,
+          "chroma12": 2673,
+          "intensity": 0.17914,
+          "loudness": -17.042399,
+          "absolute_loudness": -17.042399,
+          "loudness_range": 2.793765,
+          "moods": [
+            {
+              "name": "Neutral",
+              "value": 0.87
+            },
+            {
+              "name": "Impatient",
+              "value": 0.37
+            }
+          ],
+          "timbres": [
+            "Electric"
+          ],
+          "themes": null
+        }
       }
     },
     {
@@ -1468,12 +1718,101 @@
         "aggressive",
         "dense"
       ],
-      "found": false,
-      "match": null,
-      "cacheMeta": null,
+      "found": true,
+      "match": {
+        "matchType": "isrc_screenshot",
+        "matchValue": "GBUM72405427"
+      },
+      "cacheMeta": {
+        "batchFile": "screenshot_manual",
+        "index": null,
+        "providerRecordingId": 30835261,
+        "providerError": null,
+        "inputMusicStoryRecordingId": null
+      },
       "musicStory": {
-        "available": false,
-        "data": null
+        "available": true,
+        "data": {
+          "arousal": 0.77,
+          "valence": 0.23,
+          "vocal_instrumental": 0.0,
+          "music_speech": 0.05,
+          "electric_acoustic": 0.0,
+          "danceability": 0.62,
+          "studio_live": 0.14,
+          "melodicity": 0.59,
+          "dissonance": 0.54,
+          "articulation": 0.5313,
+          "rhythmic_stability": 0.6039,
+          "event_density": 0.053428,
+          "pulse_clarity": 0.787403,
+          "bpm": 44,
+          "complexity": 0.126332,
+          "binary": 0.739998,
+          "roll_off": 1636.938013,
+          "brightness": 0.15202,
+          "zero_cross_rate": 0.078447,
+          "centroid": 4549.648675,
+          "spread": 4698.888824,
+          "flatness": 0.365446,
+          "mfcc01": -5.593389,
+          "mfcc02": 3.289372,
+          "mfcc03": -0.31881,
+          "mfcc04": -0.10056,
+          "mfcc05": -0.204119,
+          "mfcc06": -0.323073,
+          "mfcc07": -0.101173,
+          "mfcc08": -0.57001,
+          "mfcc09": -0.39596,
+          "mfcc10": -0.227203,
+          "mfcc11": -0.350173,
+          "mfcc12": -0.169045,
+          "mfcc13": -0.317244,
+          "complexity_chroma": 1.0,
+          "chroma01": 17005,
+          "chroma02": 3894,
+          "chroma03": 4816,
+          "chroma04": 1790,
+          "chroma05": 2884,
+          "chroma06": 11303,
+          "chroma07": 1865,
+          "chroma08": 5679,
+          "chroma09": 2484,
+          "chroma10": 8948,
+          "chroma11": 4351,
+          "chroma12": 1479,
+          "intensity": 0.318802,
+          "loudness": -9.756737,
+          "absolute_loudness": -9.756737,
+          "loudness_range": 6.362487,
+          "moods": [
+            {
+              "name": "Angry",
+              "value": 0.78
+            },
+            {
+              "name": "Energic",
+              "value": 0.77
+            },
+            {
+              "name": "Sad",
+              "value": 0.77
+            },
+            {
+              "name": "Frustrated",
+              "value": 0.32
+            },
+            {
+              "name": "Discontented",
+              "value": 0.28
+            }
+          ],
+          "timbres": [
+            "Electric",
+            "Vocal"
+          ],
+          "themes": null
+        }
       }
     },
     {
@@ -2169,12 +2508,95 @@
         "bright",
         "vocal"
       ],
-      "found": false,
-      "match": null,
-      "cacheMeta": null,
+      "found": true,
+      "match": {
+        "matchType": "isrc_screenshot",
+        "matchValue": "FR0NT0700420"
+      },
+      "cacheMeta": {
+        "batchFile": "screenshot_manual",
+        "index": null,
+        "providerRecordingId": 51092,
+        "providerError": null,
+        "inputMusicStoryRecordingId": null
+      },
       "musicStory": {
-        "available": false,
-        "data": null
+        "available": true,
+        "data": {
+          "arousal": 0.55,
+          "valence": 0.43,
+          "vocal_instrumental": 0.12,
+          "music_speech": 0.11,
+          "electric_acoustic": 0.08,
+          "danceability": 0.51,
+          "studio_live": 0.37,
+          "melodicity": 0.57,
+          "dissonance": 0.48,
+          "articulation": 0.48594,
+          "rhythmic_stability": 0.56298,
+          "event_density": 0.061022,
+          "pulse_clarity": 0.371408,
+          "bpm": 113,
+          "complexity": 0.437334,
+          "binary": 0.795286,
+          "roll_off": 3200.398106,
+          "brightness": 0.267216,
+          "zero_cross_rate": 0.126338,
+          "centroid": 5329.605839,
+          "spread": 5324.972057,
+          "flatness": 0.375592,
+          "mfcc01": -7.571906,
+          "mfcc02": 3.09683,
+          "mfcc03": -1.060543,
+          "mfcc04": 0.200677,
+          "mfcc05": 0.074465,
+          "mfcc06": -0.355142,
+          "mfcc07": -0.275378,
+          "mfcc08": -0.246086,
+          "mfcc09": -0.123627,
+          "mfcc10": -0.323471,
+          "mfcc11": -0.113895,
+          "mfcc12": -0.33742,
+          "mfcc13": -0.336808,
+          "complexity_chroma": 1.0,
+          "chroma01": 7872,
+          "chroma02": 7143,
+          "chroma03": 8828,
+          "chroma04": 2039,
+          "chroma05": 5250,
+          "chroma06": 7184,
+          "chroma07": 6315,
+          "chroma08": 4061,
+          "chroma09": 3636,
+          "chroma10": 10366,
+          "chroma11": 3640,
+          "chroma12": 4781,
+          "intensity": 0.115617,
+          "loudness": -17.910457,
+          "absolute_loudness": -17.910457,
+          "loudness_range": 5.343205,
+          "moods": [
+            {
+              "name": "Impatient",
+              "value": 0.93
+            },
+            {
+              "name": "Neutral",
+              "value": 0.43
+            },
+            {
+              "name": "Distrustful",
+              "value": 0.26
+            }
+          ],
+          "timbres": [
+            "Electric",
+            "Vocal"
+          ],
+          "themes": [
+            "VideoGame"
+          ]
+        }
       }
     },
     {
@@ -2188,12 +2610,90 @@
         "steady",
         "vocal"
       ],
-      "found": false,
-      "match": null,
-      "cacheMeta": null,
+      "found": true,
+      "match": {
+        "matchType": "isrc_screenshot",
+        "matchValue": "ITA179700143"
+      },
+      "cacheMeta": {
+        "batchFile": "screenshot_manual",
+        "index": null,
+        "providerRecordingId": 1061392,
+        "providerError": null,
+        "inputMusicStoryRecordingId": null
+      },
       "musicStory": {
-        "available": false,
-        "data": null
+        "available": true,
+        "data": {
+          "arousal": 0.86,
+          "valence": 0.58,
+          "vocal_instrumental": 0.34,
+          "music_speech": 0.06,
+          "electric_acoustic": 0.41,
+          "danceability": 0.63,
+          "studio_live": 0.11,
+          "melodicity": 0.62,
+          "dissonance": 0.49,
+          "articulation": 0.56267,
+          "rhythmic_stability": 0.6704,
+          "event_density": 0.058091,
+          "pulse_clarity": 0.729151,
+          "bpm": 32,
+          "complexity": 0.284693,
+          "binary": 0.938508,
+          "roll_off": 3847.755796,
+          "brightness": 0.368851,
+          "zero_cross_rate": 0.117085,
+          "centroid": 4107.325107,
+          "spread": 3584.740004,
+          "flatness": 0.234613,
+          "mfcc01": -5.944951,
+          "mfcc02": 2.248836,
+          "mfcc03": -1.068205,
+          "mfcc04": 1.515184,
+          "mfcc05": -1.147989,
+          "mfcc06": 0.523538,
+          "mfcc07": 0.078989,
+          "mfcc08": 0.036667,
+          "mfcc09": -0.310565,
+          "mfcc10": -0.057431,
+          "mfcc11": -0.707564,
+          "mfcc12": -0.017991,
+          "mfcc13": -0.41999,
+          "complexity_chroma": 0.181818,
+          "chroma01": 8939,
+          "chroma02": 3834,
+          "chroma03": 12901,
+          "chroma04": 890,
+          "chroma05": 6093,
+          "chroma06": 8311,
+          "chroma07": 1317,
+          "chroma08": 4849,
+          "chroma09": 2315,
+          "chroma10": 10180,
+          "chroma11": 3259,
+          "chroma12": 2146,
+          "intensity": 0.185681,
+          "loudness": -13.013356,
+          "absolute_loudness": -12.569042,
+          "loudness_range": 4.630245,
+          "moods": [
+            {
+              "name": "Astonished/Aroused",
+              "value": 0.95
+            },
+            {
+              "name": "Energic",
+              "value": 0.86
+            },
+            {
+              "name": "Happy",
+              "value": 0.58
+            }
+          ],
+          "timbres": null,
+          "themes": null
+        }
       }
     },
     {
@@ -2423,12 +2923,97 @@
         "bright",
         "dense"
       ],
-      "found": false,
-      "match": null,
-      "cacheMeta": null,
+      "found": true,
+      "match": {
+        "matchType": "isrc_screenshot",
+        "matchValue": "USSM17801024"
+      },
+      "cacheMeta": {
+        "batchFile": "screenshot_manual",
+        "index": null,
+        "providerRecordingId": 2235096,
+        "providerError": null,
+        "inputMusicStoryRecordingId": null
+      },
       "musicStory": {
-        "available": false,
-        "data": null
+        "available": true,
+        "data": {
+          "arousal": 0.79,
+          "valence": 0.83,
+          "vocal_instrumental": 0.01,
+          "music_speech": 0.09,
+          "electric_acoustic": 0.05,
+          "danceability": 0.73,
+          "studio_live": 0.18,
+          "melodicity": 0.51,
+          "dissonance": 0.51,
+          "articulation": 0.62035,
+          "rhythmic_stability": 0.62531,
+          "event_density": 0.055268,
+          "pulse_clarity": 0.22858,
+          "bpm": 113,
+          "complexity": 0.681875,
+          "binary": 0.818738,
+          "roll_off": 1952.865378,
+          "brightness": 0.173026,
+          "zero_cross_rate": 0.082217,
+          "centroid": 4367.95417,
+          "spread": 4717.436707,
+          "flatness": 0.344851,
+          "mfcc01": -6.448135,
+          "mfcc02": 3.26005,
+          "mfcc03": -0.400462,
+          "mfcc04": -0.145168,
+          "mfcc05": -0.274347,
+          "mfcc06": -0.076347,
+          "mfcc07": -0.591634,
+          "mfcc08": -0.213865,
+          "mfcc09": -0.396051,
+          "mfcc10": -0.016275,
+          "mfcc11": -0.380039,
+          "mfcc12": -0.179459,
+          "mfcc13": -0.31136,
+          "complexity_chroma": 0.181818,
+          "chroma01": 9980,
+          "chroma02": 3773,
+          "chroma03": 10467,
+          "chroma04": 3930,
+          "chroma05": 3892,
+          "chroma06": 10291,
+          "chroma07": 3198,
+          "chroma08": 5018,
+          "chroma09": 2694,
+          "chroma10": 7074,
+          "chroma11": 7202,
+          "chroma12": 2507,
+          "intensity": 0.203271,
+          "loudness": -12.740438,
+          "absolute_loudness": -12.740438,
+          "loudness_range": 4.632242,
+          "moods": [
+            {
+              "name": "Excited",
+              "value": 0.95
+            },
+            {
+              "name": "Happy",
+              "value": 0.83
+            },
+            {
+              "name": "Energic",
+              "value": 0.79
+            }
+          ],
+          "timbres": [
+            "Electric",
+            "Vocal"
+          ],
+          "themes": [
+            "Diner",
+            "Party",
+            "Work"
+          ]
+        }
       }
     },
     {
@@ -2442,12 +3027,95 @@
         "steady",
         "bright"
       ],
-      "found": false,
-      "match": null,
-      "cacheMeta": null,
+      "found": true,
+      "match": {
+        "matchType": "isrc_screenshot",
+        "matchValue": "USSM19912699"
+      },
+      "cacheMeta": {
+        "batchFile": "screenshot_manual",
+        "index": null,
+        "providerRecordingId": 432877,
+        "providerError": null,
+        "inputMusicStoryRecordingId": null
+      },
       "musicStory": {
-        "available": false,
-        "data": null
+        "available": true,
+        "data": {
+          "arousal": 0.84,
+          "valence": 0.86,
+          "vocal_instrumental": 0.02,
+          "music_speech": 0.13,
+          "electric_acoustic": 0.1,
+          "danceability": 0.79,
+          "studio_live": 0.13,
+          "melodicity": 0.51,
+          "dissonance": 0.56,
+          "articulation": 0.63093,
+          "rhythmic_stability": 0.65471,
+          "event_density": 0.04625,
+          "pulse_clarity": 0.25864,
+          "bpm": 109,
+          "complexity": 0.583212,
+          "binary": 1,
+          "roll_off": 2023.210353,
+          "brightness": 0.226808,
+          "zero_cross_rate": 0.078272,
+          "centroid": 3580.843689,
+          "spread": 3934.597728,
+          "flatness": 0.243621,
+          "mfcc01": -6.665385,
+          "mfcc02": 3.088915,
+          "mfcc03": -1.288864,
+          "mfcc04": 0.540149,
+          "mfcc05": -0.226092,
+          "mfcc06": 0.034457,
+          "mfcc07": -0.506693,
+          "mfcc08": -0.18934,
+          "mfcc09": -0.224053,
+          "mfcc10": -0.136149,
+          "mfcc11": -0.441961,
+          "mfcc12": -0.216495,
+          "mfcc13": -0.19812,
+          "complexity_chroma": 0.272727,
+          "chroma01": 9550,
+          "chroma02": 4245,
+          "chroma03": 10070,
+          "chroma04": 1661,
+          "chroma05": 5363,
+          "chroma06": 11315,
+          "chroma07": 2995,
+          "chroma08": 4692,
+          "chroma09": 3302,
+          "chroma10": 10215,
+          "chroma11": 4419,
+          "chroma12": 3719,
+          "intensity": 0.195576,
+          "loudness": -12.454543,
+          "absolute_loudness": -12.454543,
+          "loudness_range": 4.044119,
+          "moods": [
+            {
+              "name": "Excited",
+              "value": 0.99
+            },
+            {
+              "name": "Happy",
+              "value": 0.86
+            },
+            {
+              "name": "Energic",
+              "value": 0.84
+            }
+          ],
+          "timbres": [
+            "Electric",
+            "Vocal"
+          ],
+          "themes": [
+            "Party"
+          ]
+        }
       }
     },
     {
@@ -2679,19 +3347,103 @@
       "group": "bouncy",
       "artist": "Bruno Mars",
       "title": "Treasure",
-      "isrc": "USAT21206710",
+      "isrc": "USAT21206969",
       "recordingId": null,
       "expectedDescriptors": [
         "bouncy",
         "bright",
         "vocal"
       ],
-      "found": false,
-      "match": null,
-      "cacheMeta": null,
+      "found": true,
+      "match": {
+        "matchType": "isrc_screenshot",
+        "matchValue": "USAT21206969"
+      },
+      "cacheMeta": {
+        "batchFile": "screenshot_manual",
+        "index": null,
+        "providerRecordingId": 5260845,
+        "providerError": null,
+        "inputMusicStoryRecordingId": null
+      },
       "musicStory": {
-        "available": false,
-        "data": null
+        "available": true,
+        "data": {
+          "arousal": 0.74,
+          "valence": 0.96,
+          "vocal_instrumental": 0.13,
+          "music_speech": 0.07,
+          "electric_acoustic": 0.07,
+          "danceability": 0.8,
+          "studio_live": 0.13,
+          "melodicity": 0.57,
+          "dissonance": 0.51,
+          "articulation": 0.70228,
+          "rhythmic_stability": 0.68829,
+          "event_density": 0.044518,
+          "pulse_clarity": 0.600199,
+          "bpm": 39,
+          "complexity": 0.124251,
+          "binary": 0.586749,
+          "roll_off": 1202.654353,
+          "brightness": 0.128637,
+          "zero_cross_rate": 0.058378,
+          "centroid": 3068.606595,
+          "spread": 3832.572694,
+          "flatness": 0.243978,
+          "mfcc01": -7.439195,
+          "mfcc02": 3.259568,
+          "mfcc03": -0.848604,
+          "mfcc04": 0.05059,
+          "mfcc05": -0.309213,
+          "mfcc06": -0.055482,
+          "mfcc07": -0.427027,
+          "mfcc08": -0.225842,
+          "mfcc09": -0.232518,
+          "mfcc10": -0.266454,
+          "mfcc11": -0.339989,
+          "mfcc12": -0.177851,
+          "mfcc13": -0.181678,
+          "complexity_chroma": 0.090909,
+          "chroma01": 12376,
+          "chroma02": 2238,
+          "chroma03": 9013,
+          "chroma04": 3941,
+          "chroma05": 2523,
+          "chroma06": 9154,
+          "chroma07": 2132,
+          "chroma08": 7619,
+          "chroma09": 3023,
+          "chroma10": 8527,
+          "chroma11": 6822,
+          "chroma12": 1662,
+          "intensity": 0.207091,
+          "loudness": -13.1128,
+          "absolute_loudness": -13.1128,
+          "loudness_range": 3.968609,
+          "moods": [
+            {
+              "name": "Happy",
+              "value": 0.96
+            },
+            {
+              "name": "Excited",
+              "value": 0.75
+            },
+            {
+              "name": "Energic",
+              "value": 0.74
+            },
+            {
+              "name": "Delighted",
+              "value": 0.47
+            }
+          ],
+          "timbres": [
+            "Electric"
+          ],
+          "themes": null
+        }
       }
     },
     {
@@ -2705,12 +3457,103 @@
         "dense",
         "vocal"
       ],
-      "found": false,
-      "match": null,
-      "cacheMeta": null,
+      "found": true,
+      "match": {
+        "matchType": "isrc_screenshot",
+        "matchValue": "USC4R2447762"
+      },
+      "cacheMeta": {
+        "batchFile": "screenshot_manual",
+        "index": null,
+        "providerRecordingId": 31138337,
+        "providerError": null,
+        "inputMusicStoryRecordingId": null
+      },
       "musicStory": {
-        "available": false,
-        "data": null
+        "available": true,
+        "data": {
+          "arousal": 0.69,
+          "valence": 0.38,
+          "vocal_instrumental": 0.0,
+          "music_speech": 0.11,
+          "electric_acoustic": 0.09,
+          "danceability": 0.72,
+          "studio_live": 0.16,
+          "melodicity": 0.5,
+          "dissonance": 0.52,
+          "articulation": 0.57398,
+          "rhythmic_stability": 0.58175,
+          "event_density": 0.058553,
+          "pulse_clarity": 0.50425,
+          "bpm": 140,
+          "complexity": 0.259967,
+          "binary": 0.8279,
+          "roll_off": 504.662438,
+          "brightness": 0.041641,
+          "zero_cross_rate": 0.034145,
+          "centroid": 3660.964303,
+          "spread": 4907.877251,
+          "flatness": 0.316019,
+          "mfcc01": -6.413136,
+          "mfcc02": 3.14633,
+          "mfcc03": 0.002006,
+          "mfcc04": -0.227927,
+          "mfcc05": -0.086792,
+          "mfcc06": -0.181084,
+          "mfcc07": -0.36257,
+          "mfcc08": 0.058018,
+          "mfcc09": -0.555653,
+          "mfcc10": -0.196257,
+          "mfcc11": -0.463896,
+          "mfcc12": -0.410975,
+          "mfcc13": -0.350998,
+          "complexity_chroma": 1.0,
+          "chroma01": 9196,
+          "chroma02": 4017,
+          "chroma03": 6209,
+          "chroma04": 2187,
+          "chroma05": 3064,
+          "chroma06": 8811,
+          "chroma07": 4039,
+          "chroma08": 6162,
+          "chroma09": 2275,
+          "chroma10": 9718,
+          "chroma11": 6873,
+          "chroma12": 4232,
+          "intensity": 0.378881,
+          "loudness": -11.169894,
+          "absolute_loudness": -11.169894,
+          "loudness_range": 1.714124,
+          "moods": [
+            {
+              "name": "Impatient",
+              "value": 0.73
+            },
+            {
+              "name": "Energic",
+              "value": 0.69
+            },
+            {
+              "name": "Frustrated",
+              "value": 0.34
+            },
+            {
+              "name": "Angry",
+              "value": 0.3
+            },
+            {
+              "name": "Tense/Alarmed/Afraid",
+              "value": 0.27
+            }
+          ],
+          "timbres": [
+            "Electric",
+            "Vocal"
+          ],
+          "themes": [
+            "Party"
+          ]
+        }
       }
     },
     {
@@ -3790,12 +4633,88 @@
         "instrumental",
         "dynamic"
       ],
-      "found": false,
-      "match": null,
-      "cacheMeta": null,
+      "found": true,
+      "match": {
+        "matchType": "isrc_screenshot",
+        "matchValue": "USSM10013400"
+      },
+      "cacheMeta": {
+        "batchFile": "screenshot_manual",
+        "index": null,
+        "providerRecordingId": 58269,
+        "providerError": null,
+        "inputMusicStoryRecordingId": null
+      },
       "musicStory": {
-        "available": false,
-        "data": null
+        "available": true,
+        "data": {
+          "arousal": 0.61,
+          "valence": 0.44,
+          "vocal_instrumental": 0.57,
+          "music_speech": 0.05,
+          "electric_acoustic": 0.17,
+          "danceability": 0.43,
+          "studio_live": 0.18,
+          "melodicity": 0.69,
+          "dissonance": 0.37,
+          "articulation": 0.33702,
+          "rhythmic_stability": 0.48481,
+          "event_density": 0.054457,
+          "pulse_clarity": 0.130201,
+          "bpm": 81,
+          "complexity": 0.676356,
+          "binary": 0.945107,
+          "roll_off": 1399.67465,
+          "brightness": 0.181934,
+          "zero_cross_rate": 0.047072,
+          "centroid": 2288.873274,
+          "spread": 3192.070491,
+          "flatness": 0.159424,
+          "mfcc01": -8.445116,
+          "mfcc02": 3.196346,
+          "mfcc03": -1.243931,
+          "mfcc04": 0.142023,
+          "mfcc05": -0.122945,
+          "mfcc06": -0.267261,
+          "mfcc07": -0.369615,
+          "mfcc08": -0.138989,
+          "mfcc09": -0.360595,
+          "mfcc10": -0.327872,
+          "mfcc11": -0.125218,
+          "mfcc12": -0.114252,
+          "mfcc13": -0.028227,
+          "complexity_chroma": 0.272727,
+          "chroma01": 11206,
+          "chroma02": 1285,
+          "chroma03": 6827,
+          "chroma04": 2605,
+          "chroma05": 1745,
+          "chroma06": 9785,
+          "chroma07": 1368,
+          "chroma08": 10503,
+          "chroma09": 2106,
+          "chroma10": 10355,
+          "chroma11": 3923,
+          "chroma12": 1439,
+          "intensity": 0.179099,
+          "loudness": -14.138938,
+          "absolute_loudness": -14.138938,
+          "loudness_range": 8.442479,
+          "moods": [
+            {
+              "name": "Impatient",
+              "value": 0.97
+            },
+            {
+              "name": "Energic",
+              "value": 0.61
+            }
+          ],
+          "timbres": [
+            "Electric"
+          ],
+          "themes": null
+        }
       }
     },
     {
@@ -4257,12 +5176,105 @@
         "bright",
         "vocal"
       ],
-      "found": false,
-      "match": null,
-      "cacheMeta": null,
+      "found": true,
+      "match": {
+        "matchType": "isrc_screenshot",
+        "matchValue": "GBARL0400707"
+      },
+      "cacheMeta": {
+        "batchFile": "screenshot_manual",
+        "index": null,
+        "providerRecordingId": 231716,
+        "providerError": null,
+        "inputMusicStoryRecordingId": null
+      },
       "musicStory": {
-        "available": false,
-        "data": null
+        "available": true,
+        "data": {
+          "arousal": 0.78,
+          "valence": 0.68,
+          "vocal_instrumental": 0.0,
+          "music_speech": 0.05,
+          "electric_acoustic": 0.0,
+          "danceability": 0.68,
+          "studio_live": 0.19,
+          "melodicity": 0.63,
+          "dissonance": 0.45,
+          "articulation": 0.57917,
+          "rhythmic_stability": 0.66978,
+          "event_density": 0.053704,
+          "pulse_clarity": 0.650125,
+          "bpm": 50,
+          "complexity": 0.103255,
+          "binary": 0.792978,
+          "roll_off": 1980.4415,
+          "brightness": 0.203211,
+          "zero_cross_rate": 0.080178,
+          "centroid": 4159.746419,
+          "spread": 4409.931612,
+          "flatness": 0.314609,
+          "mfcc01": -7.318064,
+          "mfcc02": 3.089481,
+          "mfcc03": -1.065837,
+          "mfcc04": -0.060888,
+          "mfcc05": -0.144487,
+          "mfcc06": -0.38936,
+          "mfcc07": -0.29949,
+          "mfcc08": -0.346108,
+          "mfcc09": -0.465588,
+          "mfcc10": 0.060821,
+          "mfcc11": 0.013716,
+          "mfcc12": -0.047789,
+          "mfcc13": -0.275942,
+          "complexity_chroma": 0.181818,
+          "chroma01": 8720,
+          "chroma02": 2502,
+          "chroma03": 7573,
+          "chroma04": 1298,
+          "chroma05": 2813,
+          "chroma06": 13879,
+          "chroma07": 1762,
+          "chroma08": 6079,
+          "chroma09": 2206,
+          "chroma10": 12369,
+          "chroma11": 4523,
+          "chroma12": 1849,
+          "intensity": 0.182274,
+          "loudness": -15.098967,
+          "absolute_loudness": -15.098967,
+          "loudness_range": 5.126232,
+          "moods": [
+            {
+              "name": "Energic",
+              "value": 0.78
+            },
+            {
+              "name": "Astonished/Aroused",
+              "value": 0.75
+            },
+            {
+              "name": "Happy",
+              "value": 0.68
+            },
+            {
+              "name": "Excited",
+              "value": 0.26
+            },
+            {
+              "name": "Delighted",
+              "value": 0.25
+            }
+          ],
+          "timbres": [
+            "Electric",
+            "Vocal"
+          ],
+          "themes": [
+            "Morning",
+            "Party",
+            "Roadtrip"
+          ]
+        }
       }
     },
     {
@@ -4471,12 +5483,93 @@
         "driving",
         "vocal"
       ],
-      "found": false,
-      "match": null,
-      "cacheMeta": null,
+      "found": true,
+      "match": {
+        "matchType": "isrc_screenshot",
+        "matchValue": "GBUM71806016"
+      },
+      "cacheMeta": {
+        "batchFile": "screenshot_manual",
+        "index": null,
+        "providerRecordingId": 19545468,
+        "providerError": null,
+        "inputMusicStoryRecordingId": null
+      },
       "musicStory": {
-        "available": false,
-        "data": null
+        "available": true,
+        "data": {
+          "arousal": 0.82,
+          "valence": 0.34,
+          "vocal_instrumental": 0.09,
+          "music_speech": 0.07,
+          "electric_acoustic": 0.14,
+          "danceability": 0.45,
+          "studio_live": 0.18,
+          "melodicity": 0.56,
+          "dissonance": 0.53,
+          "articulation": 0.53118,
+          "rhythmic_stability": 0.61248,
+          "event_density": 0.059984,
+          "pulse_clarity": 0.843678,
+          "bpm": 43,
+          "complexity": 0.232604,
+          "binary": 0.909145,
+          "roll_off": 1821.617946,
+          "brightness": 0.159374,
+          "zero_cross_rate": 0.068852,
+          "centroid": 3835.490161,
+          "spread": 4163.593569,
+          "flatness": 0.299867,
+          "mfcc01": -4.759142,
+          "mfcc02": 3.206845,
+          "mfcc03": -0.661906,
+          "mfcc04": -0.061324,
+          "mfcc05": -0.335803,
+          "mfcc06": -0.281748,
+          "mfcc07": -0.184865,
+          "mfcc08": -0.2112,
+          "mfcc09": -0.413944,
+          "mfcc10": -0.102679,
+          "mfcc11": -0.228726,
+          "mfcc12": -0.195387,
+          "mfcc13": -0.216762,
+          "complexity_chroma": 0.090909,
+          "chroma01": 7404,
+          "chroma02": 6681,
+          "chroma03": 6009,
+          "chroma04": 5564,
+          "chroma05": 3216,
+          "chroma06": 6701,
+          "chroma07": 7861,
+          "chroma08": 3335,
+          "chroma09": 8503,
+          "chroma10": 7659,
+          "chroma11": 9125,
+          "chroma12": 6679,
+          "intensity": 0.264084,
+          "loudness": -10.291411,
+          "absolute_loudness": -10.291411,
+          "loudness_range": 4.444153,
+          "moods": [
+            {
+              "name": "Angry",
+              "value": 0.92
+            },
+            {
+              "name": "Energic",
+              "value": 0.82
+            },
+            {
+              "name": "Tense/Alarmed/Afraid",
+              "value": 0.4
+            }
+          ],
+          "timbres": [
+            "Electric",
+            "Vocal"
+          ],
+          "themes": null
+        }
       }
     },
     {
@@ -4507,7 +5600,7 @@
         "data": {
           "arousal": 0.74271,
           "valence": 0.82006,
-          "vocal_instrumental": 0.00008,
+          "vocal_instrumental": 8e-05,
           "music_speech": 0.02368,
           "electric_acoustic": 0,
           "danceability": 0.74743,
