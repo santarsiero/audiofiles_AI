@@ -22,6 +22,13 @@ function rolloffToScore(v) {
   return clamp(n / 8000, 0, 1);
 }
 
+function centroidToScore(v) {
+  const n = toNumberOrNull(v);
+  if (n === null) return null;
+  if (n >= 0 && n <= 1) return clamp(n, 0, 1);
+  return clamp(n / 8000, 0, 1);
+}
+
 function computeSourceReliability(sourcesUsed) {
   let best = 0;
   for (const s of sourcesUsed) {
@@ -31,6 +38,80 @@ function computeSourceReliability(sourcesUsed) {
     else if (s === 'llm') best = Math.max(best, 0.3);
   }
   return best;
+}
+
+function toDimensionObject({ score, confidence, evidence, missing, usable }) {
+  const s = score === undefined ? null : score;
+  const c = clamp(confidence === undefined ? 0 : confidence, 0, 1);
+  return {
+    score: s,
+    confidence: c,
+    evidence: Array.isArray(evidence) ? evidence : [],
+    missing: Array.isArray(missing) ? missing : [],
+    usable: usable === undefined ? c >= 0.4 : Boolean(usable)
+  };
+}
+
+function trackEvidence(list, name, descriptorObj) {
+  if (!descriptorObj || !descriptorObj.available) return;
+  list.push(name);
+}
+
+function trackMissing(list, name, descriptorObj) {
+  if (!descriptorObj || descriptorObj.available) return;
+  list.push(name);
+}
+
+function computeConfidence({ score, primary = [], secondary = [], boosts = [], baseWhenAllPresent = 0.9, fallbackMode = null }) {
+  if (score === null || score === undefined) {
+    return { confidence: 0, evidence: [], missing: [] };
+  }
+
+  const evidence = [];
+  const missing = [];
+
+  for (const d of primary) {
+    trackEvidence(evidence, d.name, d.obj);
+    trackMissing(missing, d.name, d.obj);
+  }
+
+  for (const d of secondary) {
+    trackEvidence(evidence, d.name, d.obj);
+    trackMissing(missing, d.name, d.obj);
+  }
+
+  for (const d of boosts) {
+    trackEvidence(evidence, d.name, d.obj);
+    trackMissing(missing, d.name, d.obj);
+  }
+
+  let conf = baseWhenAllPresent;
+
+  const presentPrimary = primary.filter((d) => d.obj && d.obj.available).length;
+  const missingPrimary = primary.length - presentPrimary;
+
+  if (primary.length > 0 && presentPrimary === 0) {
+    return { confidence: 0, evidence, missing };
+  }
+
+  conf -= 0.35 * missingPrimary;
+
+  const presentSecondary = secondary.filter((d) => d.obj && d.obj.available).length;
+  const missingSecondary = secondary.length - presentSecondary;
+  conf -= 0.12 * missingSecondary;
+
+  const presentBoosts = boosts.filter((d) => d.obj && d.obj.available).length;
+  conf += 0.05 * presentBoosts;
+
+  if (fallbackMode === 'single_primary') {
+    if (presentPrimary === 1 && primary.length >= 2) conf = Math.min(conf, 0.7);
+  }
+
+  if (fallbackMode === 'fallback_only') {
+    conf = Math.min(conf, 0.4);
+  }
+
+  return { confidence: clamp(conf, 0, 1), evidence, missing };
 }
 
 function normalizeFromDescriptors({ musicStory, acousticBrainz }) {
@@ -126,14 +207,7 @@ function normalizeFromDescriptors({ musicStory, acousticBrainz }) {
     { source: 'acousticbrainz', path: ['rhythm', 'rhythmic_stability'] }
   ]);
 
-  const loudnessScore = requireRaw(
-    'loudness',
-    [
-      { source: 'music_story', path: ['loudness'] },
-      { source: 'music_story', path: ['absolute_loudness'] }
-    ],
-    loudnessToScore
-  );
+  const loudnessScore = requireRaw('loudness', [{ source: 'music_story', path: ['loudness'] }], loudnessToScore);
 
   const spectralComplexity = require01('spectral_complexity', [
     { source: 'music_story', path: ['spectral_complexity'] },
@@ -152,15 +226,21 @@ function normalizeFromDescriptors({ musicStory, acousticBrainz }) {
     { source: 'music_story', path: ['instrumentation_diversity'] }
   ]);
 
+  const danceability = require01('danceability', [
+    { source: 'music_story', path: ['danceability'] }
+  ]);
+
+  const complexity = require01('complexity', [
+    { source: 'music_story', path: ['complexity'] }
+  ]);
+
   const spectralCentroidOrBrightness = require01('spectral_centroid_or_brightness', [
     { source: 'music_story', path: ['brightness'] }
   ]);
 
-  const spectralRolloff = require01('spectral_rolloff', [
-    { source: 'music_story', path: ['spectral_rolloff'] }
-  ]);
+  const rollOffScore = requireRaw('roll_off', [{ source: 'music_story', path: ['roll_off'] }], rolloffToScore);
 
-  const spectralRolloffFromPayload = requireRaw('spectral_rolloff', [{ source: 'music_story', path: ['roll_off'] }], rolloffToScore);
+  const centroid = requireRaw('centroid', [{ source: 'music_story', path: ['centroid'] }], centroidToScore);
 
   const flatness = require01('flatness', [
     { source: 'music_story', path: ['flatness'] }
@@ -210,17 +290,16 @@ function normalizeFromDescriptors({ musicStory, acousticBrainz }) {
 
   const lowValenceScore = valence.available ? { value: 1 - valence.value, available: true, source: valence.source } : { value: null, available: false, source: null };
 
-  const energyScore = computeEnergyScore({ arousal, intensity, loudnessScore, eventDensity, pulseClarity });
-  const densityScore = computeDensityScore({ eventDensity, spectralComplexity, timbralComplexity, loudnessRange, intensity });
+  const energyScore = computeEnergyScore({ arousal, intensity, loudnessScore });
+  const densityScore = computeDensityScore({ eventDensity, intensity, complexity });
   const layeredScore = computeLayeredScore({ timbralComplexity, instrumentationDiversity, spectralComplexity, densityScore });
   const brightnessScore = computeBrightnessScore({
-    spectralCentroidOrBrightness,
-    spectralRolloff: spectralRolloff.available ? spectralRolloff : spectralRolloffFromPayload,
-    flatness,
-    valence
+    brightness: spectralCentroidOrBrightness,
+    rollOffScore,
+    centroid
   });
   const darknessScore = computeDarknessScore({ lowEndScore, brightnessScore, lowValenceScore });
-  const pulseScore = computePulseScore({ pulseClarity, rhythmicStability });
+  const pulseScore = computePulseScore({ pulseClarity, rhythmicStability, danceability, articulation, complexity });
   const drivingScore = computeDrivingScore({ pulseScore, energyScore, eventDensity, lowEndScore });
   const syncopationScore = computeSyncopationScore({ providerSyncopationOrRhythmComplexity, rhythmicStability, pulseScore });
   const moderateEnergyScore = computeModerateEnergyScore(energyScore);
@@ -229,7 +308,7 @@ function normalizeFromDescriptors({ musicStory, acousticBrainz }) {
   const instrumentalScore = computeInstrumentalScore(vocalInstrumental);
   const speechScore = computeSpeechScore(musicSpeech);
   const aggressiveScore = computeAggressiveScore({ energyScore, harshness, dissonance, flatness, lowValenceScore });
-  const punchScore = computePunchScore({ transientStrength, articulation, eventDensity, lowEndScore, pulseScore });
+  const punchScore = computePunchScore({ articulation, loudnessRange });
   const calmScore = computeCalmScore({ energyScore, eventDensity, articulation, harshness, aggressiveScore, punchScore });
 
   const normalizedFeatures = {
@@ -243,6 +322,7 @@ function normalizeFromDescriptors({ musicStory, acousticBrainz }) {
     offbeat_score: offbeat.available ? offbeat.value : null,
     syncopation_score: syncopationScore,
     vocal_score: vocalScore,
+    vocal_presence_score: vocalScore,
     speech_score: speechScore,
     instrumental_score: instrumentalScore,
     harshness_score: harshness.available ? harshness.value : null,
@@ -254,10 +334,176 @@ function normalizeFromDescriptors({ musicStory, acousticBrainz }) {
     driving_score: drivingScore
   };
 
+  const lowConfidenceDimensions = [];
+
+  const dimensionObjects = {};
+
+  {
+    const { confidence, evidence, missing } = computeConfidence({
+      score: energyScore,
+      primary: [
+        { name: 'arousal', obj: arousal },
+        { name: 'loudness', obj: loudnessScore },
+        { name: 'intensity', obj: intensity }
+      ],
+      baseWhenAllPresent: 0.95
+    });
+    dimensionObjects.energy_score = toDimensionObject({ score: energyScore, confidence, evidence, missing });
+  }
+
+  {
+    const { confidence, evidence, missing } = computeConfidence({
+      score: pulseScore,
+      primary: [
+        { name: 'pulse_clarity', obj: pulseClarity },
+        { name: 'rhythmic_stability', obj: rhythmicStability }
+      ],
+      boosts: [
+        { name: 'danceability', obj: danceability },
+        { name: 'articulation', obj: articulation }
+      ],
+      secondary: [{ name: 'complexity', obj: complexity }],
+      baseWhenAllPresent: 0.9,
+      fallbackMode: 'single_primary'
+    });
+    dimensionObjects.pulse_score = toDimensionObject({ score: pulseScore, confidence, evidence, missing });
+  }
+
+  {
+    const hasPrimary = spectralCentroidOrBrightness.available || rollOffScore.available;
+    const fallbackMode = hasPrimary ? (spectralCentroidOrBrightness.available && rollOffScore.available ? null : 'single_primary') : 'fallback_only';
+
+    const { confidence, evidence, missing } = computeConfidence({
+      score: brightnessScore,
+      primary: [
+        { name: 'brightness', obj: spectralCentroidOrBrightness },
+        { name: 'roll_off', obj: rollOffScore }
+      ],
+      secondary: [{ name: 'centroid', obj: centroid }],
+      baseWhenAllPresent: 0.9,
+      fallbackMode
+    });
+
+    dimensionObjects.brightness_score = toDimensionObject({ score: brightnessScore, confidence, evidence, missing });
+  }
+
+  {
+    const { confidence, evidence, missing } = computeConfidence({
+      score: densityScore,
+      primary: [{ name: 'event_density', obj: eventDensity }],
+      secondary: [
+        { name: 'intensity', obj: intensity },
+        { name: 'complexity', obj: complexity }
+      ],
+      baseWhenAllPresent: 0.85
+    });
+
+    dimensionObjects.density_score = toDimensionObject({
+      score: densityScore,
+      confidence: Math.min(confidence, 0.7),
+      evidence,
+      missing
+    });
+  }
+
+  {
+    const { confidence, evidence, missing } = computeConfidence({
+      score: vocalScore,
+      primary: [{ name: 'vocal_instrumental', obj: vocalInstrumental }],
+      secondary: [{ name: 'music_speech', obj: musicSpeech }],
+      baseWhenAllPresent: 0.85
+    });
+
+    let adjusted = confidence;
+    if (vocalScore !== null && vocalScore >= 0.35 && vocalScore <= 0.65) {
+      adjusted = adjusted * 0.7;
+    }
+
+    dimensionObjects.vocal_presence_score = toDimensionObject({
+      score: vocalScore,
+      confidence: Math.min(adjusted, 0.75),
+      evidence,
+      missing
+    });
+
+    dimensionObjects.vocal_score = toDimensionObject({
+      score: vocalScore,
+      confidence: Math.min(adjusted, 0.75),
+      evidence,
+      missing
+    });
+
+    const instrumentalConf = computeConfidence({
+      score: instrumentalScore,
+      primary: [{ name: 'vocal_instrumental', obj: vocalInstrumental }],
+      secondary: [{ name: 'music_speech', obj: musicSpeech }],
+      baseWhenAllPresent: 0.85
+    });
+
+    dimensionObjects.instrumental_score = toDimensionObject({
+      score: instrumentalScore,
+      confidence: Math.min(instrumentalConf.confidence, 0.75),
+      evidence: instrumentalConf.evidence,
+      missing: instrumentalConf.missing
+    });
+  }
+
+  {
+    const { confidence, evidence, missing } = computeConfidence({
+      score: speechScore,
+      primary: [{ name: 'music_speech', obj: musicSpeech }],
+      baseWhenAllPresent: 0.95
+    });
+
+    dimensionObjects.speech_score = toDimensionObject({ score: speechScore, confidence, evidence, missing });
+  }
+
+  {
+    const { confidence, evidence, missing } = computeConfidence({
+      score: valence.available ? valence.value : null,
+      primary: [{ name: 'valence', obj: valence }],
+      baseWhenAllPresent: 0.95
+    });
+
+    dimensionObjects.valence_score = toDimensionObject({ score: valence.available ? valence.value : null, confidence, evidence, missing });
+  }
+
+  {
+    const { confidence, evidence, missing } = computeConfidence({
+      score: punchScore,
+      primary: [
+        { name: 'articulation', obj: articulation },
+        { name: 'loudness_range', obj: loudnessRange }
+      ],
+      baseWhenAllPresent: 0.8,
+      fallbackMode: 'single_primary'
+    });
+
+    dimensionObjects.punch_score = toDimensionObject({
+      score: punchScore,
+      confidence: Math.min(confidence, 0.7),
+      evidence,
+      missing
+    });
+  }
+
+  for (const [k, v] of Object.entries(dimensionObjects)) {
+    if (!dimensionObjects[k].usable) lowConfidenceDimensions.push(k);
+  }
+
+  // Preserve Phase A behavior for legacy scores by providing dimension objects, but without Phase C confidence modeling.
+  for (const [k, v] of Object.entries(normalizedFeatures)) {
+    if (dimensionObjects[k]) continue;
+    dimensionObjects[k] = toDimensionObject({ score: v, confidence: v === null || v === undefined ? 0 : 1, evidence: [], missing: [] });
+  }
+
   analysis.sourceCoverage = {
     sourcesUsed,
     sourceReliability: computeSourceReliability(sourcesUsed)
   };
+
+  analysis.dimensionObjects = dimensionObjects;
+  analysis.lowConfidenceDimensions = lowConfidenceDimensions;
 
   analysis.inputTrace = {
     arousal,
@@ -270,8 +516,11 @@ function normalizeFromDescriptors({ musicStory, acousticBrainz }) {
     timbral_complexity: timbralComplexity,
     loudness_range: loudnessRange,
     instrumentation_diversity: instrumentationDiversity,
+    danceability,
+    complexity,
     spectral_centroid_or_brightness: spectralCentroidOrBrightness,
-    spectral_rolloff: spectralRolloff.available ? spectralRolloff : spectralRolloffFromPayload,
+    roll_off: rollOffScore,
+    centroid,
     flatness,
     valence,
     low_end_score: lowEndScore,
@@ -289,6 +538,7 @@ function normalizeFromDescriptors({ musicStory, acousticBrainz }) {
   return {
     normalizedFeatures,
     analysis,
+    dimensionObjects,
     internal: {
       inputs: {
         arousal,
@@ -301,8 +551,11 @@ function normalizeFromDescriptors({ musicStory, acousticBrainz }) {
         timbral_complexity: timbralComplexity,
         loudness_range: loudnessRange,
         instrumentation_diversity: instrumentationDiversity,
+        danceability,
+        complexity,
         spectral_centroid_or_brightness: spectralCentroidOrBrightness,
-        spectral_rolloff: spectralRolloff,
+        roll_off: rollOffScore,
+        centroid,
         flatness,
         valence,
         low_end_score: lowEndScore,
@@ -334,43 +587,19 @@ function weightedAverage(items) {
   return clamp(acc / weightSum, 0, 1);
 }
 
-function computeEnergyScore({ arousal, intensity, loudnessScore, eventDensity, pulseClarity }) {
-  const hasArousal = arousal.available;
-
-  if (hasArousal) {
-    return weightedAverage([
-      { weight: 0.4, value: arousal.value },
-      { weight: 0.25, value: intensity.available ? intensity.value : null },
-      { weight: 0.15, value: loudnessScore.available ? loudnessScore.value : null },
-      { weight: 0.1, value: eventDensity.available ? eventDensity.value : null },
-      { weight: 0.1, value: pulseClarity.available ? pulseClarity.value : null }
-    ]);
-  }
-
+function computeEnergyScore({ arousal, intensity, loudnessScore }) {
   return weightedAverage([
-    { weight: 0.35, value: intensity.available ? intensity.value : null },
-    { weight: 0.25, value: loudnessScore.available ? loudnessScore.value : null },
-    { weight: 0.2, value: eventDensity.available ? eventDensity.value : null },
-    { weight: 0.2, value: pulseClarity.available ? pulseClarity.value : null }
+    { weight: 0.5, value: arousal.available ? arousal.value : null },
+    { weight: 0.3, value: loudnessScore.available ? loudnessScore.value : null },
+    { weight: 0.2, value: intensity.available ? intensity.value : null }
   ]);
 }
 
-function computeDensityScore({ eventDensity, spectralComplexity, timbralComplexity, loudnessRange, intensity }) {
-  const hasComplex = spectralComplexity.available && timbralComplexity.available;
-
-  if (hasComplex) {
-    return weightedAverage([
-      { weight: 0.4, value: eventDensity.available ? eventDensity.value : null },
-      { weight: 0.25, value: spectralComplexity.value },
-      { weight: 0.2, value: timbralComplexity.value },
-      { weight: 0.15, value: loudnessRange.available ? loudnessRange.value : null }
-    ]);
-  }
-
+function computeDensityScore({ eventDensity, intensity, complexity }) {
   return weightedAverage([
     { weight: 0.6, value: eventDensity.available ? eventDensity.value : null },
     { weight: 0.25, value: intensity.available ? intensity.value : null },
-    { weight: 0.15, value: loudnessRange.available ? loudnessRange.value : null }
+    { weight: 0.15, value: complexity.available ? complexity.value : null }
   ]);
 }
 
@@ -383,12 +612,16 @@ function computeLayeredScore({ timbralComplexity, instrumentationDiversity, spec
   ]);
 }
 
-function computeBrightnessScore({ spectralCentroidOrBrightness, spectralRolloff, flatness, valence }) {
+function computeBrightnessScore({ brightness, rollOffScore, centroid }) {
+  const hasPrimary = brightness.available || rollOffScore.available;
+
+  if (!hasPrimary) {
+    return centroid.available ? clamp(centroid.value, 0, 1) : null;
+  }
+
   return weightedAverage([
-    { weight: 0.55, value: spectralCentroidOrBrightness.available ? spectralCentroidOrBrightness.value : null },
-    { weight: 0.2, value: spectralRolloff.available ? spectralRolloff.value : null },
-    { weight: 0.15, value: flatness.available ? flatness.value : null },
-    { weight: 0.1, value: valence.available ? valence.value : null }
+    { weight: 0.55, value: brightness.available ? brightness.value : null },
+    { weight: 0.45, value: rollOffScore.available ? rollOffScore.value : null }
   ]);
 }
 
@@ -401,19 +634,20 @@ function computeDarknessScore({ lowEndScore, brightnessScore, lowValenceScore })
   ]);
 }
 
-function computePulseScore({ pulseClarity, rhythmicStability }) {
-  const both = pulseClarity.available && rhythmicStability.available;
+function computePulseScore({ pulseClarity, rhythmicStability, danceability, articulation, complexity }) {
+  const base = weightedAverage([
+    { weight: 0.55, value: pulseClarity.available ? pulseClarity.value : null },
+    { weight: 0.25, value: rhythmicStability.available ? rhythmicStability.value : null },
+    { weight: 0.1, value: danceability.available ? danceability.value : null },
+    { weight: 0.1, value: articulation.available ? articulation.value : null }
+  ]);
 
-  if (both) {
-    return weightedAverage([
-      { weight: 0.65, value: pulseClarity.value },
-      { weight: 0.35, value: rhythmicStability.value }
-    ]);
-  }
+  if (base === null) return null;
 
-  if (pulseClarity.available) return clamp(pulseClarity.value, 0, 1);
-  if (rhythmicStability.available) return clamp(rhythmicStability.value, 0, 1);
-  return null;
+  const c = complexity && complexity.available ? complexity.value : null;
+  if (c === null) return clamp(base, 0, 1);
+
+  return clamp(base - 0.15 * clamp(c, 0, 1), 0, 1);
 }
 
 function computeDrivingScore({ pulseScore, energyScore, eventDensity, lowEndScore }) {
@@ -474,23 +708,10 @@ function computeAggressiveScore({ energyScore, harshness, dissonance, flatness, 
   ]);
 }
 
-function computePunchScore({ transientStrength, articulation, eventDensity, lowEndScore, pulseScore }) {
-  const hasTransient = transientStrength.available;
-
-  if (hasTransient) {
-    return weightedAverage([
-      { weight: 0.45, value: transientStrength.value },
-      { weight: 0.25, value: articulation.available ? articulation.value : null },
-      { weight: 0.15, value: eventDensity.available ? eventDensity.value : null },
-      { weight: 0.15, value: lowEndScore.available ? lowEndScore.value : null }
-    ]);
-  }
-
+function computePunchScore({ articulation, loudnessRange }) {
   return weightedAverage([
-    { weight: 0.35, value: articulation.available ? articulation.value : null },
-    { weight: 0.25, value: eventDensity.available ? eventDensity.value : null },
-    { weight: 0.2, value: pulseScore },
-    { weight: 0.2, value: lowEndScore.available ? lowEndScore.value : null }
+    { weight: 0.6, value: articulation.available ? articulation.value : null },
+    { weight: 0.4, value: loudnessRange.available ? loudnessRange.value : null }
   ]);
 }
 

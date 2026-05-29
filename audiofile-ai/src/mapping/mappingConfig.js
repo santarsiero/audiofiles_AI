@@ -35,7 +35,9 @@ const mappingConfig = {
   },
   versions: {
     mappingVersion: 'descriptor-mapper-v0.1',
-    ontologyVersion: 'audiofile-ontology-v0.1'
+    ontologyVersion: 'audiofile-ai-ontology-v0.1.3',
+    semanticCompositionVersion: 'audiofile-ai-semantic-composition-v0.1.1',
+    runtimeAlignmentVersion: 'audiofile-ai-runtime-alignment-v0.1'
   }
 };
 
