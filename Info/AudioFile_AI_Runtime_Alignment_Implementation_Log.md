@@ -379,6 +379,63 @@ This log is append-only.
 
 - Runtime Alignment Final Validation Over Cached Music Story Payloads
 
+---
+
+## 2026-05-29 — Final Validation: Runtime Alignment Over Cached Music Story Payloads
+
+### Validation name
+
+- Final Runtime Alignment Validation Over Cached Music Story Payloads
+
+### Files modified
+
+- `Info/AudioFile_AI_Runtime_Alignment_Implementation_Log.md`
+
+### Files created
+
+- `audiofile-ai/experimentation/scripts/validate_runtime_alignment_on_cache.js`
+- `audiofile-ai/experimentation/outputs/runtime_alignment/final_runtime_alignment_validation.json`
+- `audiofile-ai/experimentation/reports/final_runtime_alignment_validation_report.md`
+
+### Cache source used
+
+- `audiofile-ai/baseline/data/musicstory/`
+- Rationale: existing repository cache of batch Music Story responses in the expected `{ results: [...] }` format with `musicStory.available === true` entries.
+
+### Validation result
+
+- PASS
+
+### Batch counts
+
+- total cached entries inspected: 1875
+- successful payloads found: 365
+- payloads skipped: 1510
+- runtime outputs produced: 365
+- runtime failures: 0
+- schema failures: 0
+
+### Key findings
+
+- All successful cached payloads produced valid aligned output.
+- No schema violations were detected.
+- No invalid confidence values or cap violations were detected.
+- No deferred labels appeared in surfaced labels.
+- Surfacing constraints held across the batch:
+  - no surfaced label had confidence < 0.60
+  - no song surfaced more than 5 labels
+  - abstention occurred and was handled (21 songs with 0 surfaced labels)
+
+### Reports written
+
+- JSON: `audiofile-ai/experimentation/outputs/runtime_alignment/final_runtime_alignment_validation.json`
+- Markdown: `audiofile-ai/experimentation/reports/final_runtime_alignment_validation_report.md`
+
+### Next recommended step
+
+- Build Representative Semantic Validation Set
+
+
 
 
 

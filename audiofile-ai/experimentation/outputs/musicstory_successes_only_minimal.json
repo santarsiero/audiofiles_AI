@@ -1,0 +1,3577 @@
+{
+  "generatedAt": "2026-05-29T17:01:04.092Z",
+  "sourcePath": "/Users/nicksantarsiero/Documents/GitHub/audiofiles_AI/audiofile-ai/experimentation/outputs/musicstory_successes_only.json",
+  "rowCount": 357,
+  "rows": [
+    {
+      "index": 1,
+      "title": "Strings of Life",
+      "artist": "Derrick May",
+      "isrc": "BEZ350800105",
+      "spotify_id": "5S7zaCv2inktON7vNdGpHj",
+      "apple_id": "1804523655",
+      "inputMusicStoryRecordingId": 1100904,
+      "providerRecordingId": 1100904
+    },
+    {
+      "index": 2,
+      "title": "Griztronics",
+      "artist": "GRiZ",
+      "isrc": "CAUM81900241",
+      "spotify_id": "6OTClxme7EYRZGO6An3SMc",
+      "apple_id": "1474897054",
+      "inputMusicStoryRecordingId": 20083648,
+      "providerRecordingId": 20083648
+    },
+    {
+      "index": 3,
+      "title": "Friesenjung",
+      "artist": "Ski Aggu",
+      "isrc": "DE1FB2300037",
+      "spotify_id": "6tAKikIvnoWfUeZrfkopLL",
+      "apple_id": "1688994637",
+      "inputMusicStoryRecordingId": 23032935,
+      "providerRecordingId": 23032935
+    },
+    {
+      "index": 4,
+      "title": "Jungle",
+      "artist": "Alok",
+      "isrc": "DEE862301476",
+      "spotify_id": "0OvO2X2Q3i98dc5RcgEN3x",
+      "apple_id": "1705391359",
+      "inputMusicStoryRecordingId": 23227803,
+      "providerRecordingId": 23227803
+    },
+    {
+      "index": 5,
+      "title": "Forget You",
+      "artist": "FAST BOY",
+      "isrc": "DEUM72300002",
+      "spotify_id": "1YWr18dWRmuvPgAsPBsOow",
+      "apple_id": "1669621170",
+      "inputMusicStoryRecordingId": 22737126,
+      "providerRecordingId": 22737126
+    },
+    {
+      "index": 6,
+      "title": "Cut Dick",
+      "artist": "Mr. Oizo",
+      "isrc": "FR0NT0800750",
+      "spotify_id": "4sqZAKBTC4a2x1Ivil7h36",
+      "apple_id": "295295608",
+      "inputMusicStoryRecordingId": 983434,
+      "providerRecordingId": 983434
+    },
+    {
+      "index": 9,
+      "title": "I Need Your Love",
+      "artist": "Calvin Harris",
+      "isrc": "GBARL1201390",
+      "spotify_id": "0f8GDk3hYFkHkpecyUByZ7",
+      "apple_id": "1647424714",
+      "inputMusicStoryRecordingId": 5124579,
+      "providerRecordingId": 5124579
+    },
+    {
+      "index": 10,
+      "title": "Clint Eastwood - Ed Case / Sweetie Irie Refix",
+      "artist": "Gorillaz",
+      "isrc": "GBAYE1400479",
+      "spotify_id": "2g1qxZKavK3UZeKesmqynB",
+      "apple_id": "850576763",
+      "inputMusicStoryRecordingId": 34686789,
+      "providerRecordingId": 34686789
+    },
+    {
+      "index": 11,
+      "title": "From The Stars",
+      "artist": "Mochakk",
+      "isrc": "GBCFB2401406",
+      "spotify_id": "2wYtsbYJjltjeDyuAO0xBp",
+      "apple_id": "1789523413",
+      "inputMusicStoryRecordingId": 2913965,
+      "providerRecordingId": 2913965
+    },
+    {
+      "index": 12,
+      "title": "Veridis Quo",
+      "artist": "Daft Punk",
+      "isrc": "GBDUW0000066",
+      "spotify_id": "2LD2gT7gwAurzdQDQtILds",
+      "apple_id": "697196125",
+      "inputMusicStoryRecordingId": 1945394,
+      "providerRecordingId": 1945394
+    },
+    {
+      "index": 13,
+      "title": "Drag Me Down",
+      "artist": "One Direction",
+      "isrc": "GBHMU1500070",
+      "spotify_id": "2K87XMYnUMqLcX3zvtAF4G",
+      "apple_id": "1040171616",
+      "inputMusicStoryRecordingId": 10595453,
+      "providerRecordingId": 10595453
+    },
+    {
+      "index": 16,
+      "title": "Heat Waves",
+      "artist": "Glass Animals",
+      "isrc": "GBUM72000433",
+      "spotify_id": "3USxtqRwSYz57Ewm6wWRMp",
+      "apple_id": "1508562516",
+      "inputMusicStoryRecordingId": 22329060,
+      "providerRecordingId": 22329060
+    },
+    {
+      "index": 17,
+      "title": "Groove District",
+      "artist": "Starjunk 95",
+      "isrc": "GBWUL2177149",
+      "spotify_id": "2Xs3MaK9AzV48lZa7PIKCh",
+      "apple_id": "1760785805",
+      "inputMusicStoryRecordingId": 31006867,
+      "providerRecordingId": 31006867
+    },
+    {
+      "index": 18,
+      "title": "にんじゃりばんばん",
+      "artist": "Kyary Pamyu Pamyu",
+      "isrc": "JPWP01370323",
+      "spotify_id": "2woUtuhLY5oZ6ymb7BnfcN",
+      "apple_id": "624740986",
+      "inputMusicStoryRecordingId": 19906808,
+      "providerRecordingId": 19906808
+    },
+    {
+      "index": 19,
+      "title": "Boom, Boom, Boom, Boom!!",
+      "artist": "Vengaboys",
+      "isrc": "NLC529811150",
+      "spotify_id": "5N6M8yDiMV32T6Rkzh8EbW",
+      "apple_id": "1631127222",
+      "inputMusicStoryRecordingId": 9449433,
+      "providerRecordingId": 9449433
+    },
+    {
+      "index": 20,
+      "title": "Deslocado",
+      "artist": "NAPA",
+      "isrc": "PTUM72500004",
+      "spotify_id": "31CsSZ9KlQmEu0JvWSkM3j",
+      "apple_id": "1800621031",
+      "inputMusicStoryRecordingId": 31551530,
+      "providerRecordingId": 31551530
+    },
+    {
+      "index": 21,
+      "title": "Lean Beef Patty",
+      "artist": "JPEGMAFIA",
+      "isrc": "QM4TX2330850",
+      "spotify_id": "3FsqOTQT3d7c296eStnEnl",
+      "apple_id": "1676167281",
+      "inputMusicStoryRecordingId": 22864865,
+      "providerRecordingId": 22864865
+    },
+    {
+      "index": 22,
+      "title": "Raving In The Studio",
+      "artist": "Aitch",
+      "isrc": "QMFME2494355",
+      "spotify_id": "6TAbRIua9JOTmqGMjGWe4d",
+      "apple_id": "1784927636",
+      "inputMusicStoryRecordingId": 31146239,
+      "providerRecordingId": 31146239
+    },
+    {
+      "index": 23,
+      "title": "50//50",
+      "artist": "Vantage",
+      "isrc": "QZES51852621",
+      "spotify_id": "4bUf51rlhCEh5ScgYOkMhL",
+      "apple_id": "1633089073",
+      "inputMusicStoryRecordingId": 20515512,
+      "providerRecordingId": 20515512
+    },
+    {
+      "index": 25,
+      "title": "RIZZ",
+      "artist": "AYYBO",
+      "isrc": "QZVEM2366898",
+      "spotify_id": "3DqOJ2BoddzZpNdty3okJH",
+      "apple_id": "1713277579",
+      "inputMusicStoryRecordingId": 2604117,
+      "providerRecordingId": 2604117
+    },
+    {
+      "index": 26,
+      "title": "DJ Turn It Up",
+      "artist": "Dimension",
+      "isrc": "UKFTL1600270",
+      "spotify_id": "28r1xYNakXXwcQKIXu9Wjw",
+      "apple_id": "1683585916",
+      "inputMusicStoryRecordingId": 23078366,
+      "providerRecordingId": 23078366
+    },
+    {
+      "index": 28,
+      "title": "Bassgod",
+      "artist": "Yellow Claw",
+      "isrc": "USA2P2043810",
+      "spotify_id": "1TAJo82SUhv149osNoqBE3",
+      "apple_id": "1547545006",
+      "inputMusicStoryRecordingId": 37057595,
+      "providerRecordingId": 37057595
+    },
+    {
+      "index": 29,
+      "title": "Strawberry Letter 23",
+      "artist": "The Brothers Johnson",
+      "isrc": "USAM17700852",
+      "spotify_id": "1qUrjehLVPsV9MpH0cM6rk",
+      "apple_id": "1434894035",
+      "inputMusicStoryRecordingId": 9989291,
+      "providerRecordingId": 9989291
+    },
+    {
+      "index": 31,
+      "title": "Nevada",
+      "artist": "YoungBoy Never Broke Again",
+      "isrc": "USAT22103399",
+      "spotify_id": "2cEnKRR4dYBB2VA1mjlb1z",
+      "apple_id": "1589051544",
+      "inputMusicStoryRecordingId": 21827809,
+      "providerRecordingId": 21827809
+    },
+    {
+      "index": 32,
+      "title": "Never There",
+      "artist": "CAKE",
+      "isrc": "USCA19886886",
+      "spotify_id": "6VQm5LHlP9nIsEYOcGB7V1",
+      "apple_id": "1671621346",
+      "inputMusicStoryRecordingId": 1171332,
+      "providerRecordingId": 1171332
+    },
+    {
+      "index": 34,
+      "title": "Self Esteem",
+      "artist": "The Offspring",
+      "isrc": "USEP40312208",
+      "spotify_id": "1FkoVC85Ds3mFoK0fVqEqP",
+      "apple_id": "1485034811",
+      "inputMusicStoryRecordingId": 994955,
+      "providerRecordingId": 994955
+    },
+    {
+      "index": 35,
+      "title": "Rock Your Body",
+      "artist": "Justin Timberlake",
+      "isrc": "USJI10200367",
+      "spotify_id": "1AWQoqb9bSvzTjaLralEkT",
+      "apple_id": "252606598",
+      "inputMusicStoryRecordingId": 60795,
+      "providerRecordingId": 60795
+    },
+    {
+      "index": 36,
+      "title": "I Can't Help Myself (Sugar Pie, Honey Bunch)",
+      "artist": "Four Tops",
+      "isrc": "USMO16582593",
+      "spotify_id": "6b6IMqP565TbtFFZg9iFf3",
+      "apple_id": "1443096422",
+      "inputMusicStoryRecordingId": 8748208,
+      "providerRecordingId": 8748208
+    },
+    {
+      "index": 37,
+      "title": "Give Life Back to Music",
+      "artist": "Daft Punk",
+      "isrc": "USQX91300101",
+      "spotify_id": "0dEIca2nhcxDUV8C5QkPYb",
+      "apple_id": "617154353",
+      "inputMusicStoryRecordingId": 5893006,
+      "providerRecordingId": 5893006
+    },
+    {
+      "index": 38,
+      "title": "Papa Loves Mambo",
+      "artist": "Perry Como",
+      "isrc": "USRC15404658",
+      "spotify_id": "5A4gzphhD7SyZZhQeda8Vv",
+      "apple_id": "302991005",
+      "inputMusicStoryRecordingId": 16173691,
+      "providerRecordingId": 16173691
+    },
+    {
+      "index": 39,
+      "title": "Ain't No Sunshine",
+      "artist": "Bill Withers",
+      "isrc": "USSM10000372",
+      "spotify_id": "1k1Bqnv2R0uJXQN4u6LKYt",
+      "apple_id": "293521573",
+      "inputMusicStoryRecordingId": 443903,
+      "providerRecordingId": 443903
+    },
+    {
+      "index": 40,
+      "title": "Havana (feat. Young Thug)",
+      "artist": "Camila Cabello",
+      "isrc": "USSM11706905",
+      "spotify_id": "1rfofaqEpACxVEHIZBJe6W",
+      "apple_id": "1321217032",
+      "inputMusicStoryRecordingId": 19012867,
+      "providerRecordingId": 19012867
+    },
+    {
+      "index": 41,
+      "title": "Let's Groove",
+      "artist": "Earth, Wind & Fire",
+      "isrc": "USSM18100641",
+      "spotify_id": "3koCCeSaVUyrRo3N2gHrd8",
+      "apple_id": "523229275",
+      "inputMusicStoryRecordingId": 1004323,
+      "providerRecordingId": 1004323
+    },
+    {
+      "index": 42,
+      "title": "Get Low",
+      "artist": "Lil Jon & The East Side Boyz",
+      "isrc": "USTV10200084",
+      "spotify_id": "0r2Bul2NuCViraT2zX1l5j",
+      "apple_id": "311288439",
+      "inputMusicStoryRecordingId": 1406940,
+      "providerRecordingId": 1406940
+    },
+    {
+      "index": 43,
+      "title": "Telephone",
+      "artist": "Lady Gaga",
+      "isrc": "USUM70905541",
+      "spotify_id": "7rl7ao5pb9BhvAzPdWStxi",
+      "apple_id": "1476727675",
+      "inputMusicStoryRecordingId": 9235806,
+      "providerRecordingId": 9235806
+    },
+    {
+      "index": 45,
+      "title": "Calabria 2008 (feat. Natasja)",
+      "artist": "Enur",
+      "isrc": "USUS10800243",
+      "spotify_id": "0mwbc2AqVHIziVGg3syEI9",
+      "apple_id": "1712041151",
+      "inputMusicStoryRecordingId": 20125243,
+      "providerRecordingId": 20125243
+    },
+    {
+      "index": 46,
+      "title": "Kingdom Dance - From \"Tangled\"/Score",
+      "artist": "Alan Menken",
+      "isrc": "USWD11054906",
+      "spotify_id": "3VsrFBKll8txFmXsinymgj",
+      "apple_id": "1561428893",
+      "inputMusicStoryRecordingId": 3324785,
+      "providerRecordingId": 3324785
+    },
+    {
+      "index": 0,
+      "title": "Define",
+      "artist": "Dom Dolla",
+      "isrc": "AUDCB1500530",
+      "spotify_id": "3B1Je3rlEac3p4ikYW13zw",
+      "apple_id": "1017580443",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 30934776
+    },
+    {
+      "index": 4,
+      "title": "Pedro",
+      "artist": "Jaxomy",
+      "isrc": "DEE862400427",
+      "spotify_id": "2UUj1Pv9mZ4ixkxV7vyipz",
+      "apple_id": "1736776071",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 27974478
+    },
+    {
+      "index": 7,
+      "title": "What You Know",
+      "artist": "Two Door Cinema Club",
+      "isrc": "FRU700900116",
+      "spotify_id": "4JHg4nNYUJQ5HULcCmI18R",
+      "apple_id": "1771711274",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 1443185
+    },
+    {
+      "index": 8,
+      "title": "Message In A Bottle",
+      "artist": "The Police",
+      "isrc": "GBAAM7900002",
+      "spotify_id": "28Fc2UepQkQ8p6jk5TcWkL",
+      "apple_id": "1440882889",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 9183790
+    },
+    {
+      "index": 9,
+      "title": "Uptown Funk (feat. Bruno Mars)",
+      "artist": "Mark Ronson",
+      "isrc": "GBARL1401524",
+      "spotify_id": "0EI7zP0JAnUEVsUISYaVS7",
+      "apple_id": "943946671",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 9355929
+    },
+    {
+      "index": 11,
+      "title": "Don't Stop Movin'",
+      "artist": "S Club",
+      "isrc": "GBCVL0100001",
+      "spotify_id": "4dzreTCcGVgeF1vCcd22AC",
+      "apple_id": "1469524346",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 229991
+    },
+    {
+      "index": 12,
+      "title": "Robot Rock",
+      "artist": "Daft Punk",
+      "isrc": "GBDUW0400103",
+      "spotify_id": "4zu9wo2FXoBSsKjO6tRB3R",
+      "apple_id": "693751191",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 554602
+    },
+    {
+      "index": 16,
+      "title": "Glad You Came - 2021 Master",
+      "artist": "The Wanted",
+      "isrc": "GBUM72105737",
+      "spotify_id": "7JPkocAFZasMiNkXvueoJd",
+      "apple_id": "1584822541",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 22130232
+    },
+    {
+      "index": 18,
+      "title": "Cry (Just a Little)",
+      "artist": "Bingo Players",
+      "isrc": "NCL281111731",
+      "spotify_id": "2jb5Wg3OTKDfeyLZSbizou",
+      "apple_id": "466851778",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 21114553
+    },
+    {
+      "index": 19,
+      "title": "Grease - From “Grease”",
+      "artist": "Frankie Valli",
+      "isrc": "NLF057890001",
+      "spotify_id": "6X1D6qbVmK48uoOD9nIvVV",
+      "apple_id": "1440844630",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 3153995
+    },
+    {
+      "index": 21,
+      "title": "Después de la Playa",
+      "artist": "Bad Bunny",
+      "isrc": "QM6MZ2214876",
+      "spotify_id": "1dm6z1fWB0cErMszU25dy2",
+      "apple_id": "1622045626",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 22174886
+    },
+    {
+      "index": 23,
+      "title": "In A Dream",
+      "artist": "ACRAZE",
+      "isrc": "QZFPL2100405",
+      "spotify_id": "0QioD0fESkUWD2IVLJKwhJ",
+      "apple_id": "1829988622",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 23183899
+    },
+    {
+      "index": 26,
+      "title": "Angel",
+      "artist": "Dimension",
+      "isrc": "UKFTL1600316",
+      "spotify_id": "5V00ZhzyrSKM6WSBn44gE3",
+      "apple_id": "1761886886",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 31145413
+    },
+    {
+      "index": 29,
+      "title": "Renegade",
+      "artist": "Styx",
+      "isrc": "USAM17800365",
+      "spotify_id": "2AteFs3KWb0OiKxQRnbH9T",
+      "apple_id": "1440911577",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 7780392
+    },
+    {
+      "index": 30,
+      "title": "Some Nights",
+      "artist": "fun.",
+      "isrc": "USAT21104050",
+      "spotify_id": "6t6oULCRS6hnI7rm0h5gwl",
+      "apple_id": "486040194",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 4842574
+    },
+    {
+      "index": 31,
+      "title": "Love Me Not",
+      "artist": "Ravyn Lenae",
+      "isrc": "USAT22401137",
+      "spotify_id": "4WFgvKVfEhb3IUAFGrutTR",
+      "apple_id": "1743852427",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 29630734
+    },
+    {
+      "index": 32,
+      "title": "Last Friday Night (T.G.I.F.)",
+      "artist": "Katy Perry",
+      "isrc": "USCA21001264",
+      "spotify_id": "1htQDV8JxSuXG2QsNj5ttr",
+      "apple_id": "716192614",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 2024145
+    },
+    {
+      "index": 34,
+      "title": "Beyond the Sea",
+      "artist": "Bobby Darin",
+      "isrc": "USEW10000026",
+      "spotify_id": "2EIaO5knwUA3F2qnf9LV3S",
+      "apple_id": "30394555",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 1775417
+    },
+    {
+      "index": 35,
+      "title": "I Want It That Way",
+      "artist": "Backstreet Boys",
+      "isrc": "USJI19910614",
+      "spotify_id": "47BBI51FKFwOMlIiX6m8ya",
+      "apple_id": "283567164",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 1365657
+    },
+    {
+      "index": 36,
+      "title": "You Can't Hurry Love",
+      "artist": "The Supremes",
+      "isrc": "USMO16600346",
+      "spotify_id": "4H1iMlEWKZmpKTHCZzDhju",
+      "apple_id": "1443094110",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 442565
+    },
+    {
+      "index": 37,
+      "title": "Get Lucky (feat. Pharrell Williams and Nile Rodgers)",
+      "artist": "Daft Punk",
+      "isrc": "USQX91300108",
+      "spotify_id": "69kOkLUCkxIZYexIgSG8rq",
+      "apple_id": "617154366",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 23011398
+    },
+    {
+      "index": 38,
+      "title": "The Lion Sleeps Tonight (Wimoweh)",
+      "artist": "The Tokens",
+      "isrc": "USRC16100933",
+      "spotify_id": "6w8XjvHN3OFjUW03zHNvgJ",
+      "apple_id": "304760997",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 34042940
+    },
+    {
+      "index": 40,
+      "title": "All Bad (feat. Lil Uzi Vert)",
+      "artist": "Future",
+      "isrc": "USSM12002490",
+      "spotify_id": "021lWIHJrURZrmvYQ1xcM8",
+      "apple_id": "1513037943",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 20537912
+    },
+    {
+      "index": 41,
+      "title": "Uptown Girl",
+      "artist": "Billy Joel",
+      "isrc": "USSM18300270",
+      "spotify_id": "3CSpzkoL1XgDBZ1q9aDCUV",
+      "apple_id": "158816148",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 1407646
+    },
+    {
+      "index": 43,
+      "title": "Fireflies",
+      "artist": "Owl City",
+      "isrc": "USUM70972068",
+      "spotify_id": "3DamFFqW32WihKkTVlwTYQ",
+      "apple_id": "1440783289",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 9258691
+    },
+    {
+      "index": 44,
+      "title": "Feather",
+      "artist": "Sabrina Carpenter",
+      "isrc": "USUM72301876",
+      "spotify_id": "2Zo1PcszsT9WQ0ANntJbID",
+      "apple_id": "1676555853",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 23335426
+    },
+    {
+      "index": 45,
+      "title": "Tell Me Lies",
+      "artist": "Deorro",
+      "isrc": "USUS11700054",
+      "spotify_id": "42Q5drKtM7YJ4CmFxlRnFi",
+      "apple_id": "1214120991",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 23262856
+    },
+    {
+      "index": 46,
+      "title": "Paralyzer",
+      "artist": "Finger Eleven",
+      "isrc": "USWU30700001",
+      "spotify_id": "28IEbk5a7twNTbUEvWslUb",
+      "apple_id": "1440767124",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 20122767
+    },
+    {
+      "index": 0,
+      "title": "Take It",
+      "artist": "Dom Dolla",
+      "isrc": "AUDCB1701202",
+      "spotify_id": "14fIlfcmFPlj4V2IazeJ25",
+      "apple_id": "1454818194",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 20084197
+    },
+    {
+      "index": 1,
+      "title": "Oblivion",
+      "artist": "Grimes",
+      "isrc": "CA21O1200003",
+      "spotify_id": "3LGsgpx4TfxhXbr07OFKqs",
+      "apple_id": "499875050",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 4522320
+    },
+    {
+      "index": 6,
+      "title": "The Beat Goes On",
+      "artist": "Bob Sinclar",
+      "isrc": "FR6V80309921",
+      "spotify_id": "4tClmTsIP0y4VVkkflKGIj",
+      "apple_id": "1732754267",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 1238636
+    },
+    {
+      "index": 8,
+      "title": "Don't",
+      "artist": "Ed Sheeran",
+      "isrc": "GBAHS1400090",
+      "spotify_id": "6gTJaPuj8DT8RjuDJyBgzP",
+      "apple_id": "1050204624",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 9251155
+    },
+    {
+      "index": 9,
+      "title": "Rhyme Dust",
+      "artist": "MK",
+      "isrc": "GBARL2300220",
+      "spotify_id": "6JGxs7oSmmFIUcZ5ft54aJ",
+      "apple_id": "1671893661",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 22759775
+    },
+    {
+      "index": 10,
+      "title": "The Valley of The Pagans (feat. Beck)",
+      "artist": "Gorillaz",
+      "isrc": "GBAYE2000599",
+      "spotify_id": "3oP3Tfn86FRmxAGsV0TqCp",
+      "apple_id": "1530812332",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 20947012
+    },
+    {
+      "index": 11,
+      "title": "One More Time",
+      "artist": "Daft Punk",
+      "isrc": "GBDUW0000053",
+      "spotify_id": "0DiWol3AO6WpXZgp0goxAV",
+      "apple_id": "697195462",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 1945387
+    },
+    {
+      "index": 12,
+      "title": "Give Life Back to Music (Drumless Edition)",
+      "artist": "Daft Punk",
+      "isrc": "GBDUW2300090",
+      "spotify_id": "3HmKTOTV4sxvQocdkDdb0u",
+      "apple_id": "1708115298",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 23310573
+    },
+    {
+      "index": 13,
+      "title": "BEATS FOR THE UNDERGROUND",
+      "artist": "Mau P",
+      "isrc": "GBK6Y2452041",
+      "spotify_id": "62bjfb5YMLvZU44vfjJVxp",
+      "apple_id": "1720773656",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 30153095
+    },
+    {
+      "index": 16,
+      "title": "Bad Memories (feat. Elley Duhé & FAST BOY)",
+      "artist": "MEDUZA",
+      "isrc": "GBUM72203666",
+      "spotify_id": "3rb0tMq42WfggucPm0HHkA",
+      "apple_id": "1632534359",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 22297642
+    },
+    {
+      "index": 17,
+      "title": "Thrift Shop (feat. Wanz)",
+      "artist": "Macklemore & Ryan Lewis",
+      "isrc": "GMM881200003",
+      "spotify_id": "7bYZBVrnRfqeaPbhRyEvK3",
+      "apple_id": "560097715",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 5140564
+    },
+    {
+      "index": 19,
+      "title": "Perfect (Exceeder)",
+      "artist": "Mason",
+      "isrc": "NLF711312388",
+      "spotify_id": "0MclYmXbfR8QihpMkSZTDc",
+      "apple_id": "1526153470",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 25336917
+    },
+    {
+      "index": 20,
+      "title": "It's A Killa",
+      "artist": "FISHER",
+      "isrc": "QM24S2200746",
+      "spotify_id": "2KjQ5zpQGCXgAPbwyPBVqx",
+      "apple_id": "1754201830",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 22108422
+    },
+    {
+      "index": 21,
+      "title": "feel U luv Me",
+      "artist": "Knock2",
+      "isrc": "QMBZ92447777",
+      "spotify_id": "0xDSZ754ZOdthmF784uuE5",
+      "apple_id": "1764547929",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 31150996
+    },
+    {
+      "index": 25,
+      "title": "Flyday Chinatown",
+      "artist": "EVADE FROM 宇宙",
+      "isrc": "SE5BU2126286",
+      "spotify_id": "3UkeVNl2xvv998zZQcasS2",
+      "apple_id": "1780362490",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 30901444
+    },
+    {
+      "index": 29,
+      "title": "Englishman In New York",
+      "artist": "Sting",
+      "isrc": "USAM18700040",
+      "spotify_id": "5OwmbkrC2LVPX2mtklgYum",
+      "apple_id": "1440882895",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 9031924
+    },
+    {
+      "index": 32,
+      "title": "Centerfold",
+      "artist": "The J. Geils Band",
+      "isrc": "USCA28100075",
+      "spotify_id": "1ynmMEK1fkyiZ6Z6F3ThEt",
+      "apple_id": "1452302709",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 2260468
+    },
+    {
+      "index": 34,
+      "title": "Smells Like Teen Spirit",
+      "artist": "Nirvana",
+      "isrc": "USGF19942501",
+      "spotify_id": "75aLTVBSGIquqzQ6AkmK3Q",
+      "apple_id": "1440783625",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 9040386
+    },
+    {
+      "index": 35,
+      "title": "Ring My Bell",
+      "artist": "Anita Ward",
+      "isrc": "USJR30200001",
+      "spotify_id": "2BEArHIJsI5fxYEpCZv2sF",
+      "apple_id": "1296251642",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 7347729
+    },
+    {
+      "index": 36,
+      "title": "Superstition",
+      "artist": "Stevie Wonder",
+      "isrc": "USMO17200984",
+      "spotify_id": "4N0TP4Rmj6QQezWV88ARNJ",
+      "apple_id": "1440808985",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 1508092
+    },
+    {
+      "index": 37,
+      "title": "Go Stupid",
+      "artist": "Polo G",
+      "isrc": "USQX92000261",
+      "spotify_id": "4PklAHGXT5ityno3IA8SKd",
+      "apple_id": "1511793609",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 20284706
+    },
+    {
+      "index": 39,
+      "title": "Last Train to London",
+      "artist": "Electric Light Orchestra",
+      "isrc": "USSM10015736",
+      "spotify_id": "6xE6ZWzK1YDDSYzqOCoQlz",
+      "apple_id": "1054530383",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 168551
+    },
+    {
+      "index": 40,
+      "title": "TALES OF DOMINICA",
+      "artist": "Lil Nas X",
+      "isrc": "USSM12106488",
+      "spotify_id": "5S4PZ7AuYlYiVIVik3wHUf",
+      "apple_id": "1582660738",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 21810907
+    },
+    {
+      "index": 41,
+      "title": "The Longest Time",
+      "artist": "Billy Joel",
+      "isrc": "USSM18300273",
+      "spotify_id": "5DH7nDryMhpixm4G4B7RP9",
+      "apple_id": "259814647",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 1509380
+    },
+    {
+      "index": 42,
+      "title": "Baby (Lil Baby feat. DaBaby)",
+      "artist": "Quality Control",
+      "isrc": "USUG11900748",
+      "spotify_id": "5MPPttjfGap2C6j6eKcO6J",
+      "apple_id": "1476226882",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 19894786
+    },
+    {
+      "index": 43,
+      "title": "Gangnam Style (강남스타일)",
+      "artist": "PSY",
+      "isrc": "USUM71210283",
+      "spotify_id": "03UrZgTINDqvnUMbbIMhql",
+      "apple_id": "1445144527",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 23237892
+    },
+    {
+      "index": 45,
+      "title": "Broccoli",
+      "artist": "DRAM",
+      "isrc": "USUYG1098775",
+      "spotify_id": "0qy5D3OJre7SPJNMOL9I71",
+      "apple_id": "1100826073",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 17456085
+    },
+    {
+      "index": 46,
+      "title": "Dancing in the Moonlight",
+      "artist": "King Harvest",
+      "isrc": "USY4W0610011",
+      "spotify_id": "0q21FNwES2bbtcduB6kjEU",
+      "apple_id": "208819580",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 26873014
+    },
+    {
+      "index": 0,
+      "title": "We Are The People",
+      "artist": "Empire Of The Sun",
+      "isrc": "AUEI10800041",
+      "spotify_id": "3zEN0ii6s4DHHBpnTp3RP7",
+      "apple_id": "1449912319",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 1013606
+    },
+    {
+      "index": 1,
+      "title": "Griztronics II (Another Level)",
+      "artist": "GRiZ",
+      "isrc": "CA5KR0019318",
+      "spotify_id": "2il9NDpW87Hk2L9AjeDf8r",
+      "apple_id": "1593750841",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 22634573
+    },
+    {
+      "index": 2,
+      "title": "Five Hours",
+      "artist": "Deorro",
+      "isrc": "CH3131340319",
+      "spotify_id": "6r7FXNO57mlZCBY6PXcZZT",
+      "apple_id": "929911882",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 8942471
+    },
+    {
+      "index": 3,
+      "title": "The Player",
+      "artist": "SHEE",
+      "isrc": "DEAR41759408",
+      "spotify_id": "0t3XNqFtZGcZpNGk51TWas",
+      "apple_id": "1326767952",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 33790888
+    },
+    {
+      "index": 4,
+      "title": "Back To The Sound",
+      "artist": "Diffrent",
+      "isrc": "DEE862400746",
+      "spotify_id": "3c1sAfTimiickxFKN9XXOV",
+      "apple_id": "1754407344",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 30510414
+    },
+    {
+      "index": 6,
+      "title": "Take Me as I Am",
+      "artist": "Chris Lorenzo",
+      "isrc": "FR96X1965659",
+      "spotify_id": "6MMq9yGUdRH6NqKmMhNDBG",
+      "apple_id": "1481354774",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 20116590
+    },
+    {
+      "index": 8,
+      "title": "Kisses (feat. bbyclose)",
+      "artist": "BL3SS",
+      "isrc": "GBAHS2400105",
+      "spotify_id": "2A1aS3mwuGuX2yk1bgxOvA",
+      "apple_id": "1735803279",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 30372717
+    },
+    {
+      "index": 9,
+      "title": "Toxic (Freestyle)",
+      "artist": "Songer",
+      "isrc": "GBARL2301887",
+      "spotify_id": "3KTRve0Kx6ytMtlEWkWcgt",
+      "apple_id": "1720949760",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 25323073
+    },
+    {
+      "index": 10,
+      "title": "Baker Street",
+      "artist": "Gerry Rafferty",
+      "isrc": "GBAYE7800619",
+      "spotify_id": "5gOd6zDC8vhlYjqbQdJVWP",
+      "apple_id": "693606496",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 264734
+    },
+    {
+      "index": 11,
+      "title": "Aerodynamic",
+      "artist": "Daft Punk",
+      "isrc": "GBDUW0000057",
+      "spotify_id": "3H3cOQ6LBLSvmcaV7QkZEu",
+      "apple_id": "697195570",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 1699772
+    },
+    {
+      "index": 12,
+      "title": "Danse macabre, Op. 40",
+      "artist": "Camille Saint-Saëns",
+      "isrc": "GBF078010150",
+      "spotify_id": "4oCQmcmwRTGtiQX8aowav4",
+      "apple_id": "1452506045",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 1744853
+    },
+    {
+      "index": 13,
+      "title": "Still Sleepless",
+      "artist": "D.O.D",
+      "isrc": "GBKCF2101056",
+      "spotify_id": "4vyG9ZhHT8MKJE5mTICMFC",
+      "apple_id": "1581786456",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 22005335
+    },
+    {
+      "index": 15,
+      "title": "Scary Monsters and Nice Sprites",
+      "artist": "Skrillex",
+      "isrc": "GBTDG1000196",
+      "spotify_id": "4rwpZEcnalkuhPyGkEdhu0",
+      "apple_id": "409001935",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 3426441
+    },
+    {
+      "index": 16,
+      "title": "Disconnect",
+      "artist": "Becky Hill",
+      "isrc": "GBUM72306588",
+      "spotify_id": "6TxjMVp4Id1PwweyFTqH1G",
+      "apple_id": "1696160175",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 23115327
+    },
+    {
+      "index": 19,
+      "title": "Drank & Drugs",
+      "artist": "Lil Kleine",
+      "isrc": "NLG661500224",
+      "spotify_id": "4y4uoBGfTKS4e3Be2MdDug",
+      "apple_id": "1558764755",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 38561812
+    },
+    {
+      "index": 21,
+      "title": "223's (feat. 9lokknine)",
+      "artist": "YNW Melly",
+      "isrc": "QMCE31902418",
+      "spotify_id": "4sjiIpEv617LDXaidKioOI",
+      "apple_id": "1474967293",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 19924494
+    },
+    {
+      "index": 24,
+      "title": "Hit the Road Jack",
+      "artist": "Ray Charles",
+      "isrc": "QZR8K2111005",
+      "spotify_id": "5dUMh0ugelpKfoFp3qChuK",
+      "apple_id": "1569553330",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 37798932
+    },
+    {
+      "index": 25,
+      "title": "Gimme! Gimme! Gimme! (A Man After Midnight)",
+      "artist": "ABBA",
+      "isrc": "SEAYD7901120",
+      "spotify_id": "32KlLADzuIxZmHfhOdXMdC",
+      "apple_id": "1422648970",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 8992415
+    },
+    {
+      "index": 26,
+      "title": "Wild",
+      "artist": "James Hype",
+      "isrc": "US38Y2405797",
+      "spotify_id": "6Yimrlg9ndHZUy1hGm6uQ9",
+      "apple_id": "1734890118",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 30972002
+    },
+    {
+      "index": 29,
+      "title": "Hey Ya!",
+      "artist": "Outkast",
+      "isrc": "USAR10301095",
+      "spotify_id": "2hopb3OJKYhhZ6L4ca9pBp",
+      "apple_id": "1032178989",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 4431236
+    },
+    {
+      "index": 30,
+      "title": "Runaway (U & I)",
+      "artist": "Galantis",
+      "isrc": "USAT21404266",
+      "spotify_id": "07ziGvbLVvSKHrBra4PbxN",
+      "apple_id": "984746629",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 20563931
+    },
+    {
+      "index": 31,
+      "title": "Something Here for the Club - Vocal",
+      "artist": "Terrence Parker",
+      "isrc": "USAT22403023",
+      "spotify_id": "2w9ml2CqsO96sIIdJzRUxf",
+      "apple_id": "1744038072",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 30895477
+    },
+    {
+      "index": 32,
+      "title": "Abracadabra",
+      "artist": "Steve Miller Band",
+      "isrc": "USCA28500258",
+      "spotify_id": "1cVXiqggaqcXpjBRsrn4iP",
+      "apple_id": "1590232302",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 32623607
+    },
+    {
+      "index": 34,
+      "title": "In Bloom",
+      "artist": "Nirvana",
+      "isrc": "USGF19942502",
+      "spotify_id": "55n69wdvbtg1VmQ9rci2WE",
+      "apple_id": "1440783633",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 9040390
+    },
+    {
+      "index": 35,
+      "title": "No Scrubs",
+      "artist": "TLC",
+      "isrc": "USLF29900479",
+      "spotify_id": "1KGi9sZVMeszgZOWivFpxs",
+      "apple_id": "309066884",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 131034
+    },
+    {
+      "index": 36,
+      "title": "Maybe Your Baby",
+      "artist": "Stevie Wonder",
+      "isrc": "USMO17282853",
+      "spotify_id": "0x3jYUWbnbygky6JSnoSpX",
+      "apple_id": "1440808978",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 1508093
+    },
+    {
+      "index": 37,
+      "title": "Qué Pasaría...",
+      "artist": "Rauw Alejandro",
+      "isrc": "USQX92404984",
+      "spotify_id": "0l0vcZMU7AOeQmUIREoI2U",
+      "apple_id": "1775462855",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 30873964
+    },
+    {
+      "index": 38,
+      "title": "Sherry",
+      "artist": "Frankie Valli & The Four Seasons",
+      "isrc": "USRH10175197",
+      "spotify_id": "7sqK6f8dHVx3Q1GjFrVyGl",
+      "apple_id": "870436192",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 378281
+    },
+    {
+      "index": 39,
+      "title": "Remember the Time",
+      "artist": "Michael Jackson",
+      "isrc": "USSM10020715",
+      "spotify_id": "4jnFqNWeJCeCRHc4HCdxfd",
+      "apple_id": "322847187",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 9203465
+    },
+    {
+      "index": 40,
+      "title": "16",
+      "artist": "Baby Keem",
+      "isrc": "USSM12106871",
+      "spotify_id": "1Is8hGpkGMiePASAxBluxM",
+      "apple_id": "1584419167",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 21802158
+    },
+    {
+      "index": 41,
+      "title": "If Only for One Night",
+      "artist": "Luther Vandross",
+      "isrc": "USSM18500385",
+      "spotify_id": "2p4WnpR3H16ywshkL2Fp1n",
+      "apple_id": "197980923",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 30522
+    },
+    {
+      "index": 42,
+      "title": "Sum 2 Prove",
+      "artist": "Lil Baby",
+      "isrc": "USUG11902886",
+      "spotify_id": "5f4Hy5mw5SRaUgXX9c6P5S",
+      "apple_id": "1498989234",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 20222519
+    },
+    {
+      "index": 43,
+      "title": "Scream & Shout",
+      "artist": "will.i.am",
+      "isrc": "USUM71215597",
+      "spotify_id": "2iJuuzV8P9Yz0VSurttIV5",
+      "apple_id": "1443180635",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 5234428
+    },
+    {
+      "index": 44,
+      "title": "Don't You Worry 'Bout A Thing",
+      "artist": "Stevie Wonder",
+      "isrc": "USUMG9900463",
+      "spotify_id": "1QvWxgZvTU0w8rlPRE5Zrv",
+      "apple_id": "1440807415",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 42761
+    },
+    {
+      "index": 46,
+      "title": "Come To Me",
+      "artist": "Black Coffee",
+      "isrc": "ZAI911600033",
+      "spotify_id": "4Z3bncAOxcq2kwKP3uZzbO",
+      "apple_id": "1442567633",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 33400325
+    },
+    {
+      "index": 2,
+      "title": "Wasted",
+      "artist": "Tiësto",
+      "isrc": "CYA111400022",
+      "spotify_id": "0HBSkZKntoW0Hsryq3sD2n",
+      "apple_id": "1443117439",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 9209015
+    },
+    {
+      "index": 3,
+      "title": "Moskau",
+      "artist": "Dschinghis Khan",
+      "isrc": "DEC717900024",
+      "spotify_id": "5t77UGzgSBRDDnaxJvE9R3",
+      "apple_id": "1357124994",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 20046587
+    },
+    {
+      "index": 4,
+      "title": "The Nutcracker (Suite), Op. 71a, TH. 35: 3. Waltz of the Flowers",
+      "artist": "Pyotr Ilyich Tchaikovsky",
+      "isrc": "DEF058203578",
+      "spotify_id": "3eAG6YnPxAcN571Rtcirg8",
+      "apple_id": "1452511616",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 1739490
+    },
+    {
+      "index": 8,
+      "title": "Victory Lap",
+      "artist": "Fred again..",
+      "isrc": "GBAHS2500558",
+      "spotify_id": "1lbNgoJ5iMrMluCyhI4OQP",
+      "apple_id": "1820265798",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 33913690
+    },
+    {
+      "index": 9,
+      "title": "Can't Get You Out of My Head",
+      "artist": "Kylie Minogue",
+      "isrc": "GBAYE0100913",
+      "spotify_id": "50VkZxRo83mPJAKQk6UEaK",
+      "apple_id": "726320692",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 955913
+    },
+    {
+      "index": 10,
+      "title": "Take Me Out",
+      "artist": "Franz Ferdinand",
+      "isrc": "GBCEL0300192",
+      "spotify_id": "20I8RduZC2PWMWTDCZuuAN",
+      "apple_id": "315844084",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 51934
+    },
+    {
+      "index": 11,
+      "title": "Digital Love",
+      "artist": "Daft Punk",
+      "isrc": "GBDUW0000058",
+      "spotify_id": "2VEZx7NWsZ1D0eJ4uv5Fym",
+      "apple_id": "697195633",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 9056858
+    },
+    {
+      "index": 12,
+      "title": "Boom, Like That",
+      "artist": "Mark Knopfler",
+      "isrc": "GBF080400361",
+      "spotify_id": "6kO5VVgGb9jEZM9cKXoOqc",
+      "apple_id": "1440779571",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 9228778
+    },
+    {
+      "index": 13,
+      "title": "Crowd Control",
+      "artist": "FISHER",
+      "isrc": "GBKQU1810626",
+      "spotify_id": "0FvjSKyacgu8deqefolE0M",
+      "apple_id": "1714356697",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 30964364
+    },
+    {
+      "index": 15,
+      "title": "I Can't Decide",
+      "artist": "Scissor Sisters",
+      "isrc": "GBUM70602614",
+      "spotify_id": "2Es4HXJZaBlhpycawBh4qw",
+      "apple_id": "1443836277",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 51125
+    },
+    {
+      "index": 16,
+      "title": "Liquor & Cigarettes (feat. ArrDee)",
+      "artist": "Chase & Status",
+      "isrc": "GBUM72307879",
+      "spotify_id": "15BDY6GKFfk02WaoyytP9g",
+      "apple_id": "1707152177",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 23219985
+    },
+    {
+      "index": 19,
+      "title": "Summer Days (feat. Macklemore & Patrick Stump of Fall Out Boy)",
+      "artist": "Martin Garrix",
+      "isrc": "NLM5S1900528",
+      "spotify_id": "7Feaw9WAEREY0DUOSXJLOM",
+      "apple_id": "1460655320",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 19812693
+    },
+    {
+      "index": 25,
+      "title": "Sex, Drugs, Etc.",
+      "artist": "Beach Weather",
+      "isrc": "TCACS1642138",
+      "spotify_id": "7DbdUf8aHSYoliSjO6LZv6",
+      "apple_id": "1627054792",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 22229102
+    },
+    {
+      "index": 26,
+      "title": "Somedays",
+      "artist": "Sonny Fodera",
+      "isrc": "US38Y2414974",
+      "spotify_id": "3wo3d0I5H8KjkwGvnz8WbB",
+      "apple_id": "1753774219",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 30473063
+    },
+    {
+      "index": 27,
+      "title": "La Vaca",
+      "artist": "Mala Fe",
+      "isrc": "US3Z40407399",
+      "spotify_id": "7neWp4incUBLP1XQTNWmP0",
+      "apple_id": "21483663",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 2498081
+    },
+    {
+      "index": 29,
+      "title": "Stand By Me",
+      "artist": "Ben E. King",
+      "isrc": "USAT20000556",
+      "spotify_id": "6OzAkuRDmEpd52RF1g1WvU",
+      "apple_id": "738196409",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 446827
+    },
+    {
+      "index": 30,
+      "title": "Roll in Peace (feat. XXXTENTACION)",
+      "artist": "Kodak Black",
+      "isrc": "USAT21703096",
+      "spotify_id": "2L8fevaAigB9yXn5psMR3R",
+      "apple_id": "1315146892",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 19044801
+    },
+    {
+      "index": 31,
+      "title": "Sh-Boom",
+      "artist": "The Chords",
+      "isrc": "USAT29901556",
+      "spotify_id": "6ZKB999ZdaFVgrYWvxkl49",
+      "apple_id": "4512072",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 2873311
+    },
+    {
+      "index": 32,
+      "title": "L-O-V-E",
+      "artist": "Nat King Cole",
+      "isrc": "USCA29201076",
+      "spotify_id": "5w5qlaujBlgCnKIvkhxGZv",
+      "apple_id": "715581836",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 34096600
+    },
+    {
+      "index": 33,
+      "title": "Crazy Bitch",
+      "artist": "Buckcherry",
+      "isrc": "USDPK0513007",
+      "spotify_id": "1gtHjIoQIU5XIcRGjn7DfH",
+      "apple_id": "140862717",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 1254077
+    },
+    {
+      "index": 34,
+      "title": "Lithium",
+      "artist": "Nirvana",
+      "isrc": "USGF19942505",
+      "spotify_id": "07hCnHx9DhqZg5eN6RvCbd",
+      "apple_id": "1440783764",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 9040380
+    },
+    {
+      "index": 35,
+      "title": "Joy To The World",
+      "artist": "Three Dog Night",
+      "isrc": "USMC17047804",
+      "spotify_id": "2ymeOsYijJz09LfKw3yM2x",
+      "apple_id": "1443890867",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 4122661
+    },
+    {
+      "index": 36,
+      "title": "I Ain't Gonna Stand For It",
+      "artist": "Stevie Wonder",
+      "isrc": "USMO18000562",
+      "spotify_id": "4bHyimydtSofP9RFMdUCJq",
+      "apple_id": "1440821237",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 42817
+    },
+    {
+      "index": 38,
+      "title": "Can't Take My Eyes off You",
+      "artist": "Frankie Valli",
+      "isrc": "USRH10175215",
+      "spotify_id": "6ft9PAgNOjmZ2kFVP7LGqb",
+      "apple_id": "40454283",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 32231132
+    },
+    {
+      "index": 39,
+      "title": "Beautiful Girls",
+      "artist": "Sean Kingston",
+      "isrc": "USSM10701781",
+      "spotify_id": "67D9O4Oau629qirRXtTWCS",
+      "apple_id": "275820157",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 1408343
+    },
+    {
+      "index": 40,
+      "title": "Lean on Me",
+      "artist": "Bill Withers",
+      "isrc": "USSM17200084",
+      "spotify_id": "5zCJvrT3C7cIfHsR5iG95l",
+      "apple_id": "391725484",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 1146288
+    },
+    {
+      "index": 41,
+      "title": "Telephone Line",
+      "artist": "Electric Light Orchestra",
+      "isrc": "USSM18600411",
+      "spotify_id": "3SPcBPzvbmWLl8NU5efx4W",
+      "apple_id": "1054523238",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 8996832
+    },
+    {
+      "index": 42,
+      "title": "Back In Time",
+      "artist": "Marshmello",
+      "isrc": "USUG12102299",
+      "spotify_id": "6PsWlc2V5mtu7ln3lkVJJM",
+      "apple_id": "1570338544",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 21570420
+    },
+    {
+      "index": 43,
+      "title": "Counting Stars",
+      "artist": "OneRepublic",
+      "isrc": "USUM71301306",
+      "spotify_id": "2tpWsVSb9UEmDRxAl1zhX1",
+      "apple_id": "1471704175",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 5613542
+    },
+    {
+      "index": 44,
+      "title": "As",
+      "artist": "Stevie Wonder",
+      "isrc": "USUMG9900468",
+      "spotify_id": "13toFl1UwJPsRxDiD9jgtn",
+      "apple_id": "1440788744",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 42788
+    },
+    {
+      "index": 0,
+      "title": "Borderline",
+      "artist": "Tame Impala",
+      "isrc": "AUUM71900956",
+      "spotify_id": "5hM5arv9KDbCHS0k9uqwjr",
+      "apple_id": "1497230972",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 20284256
+    },
+    {
+      "index": 1,
+      "title": "dashstar*",
+      "artist": "Knock2",
+      "isrc": "CA5KR2131835",
+      "spotify_id": "0dAfw35k2hBsnbSl74AVJF",
+      "apple_id": "1549282459",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 22543294
+    },
+    {
+      "index": 2,
+      "title": "Secrets",
+      "artist": "Tiësto",
+      "isrc": "CYA111500019",
+      "spotify_id": "0NIC4unbe5KZOp1d9T7OaF",
+      "apple_id": "1443097680",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 35707303
+    },
+    {
+      "index": 3,
+      "title": "Gotta Go Home",
+      "artist": "Boney M.",
+      "isrc": "DED167800004",
+      "spotify_id": "4MvGHDenL4t9JW1RHB4rK2",
+      "apple_id": "220210519",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 129016
+    },
+    {
+      "index": 4,
+      "title": "Finder",
+      "artist": "Ninetoes",
+      "isrc": "DENC31200185",
+      "spotify_id": "2DNO2h1Qsc0vPAyLGReDvN",
+      "apple_id": "1613029096",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 6579737
+    },
+    {
+      "index": 5,
+      "title": "Pisk Mig Hårdt!!!",
+      "artist": "Dario Von Slutty",
+      "isrc": "DKBQ90401113",
+      "spotify_id": "1q3Iuk3nVEwRPj7mR34QYQ",
+      "apple_id": "556813430",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 35811661
+    },
+    {
+      "index": 6,
+      "title": "This Girl (Kungs Vs. Cookin' On 3 Burners)",
+      "artist": "Kungs",
+      "isrc": "FR9W11601798",
+      "spotify_id": "1A8j067qyiNwQnZT0bzUpZ",
+      "apple_id": "1440894921",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 23042502
+    },
+    {
+      "index": 8,
+      "title": "Internet Friends",
+      "artist": "Knife Party",
+      "isrc": "GBAHT1200462",
+      "spotify_id": "5qFL2uwfnGU8FccwLMgPNQ",
+      "apple_id": "554535548",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 5048754
+    },
+    {
+      "index": 9,
+      "title": "Paradise",
+      "artist": "Coldplay",
+      "isrc": "GBAYE1101143",
+      "spotify_id": "6nek1Nin9q48AVZcWs9e9D",
+      "apple_id": "726373148",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 4237883
+    },
+    {
+      "index": 10,
+      "title": "505",
+      "artist": "Arctic Monkeys",
+      "isrc": "GBCEL0700074",
+      "spotify_id": "0BxE4FqsDD1Ot4YuBXwAPp",
+      "apple_id": "251499791",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 51980
+    },
+    {
+      "index": 11,
+      "title": "Harder, Better, Faster, Stronger",
+      "artist": "Daft Punk",
+      "isrc": "GBDUW0000059",
+      "spotify_id": "5W3cjX2J3tjhG8zb6u0qHn",
+      "apple_id": "697195787",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 554600
+    },
+    {
+      "index": 12,
+      "title": "Your Latest Trick",
+      "artist": "Dire Straits",
+      "isrc": "GBF088500676",
+      "spotify_id": "16o3j0mMeLkozJHoImvlAU",
+      "apple_id": "299545323",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 9001151
+    },
+    {
+      "index": 13,
+      "title": "Relax My Eyes",
+      "artist": "ANOTR",
+      "isrc": "GBKQU2296427",
+      "spotify_id": "5u4hhtZ7f4rWkMZEZcTKrH",
+      "apple_id": "1679316677",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 22883125
+    },
+    {
+      "index": 15,
+      "title": "You & Me",
+      "artist": "Disclosure",
+      "isrc": "GBUM71302856",
+      "spotify_id": "55jxzrIhEupVy1l6RDJaO5",
+      "apple_id": "1443276655",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 5953772
+    },
+    {
+      "index": 18,
+      "title": "Rockstar",
+      "artist": "Nickelback",
+      "isrc": "NLA320581343",
+      "spotify_id": "2cKCSngj4rdMI9K1deFJOe",
+      "apple_id": "214403648",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 2042726
+    },
+    {
+      "index": 20,
+      "title": "Fuck It Up",
+      "artist": "Disco Lines",
+      "isrc": "QM24S2407294",
+      "spotify_id": "0PBQS0GycsYJ4yJJRjAIXU",
+      "apple_id": "1783136864",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 32471386
+    },
+    {
+      "index": 21,
+      "title": "come aliv3",
+      "artist": "RL Grime",
+      "isrc": "QMDA72473467",
+      "spotify_id": "0NFmxRKCW4FoJkn70k54CE",
+      "apple_id": "1779363138",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 31251449
+    },
+    {
+      "index": 22,
+      "title": "Good Looking",
+      "artist": "Suki Waterhouse",
+      "isrc": "QZ9Y21712533",
+      "spotify_id": "026wpXkLAjImiWOzzcJBHj",
+      "apple_id": "1623489918",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 22189368
+    },
+    {
+      "index": 23,
+      "title": "FVN!",
+      "artist": "LVL1",
+      "isrc": "QZHN62116158",
+      "spotify_id": "6MNwXWX1d2k8ARllRJ5Ezt",
+      "apple_id": "1582546921",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 21751667
+    },
+    {
+      "index": 25,
+      "title": "一翦梅",
+      "artist": "Fei Yu-ching",
+      "isrc": "TWA471006010",
+      "spotify_id": "5Vnx5i9VJSZ6ayfK6jncf8",
+      "apple_id": "369109280",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 20644617
+    },
+    {
+      "index": 27,
+      "title": "Drive In",
+      "artist": "Madlib",
+      "isrc": "US6680913274",
+      "spotify_id": "6Jg4vzXkAuu1iUUN1BCd5v",
+      "apple_id": "1041584951",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 12882939
+    },
+    {
+      "index": 28,
+      "title": "Happy Together",
+      "artist": "The Turtles",
+      "isrc": "USA560587940",
+      "spotify_id": "1ZBY8XeuUKm2uAnFY9zYqq",
+      "apple_id": "310728859",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 654201
+    },
+    {
+      "index": 29,
+      "title": "Hold On, I'm Comin'",
+      "artist": "Sam & Dave",
+      "isrc": "USAT20001059",
+      "spotify_id": "6PgVDY8GTkxF3GmhVGPzoB",
+      "apple_id": "59412277",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 130102
+    },
+    {
+      "index": 30,
+      "title": "Lust",
+      "artist": "Lil Skies",
+      "isrc": "USAT21705305",
+      "spotify_id": "7oJrVhiTPZGBXWPwhxjy9S",
+      "apple_id": "1322605877",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 19293630
+    },
+    {
+      "index": 31,
+      "title": "Symphony No. 9 in E Minor, Op. 95, B. 178 \"From the New World\": IV. Allegro con fuoco",
+      "artist": "Antonín Dvořák",
+      "isrc": "USBC10402787",
+      "spotify_id": "5B4DykTZOnoGXSX0M6XaOo",
+      "apple_id": "358328228",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 23954940
+    },
+    {
+      "index": 33,
+      "title": "Just like Heaven",
+      "artist": "The Cure",
+      "isrc": "USEE18700009",
+      "spotify_id": "76GlO5H5RT6g7y0gev86Nk",
+      "apple_id": "31739774",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 17674481
+    },
+    {
+      "index": 35,
+      "title": "Free Bird",
+      "artist": "Lynyrd Skynyrd",
+      "isrc": "USMC17301722",
+      "spotify_id": "5EWPGh7jbTNO2wakv8LjUI",
+      "apple_id": "1440838661",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 9358531
+    },
+    {
+      "index": 36,
+      "title": "All I Do",
+      "artist": "Stevie Wonder",
+      "isrc": "USMO18082862",
+      "spotify_id": "0k3fBeBIcok5gbYQyQbxP5",
+      "apple_id": "1440821233",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 7649358
+    },
+    {
+      "index": 37,
+      "title": "Chill Bill (feat. J. Davi$ & Spooks)",
+      "artist": "Rob $tone",
+      "isrc": "USRC11601124",
+      "spotify_id": "5uDASfU19gDxSjW8cnCaBp",
+      "apple_id": "1124141439",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 17651619
+    },
+    {
+      "index": 38,
+      "title": "December, 1963 (Oh What a Night!)",
+      "artist": "The Four Seasons",
+      "isrc": "USRH10175221",
+      "spotify_id": "1hQFF33xi8ruavZNyovtUN",
+      "apple_id": "870331003",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 378306
+    },
+    {
+      "index": 39,
+      "title": "Fire Burning",
+      "artist": "Sean Kingston",
+      "isrc": "USSM10902107",
+      "spotify_id": "7gDKfEMIhyyO4asgEXwcrs",
+      "apple_id": "312051360",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 1342059
+    },
+    {
+      "index": 40,
+      "title": "Sweet Talkin' Woman",
+      "artist": "Electric Light Orchestra",
+      "isrc": "USSM17200398",
+      "spotify_id": "0xAhbD6lCf5re1RXl5yiTm",
+      "apple_id": "1054525007",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 9001749
+    },
+    {
+      "index": 41,
+      "title": "Showdown",
+      "artist": "Electric Light Orchestra",
+      "isrc": "USSM19805098",
+      "spotify_id": "25fOmfH1Kq6RmQrWgKFgvV",
+      "apple_id": "196429208",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 168489
+    },
+    {
+      "index": 42,
+      "title": "Too Many Nights (feat. Don Toliver & with Future)",
+      "artist": "Metro Boomin",
+      "isrc": "USUG12208784",
+      "spotify_id": "2Hh3ETdQKrmSI3QS0hme7g",
+      "apple_id": "1657271966",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 22541135
+    },
+    {
+      "index": 43,
+      "title": "Beautiful Now",
+      "artist": "Zedd",
+      "isrc": "USUM71505090",
+      "spotify_id": "2ISSQPb9LHHiV6ng2NXosL",
+      "apple_id": "1470706638",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 9695862
+    },
+    {
+      "index": 44,
+      "title": "Master Blaster (Jammin')",
+      "artist": "Stevie Wonder",
+      "isrc": "USUMG9900475",
+      "spotify_id": "6NjYhDWaI8jKgcSU0ZsJuz",
+      "apple_id": "1440821244",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 42819
+    },
+    {
+      "index": 45,
+      "title": "Seven Nation Army",
+      "artist": "The White Stripes",
+      "isrc": "USVT10300001",
+      "spotify_id": "3dPQuX8Gs42Y7b454ybpMR",
+      "apple_id": "1533513537",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 4393363
+    },
+    {
+      "index": 0,
+      "title": "Music Makes Me High",
+      "artist": "The Avalanches",
+      "isrc": "AUUM72000714",
+      "spotify_id": "4o8ssGZ37z8S93zHTNfDlD",
+      "apple_id": "1529562816",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 21102275
+    },
+    {
+      "index": 1,
+      "title": "Ignite",
+      "artist": "CHYL",
+      "isrc": "CA6D22300312",
+      "spotify_id": "1emuD0fT5F0ZnZLcoscLQO",
+      "apple_id": "1699494213",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 31058122
+    },
+    {
+      "index": 2,
+      "title": "The Right Song",
+      "artist": "Tiësto",
+      "isrc": "CYA111500132",
+      "spotify_id": "59yxjfkqhOPacjiolBHQDC",
+      "apple_id": "1402630595",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 32550211
+    },
+    {
+      "index": 5,
+      "title": "Sandstorm",
+      "artist": "Darude",
+      "isrc": "FISGC9900001",
+      "spotify_id": "6Sy9BUbgFse0n0LPA5lwy5",
+      "apple_id": "338349243",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 20326415
+    },
+    {
+      "index": 6,
+      "title": "feelings don't lie",
+      "artist": "Ofenbach",
+      "isrc": "FR9W12422341",
+      "spotify_id": "3lqamRh4EILIDACnAbl35t",
+      "apple_id": "1746176816",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 30400644
+    },
+    {
+      "index": 8,
+      "title": "Kung Fu Fighting",
+      "artist": "Carl Douglas",
+      "isrc": "GBAJE7400014",
+      "spotify_id": "7K8QsHbmUpSX37oOCL4e2g",
+      "apple_id": "1618254459",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 438864
+    },
+    {
+      "index": 9,
+      "title": "Feel Good Inc.",
+      "artist": "Gorillaz",
+      "isrc": "GBAYE1400422",
+      "spotify_id": "72YCeOZX7NoyRPJGyGbTHs",
+      "apple_id": "850571371",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 34686794
+    },
+    {
+      "index": 11,
+      "title": "Superheroes",
+      "artist": "Daft Punk",
+      "isrc": "GBDUW0000062",
+      "spotify_id": "186hvCTyrni4KT9nwIQ7zS",
+      "apple_id": "697195890",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 1945390
+    },
+    {
+      "index": 12,
+      "title": "Sultans Of Swing",
+      "artist": "Dire Straits",
+      "isrc": "GBF089601041",
+      "spotify_id": "37Tmv4NnfQeb0ZgUC4fOJj",
+      "apple_id": "307029144",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 9298349
+    },
+    {
+      "index": 15,
+      "title": "Layla",
+      "artist": "Derek & The Dominos",
+      "isrc": "GBUM71504691",
+      "spotify_id": "4FzVgf3e1KGwRbFRWPI05W",
+      "apple_id": "1530993516",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 20933527
+    },
+    {
+      "index": 16,
+      "title": "Paradise",
+      "artist": "SG Lewis",
+      "isrc": "GBUM72402617",
+      "spotify_id": "7tVZViH1q2MRBwnGBPyq7w",
+      "apple_id": "1746849756",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 30487372
+    },
+    {
+      "index": 18,
+      "title": "Rie y Llora",
+      "artist": "Celia Cruz",
+      "isrc": "NLB630300220",
+      "spotify_id": "4C1BSaiwwqibSWT3qKh0GX",
+      "apple_id": "168404788",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 155520
+    },
+    {
+      "index": 19,
+      "title": "Tremor - Sensation 2014 Anthem",
+      "artist": "Dimitri Vegas & Like Mike",
+      "isrc": "NLZ541400192",
+      "spotify_id": "0gpvO8fKvZcQ4u54rdu469",
+      "apple_id": "1350850469",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 9216679
+    },
+    {
+      "index": 20,
+      "title": "Sunny",
+      "artist": "Disco Lines",
+      "isrc": "QM24S2501046",
+      "spotify_id": "7tZSQgFyzWAAtsb7OUUDbn",
+      "apple_id": "1801969968",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 32432559
+    },
+    {
+      "index": 22,
+      "title": "B.O.T.A. (Baddest Of Them All)",
+      "artist": "Eliza Rose",
+      "isrc": "QZAKB2166448",
+      "spotify_id": "45bfH0GZvUyujIBiKRhXso",
+      "apple_id": "1639317828",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 22307940
+    },
+    {
+      "index": 23,
+      "title": "Romantika",
+      "artist": "Brutalismus 3000",
+      "isrc": "QZHN72225465",
+      "spotify_id": "4nOOoo9OJbgnTBNHe5b6nD",
+      "apple_id": "1664863432",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 22989840
+    },
+    {
+      "index": 24,
+      "title": "Night Feels",
+      "artist": "AR/CO",
+      "isrc": "QZUCN2200134",
+      "spotify_id": "4KsS08Y4PbYhMGaSLUxIjI",
+      "apple_id": "1753944403",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 30742937
+    },
+    {
+      "index": 27,
+      "title": "Sabrás",
+      "artist": "Herencia de Timbiqui",
+      "isrc": "US7VG1445468",
+      "spotify_id": "2vR2X0f1Ti0vn9BG7beBGO",
+      "apple_id": "1566512839",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 35177307
+    },
+    {
+      "index": 29,
+      "title": "Cupid Shuffle",
+      "artist": "Cupid",
+      "isrc": "USAT20700490",
+      "spotify_id": "07Tx168RSsUS1HqkDIOZbH",
+      "apple_id": "263059061",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 20148175
+    },
+    {
+      "index": 30,
+      "title": "Creeping (feat. Rich the Kid)",
+      "artist": "Lil Skies",
+      "isrc": "USAT21801155",
+      "spotify_id": "7ms3VzLTfr7fXNOqA4Mkx9",
+      "apple_id": "1360402860",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 19422906
+    },
+    {
+      "index": 31,
+      "title": "Kickstart My Heart",
+      "artist": "Mötley Crüe",
+      "isrc": "USBY29900215",
+      "spotify_id": "4Yqy0GpeDEXLibWJCZyQew",
+      "apple_id": "1764396024",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 17752557
+    },
+    {
+      "index": 32,
+      "title": "Trouble",
+      "artist": "Midnight Generation",
+      "isrc": "USDHM1614585",
+      "spotify_id": "4aAQt6fsjmRK1dauKLCnhq",
+      "apple_id": "1508709850",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 34870690
+    },
+    {
+      "index": 33,
+      "title": "Semi-Charmed Life",
+      "artist": "Third Eye Blind",
+      "isrc": "USEE19701203",
+      "spotify_id": "42et6fnHCw1HIPSrdPprMl",
+      "apple_id": "271978747",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 1304197
+    },
+    {
+      "index": 34,
+      "title": "Hate It Or Love It",
+      "artist": "The Game",
+      "isrc": "USIR10401121",
+      "spotify_id": "2wGSgTmgSF3xjRrHkTc25R",
+      "apple_id": "1440799195",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 161875
+    },
+    {
+      "index": 35,
+      "title": "Mary Jane's Last Dance",
+      "artist": "Tom Petty and the Heartbreakers",
+      "isrc": "USMC19341704",
+      "spotify_id": "3dmqIB2Qxe2XZobw9gXxJ6",
+      "apple_id": "1469579721",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 9237122
+    },
+    {
+      "index": 36,
+      "title": "Bamboleo",
+      "artist": "Gipsy Kings",
+      "isrc": "USN018884501",
+      "spotify_id": "6UzJgMltaD45CnDpCgo72G",
+      "apple_id": "31739286",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 17989601
+    },
+    {
+      "index": 0,
+      "title": "Black & Blue",
+      "artist": "Goodboys",
+      "isrc": "GBAHS2101535",
+      "spotify_id": null,
+      "apple_id": "1603690791",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 31031721
+    },
+    {
+      "index": 1,
+      "title": "Feel the Love",
+      "artist": "Lohrasp Kansara",
+      "isrc": null,
+      "spotify_id": null,
+      "apple_id": "i.4YBeab3h2rY18bP",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 325394
+    },
+    {
+      "index": 2,
+      "title": "Nasty",
+      "artist": "3 Are Legend & Blasterjaxx",
+      "isrc": "BEIW12300253",
+      "spotify_id": null,
+      "apple_id": "1682116567",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 31033520
+    },
+    {
+      "index": 5,
+      "title": "Cuba Libre",
+      "artist": "Gg D'Ag",
+      "isrc": "DEA310908303",
+      "spotify_id": null,
+      "apple_id": "345359584",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 35875956
+    },
+    {
+      "index": 10,
+      "title": "Only Man (feat. Paul Johnson)",
+      "artist": "Airwolf Paradise",
+      "isrc": "DEDH72300047",
+      "spotify_id": null,
+      "apple_id": "1678852310",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 35757450
+    },
+    {
+      "index": 11,
+      "title": "Shiver",
+      "artist": "John Summit & HAYLA",
+      "isrc": "USUG12401003",
+      "spotify_id": null,
+      "apple_id": "1748171788",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 30469293
+    },
+    {
+      "index": 12,
+      "title": "buttons!",
+      "artist": "Knock2 & Dillon Francis",
+      "isrc": "ZZOPM2344039",
+      "spotify_id": null,
+      "apple_id": "1710275653",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 26769836
+    },
+    {
+      "index": 16,
+      "title": "Be The One",
+      "artist": "Eli Brown",
+      "isrc": "GBUM72302199",
+      "spotify_id": null,
+      "apple_id": "1677685964",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 23012407
+    },
+    {
+      "index": 18,
+      "title": "Pump the Brakes",
+      "artist": "Dom Dolla",
+      "isrc": "AUDCB1701713",
+      "spotify_id": null,
+      "apple_id": "1556428051",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 21429963
+    },
+    {
+      "index": 22,
+      "title": "Ferrari",
+      "artist": "James Hype & Miggy Dela Rosa",
+      "isrc": "GB3CE2200004",
+      "spotify_id": null,
+      "apple_id": "1617280597",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 22112704
+    },
+    {
+      "index": 24,
+      "title": "Hooked",
+      "artist": "NOTION",
+      "isrc": "CYA111900402",
+      "spotify_id": null,
+      "apple_id": "1482938350",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 20230687
+    },
+    {
+      "index": 30,
+      "title": "Cherry",
+      "artist": "NOTION",
+      "isrc": "UKQNV2100076",
+      "spotify_id": null,
+      "apple_id": "1676863982",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 25294481
+    },
+    {
+      "index": 38,
+      "title": "Strummer",
+      "artist": "Across Boundaries, Chris Stussy & Locklead",
+      "isrc": "UKACT2330565",
+      "spotify_id": null,
+      "apple_id": "1674677216",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 31995793
+    },
+    {
+      "index": 45,
+      "title": "Pump It Up (feat. The Black and White Brothers)",
+      "artist": "3 Are Legend, Tujamo & Jaxx & Vega",
+      "isrc": "BEIW12200476",
+      "spotify_id": null,
+      "apple_id": "1648949557",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 30927001
+    },
+    {
+      "index": 47,
+      "title": "Miracle Maker",
+      "artist": "Dom Dolla & Clementine Douglas",
+      "isrc": "USQX92201881",
+      "spotify_id": null,
+      "apple_id": "1630235826",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 22299983
+    },
+    {
+      "index": 49,
+      "title": "Food for the Soul",
+      "artist": "it's murph",
+      "isrc": "QM24S2300657",
+      "spotify_id": null,
+      "apple_id": "1670153824",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 22761685
+    },
+    {
+      "index": 55,
+      "title": "Get It Together (feat. Black Coffee & Jorja Smith)",
+      "artist": "Drake",
+      "isrc": "USCM51700045",
+      "spotify_id": null,
+      "apple_id": "1440891506",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 18766928
+    },
+    {
+      "index": 57,
+      "title": "Drive (feat. Delilah Montagu)",
+      "artist": "Black Coffee & David Guetta",
+      "isrc": "GB28K1800091",
+      "spotify_id": null,
+      "apple_id": "1705899777",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 19515003
+    },
+    {
+      "index": 62,
+      "title": "Get Low",
+      "artist": "Dillon Francis & DJ Snake",
+      "isrc": "USSM11403232",
+      "spotify_id": null,
+      "apple_id": "898408997",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 9286575
+    },
+    {
+      "index": 67,
+      "title": "I.D.G.A.F.O.S",
+      "artist": "Dillon Francis",
+      "isrc": "USZ4V1100091",
+      "spotify_id": null,
+      "apple_id": "472607566",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 9581107
+    },
+    {
+      "index": 68,
+      "title": "Need You",
+      "artist": "Dillon Francis & NGHTMRE",
+      "isrc": "USZ4V1600072",
+      "spotify_id": null,
+      "apple_id": "1106106858",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 20294530
+    },
+    {
+      "index": 70,
+      "title": "Reaching Out (feat. Bow Anderson)",
+      "artist": "Dillon Francis",
+      "isrc": "USZ4V2100168",
+      "spotify_id": null,
+      "apple_id": "1581043265",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 21835587
+    },
+    {
+      "index": 75,
+      "title": "7 Seconds (feat. Shamiya Battles) [Radio Edit]",
+      "artist": "James Hype",
+      "isrc": "US38Y2417571",
+      "spotify_id": null,
+      "apple_id": "1758144568",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 31097105
+    },
+    {
+      "index": 76,
+      "title": "Lose Control",
+      "artist": "James Hype",
+      "isrc": "NLRD52319304",
+      "spotify_id": null,
+      "apple_id": "1683013353",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 23046883
+    },
+    {
+      "index": 77,
+      "title": "Number 1",
+      "artist": "James Hype & Major Lazer",
+      "isrc": "US39N2308523",
+      "spotify_id": null,
+      "apple_id": "1822817275",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 30922668
+    },
+    {
+      "index": 78,
+      "title": "More Than Friends (feat. Kelli-Leigh)",
+      "artist": "James Hype",
+      "isrc": "GBAHT1700474",
+      "spotify_id": null,
+      "apple_id": "1251957073",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 18978843
+    },
+    {
+      "index": 79,
+      "title": "You Give Me a Feeling",
+      "artist": "Vintage Culture & James Hype",
+      "isrc": "CA5KR0010802",
+      "spotify_id": null,
+      "apple_id": "1659092811",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 30901418
+    },
+    {
+      "index": 82,
+      "title": "I Was Lovin' You (feat. Dots Per Inch & Ayak) [TS7 Remix]",
+      "artist": "James Hype",
+      "isrc": "UKRPL1900015",
+      "spotify_id": null,
+      "apple_id": "1475657633",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 19931588
+    },
+    {
+      "index": 83,
+      "title": "Afraid (feat. Harlee)",
+      "artist": "James Hype",
+      "isrc": "GBUM72003752",
+      "spotify_id": null,
+      "apple_id": "1530473995",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 20872808
+    },
+    {
+      "index": 84,
+      "title": "Dancing",
+      "artist": "James Hype",
+      "isrc": "NLZ542101474",
+      "spotify_id": null,
+      "apple_id": "1585687101",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 30935308
+    },
+    {
+      "index": 86,
+      "title": "I Got A Feeling (feat. Georgia Ku) [James Hype Remix]",
+      "artist": "Felix Jaehn, Robin Schulz & James Hype",
+      "isrc": "DEUM72117746",
+      "spotify_id": null,
+      "apple_id": "1585830477",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 32058847
+    },
+    {
+      "index": 87,
+      "title": "Blue (Da Ba Dee) [Gabry Ponte Ice Pop Mix]",
+      "artist": "Eiffel 65",
+      "isrc": "ITT019810104",
+      "spotify_id": null,
+      "apple_id": "257424857",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 18699901
+    },
+    {
+      "index": 91,
+      "title": "One Last",
+      "artist": "Kolter",
+      "isrc": "CA5KR1954544",
+      "spotify_id": null,
+      "apple_id": "1480478586",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 29367956
+    },
+    {
+      "index": 93,
+      "title": "Summer 91 (Looking Back)",
+      "artist": "Noizu",
+      "isrc": "GBARL2001582",
+      "spotify_id": null,
+      "apple_id": "1543037572",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 21389345
+    },
+    {
+      "index": 94,
+      "title": "Don't Stop",
+      "artist": "Biscits",
+      "isrc": "NLRD52302553",
+      "spotify_id": null,
+      "apple_id": "1681876201",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 24394545
+    },
+    {
+      "index": 100,
+      "title": "Turn Me On (feat. Vula)",
+      "artist": "Riton & Oliver Heldens",
+      "isrc": "GBCEN1900052",
+      "spotify_id": null,
+      "apple_id": "1478125194",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 19969764
+    },
+    {
+      "index": 101,
+      "title": "Never Be Lonely",
+      "artist": "Jax Jones & Zoe Wees",
+      "isrc": "GBUM72400217",
+      "spotify_id": null,
+      "apple_id": "1727350064",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 25612905
+    },
+    {
+      "index": 110,
+      "title": "Pump It Up",
+      "artist": "Endor",
+      "isrc": "GBCPZ1916610",
+      "spotify_id": null,
+      "apple_id": "1502424081",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 19997411
+    },
+    {
+      "index": 111,
+      "title": "Meet Her at the Loveparade (Radio Edit)",
+      "artist": "Da Hool",
+      "isrc": "DEC719700559",
+      "spotify_id": null,
+      "apple_id": "1657393728",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 1386125
+    },
+    {
+      "index": 112,
+      "title": "On My Mind",
+      "artist": "Diplo & SIDEPIECE",
+      "isrc": "USZ4V1900134",
+      "spotify_id": null,
+      "apple_id": "1489005963",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 20346214
+    },
+    {
+      "index": 115,
+      "title": "Afraid To Feel",
+      "artist": "LF SYSTEM",
+      "isrc": "GBAHT2200492",
+      "spotify_id": null,
+      "apple_id": "1616903944",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 22216582
+    },
+    {
+      "index": 116,
+      "title": "Where Did You Go?",
+      "artist": "Jax Jones & MNEK",
+      "isrc": "GBUM72108841",
+      "spotify_id": null,
+      "apple_id": "1606770075",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 22036125
+    },
+    {
+      "index": 118,
+      "title": "FIND ME in DA CLUB !!!",
+      "artist": "Disco Lines",
+      "isrc": null,
+      "spotify_id": null,
+      "apple_id": "i.WmYQZ6XcxRJAGP0",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 22160755
+    },
+    {
+      "index": 119,
+      "title": "The Business",
+      "artist": "Tiësto",
+      "isrc": "CYA112000624",
+      "spotify_id": null,
+      "apple_id": "1532019310",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 20878486
+    },
+    {
+      "index": 120,
+      "title": "Lose You (feat. ILIRA)",
+      "artist": "Tiësto",
+      "isrc": "CYA112000196",
+      "spotify_id": null,
+      "apple_id": "1511171883",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 20560491
+    },
+    {
+      "index": 121,
+      "title": "Hot Honey",
+      "artist": "Tiësto & Alana Springsteen",
+      "isrc": "CYA112400012",
+      "spotify_id": null,
+      "apple_id": "1757686154",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 30949381
+    },
+    {
+      "index": 122,
+      "title": "God Is a Dancer",
+      "artist": "Tiësto & Mabel",
+      "isrc": "CYA111900298",
+      "spotify_id": null,
+      "apple_id": "1479127509",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 19973851
+    },
+    {
+      "index": 124,
+      "title": "Run Free (Countdown)",
+      "artist": "Tiësto & R3HAB",
+      "isrc": "NLZ542301705",
+      "spotify_id": null,
+      "apple_id": "1712923020",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 23309091
+    },
+    {
+      "index": 125,
+      "title": "All My Life",
+      "artist": "Tiësto & FAST BOY",
+      "isrc": "NLZ542301988",
+      "spotify_id": null,
+      "apple_id": "1718963875",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 25336391
+    },
+    {
+      "index": 126,
+      "title": "Don't Be Shy",
+      "artist": "Tiësto & KAROL G",
+      "isrc": "CYA112000981",
+      "spotify_id": null,
+      "apple_id": "1652508882",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 21734686
+    },
+    {
+      "index": 127,
+      "title": "Thank You (Not So Bad)",
+      "artist": "Dimitri Vegas & Like Mike, Tiësto & Dido",
+      "isrc": "GBARL2301712",
+      "spotify_id": null,
+      "apple_id": "1716922911",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 23988041
+    },
+    {
+      "index": 128,
+      "title": "Lay Low",
+      "artist": "Tiësto",
+      "isrc": "NLZ542202348",
+      "spotify_id": null,
+      "apple_id": "1657740901",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 22619317
+    },
+    {
+      "index": 130,
+      "title": "BOTH (with 21 Savage)",
+      "artist": "Tiësto & BIA",
+      "isrc": "CYA112300110",
+      "spotify_id": null,
+      "apple_id": "1704405865",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 23189205
+    },
+    {
+      "index": 131,
+      "title": "Red Lights",
+      "artist": "Tiësto",
+      "isrc": "CYA111300030",
+      "spotify_id": null,
+      "apple_id": "1443117268",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 7970340
+    },
+    {
+      "index": 132,
+      "title": "Hot In It",
+      "artist": "Tiësto & Charli xcx",
+      "isrc": "CYA112001102",
+      "spotify_id": null,
+      "apple_id": "1630250897",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 22257483
+    },
+    {
+      "index": 133,
+      "title": "Rule The World (Everybody)",
+      "artist": "Tiësto, Tears for Fears, NIIKO X SWAE & GUDFELLA",
+      "isrc": "USUM72316636",
+      "spotify_id": null,
+      "apple_id": "1713790575",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 23283904
+    },
+    {
+      "index": 134,
+      "title": "All Nighter",
+      "artist": "Tiësto",
+      "isrc": "CYA112200001",
+      "spotify_id": null,
+      "apple_id": "1652508662",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 22870522
+    },
+    {
+      "index": 136,
+      "title": "Split (Only U)",
+      "artist": "Tiësto & The Chainsmokers",
+      "isrc": "CYA111500090",
+      "spotify_id": null,
+      "apple_id": "1511947026",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 32313841
+    },
+    {
+      "index": 137,
+      "title": "Dudada",
+      "artist": "Tiësto, Goldcher & Irina Rimes",
+      "isrc": "NLZ542400708",
+      "spotify_id": null,
+      "apple_id": "1770316022",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 31117265
+    },
+    {
+      "index": 139,
+      "title": "Better Place (Tiësto Remix)",
+      "artist": "*NSYNC & Tiësto",
+      "isrc": "USRC12303030",
+      "spotify_id": null,
+      "apple_id": "1716473980",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 35834273
+    },
+    {
+      "index": 141,
+      "title": "Savage",
+      "artist": "Tiësto & Deorro",
+      "isrc": "NLZ542200513",
+      "spotify_id": null,
+      "apple_id": "1619238428",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 22162653
+    },
+    {
+      "index": 142,
+      "title": "WOW",
+      "artist": "Tiësto",
+      "isrc": "CYA111800241",
+      "spotify_id": null,
+      "apple_id": "1509735360",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 19530248
+    },
+    {
+      "index": 145,
+      "title": "Blackout",
+      "artist": "Breathe Carolina",
+      "isrc": "US5261115303",
+      "spotify_id": null,
+      "apple_id": "493083441",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 5280238
+    },
+    {
+      "index": 149,
+      "title": "Around the World (La La La La La) [Radio Version]",
+      "artist": "A Touch of Class",
+      "isrc": "DEP810000008",
+      "spotify_id": null,
+      "apple_id": "1308905282",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 20355069
+    },
+    {
+      "index": 151,
+      "title": "Atmosphere",
+      "artist": "FISHER & Kita Alexander",
+      "isrc": "QZA742318982",
+      "spotify_id": null,
+      "apple_id": "1754198966",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 23183581
+    },
+    {
+      "index": 153,
+      "title": "Losing It",
+      "artist": "FISHER",
+      "isrc": "CA5KR1821202",
+      "spotify_id": null,
+      "apple_id": "1408454985",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 19535907
+    },
+    {
+      "index": 154,
+      "title": "Somebody (feat. Kimbra & Sante Sansone)",
+      "artist": "Gotye, FISHER & Chris Lake",
+      "isrc": "GBUM72311281",
+      "spotify_id": null,
+      "apple_id": "1726497643",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 30506338
+    },
+    {
+      "index": 155,
+      "title": "You Little Beauty",
+      "artist": "FISHER",
+      "isrc": "CA5KR1923939",
+      "spotify_id": null,
+      "apple_id": "1467425122",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 19831902
+    },
+    {
+      "index": 156,
+      "title": "It's That Time (FISHER Remix)",
+      "artist": "Marlon Hoffstadt & FISHER",
+      "isrc": "QZQAY2417164",
+      "spotify_id": null,
+      "apple_id": "1751742618",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 30840574
+    },
+    {
+      "index": 157,
+      "title": "Wanna Go Dancin'",
+      "artist": "FISHER",
+      "isrc": "QZA742002493",
+      "spotify_id": null,
+      "apple_id": "1503415448",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 20462724
+    },
+    {
+      "index": 158,
+      "title": "Jamming (FISHER Rework)",
+      "artist": "Bob Marley & The Wailers & FISHER",
+      "isrc": "USUM72401299",
+      "spotify_id": null,
+      "apple_id": "1728925734",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 30897160
+    },
+    {
+      "index": 160,
+      "title": "Freaks",
+      "artist": "FISHER",
+      "isrc": "QZA742002490",
+      "spotify_id": null,
+      "apple_id": "1502324622",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 20410416
+    },
+    {
+      "index": 163,
+      "title": "Stop It",
+      "artist": "FISHER",
+      "isrc": "GBLV61708214",
+      "spotify_id": null,
+      "apple_id": "1714356981",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 30939716
+    },
+    {
+      "index": 165,
+      "title": "Ya Didn't",
+      "artist": "FISHER",
+      "isrc": "GBKQU1792957",
+      "spotify_id": null,
+      "apple_id": "1714356982",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 30939717
+    },
+    {
+      "index": 168,
+      "title": "SMACK TALK",
+      "artist": "ISOxo, Knock2, RL Grime & ISOKNOCK",
+      "isrc": "QM6P42417093",
+      "spotify_id": null,
+      "apple_id": "1751314377",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 30757267
+    },
+    {
+      "index": 169,
+      "title": "Go Back",
+      "artist": "John Summit, Sub Focus & Julia Church",
+      "isrc": "USUG12402628",
+      "spotify_id": null,
+      "apple_id": "1745292770",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 30022036
+    },
+    {
+      "index": 170,
+      "title": "What a Life (feat. Stevie Appleton)",
+      "artist": "John Summit & Guz",
+      "isrc": "GBCPZ2221055",
+      "spotify_id": null,
+      "apple_id": "1783998760",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 31028994
+    },
+    {
+      "index": 171,
+      "title": "Make Me Feel",
+      "artist": "John Summit",
+      "isrc": "CA5KR2133865",
+      "spotify_id": null,
+      "apple_id": "1661166370",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 30916300
+    },
+    {
+      "index": 173,
+      "title": "Sun Came Up",
+      "artist": "SOFI TUKKER & John Summit",
+      "isrc": "QM37X2100005",
+      "spotify_id": null,
+      "apple_id": "1762715188",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 21799034
+    },
+    {
+      "index": 174,
+      "title": "Human (feat. Echoes)",
+      "artist": "John Summit",
+      "isrc": "GBAYE2101411",
+      "spotify_id": null,
+      "apple_id": "1591302173",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 21933431
+    },
+    {
+      "index": 175,
+      "title": "EAT THE BASS",
+      "artist": "John Summit",
+      "isrc": "QM24S2401823",
+      "spotify_id": null,
+      "apple_id": "1748171792",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 30469294
+    },
+    {
+      "index": 176,
+      "title": "La Danza",
+      "artist": "John Summit",
+      "isrc": "GBCPZ2220636",
+      "spotify_id": null,
+      "apple_id": "1787878535",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 22089644
+    },
+    {
+      "index": 177,
+      "title": "Comfort In Chaos",
+      "artist": "John Summit",
+      "isrc": "USUG12402620",
+      "spotify_id": null,
+      "apple_id": "1748171784",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 30469290
+    },
+    {
+      "index": 178,
+      "title": "Witch Doctor (feat. Nic Fanciulli)",
+      "artist": "John Summit",
+      "isrc": "GBJAJ2101120",
+      "spotify_id": null,
+      "apple_id": "1570698332",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 38570956
+    },
+    {
+      "index": 180,
+      "title": "Esa Boca",
+      "artist": "Dillon Nathaniel & John Summit",
+      "isrc": "GBK6Y1957002",
+      "spotify_id": null,
+      "apple_id": "1678851159",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 20709163
+    },
+    {
+      "index": 182,
+      "title": "Connected (Edit)",
+      "artist": "John Summit",
+      "isrc": "GBK6Y2007101",
+      "spotify_id": null,
+      "apple_id": "1678613398",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 20709152
+    },
+    {
+      "index": 185,
+      "title": "hold my hand",
+      "artist": "Knock2 & Sophia Gripari",
+      "isrc": "QMDA62435301",
+      "spotify_id": null,
+      "apple_id": "1770157440",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 31150997
+    },
+    {
+      "index": 186,
+      "title": "THRASH (PARTY STARTER)",
+      "artist": "ISOKNOCK, ISOxo & Knock2",
+      "isrc": "QM6P42472394",
+      "spotify_id": null,
+      "apple_id": "1753794946",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 30757268
+    },
+    {
+      "index": 187,
+      "title": "One Chance (feat. Marlhy)",
+      "artist": "Knock2 & NGHTMRE",
+      "isrc": "US39N2204824",
+      "spotify_id": null,
+      "apple_id": "1711456752",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 23144398
+    },
+    {
+      "index": 195,
+      "title": "Angel",
+      "artist": "Massive Attack",
+      "isrc": "GBAAA9800327",
+      "spotify_id": null,
+      "apple_id": "724466660",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 9155950
+    },
+    {
+      "index": 196,
+      "title": "Flower",
+      "artist": "Moby",
+      "isrc": "GBAJH0000377",
+      "spotify_id": null,
+      "apple_id": "281242696",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 9392266
+    },
+    {
+      "index": 199,
+      "title": "Receipts (feat. Gunna)",
+      "artist": "Diplo & Mau P",
+      "isrc": "USSM12405862",
+      "spotify_id": null,
+      "apple_id": "1762909855",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 31097535
+    },
+    {
+      "index": 201,
+      "title": "Gimme That Bounce",
+      "artist": "Mau P",
+      "isrc": "NLRD52264071",
+      "spotify_id": null,
+      "apple_id": "1657524065",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 22722731
+    },
+    {
+      "index": 203,
+      "title": "Drugs From Amsterdam",
+      "artist": "Mau P",
+      "isrc": "GBK6Y2251421",
+      "spotify_id": null,
+      "apple_id": "1645283575",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 22383121
+    },
+    {
+      "index": 204,
+      "title": "Your Mind Is Dirty",
+      "artist": "Mau P",
+      "isrc": "GBCPZ2321812",
+      "spotify_id": null,
+      "apple_id": "1783989876",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 30153101
+    },
+    {
+      "index": 205,
+      "title": "Dress Code",
+      "artist": "Mau P",
+      "isrc": "QZA742320868",
+      "spotify_id": null,
+      "apple_id": "1787190044",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 30153092
+    },
+    {
+      "index": 206,
+      "title": "Metro",
+      "artist": "Kevin de Vries & Mau P",
+      "isrc": "DEEC33501145",
+      "spotify_id": null,
+      "apple_id": "1719003437",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 26766896
+    },
+    {
+      "index": 207,
+      "title": "California Dreamin' (feat. High Jinx)",
+      "artist": "Chris Lorenzo",
+      "isrc": "USUG12104877",
+      "spotify_id": null,
+      "apple_id": "1588014124",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 21854512
+    },
+    {
+      "index": 209,
+      "title": "Every Morning",
+      "artist": "Chris Lorenzo",
+      "isrc": "FR96X1907650",
+      "spotify_id": null,
+      "apple_id": "1823794808",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 19981302
+    },
+    {
+      "index": 213,
+      "title": "Rhymes",
+      "artist": "Hannah Wants & Chris Lorenzo",
+      "isrc": "GBUM71406235",
+      "spotify_id": null,
+      "apple_id": "1444321035",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 9475644
+    },
+    {
+      "index": 220,
+      "title": "Together",
+      "artist": "SIDEPIECE",
+      "isrc": "GBAYE2001141",
+      "spotify_id": null,
+      "apple_id": "1537624592",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 21708655
+    },
+    {
+      "index": 223,
+      "title": "Transition",
+      "artist": "Biscits",
+      "isrc": "UKRPL1900124",
+      "spotify_id": null,
+      "apple_id": "1535967029",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 31097547
+    },
+    {
+      "index": 224,
+      "title": "4EVR",
+      "artist": "ISOKNOCK, ISOxo, Knock2 & cade clair",
+      "isrc": "QM6P42472446",
+      "spotify_id": null,
+      "apple_id": "1753795097",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 30757274
+    },
+    {
+      "index": 225,
+      "title": "She’s Gone, Dance On",
+      "artist": "Disclosure",
+      "isrc": "USA2P2420371",
+      "spotify_id": null,
+      "apple_id": "1747616881",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 30035732
+    },
+    {
+      "index": 230,
+      "title": "Pica",
+      "artist": "Deorro, Elvis Crespo & Henry Fong",
+      "isrc": "USUS11900062",
+      "spotify_id": null,
+      "apple_id": "1714744152",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 20476559
+    },
+    {
+      "index": 232,
+      "title": "Won’t Let You Go",
+      "artist": "Martin Garrix, Matisse & Sadko & John Martin",
+      "isrc": "NLM5S2101507",
+      "spotify_id": null,
+      "apple_id": "1596283391",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 21940583
+    },
+    {
+      "index": 233,
+      "title": "Shockwave",
+      "artist": "Marshmello",
+      "isrc": "CA5KR2173416",
+      "spotify_id": null,
+      "apple_id": "1570338796",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 21613799
+    },
+    {
+      "index": 236,
+      "title": "On Repeat",
+      "artist": "Robin Schulz & David Guetta",
+      "isrc": "DEA622200532",
+      "spotify_id": null,
+      "apple_id": "1694918581",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 22171125
+    },
+    {
+      "index": 237,
+      "title": "Hero",
+      "artist": "AFROJACK & David Guetta",
+      "isrc": "CYA222100011",
+      "spotify_id": null,
+      "apple_id": "1561995397",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 21488789
+    },
+    {
+      "index": 238,
+      "title": "Feel My Love (feat. Joe Taylor)",
+      "artist": "Lucas & Steve & DubVision",
+      "isrc": "NLZ542200717",
+      "spotify_id": null,
+      "apple_id": "1624966416",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 30991685
+    },
+    {
+      "index": 241,
+      "title": "Light Up My Life",
+      "artist": "Jack Wins & Joe Stone",
+      "isrc": "NLZ542100726",
+      "spotify_id": null,
+      "apple_id": "1564118136",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 21634154
+    },
+    {
+      "index": 242,
+      "title": "Touch",
+      "artist": "Vinai",
+      "isrc": "NLZ542100906",
+      "spotify_id": null,
+      "apple_id": "1569408663",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 21656066
+    },
+    {
+      "index": 243,
+      "title": "Trio",
+      "artist": "ARTY, Matisse & Sadko",
+      "isrc": "GBKCF1200201",
+      "spotify_id": null,
+      "apple_id": "627496709",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 5161318
+    },
+    {
+      "index": 244,
+      "title": "Freak (feat. Steve Bays)",
+      "artist": "Steve Aoki, Diplo & Deorro",
+      "isrc": "USZ4V1400017",
+      "spotify_id": null,
+      "apple_id": "890684672",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 9282206
+    },
+    {
+      "index": 246,
+      "title": "Freak",
+      "artist": "Skepsis & TS7",
+      "isrc": "FR2X42068793",
+      "spotify_id": null,
+      "apple_id": "1509349206",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 30988234
+    },
+    {
+      "index": 247,
+      "title": "Satisfaction",
+      "artist": "Benny Benassi & The Biz",
+      "isrc": "USUS10410043",
+      "spotify_id": null,
+      "apple_id": "1712041112",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 4429776
+    },
+    {
+      "index": 248,
+      "title": "Levels",
+      "artist": "Avicii",
+      "isrc": "SEUM71100961",
+      "spotify_id": null,
+      "apple_id": "1440787349",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 4446504
+    },
+    {
+      "index": 250,
+      "title": "Dancin (Krono Remix) [feat. Luvli]",
+      "artist": "Aaron Smith",
+      "isrc": null,
+      "spotify_id": null,
+      "apple_id": "933075723",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 20648440
+    },
+    {
+      "index": 251,
+      "title": "Dancing Tonight",
+      "artist": "PARTY SHIRT",
+      "isrc": null,
+      "spotify_id": null,
+      "apple_id": "i.RBrxbZYT16eVadb",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 3639519
+    },
+    {
+      "index": 252,
+      "title": "19-2000 (Soulchild Remix)",
+      "artist": "Gorillaz",
+      "isrc": "GBAYE1400480",
+      "spotify_id": null,
+      "apple_id": "850576766",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 18829401
+    },
+    {
+      "index": 253,
+      "title": "Friday (feat. Mufasa & Hypeman) [Dopamine Re-Edit]",
+      "artist": "Riton & Nightcrawlers",
+      "isrc": "GBCEN2000163",
+      "spotify_id": null,
+      "apple_id": "1544962737",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 21171661
+    },
+    {
+      "index": 254,
+      "title": "Bangarang (feat. Sirah)",
+      "artist": "Skrillex",
+      "isrc": "USAT21104243",
+      "spotify_id": null,
+      "apple_id": "491596647",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 4447381
+    },
+    {
+      "index": 256,
+      "title": "Samba do Brasil",
+      "artist": "Bellini",
+      "isrc": "DEUM71401697",
+      "spotify_id": null,
+      "apple_id": "1639595554",
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 9256621
+    },
+    {
+      "index": 344,
+      "title": "Something About Us",
+      "artist": "Daft Punk",
+      "isrc": "GBDUW0000064",
+      "spotify_id": null,
+      "apple_id": null,
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 554601
+    },
+    {
+      "index": 345,
+      "title": "Put Your Head on My Shoulder",
+      "artist": "Paul Anka",
+      "isrc": "ZA42A1544718",
+      "spotify_id": null,
+      "apple_id": null,
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 20748971
+    },
+    {
+      "index": 346,
+      "title": "Tom's Diner",
+      "artist": "Suzanne Vega",
+      "isrc": "USAM10300195",
+      "spotify_id": null,
+      "apple_id": null,
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 5248854
+    },
+    {
+      "index": 347,
+      "title": "Push The Tempo",
+      "artist": "Sub Focus",
+      "isrc": "GBUM72405427",
+      "spotify_id": null,
+      "apple_id": null,
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 30835261
+    },
+    {
+      "index": 348,
+      "title": "D.A.N.C.E.",
+      "artist": "Justice",
+      "isrc": "FR0NT0700420",
+      "spotify_id": null,
+      "apple_id": null,
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 51092
+    },
+    {
+      "index": 349,
+      "title": "Freed From Desire",
+      "artist": "Gala",
+      "isrc": "ITA179700143",
+      "spotify_id": null,
+      "apple_id": null,
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 1061392
+    },
+    {
+      "index": 350,
+      "title": "Blame It on the Boogie",
+      "artist": "The Jacksons",
+      "isrc": "USSM17801024",
+      "spotify_id": null,
+      "apple_id": null,
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 2235096
+    },
+    {
+      "index": 351,
+      "title": "Play That Funky Music",
+      "artist": "Wild Cherry",
+      "isrc": "USSM19912699",
+      "spotify_id": null,
+      "apple_id": null,
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 432877
+    },
+    {
+      "index": 352,
+      "title": "Treasure",
+      "artist": "Bruno Mars",
+      "isrc": "USAT21206969",
+      "spotify_id": null,
+      "apple_id": null,
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 5260845
+    },
+    {
+      "index": 353,
+      "title": "STILL IN THE PAINT",
+      "artist": "Denzel Curry",
+      "isrc": "USC4R2447762",
+      "spotify_id": null,
+      "apple_id": null,
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 31138337
+    },
+    {
+      "index": 354,
+      "title": "Europa (Earth's Cry Heaven's Smile)",
+      "artist": "Santana",
+      "isrc": "USSM10013400",
+      "spotify_id": null,
+      "apple_id": null,
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 58269
+    },
+    {
+      "index": 355,
+      "title": "Unwritten",
+      "artist": "Natasha Bedingfield",
+      "isrc": "GBARL0400707",
+      "spotify_id": null,
+      "apple_id": null,
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 231716
+    },
+    {
+      "index": 356,
+      "title": "Desire",
+      "artist": "Sub Focus & Dimension",
+      "isrc": "GBUM71806016",
+      "spotify_id": null,
+      "apple_id": null,
+      "inputMusicStoryRecordingId": null,
+      "providerRecordingId": 19545468
+    }
+  ]
+}
