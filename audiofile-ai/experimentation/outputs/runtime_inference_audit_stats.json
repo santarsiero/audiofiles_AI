@@ -1,0 +1,306 @@
+{
+  "meta": {
+    "songs": 38,
+    "ms": 3,
+    "analysisPath": "experimentation/outputs/calibration_analysis.json",
+    "joinedPath": "experimentation/outputs/calibration_set_1_with_descriptors.json"
+  },
+  "energetic": {
+    "energeticScoreDist": {
+      "n": 38,
+      "min": 0.1024281875,
+      "p25": 0.43307921875,
+      "p50": 0.56518938125,
+      "p75": 0.655040946875,
+      "max": 0.7407016625,
+      "mean": 0.5380791210526314
+    },
+    "energeticConfidenceDist": {
+      "n": 38,
+      "min": 0,
+      "p25": 0,
+      "p50": 0,
+      "p75": 0,
+      "max": 0,
+      "mean": 0
+    },
+    "energyScoreDist": {
+      "n": 38,
+      "min": 0.1024281875,
+      "p25": 0.43307921875,
+      "p50": 0.56518938125,
+      "p75": 0.655040946875,
+      "max": 0.7407016625,
+      "mean": 0.5380791210526314
+    },
+    "energyConfidenceDist": {
+      "n": 38,
+      "min": 0.95,
+      "p25": 0.95,
+      "p50": 0.95,
+      "p75": 0.95,
+      "max": 0.95,
+      "mean": 0.9499999999999998
+    },
+    "failuresCount": 13,
+    "failures": [
+      {
+        "artist": "Darude",
+        "title": "Sandstorm",
+        "energyScore": 0.6516440625,
+        "energyConfidence": 0.95,
+        "energeticScore": 0.6516440625,
+        "energeticConfidence": 0,
+        "suppressionReason": "energy_not_high_enough"
+      },
+      {
+        "artist": "FISHER",
+        "title": "Losing It",
+        "energyScore": 0.7166412874999999,
+        "energyConfidence": 0.95,
+        "energeticScore": 0.7166412874999999,
+        "energeticConfidence": 0,
+        "suppressionReason": "energy_not_high_enough"
+      },
+      {
+        "artist": "Skrillex",
+        "title": "Bangarang (feat. Sirah)",
+        "energyScore": 0.7407016625,
+        "energyConfidence": 0.95,
+        "energeticScore": 0.7407016625,
+        "energeticConfidence": 0,
+        "suppressionReason": "energy_not_high_enough"
+      },
+      {
+        "artist": "Skrillex",
+        "title": "Scary Monsters and Nice Sprites",
+        "energyScore": 0.7369759124999999,
+        "energyConfidence": 0.95,
+        "energeticScore": 0.7369759124999999,
+        "energeticConfidence": 0,
+        "suppressionReason": "energy_not_high_enough"
+      },
+      {
+        "artist": "Sub Focus",
+        "title": "Push The Tempo",
+        "energyScore": 0.7018011875000001,
+        "energyConfidence": 0.95,
+        "energeticScore": 0.7018011875000001,
+        "energeticConfidence": 0,
+        "suppressionReason": "energy_not_high_enough"
+      },
+      {
+        "artist": "Sub Focus & Dimension",
+        "title": "Desire",
+        "energyScore": 0.7091741625,
+        "energyConfidence": 0.95,
+        "energeticScore": 0.7091741625,
+        "energeticConfidence": 0,
+        "suppressionReason": "energy_not_high_enough"
+      },
+      {
+        "artist": "Denzel Curry",
+        "title": "STILL IN THE PAINT",
+        "energyScore": 0.656152525,
+        "energyConfidence": 0.95,
+        "energeticScore": 0.656152525,
+        "energeticConfidence": 0,
+        "suppressionReason": "energy_not_high_enough"
+      },
+      {
+        "artist": "The Game",
+        "title": "Hate It Or Love It",
+        "energyScore": 0.6517062125,
+        "energyConfidence": 0.95,
+        "energeticScore": 0.6517062125,
+        "energeticConfidence": 0,
+        "suppressionReason": "energy_not_high_enough"
+      },
+      {
+        "artist": "Nirvana",
+        "title": "Smells Like Teen Spirit",
+        "energyScore": 0.6566023875,
+        "energyConfidence": 0.95,
+        "energeticScore": 0.6566023875,
+        "energeticConfidence": 0,
+        "suppressionReason": "energy_not_high_enough"
+      },
+      {
+        "artist": "Mötley Crüe",
+        "title": "Kickstart My Heart",
+        "energyScore": 0.6774485499999999,
+        "energyConfidence": 0.95,
+        "energeticScore": 0.6774485499999999,
+        "energeticConfidence": 0,
+        "suppressionReason": "energy_not_high_enough"
+      },
+      {
+        "artist": "Franz Ferdinand",
+        "title": "Take Me Out",
+        "energyScore": 0.6602850124999999,
+        "energyConfidence": 0.95,
+        "energeticScore": 0.6602850124999999,
+        "energeticConfidence": 0,
+        "suppressionReason": "energy_not_high_enough"
+      },
+      {
+        "artist": "Wild Cherry",
+        "title": "Play That Funky Music",
+        "energyScore": 0.6784334125,
+        "energyConfidence": 0.95,
+        "energeticScore": 0.6784334125,
+        "energeticConfidence": 0,
+        "suppressionReason": "energy_not_high_enough"
+      },
+      {
+        "artist": "The Jacksons",
+        "title": "Blame It on the Boogie",
+        "energyScore": 0.6513987250000001,
+        "energyConfidence": 0.95,
+        "energeticScore": 0.6513987250000001,
+        "energeticConfidence": 0,
+        "suppressionReason": "energy_not_high_enough"
+      }
+    ]
+  },
+  "density": {
+    "densityScoreDist": {
+      "n": 38,
+      "min": 0.06738114999999999,
+      "p25": 0.10535867499999998,
+      "p50": 0.132660075,
+      "p75": 0.147141,
+      "max": 0.1998642,
+      "mean": 0.1282135157894737
+    },
+    "densityConfidenceDist": {
+      "n": 38,
+      "min": 0.7,
+      "p25": 0.7,
+      "p50": 0.7,
+      "p75": 0.7,
+      "max": 0.7,
+      "mean": 0.6999999999999996
+    },
+    "expectedDenseCount": 9,
+    "expectedDense": [
+      {
+        "artist": "Skrillex",
+        "title": "Bangarang (feat. Sirah)",
+        "densityScore": 0.14771845,
+        "densityConfidence": 0.7,
+        "event_density": 0.064182,
+        "intensity": 0.268558,
+        "complexity": 0.280465
+      },
+      {
+        "artist": "Skrillex",
+        "title": "Scary Monsters and Nice Sprites",
+        "densityScore": 0.142342,
+        "densityConfidence": 0.7,
+        "event_density": 0.063091,
+        "intensity": 0.277954,
+        "complexity": 0.233326
+      },
+      {
+        "artist": "Sub Focus",
+        "title": "Push The Tempo",
+        "densityScore": 0.1307071,
+        "densityConfidence": 0.7,
+        "event_density": 0.053428,
+        "intensity": 0.318802,
+        "complexity": 0.126332
+      },
+      {
+        "artist": "Sub Focus & Dimension",
+        "title": "Desire",
+        "densityScore": 0.136902,
+        "densityConfidence": 0.7,
+        "event_density": 0.059984,
+        "intensity": 0.264084,
+        "complexity": 0.232604
+      },
+      {
+        "artist": "Lil Jon & The East Side Boyz",
+        "title": "Get Low",
+        "densityScore": 0.14540865,
+        "densityConfidence": 0.7,
+        "event_density": 0.047409,
+        "intensity": 0.243228,
+        "complexity": 0.374375
+      },
+      {
+        "artist": "Denzel Curry",
+        "title": "STILL IN THE PAINT",
+        "densityScore": 0.1688471,
+        "densityConfidence": 0.7,
+        "event_density": 0.058553,
+        "intensity": 0.378881,
+        "complexity": 0.259967
+      },
+      {
+        "artist": "Nirvana",
+        "title": "Smells Like Teen Spirit",
+        "densityScore": 0.18414055,
+        "densityConfidence": 0.7,
+        "event_density": 0.052977,
+        "intensity": 0.192415,
+        "complexity": 0.695004
+      },
+      {
+        "artist": "Camille Saint-Saëns",
+        "title": "Danse macabre, Op. 40",
+        "densityScore": 0.1099018,
+        "densityConfidence": 0.7,
+        "event_density": 0.036057,
+        "intensity": 0.035488,
+        "complexity": 0.529304
+      },
+      {
+        "artist": "Antonín Dvořák",
+        "title": "Symphony No. 9 in E Minor, Op. 95, B. 178 \"From the New World\": IV. Allegro con fuoco",
+        "densityScore": 0.166127,
+        "densityConfidence": 0.7,
+        "event_density": 0.04849,
+        "intensity": 0.06608,
+        "complexity": 0.80342
+      }
+    ]
+  },
+  "pulse": {
+    "electronicN": 10,
+    "nonElectronicN": 28,
+    "electronicAvgPulse": 0.6563361750000001,
+    "electronicAvgConfidence": 1,
+    "nonElectronicAvgPulse": 0.44099941785714286,
+    "nonElectronicAvgConfidence": 1
+  },
+  "surfaceRates": {
+    "expectedCounts": {
+      "energetic": 16,
+      "driving": 14,
+      "steady": 10,
+      "bouncy": 10,
+      "heavy": 7,
+      "punchy": 5,
+      "dense": 9,
+      "vocal": 26,
+      "instrumental": 8,
+      "speech": 0,
+      "hypnotic": 6
+    },
+    "surfacedCounts": {
+      "energetic": 0,
+      "driving": 1,
+      "steady": 14,
+      "bouncy": 7,
+      "heavy": 13,
+      "punchy": 5,
+      "dense": 0,
+      "vocal": 22,
+      "instrumental": 4,
+      "speech": 0,
+      "hypnotic": 3
+    }
+  }
+}

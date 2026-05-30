@@ -435,6 +435,149 @@ This log is append-only.
 
 - Build Representative Semantic Validation Set
 
+---
+
+## 2026-05-29 — Energetic Reachability Fix + Density Distribution Investigation
+
+### Purpose
+
+- Implement ONE targeted runtime adjustment (energetic reachability).
+- Perform ONE investigation (density distribution over full success cache).
+
+### Files modified
+
+- `audiofile-ai/src/mapping/labelScorer.js`
+
+### Files created
+
+- `audiofile-ai/experimentation/outputs/density_distribution_investigation.json`
+- `audiofile-ai/experimentation/reports/density_distribution_investigation.md`
+
+### Energetic change
+
+- Old energetic threshold (in `projectEnergetic`): `0.75`
+- New energetic threshold (in `projectEnergetic`): `0.70`
+
+Rationale:
+
+- Calibration set max `energy_score` observed was below 0.75, making energetic effectively unreachable.
+- Threshold lowered to restore reachability while keeping energy representation unchanged.
+
+Validation (calibration set re-run):
+
+- energetic surfaced count before: `0`
+- energetic surfaced count after: `2`
+- Newly surfaced energetic:
+  - Skrillex — Bangarang (feat. Sirah)
+  - Skrillex — Scary Monsters and Nice Sprites
+
+### Density investigation summary
+
+- Dataset: `musicstory_successes_only.json` (357 successful cached payloads)
+- Finding: `event_density` is tightly ranged and very small (max ~0.077), yielding `density_score` max ~0.257.
+- Implication: dense thresholds (hard-suppress 0.4 / required 0.5) are disconnected from observed scale.
+
+---
+
+## 2026-05-30 — Dense/Sparse Surfacing Deferred (Preserve Density Research Findings)
+
+### Files modified
+
+- `audiofile-ai/src/mapping/labelScorer.js`
+- `audiofile-ai/experimentation/scripts/validate_runtime_alignment_on_cache.js`
+- `audiofile-ai/experimentation/scripts/run_calibration_analysis_reporting.js`
+
+### Files created
+
+- `Info/AudioFile_AI_Density_Findings_and_Future_Plan.md`
+
+### Dense/Sparse status
+
+- `dense`
+  - Still computed as an aligned label internally.
+  - Marked as **deferred** and excluded from surfacing.
+  - Must not appear in final surfaced `labels`.
+- `sparse`
+  - Not surfaced.
+  - Treated as deferred; reserved for future implementation.
+
+### Reason dense was deferred
+
+- Current `density_score` is not a reliable surfaced signal and can mislead users.
+- The data shows `density_score` is fundamentally mis-scaled vs current dense thresholds.
+
+### Summary of evidence
+
+- Over the 357-success cache, `event_density` is very small scale (max ~0.077).
+- As implemented, this yields `density_score` max ~0.257 while dense suppression/required thresholds are 0.4/0.5.
+- Correlation/redundancy analysis supports density as an emergent concept:
+  - `event_density`, `complexity`, and `flatness` provide mostly distinct information.
+  - `flatness` and `zero_cross_rate` overlap (optional support only).
+  - `intensity` and `absolute_loudness` are primarily loudness/energy signals and should not be primary density drivers.
+
+### Future implementation plan (do not implement now)
+
+- Rebuild dense/sparse as emergent semantic labels derived from multiple lower-level dimensions:
+  - `activity_score` from `event_density`
+  - `complexity_score` from `complexity`
+  - `spectral_crowding_score` from `flatness` with optional support `zero_cross_rate`
+- Future `dense` should reflect high activity + high complexity + high spectral crowding.
+- Future `sparse` should reflect low activity + low complexity + low spectral crowding.
+
+---
+
+## 2026-05-30 — Targeted Runtime Fixes: Energetic, Driving, Heavy
+
+### Purpose
+
+- Apply targeted runtime adjustments based on the post-dense-deferral calibration report.
+- Improve obvious underfiring/overfiring while preserving conservative behavior.
+- No density changes. Dense remains deferred.
+
+### Files modified
+
+- `audiofile-ai/src/mapping/labelScorer.js`
+
+### Energetic
+
+- Old behavior:
+  - Threshold: `energy_score >= 0.70`
+  - Confidence: `(0.60 + 0.40 * strength) * base`
+- New behavior:
+  - Threshold: `energy_score >= 0.67`
+  - Confidence: `(0.65 + 0.35 * strength) * base`
+- Rationale:
+  - Calibration evidence showed many expected energetic songs in the 0.65–0.70 band were suppressed.
+  - Adjustment increases reachability while keeping suppression for weak energy cases.
+
+### Driving
+
+- Old behavior:
+  - Required: `pulse_score >= 0.65` AND `energy_score >= 0.55`.
+  - Score: average `(pulse + energy) / 2`.
+- New behavior:
+  - Required: `pulse_score >= 0.60`, `energy_score >= 0.50`, and `drive_combo >= 0.60`.
+  - `drive_combo = 0.6 * pulse_score + 0.4 * energy_score`.
+  - Score now equals `drive_combo`.
+- Rationale:
+  - Driving was underfiring due to strict pulse/energy requirements.
+  - Combined evidence gating preserves conservatism and avoids making driving equivalent to steady/bouncy.
+
+### Heavy
+
+- Old behavior:
+  - Required: `brightness_score <= 0.40` AND `energy_score >= 0.55`.
+  - Included a density-based confidence boost when `density_score > 0.50`.
+- New behavior:
+  - Required: `brightness_score <= 0.40` AND `energy_score >= 0.60`.
+  - Added conservative support requirement:
+    - when `energy_score < 0.70`, require `punch_score >= 0.55`.
+  - Removed density-based confidence boost.
+- Rationale:
+  - Heavy was overfiring from low brightness + moderate energy.
+  - Added stronger energy support and punch corroboration without relying on density.
+
+
 
 
 

@@ -1,0 +1,247 @@
+{
+  "generatedAt": "2026-05-30T03:33:00.071Z",
+  "meta": {
+    "successesPath": "experimentation/outputs/musicstory_successes_only.json",
+    "successCount": 357,
+    "primary": [
+      "event_density",
+      "complexity",
+      "flatness",
+      "zero_cross_rate",
+      "intensity",
+      "absolute_loudness"
+    ],
+    "secondary": [
+      "loudness",
+      "arousal",
+      "complexity_chroma"
+    ],
+    "correlation": {
+      "method": "pearson",
+      "completeCase": true
+    }
+  },
+  "distributions": {
+    "event_density": {
+      "n": 357,
+      "mean": 0.05388779551820732,
+      "median": 0.053428,
+      "std": 0.006900357678417272,
+      "min": 0.036057,
+      "max": 0.077204
+    },
+    "complexity": {
+      "n": 357,
+      "mean": 0.2851297843137257,
+      "median": 0.240463,
+      "std": 0.21279146040092226,
+      "min": 0.000538,
+      "max": 0.882731
+    },
+    "flatness": {
+      "n": 357,
+      "mean": 0.2701217955182074,
+      "median": 0.269162,
+      "std": 0.057401132868280615,
+      "min": 0.095821,
+      "max": 0.427153
+    },
+    "zero_cross_rate": {
+      "n": 357,
+      "mean": 0.0649949243697479,
+      "median": 0.064259,
+      "std": 0.01711997983261029,
+      "min": 0.02674,
+      "max": 0.126338
+    },
+    "intensity": {
+      "n": 357,
+      "mean": 0.23403191036414572,
+      "median": 0.231588,
+      "std": 0.07366545480133445,
+      "min": 0.035488,
+      "max": 0.437576
+    },
+    "absolute_loudness": {
+      "n": 357,
+      "mean": -13.247755170868343,
+      "median": -13.021048,
+      "std": 2.5452211169757444,
+      "min": -24.980436,
+      "max": -7.016726
+    },
+    "loudness": {
+      "n": 357,
+      "mean": -13.409523593837529,
+      "median": -13.067936,
+      "std": 2.7671716355486344,
+      "min": -26.392353,
+      "max": -7.016726
+    },
+    "arousal": {
+      "n": 357,
+      "mean": 0.6959199439775913,
+      "median": 0.70464,
+      "std": 0.1607631770683836,
+      "min": 0.10047,
+      "max": 1
+    },
+    "complexity_chroma": {
+      "n": 357,
+      "mean": 0.4677869243697487,
+      "median": 0.272727,
+      "std": 0.36828069758303195,
+      "min": 0,
+      "max": 1
+    }
+  },
+  "correlationPrimary": {
+    "event_density|||event_density": {
+      "a": "event_density",
+      "b": "event_density",
+      "r": 1,
+      "n": 357,
+      "band": "HIGHLY REDUNDANT"
+    },
+    "event_density|||complexity": {
+      "a": "event_density",
+      "b": "complexity",
+      "r": 0.1997647734378702,
+      "n": 357,
+      "band": "MOSTLY INDEPENDENT"
+    },
+    "event_density|||flatness": {
+      "a": "event_density",
+      "b": "flatness",
+      "r": 0.03538012961061611,
+      "n": 357,
+      "band": "MOSTLY INDEPENDENT"
+    },
+    "event_density|||zero_cross_rate": {
+      "a": "event_density",
+      "b": "zero_cross_rate",
+      "r": 0.17901273257743083,
+      "n": 357,
+      "band": "MOSTLY INDEPENDENT"
+    },
+    "event_density|||intensity": {
+      "a": "event_density",
+      "b": "intensity",
+      "r": 0.34578536607728505,
+      "n": 357,
+      "band": "MOSTLY INDEPENDENT"
+    },
+    "event_density|||absolute_loudness": {
+      "a": "event_density",
+      "b": "absolute_loudness",
+      "r": 0.41093387083278005,
+      "n": 357,
+      "band": "MODERATELY RELATED"
+    },
+    "complexity|||complexity": {
+      "a": "complexity",
+      "b": "complexity",
+      "r": 1,
+      "n": 357,
+      "band": "HIGHLY REDUNDANT"
+    },
+    "complexity|||flatness": {
+      "a": "complexity",
+      "b": "flatness",
+      "r": -0.36886641012845245,
+      "n": 357,
+      "band": "MOSTLY INDEPENDENT"
+    },
+    "complexity|||zero_cross_rate": {
+      "a": "complexity",
+      "b": "zero_cross_rate",
+      "r": -0.03697192758560574,
+      "n": 357,
+      "band": "MOSTLY INDEPENDENT"
+    },
+    "complexity|||intensity": {
+      "a": "complexity",
+      "b": "intensity",
+      "r": -0.4442608639332446,
+      "n": 357,
+      "band": "MODERATELY RELATED"
+    },
+    "complexity|||absolute_loudness": {
+      "a": "complexity",
+      "b": "absolute_loudness",
+      "r": -0.18297300380849613,
+      "n": 357,
+      "band": "MOSTLY INDEPENDENT"
+    },
+    "flatness|||flatness": {
+      "a": "flatness",
+      "b": "flatness",
+      "r": 1,
+      "n": 357,
+      "band": "HIGHLY REDUNDANT"
+    },
+    "flatness|||zero_cross_rate": {
+      "a": "flatness",
+      "b": "zero_cross_rate",
+      "r": 0.6410517961496368,
+      "n": 357,
+      "band": "MODERATELY RELATED"
+    },
+    "flatness|||intensity": {
+      "a": "flatness",
+      "b": "intensity",
+      "r": 0.30099755209565493,
+      "n": 357,
+      "band": "MOSTLY INDEPENDENT"
+    },
+    "flatness|||absolute_loudness": {
+      "a": "flatness",
+      "b": "absolute_loudness",
+      "r": 0.21799515550040088,
+      "n": 357,
+      "band": "MOSTLY INDEPENDENT"
+    },
+    "zero_cross_rate|||zero_cross_rate": {
+      "a": "zero_cross_rate",
+      "b": "zero_cross_rate",
+      "r": 1,
+      "n": 357,
+      "band": "HIGHLY REDUNDANT"
+    },
+    "zero_cross_rate|||intensity": {
+      "a": "zero_cross_rate",
+      "b": "intensity",
+      "r": 0.14847761223416106,
+      "n": 357,
+      "band": "MOSTLY INDEPENDENT"
+    },
+    "zero_cross_rate|||absolute_loudness": {
+      "a": "zero_cross_rate",
+      "b": "absolute_loudness",
+      "r": 0.2938618624382277,
+      "n": 357,
+      "band": "MOSTLY INDEPENDENT"
+    },
+    "intensity|||intensity": {
+      "a": "intensity",
+      "b": "intensity",
+      "r": 1,
+      "n": 357,
+      "band": "HIGHLY REDUNDANT"
+    },
+    "intensity|||absolute_loudness": {
+      "a": "intensity",
+      "b": "absolute_loudness",
+      "r": 0.8278192549806778,
+      "n": 357,
+      "band": "HIGHLY REDUNDANT"
+    },
+    "absolute_loudness|||absolute_loudness": {
+      "a": "absolute_loudness",
+      "b": "absolute_loudness",
+      "r": 1,
+      "n": 357,
+      "band": "HIGHLY REDUNDANT"
+    }
+  }
+}

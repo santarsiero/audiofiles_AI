@@ -1,0 +1,749 @@
+{
+  "meta": {
+    "joinedPath": "experimentation/outputs/calibration_set_1_with_descriptors.json",
+    "denseGroupSize": 9,
+    "sparseGroupSize": 7,
+    "denseSongs": [
+      {
+        "artist": "Skrillex",
+        "title": "Bangarang (feat. Sirah)"
+      },
+      {
+        "artist": "Skrillex",
+        "title": "Scary Monsters and Nice Sprites"
+      },
+      {
+        "artist": "Sub Focus",
+        "title": "Push The Tempo"
+      },
+      {
+        "artist": "Sub Focus & Dimension",
+        "title": "Desire"
+      },
+      {
+        "artist": "Lil Jon & The East Side Boyz",
+        "title": "Get Low"
+      },
+      {
+        "artist": "Denzel Curry",
+        "title": "STILL IN THE PAINT"
+      },
+      {
+        "artist": "Nirvana",
+        "title": "Smells Like Teen Spirit"
+      },
+      {
+        "artist": "Camille Saint-Saëns",
+        "title": "Danse macabre, Op. 40"
+      },
+      {
+        "artist": "Antonín Dvořák",
+        "title": "Symphony No. 9 in E Minor, Op. 95, B. 178 \"From the New World\": IV. Allegro con fuoco"
+      }
+    ],
+    "sparseSongs": [
+      {
+        "artist": "Daft Punk",
+        "title": "Veridis Quo"
+      },
+      {
+        "artist": "Rob $tone",
+        "title": "Chill Bill (feat. J. Davi$ & Spooks)"
+      },
+      {
+        "artist": "Bill Withers",
+        "title": "Ain't No Sunshine"
+      },
+      {
+        "artist": "Daft Punk",
+        "title": "Something About Us"
+      },
+      {
+        "artist": "Massive Attack",
+        "title": "Angel"
+      },
+      {
+        "artist": "Moby",
+        "title": "Flower"
+      },
+      {
+        "artist": "Suzanne Vega",
+        "title": "Tom's Diner"
+      }
+    ]
+  },
+  "rankedDescriptors": [
+    {
+      "descriptor": "chroma11",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 5448,
+      "sparseMean": 2173.5714285714284,
+      "absDiff": 3274.4285714285716,
+      "effectSize": 1.9231324202366535,
+      "separationStrength": 1.9231324202366535
+    },
+    {
+      "descriptor": "chroma04",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 2624.222222222222,
+      "sparseMean": 944.1428571428571,
+      "absDiff": 1680.079365079365,
+      "effectSize": 1.539497694468527,
+      "separationStrength": 1.539497694468527
+    },
+    {
+      "descriptor": "chroma10",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 8639.444444444445,
+      "sparseMean": 12501,
+      "absDiff": 3861.5555555555547,
+      "effectSize": -1.348547512927683,
+      "separationStrength": 1.348547512927683
+    },
+    {
+      "descriptor": "mfcc13",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": -0.2682093333333333,
+      "sparseMean": -0.42517671428571424,
+      "absDiff": 0.15696738095238094,
+      "effectSize": 1.2600956267982721,
+      "separationStrength": 1.2600956267982721
+    },
+    {
+      "descriptor": "mfcc06",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": -0.17124366666666668,
+      "sparseMean": 0.139987,
+      "absDiff": 0.31123066666666666,
+      "effectSize": -1.1073402253230098,
+      "separationStrength": 1.1073402253230098
+    },
+    {
+      "descriptor": "event_density",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 0.05379677777777778,
+      "sparseMean": 0.045979,
+      "absDiff": 0.007817777777777778,
+      "effectSize": 1.0817691833731746,
+      "separationStrength": 1.0817691833731746
+    },
+    {
+      "descriptor": "mfcc01",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": -7.244691888888888,
+      "sparseMean": -9.932671000000001,
+      "absDiff": 2.6879791111111127,
+      "effectSize": 1.020306855307316,
+      "separationStrength": 1.020306855307316
+    },
+    {
+      "descriptor": "danceability",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 0.5144977777777778,
+      "sparseMean": 0.6896271428571428,
+      "absDiff": 0.17512936507936494,
+      "effectSize": -0.9584953917943562,
+      "separationStrength": 0.9584953917943562
+    },
+    {
+      "descriptor": "flatness",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 0.26733266666666666,
+      "sparseMean": 0.20471900000000004,
+      "absDiff": 0.06261366666666662,
+      "effectSize": 0.9478200168785778,
+      "separationStrength": 0.9478200168785778
+    },
+    {
+      "descriptor": "mfcc03",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": -0.8323092222222223,
+      "sparseMean": -0.2922804285714286,
+      "absDiff": 0.5400287936507937,
+      "effectSize": -0.9146135076054213,
+      "separationStrength": 0.9146135076054213
+    },
+    {
+      "descriptor": "absolute_loudness",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": -13.70800522222222,
+      "sparseMean": -17.040903571428572,
+      "absDiff": 3.332898349206353,
+      "effectSize": 0.8782570668790106,
+      "separationStrength": 0.8782570668790106
+    },
+    {
+      "descriptor": "complexity",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 0.39275522222222226,
+      "sparseMean": 0.2131945714285714,
+      "absDiff": 0.17956065079365086,
+      "effectSize": 0.8618721851187126,
+      "separationStrength": 0.8618721851187126
+    },
+    {
+      "descriptor": "chroma07",
+      "denseN": 3,
+      "sparseN": 2,
+      "denseMean": 4588.333333333333,
+      "sparseMean": 2395,
+      "absDiff": 2193.333333333333,
+      "effectSize": 0.8430374467565497,
+      "separationStrength": 0.8430374467565497
+    },
+    {
+      "descriptor": "zero_cross_rate",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 0.06098333333333334,
+      "sparseMean": 0.04477328571428572,
+      "absDiff": 0.016210047619047624,
+      "effectSize": 0.8194246571431969,
+      "separationStrength": 0.8194246571431969
+    },
+    {
+      "descriptor": "mfcc09",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": -0.3794791111111111,
+      "sparseMean": -0.5516467142857143,
+      "absDiff": 0.17216760317460322,
+      "effectSize": 0.8184651096403439,
+      "separationStrength": 0.8184651096403439
+    },
+    {
+      "descriptor": "centroid",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 3510.421250111112,
+      "sparseMean": 2856.4551635714283,
+      "absDiff": 653.9660865396836,
+      "effectSize": 0.7993569331862878,
+      "separationStrength": 0.7993569331862878
+    },
+    {
+      "descriptor": "chroma06",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 8608.777777777777,
+      "sparseMean": 6843.285714285715,
+      "absDiff": 1765.4920634920627,
+      "effectSize": 0.789304560883868,
+      "separationStrength": 0.789304560883868
+    },
+    {
+      "descriptor": "intensity",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 0.22727666666666668,
+      "sparseMean": 0.1594195714285714,
+      "absDiff": 0.06785709523809527,
+      "effectSize": 0.7626452815248814,
+      "separationStrength": 0.7626452815248814
+    },
+    {
+      "descriptor": "loudness",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": -14.073840888888888,
+      "sparseMean": -17.25434642857143,
+      "absDiff": 3.1805055396825423,
+      "effectSize": 0.7584533874528168,
+      "separationStrength": 0.7584533874528168
+    },
+    {
+      "descriptor": "mfcc12",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": -0.2008983333333333,
+      "sparseMean": -0.28968885714285714,
+      "absDiff": 0.08879052380952385,
+      "effectSize": 0.7526876235120085,
+      "separationStrength": 0.7526876235120085
+    },
+    {
+      "descriptor": "spread",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 4035.1537476666667,
+      "sparseMean": 3657.503658428571,
+      "absDiff": 377.6500892380959,
+      "effectSize": 0.7402498045349092,
+      "separationStrength": 0.7402498045349092
+    },
+    {
+      "descriptor": "chroma02",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 4265.111111111111,
+      "sparseMean": 2991.5714285714284,
+      "absDiff": 1273.5396825396829,
+      "effectSize": 0.7086532427852756,
+      "separationStrength": 0.7086532427852756
+    },
+    {
+      "descriptor": "complexity_chroma",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 0.4444443333333334,
+      "sparseMean": 0.220779,
+      "absDiff": 0.22366533333333338,
+      "effectSize": 0.7006980627234217,
+      "separationStrength": 0.7006980627234217
+    },
+    {
+      "descriptor": "chroma09",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 3441.1111111111113,
+      "sparseMean": 2248.8571428571427,
+      "absDiff": 1192.2539682539687,
+      "effectSize": 0.6915799306951567,
+      "separationStrength": 0.6915799306951567
+    },
+    {
+      "descriptor": "arousal",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 0.6385999999999998,
+      "sparseMean": 0.47518142857142864,
+      "absDiff": 0.1634185714285712,
+      "effectSize": 0.6779228457959865,
+      "separationStrength": 0.6779228457959865
+    },
+    {
+      "descriptor": "melodicity",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 0.5488277777777778,
+      "sparseMean": 0.6036442857142857,
+      "absDiff": 0.05481650793650794,
+      "effectSize": -0.6732949389837406,
+      "separationStrength": 0.6732949389837406
+    },
+    {
+      "descriptor": "chroma12",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 3738.1111111111113,
+      "sparseMean": 2517.714285714286,
+      "absDiff": 1220.3968253968255,
+      "effectSize": 0.6706135775427011,
+      "separationStrength": 0.6706135775427011
+    },
+    {
+      "descriptor": "bpm",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 84.11111111111111,
+      "sparseMean": 60.57142857142857,
+      "absDiff": 23.539682539682545,
+      "effectSize": 0.642394522590998,
+      "separationStrength": 0.642394522590998
+    },
+    {
+      "descriptor": "binary",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 0.8417355555555555,
+      "sparseMean": 0.7696142857142858,
+      "absDiff": 0.07212126984126965,
+      "effectSize": 0.6122989398287854,
+      "separationStrength": 0.6122989398287854
+    },
+    {
+      "descriptor": "mfcc02",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 3.1303479999999997,
+      "sparseMean": 3.0055454285714283,
+      "absDiff": 0.12480257142857143,
+      "effectSize": 0.6036903350729594,
+      "separationStrength": 0.6036903350729594
+    },
+    {
+      "descriptor": "dissonance",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 0.5089511111111111,
+      "sparseMean": 0.4649871428571429,
+      "absDiff": 0.043963968253968255,
+      "effectSize": 0.5689232373439721,
+      "separationStrength": 0.5689232373439721
+    },
+    {
+      "descriptor": "roll_off",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 1551.022373,
+      "sparseMean": 1178.5965627142857,
+      "absDiff": 372.4258102857143,
+      "effectSize": 0.5676033546868933,
+      "separationStrength": 0.5676033546868933
+    },
+    {
+      "descriptor": "valence",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 0.3299044444444445,
+      "sparseMean": 0.4324057142857143,
+      "absDiff": 0.10250126984126978,
+      "effectSize": -0.5368245545470566,
+      "separationStrength": 0.5368245545470566
+    },
+    {
+      "descriptor": "mfcc08",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": -0.15527822222222223,
+      "sparseMean": -0.2662287142857142,
+      "absDiff": 0.11095049206349197,
+      "effectSize": 0.5153339007657751,
+      "separationStrength": 0.5153339007657751
+    },
+    {
+      "descriptor": "articulation",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 0.52298,
+      "sparseMean": 0.4748914285714285,
+      "absDiff": 0.04808857142857148,
+      "effectSize": 0.4981442035845788,
+      "separationStrength": 0.4981442035845788
+    },
+    {
+      "descriptor": "studio_live",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 0.18695222222222221,
+      "sparseMean": 0.14939285714285716,
+      "absDiff": 0.037559365079365054,
+      "effectSize": 0.4865190290278854,
+      "separationStrength": 0.4865190290278854
+    },
+    {
+      "descriptor": "chroma05",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 3799.3333333333335,
+      "sparseMean": 4536.428571428572,
+      "absDiff": 737.0952380952381,
+      "effectSize": -0.4011909284756204,
+      "separationStrength": 0.4011909284756204
+    },
+    {
+      "descriptor": "brightness",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 0.14281988888888886,
+      "sparseMean": 0.12018700000000002,
+      "absDiff": 0.02263288888888884,
+      "effectSize": 0.34387841378124695,
+      "separationStrength": 0.34387841378124695
+    },
+    {
+      "descriptor": "chroma08",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 6845.666666666667,
+      "sparseMean": 6130,
+      "absDiff": 715.666666666667,
+      "effectSize": 0.3437112625796132,
+      "separationStrength": 0.3437112625796132
+    },
+    {
+      "descriptor": "music_speech",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 0.08427444444444444,
+      "sparseMean": 0.10742285714285714,
+      "absDiff": 0.023148412698412696,
+      "effectSize": -0.30736183399504197,
+      "separationStrength": 0.30736183399504197
+    },
+    {
+      "descriptor": "mfcc05",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": -0.14710600000000001,
+      "sparseMean": -0.21389485714285714,
+      "absDiff": 0.06678885714285712,
+      "effectSize": 0.3064884710429522,
+      "separationStrength": 0.3064884710429522
+    },
+    {
+      "descriptor": "vocal_instrumental",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 0.25088,
+      "sparseMean": 0.3592742857142857,
+      "absDiff": 0.10839428571428572,
+      "effectSize": -0.3057112847329904,
+      "separationStrength": 0.3057112847329904
+    },
+    {
+      "descriptor": "mfcc10",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": -0.21588433333333332,
+      "sparseMean": -0.24764699999999998,
+      "absDiff": 0.03176266666666666,
+      "effectSize": 0.27046196045311216,
+      "separationStrength": 0.27046196045311216
+    },
+    {
+      "descriptor": "chroma03",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 8483.666666666666,
+      "sparseMean": 7895.714285714285,
+      "absDiff": 587.9523809523807,
+      "effectSize": 0.16272316378011267,
+      "separationStrength": 0.16272316378011267
+    },
+    {
+      "descriptor": "loudness_range",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 8.602108444444445,
+      "sparseMean": 7.714227857142857,
+      "absDiff": 0.8878805873015878,
+      "effectSize": 0.15932000969274515,
+      "separationStrength": 0.15932000969274515
+    },
+    {
+      "descriptor": "electric_acoustic",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 0.2215111111111111,
+      "sparseMean": 0.26729142857142857,
+      "absDiff": 0.045780317460317466,
+      "effectSize": -0.14047145649695988,
+      "separationStrength": 0.14047145649695988
+    },
+    {
+      "descriptor": "pulse_clarity",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 0.4821912222222222,
+      "sparseMean": 0.5167024285714285,
+      "absDiff": 0.034511206349206236,
+      "effectSize": -0.13441107552258105,
+      "separationStrength": 0.13441107552258105
+    },
+    {
+      "descriptor": "mfcc11",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": -0.3222108888888889,
+      "sparseMean": -0.3319634285714286,
+      "absDiff": 0.009752539682539696,
+      "effectSize": 0.06508944882045811,
+      "separationStrength": 0.06508944882045811
+    },
+    {
+      "descriptor": "mfcc07",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": -0.31648677777777773,
+      "sparseMean": -0.3298734285714286,
+      "absDiff": 0.013386650793650867,
+      "effectSize": 0.05967897796658081,
+      "separationStrength": 0.05967897796658081
+    },
+    {
+      "descriptor": "mfcc04",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 0.14176722222222224,
+      "sparseMean": 0.1628292857142857,
+      "absDiff": 0.021062063492063465,
+      "effectSize": -0.05444965839083414,
+      "separationStrength": 0.05444965839083414
+    },
+    {
+      "descriptor": "rhythmic_stability",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 0.5619977777777778,
+      "sparseMean": 0.5662257142857143,
+      "absDiff": 0.004227936507936514,
+      "effectSize": -0.05271711257243496,
+      "separationStrength": 0.05271711257243496
+    },
+    {
+      "descriptor": "chroma01",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 9960.222222222223,
+      "sparseMean": 9969.42857142857,
+      "absDiff": 9.206349206348023,
+      "effectSize": -0.002366322166434891,
+      "separationStrength": 0.002366322166434891
+    }
+  ],
+  "top15": [
+    {
+      "descriptor": "chroma11",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 5448,
+      "sparseMean": 2173.5714285714284,
+      "absDiff": 3274.4285714285716,
+      "effectSize": 1.9231324202366535,
+      "separationStrength": 1.9231324202366535
+    },
+    {
+      "descriptor": "chroma04",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 2624.222222222222,
+      "sparseMean": 944.1428571428571,
+      "absDiff": 1680.079365079365,
+      "effectSize": 1.539497694468527,
+      "separationStrength": 1.539497694468527
+    },
+    {
+      "descriptor": "chroma10",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 8639.444444444445,
+      "sparseMean": 12501,
+      "absDiff": 3861.5555555555547,
+      "effectSize": -1.348547512927683,
+      "separationStrength": 1.348547512927683
+    },
+    {
+      "descriptor": "mfcc13",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": -0.2682093333333333,
+      "sparseMean": -0.42517671428571424,
+      "absDiff": 0.15696738095238094,
+      "effectSize": 1.2600956267982721,
+      "separationStrength": 1.2600956267982721
+    },
+    {
+      "descriptor": "mfcc06",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": -0.17124366666666668,
+      "sparseMean": 0.139987,
+      "absDiff": 0.31123066666666666,
+      "effectSize": -1.1073402253230098,
+      "separationStrength": 1.1073402253230098
+    },
+    {
+      "descriptor": "event_density",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 0.05379677777777778,
+      "sparseMean": 0.045979,
+      "absDiff": 0.007817777777777778,
+      "effectSize": 1.0817691833731746,
+      "separationStrength": 1.0817691833731746
+    },
+    {
+      "descriptor": "mfcc01",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": -7.244691888888888,
+      "sparseMean": -9.932671000000001,
+      "absDiff": 2.6879791111111127,
+      "effectSize": 1.020306855307316,
+      "separationStrength": 1.020306855307316
+    },
+    {
+      "descriptor": "danceability",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 0.5144977777777778,
+      "sparseMean": 0.6896271428571428,
+      "absDiff": 0.17512936507936494,
+      "effectSize": -0.9584953917943562,
+      "separationStrength": 0.9584953917943562
+    },
+    {
+      "descriptor": "flatness",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 0.26733266666666666,
+      "sparseMean": 0.20471900000000004,
+      "absDiff": 0.06261366666666662,
+      "effectSize": 0.9478200168785778,
+      "separationStrength": 0.9478200168785778
+    },
+    {
+      "descriptor": "mfcc03",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": -0.8323092222222223,
+      "sparseMean": -0.2922804285714286,
+      "absDiff": 0.5400287936507937,
+      "effectSize": -0.9146135076054213,
+      "separationStrength": 0.9146135076054213
+    },
+    {
+      "descriptor": "absolute_loudness",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": -13.70800522222222,
+      "sparseMean": -17.040903571428572,
+      "absDiff": 3.332898349206353,
+      "effectSize": 0.8782570668790106,
+      "separationStrength": 0.8782570668790106
+    },
+    {
+      "descriptor": "complexity",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 0.39275522222222226,
+      "sparseMean": 0.2131945714285714,
+      "absDiff": 0.17956065079365086,
+      "effectSize": 0.8618721851187126,
+      "separationStrength": 0.8618721851187126
+    },
+    {
+      "descriptor": "chroma07",
+      "denseN": 3,
+      "sparseN": 2,
+      "denseMean": 4588.333333333333,
+      "sparseMean": 2395,
+      "absDiff": 2193.333333333333,
+      "effectSize": 0.8430374467565497,
+      "separationStrength": 0.8430374467565497
+    },
+    {
+      "descriptor": "zero_cross_rate",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": 0.06098333333333334,
+      "sparseMean": 0.04477328571428572,
+      "absDiff": 0.016210047619047624,
+      "effectSize": 0.8194246571431969,
+      "separationStrength": 0.8194246571431969
+    },
+    {
+      "descriptor": "mfcc09",
+      "denseN": 9,
+      "sparseN": 7,
+      "denseMean": -0.3794791111111111,
+      "sparseMean": -0.5516467142857143,
+      "absDiff": 0.17216760317460322,
+      "effectSize": 0.8184651096403439,
+      "separationStrength": 0.8184651096403439
+    }
+  ]
+}

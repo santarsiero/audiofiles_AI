@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "successesPath": "experimentation/outputs/musicstory_successes_only.json",
+    "joinedCalPath": "experimentation/outputs/calibration_set_1_with_descriptors.json",
+    "successesCount": 357
+  },
+  "distributions": {
+    "event_density": {
+      "n": 357,
+      "min": 0.036057,
+      "max": 0.077204,
+      "mean": 0.05388779551820728,
+      "median": 0.053428,
+      "p10": 0.0457354,
+      "p25": 0.048894,
+      "p50": 0.053428,
+      "p75": 0.058066,
+      "p90": 0.062350600000000006,
+      "p95": 0.06655979999999999,
+      "p99": 0.07194828
+    },
+    "intensity": {
+      "n": 357,
+      "min": 0.035488,
+      "max": 0.437576,
+      "mean": 0.23403191036414606,
+      "median": 0.231588,
+      "p10": 0.1348228,
+      "p25": 0.18936,
+      "p50": 0.231588,
+      "p75": 0.279069,
+      "p90": 0.33008640000000006,
+      "p95": 0.35654220000000003,
+      "p99": 0.40876336
+    },
+    "complexity": {
+      "n": 357,
+      "min": 0.000538,
+      "max": 0.882731,
+      "mean": 0.2851297843137255,
+      "median": 0.240463,
+      "p10": 0.04099100000000001,
+      "p25": 0.124251,
+      "p50": 0.240463,
+      "p75": 0.416704,
+      "p90": 0.6209786000000006,
+      "p95": 0.6999217999999999,
+      "p99": 0.80666324
+    },
+    "density_score": {
+      "n": 357,
+      "min": 0.06738114999999999,
+      "max": 0.25695060000000003,
+      "mean": 0.13361012254901963,
+      "median": 0.1311686,
+      "p10": 0.0971167,
+      "p25": 0.11033190000000001,
+      "p50": 0.1311686,
+      "p75": 0.153463,
+      "p90": 0.17606262,
+      "p95": 0.18586484,
+      "p99": 0.21968363999999999
+    }
+  },
+  "expectedDenseSubset": [
+    {
+      "artist": "Skrillex",
+      "title": "Bangarang",
+      "event_density": 0.064182,
+      "intensity": 0.268558,
+      "complexity": 0.280465,
+      "density_score": 0.14771845
+    },
+    {
+      "artist": "Skrillex",
+      "title": "Scary Monsters and Nice Sprites",
+      "event_density": 0.063091,
+      "intensity": 0.277954,
+      "complexity": 0.233326,
+      "density_score": 0.142342
+    },
+    {
+      "artist": "Sub Focus",
+      "title": "Push The Tempo",
+      "event_density": 0.053428,
+      "intensity": 0.318802,
+      "complexity": 0.126332,
+      "density_score": 0.1307071
+    },
+    {
+      "artist": "Sub Focus & Dimension",
+      "title": "Desire",
+      "event_density": 0.059984,
+      "intensity": 0.264084,
+      "complexity": 0.232604,
+      "density_score": 0.136902
+    },
+    {
+      "artist": "Lil Jon & The East Side Boyz",
+      "title": "Get Low",
+      "event_density": 0.047409,
+      "intensity": 0.243228,
+      "complexity": 0.374375,
+      "density_score": 0.14540865
+    },
+    {
+      "artist": "Denzel Curry",
+      "title": "STILL IN THE PAINT",
+      "event_density": 0.058553,
+      "intensity": 0.378881,
+      "complexity": 0.259967,
+      "density_score": 0.1688471
+    },
+    {
+      "artist": "Nirvana",
+      "title": "Smells Like Teen Spirit",
+      "event_density": 0.052977,
+      "intensity": 0.192415,
+      "complexity": 0.695004,
+      "density_score": 0.18414055
+    },
+    {
+      "artist": "Camille Saint-Saëns",
+      "title": "Danse macabre",
+      "event_density": 0.036057,
+      "intensity": 0.035488,
+      "complexity": 0.529304,
+      "density_score": 0.1099018
+    },
+    {
+      "artist": "Antonín Dvořák",
+      "title": "Symphony No. 9 'From the New World' - IV",
+      "event_density": 0.04849,
+      "intensity": 0.06608,
+      "complexity": 0.80342,
+      "density_score": 0.166127
+    }
+  ]
+}

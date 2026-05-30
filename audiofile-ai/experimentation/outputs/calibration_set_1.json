@@ -1,0 +1,268 @@
+[
+  {
+    "artist": "Darude",
+    "title": "Sandstorm",
+    "genreBucket": "electronic_dance",
+    "expectedLabels": ["energetic", "driving", "steady", "instrumental", "hypnotic"],
+    "notes": "Pure driving electronic archetype"
+  },
+  {
+    "artist": "Daft Punk",
+    "title": "One More Time",
+    "genreBucket": "electronic_dance",
+    "expectedLabels": ["energetic", "driving", "bouncy", "vocal"],
+    "notes": "Bright dance-pop test"
+  },
+  {
+    "artist": "FISHER",
+    "title": "Losing It",
+    "genreBucket": "electronic_dance",
+    "expectedLabels": ["driving", "steady", "hypnotic", "instrumental"],
+    "notes": "Minimal tech-house pulse test"
+  },
+  {
+    "artist": "Dom Dolla",
+    "title": "Take It",
+    "genreBucket": "electronic_dance",
+    "expectedLabels": ["driving", "steady", "bouncy", "instrumental"],
+    "notes": "Strong groove and pulse"
+  },
+  {
+    "artist": "MK",
+    "title": "Rhyme Dust",
+    "genreBucket": "electronic_dance",
+    "expectedLabels": ["driving", "steady", "instrumental"],
+    "notes": "Clean house groove"
+  },
+  {
+    "artist": "Kylie Minogue",
+    "title": "Can't Get You Out of My Head",
+    "genreBucket": "pop_dance",
+    "expectedLabels": ["driving", "hypnotic", "vocal"],
+    "notes": "Vocal plus hypnotic repetition"
+  },
+  {
+    "artist": "Daft Punk",
+    "title": "Veridis Quo",
+    "genreBucket": "ambient_downtempo",
+    "expectedLabels": ["calm", "sparse", "instrumental", "hypnotic"],
+    "notes": "Low-energy inverse-label test"
+  },
+  {
+    "artist": "Daft Punk",
+    "title": "Harder, Better, Faster, Stronger",
+    "genreBucket": "electronic_dance",
+    "expectedLabels": ["driving", "punchy", "vocal", "hypnotic"],
+    "notes": "Robotic vocal and pulse"
+  },
+  {
+    "artist": "Skrillex",
+    "title": "Bangarang",
+    "genreBucket": "electronic_dance",
+    "expectedLabels": ["energetic", "heavy", "punchy", "dense"],
+    "notes": "Impact and heaviness test"
+  },
+  {
+    "artist": "Skrillex",
+    "title": "Scary Monsters and Nice Sprites",
+    "genreBucket": "electronic_dance",
+    "expectedLabels": ["energetic", "heavy", "punchy", "dense"],
+    "notes": "Aggressive heavy electronic test"
+  },
+  {
+    "artist": "Sub Focus",
+    "title": "Push The Tempo",
+    "genreBucket": "electronic_dance",
+    "expectedLabels": ["energetic", "driving", "punchy", "dense"],
+    "notes": "Drum and bass energy test"
+  },
+  {
+    "artist": "Sub Focus & Dimension",
+    "title": "Desire",
+    "genreBucket": "electronic_dance",
+    "expectedLabels": ["energetic", "driving", "vocal", "dense"],
+    "notes": "Vocal drum and bass test"
+  },
+  {
+    "artist": "Lil Jon & The East Side Boyz",
+    "title": "Get Low",
+    "genreBucket": "hip_hop_rap",
+    "expectedLabels": ["energetic", "dense", "vocal"],
+    "notes": "Club rap density test"
+  },
+  {
+    "artist": "Denzel Curry",
+    "title": "STILL IN THE PAINT",
+    "genreBucket": "hip_hop_rap",
+    "expectedLabels": ["energetic", "heavy", "dense", "vocal"],
+    "notes": "Heavy rap test"
+  },
+  {
+    "artist": "The Game",
+    "title": "Hate It Or Love It",
+    "genreBucket": "hip_hop_rap",
+    "expectedLabels": ["vocal", "steady"],
+    "notes": "Lower-energy rap contrast"
+  },
+  {
+    "artist": "Rob $tone",
+    "title": "Chill Bill",
+    "genreBucket": "hip_hop_rap",
+    "expectedLabels": ["calm", "sparse", "vocal"],
+    "notes": "Sparse rap test"
+  },
+  {
+    "artist": "Nirvana",
+    "title": "Smells Like Teen Spirit",
+    "genreBucket": "rock_metal",
+    "expectedLabels": ["energetic", "heavy", "dense", "vocal"],
+    "notes": "Rock heaviness archetype"
+  },
+  {
+    "artist": "Mötley Crüe",
+    "title": "Kickstart My Heart",
+    "genreBucket": "rock_metal",
+    "expectedLabels": ["energetic", "driving", "heavy", "vocal"],
+    "notes": "Rock energy archetype"
+  },
+  {
+    "artist": "The White Stripes",
+    "title": "Seven Nation Army",
+    "genreBucket": "rock_metal",
+    "expectedLabels": ["steady", "heavy", "vocal"],
+    "notes": "Sparse but heavy rock"
+  },
+  {
+    "artist": "Franz Ferdinand",
+    "title": "Take Me Out",
+    "genreBucket": "rock_metal",
+    "expectedLabels": ["driving", "energetic", "vocal"],
+    "notes": "Rhythm-rock test"
+  },
+  {
+    "artist": "Stevie Wonder",
+    "title": "Superstition",
+    "genreBucket": "funk_disco_soul",
+    "expectedLabels": ["bouncy", "steady", "vocal"],
+    "notes": "Funk bounce archetype"
+  },
+  {
+    "artist": "Earth, Wind & Fire",
+    "title": "Let's Groove",
+    "genreBucket": "funk_disco_soul",
+    "expectedLabels": ["bouncy", "driving", "vocal"],
+    "notes": "Disco/funk groove"
+  },
+  {
+    "artist": "Wild Cherry",
+    "title": "Play That Funky Music",
+    "genreBucket": "funk_disco_soul",
+    "expectedLabels": ["bouncy", "energetic", "vocal"],
+    "notes": "Funk energy archetype"
+  },
+  {
+    "artist": "The Jacksons",
+    "title": "Blame It on the Boogie",
+    "genreBucket": "funk_disco_soul",
+    "expectedLabels": ["bouncy", "driving", "vocal"],
+    "notes": "Disco bounce"
+  },
+  {
+    "artist": "Daft Punk",
+    "title": "Get Lucky",
+    "genreBucket": "funk_disco_soul",
+    "expectedLabels": ["bouncy", "steady", "vocal"],
+    "notes": "Clean groove and vocal"
+  },
+  {
+    "artist": "Mark Ronson ft. Bruno Mars",
+    "title": "Uptown Funk",
+    "genreBucket": "funk_disco_soul",
+    "expectedLabels": ["energetic", "bouncy", "punchy", "vocal"],
+    "notes": "Punchy funk-pop"
+  },
+  {
+    "artist": "Backstreet Boys",
+    "title": "I Want It That Way",
+    "genreBucket": "pop",
+    "expectedLabels": ["vocal", "steady"],
+    "notes": "Vocal-pop anchor"
+  },
+  {
+    "artist": "Lady Gaga",
+    "title": "Telephone",
+    "genreBucket": "pop",
+    "expectedLabels": ["energetic", "vocal", "driving"],
+    "notes": "Pop energy test"
+  },
+  {
+    "artist": "Sabrina Carpenter",
+    "title": "Feather",
+    "genreBucket": "pop",
+    "expectedLabels": ["vocal", "light", "bouncy"],
+    "notes": "Light pop test"
+  },
+  {
+    "artist": "Bruno Mars",
+    "title": "Treasure",
+    "genreBucket": "pop",
+    "expectedLabels": ["bouncy", "vocal", "energetic"],
+    "notes": "Pop/funk bridge"
+  },
+  {
+    "artist": "Bill Withers",
+    "title": "Ain't No Sunshine",
+    "genreBucket": "soul",
+    "expectedLabels": ["calm", "sparse", "vocal"],
+    "notes": "Calm vocal archetype"
+  },
+  {
+    "artist": "Daft Punk",
+    "title": "Something About Us",
+    "genreBucket": "ambient_downtempo",
+    "expectedLabels": ["calm", "sparse", "vocal"],
+    "notes": "Soft vocal inverse test"
+  },
+  {
+    "artist": "Massive Attack",
+    "title": "Angel",
+    "genreBucket": "ambient_downtempo",
+    "expectedLabels": ["heavy", "hypnotic", "sparse"],
+    "notes": "Dark trip-hop edge case"
+  },
+  {
+    "artist": "Moby",
+    "title": "Flower",
+    "genreBucket": "ambient_downtempo",
+    "expectedLabels": ["sparse", "steady", "vocal"],
+    "notes": "Sparse rhythmic test"
+  },
+  {
+    "artist": "Camille Saint-Saëns",
+    "title": "Danse macabre",
+    "genreBucket": "orchestral_cinematic",
+    "expectedLabels": ["dense", "instrumental"],
+    "notes": "Orchestral density test"
+  },
+  {
+    "artist": "Pyotr Ilyich Tchaikovsky",
+    "title": "Waltz of the Flowers",
+    "genreBucket": "orchestral_cinematic",
+    "expectedLabels": ["instrumental", "light"],
+    "notes": "Light orchestral test"
+  },
+  {
+    "artist": "Antonín Dvořák",
+    "title": "Symphony No. 9 'From the New World' - IV",
+    "genreBucket": "orchestral_cinematic",
+    "expectedLabels": ["energetic", "dense", "instrumental"],
+    "notes": "Orchestral energy and density"
+  },
+  {
+    "artist": "Suzanne Vega",
+    "title": "Tom's Diner",
+    "genreBucket": "vocal_speech_edge_case",
+    "expectedLabels": ["vocal", "sparse"],
+    "notes": "Speech-overfire calibration test"
+  }
+]

@@ -77,8 +77,8 @@
   },
   "labels": {
     "energetic": {
-      "surfacedCount": 16,
-      "avgSurfacedConfidence": 0.6550003020349986
+      "surfacedCount": 43,
+      "avgSurfacedConfidence": 0.6537789811936051
     },
     "driving": {
       "surfacedCount": 34,
@@ -97,12 +97,8 @@
       "avgSurfacedConfidence": 0.6663921247359459
     },
     "punchy": {
-      "surfacedCount": 32,
-      "avgSurfacedConfidence": 0.6188086808401474
-    },
-    "dense": {
-      "surfacedCount": 0,
-      "avgSurfacedConfidence": null
+      "surfacedCount": 31,
+      "avgSurfacedConfidence": 0.6193947802339614
     },
     "vocal": {
       "surfacedCount": 221,
@@ -117,15 +113,15 @@
       "avgSurfacedConfidence": null
     },
     "hypnotic": {
-      "surfacedCount": 36,
-      "avgSurfacedConfidence": 0.6567153173903373
+      "surfacedCount": 35,
+      "avgSurfacedConfidence": 0.6582732731835049
     }
   },
   "surfacing": {
-    "avgSurfacedPerSong": 2.1945205479452055,
+    "avgSurfacedPerSong": 2.263013698630137,
     "count0": 21,
-    "count1to2": 219,
-    "count3to5": 125
+    "count1to2": 210,
+    "count3to5": 134
   },
   "warnings": {
     "low_dimension_coverage": 0,
@@ -367,27 +363,6 @@
             ]
           },
           {
-            "labelId": "dense",
-            "score": 0.1766595,
-            "confidence": 0,
-            "dimensionsUsed": [
-              "density_score"
-            ],
-            "evidence": [
-              "density_score",
-              "energy_score",
-              "punch_score"
-            ],
-            "suppressed": true,
-            "suppressionReasons": [
-              "density_hard_suppress",
-              "density_below_required"
-            ],
-            "nonSurfacedReasons": [
-              "label_suppressed"
-            ]
-          },
-          {
             "labelId": "instrumental",
             "score": 0.040710000000000024,
             "confidence": 0,
@@ -593,7 +568,7 @@
               "density_below_required"
             ],
             "nonSurfacedReasons": [
-              "label_suppressed"
+              "deferred_label"
             ]
           },
           {
@@ -1157,27 +1132,6 @@
             ]
           },
           {
-            "labelId": "dense",
-            "score": 0.13960514999999998,
-            "confidence": 0,
-            "dimensionsUsed": [
-              "density_score"
-            ],
-            "evidence": [
-              "density_score",
-              "energy_score",
-              "punch_score"
-            ],
-            "suppressed": true,
-            "suppressionReasons": [
-              "density_hard_suppress",
-              "density_below_required"
-            ],
-            "nonSurfacedReasons": [
-              "label_suppressed"
-            ]
-          },
-          {
             "labelId": "vocal",
             "score": 0.39519000000000004,
             "confidence": 0,
@@ -1392,7 +1346,7 @@
               "density_below_required"
             ],
             "nonSurfacedReasons": [
-              "label_suppressed"
+              "deferred_label"
             ]
           },
           {

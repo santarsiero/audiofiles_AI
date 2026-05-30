@@ -13,10 +13,10 @@
 
 ## Surfacing statistics
 
-- **Average surfaced labels/song**: 2.195
+- **Average surfaced labels/song**: 2.263
 - **0 labels**: 21
-- **1–2 labels**: 219
-- **3–5 labels**: 125
+- **1–2 labels**: 210
+- **3–5 labels**: 134
 
 ## Warning statistics
 
@@ -41,13 +41,12 @@
 | label | surfaced_count | avg_surfaced_conf |
 |---|---:|---:|
 | bouncy | 100 | 0.6728 |
-| dense | 0 | null |
 | driving | 34 | 0.6419 |
-| energetic | 16 | 0.6550 |
+| energetic | 43 | 0.6538 |
 | heavy | 166 | 0.6664 |
-| hypnotic | 36 | 0.6567 |
+| hypnotic | 35 | 0.6583 |
 | instrumental | 12 | 0.6559 |
-| punchy | 32 | 0.6188 |
+| punchy | 31 | 0.6194 |
 | speech | 0 | null |
 | steady | 184 | 0.7066 |
 | vocal | 221 | 0.7159 |
@@ -289,27 +288,6 @@
         ]
       },
       {
-        "labelId": "dense",
-        "score": 0.1766595,
-        "confidence": 0,
-        "dimensionsUsed": [
-          "density_score"
-        ],
-        "evidence": [
-          "density_score",
-          "energy_score",
-          "punch_score"
-        ],
-        "suppressed": true,
-        "suppressionReasons": [
-          "density_hard_suppress",
-          "density_below_required"
-        ],
-        "nonSurfacedReasons": [
-          "label_suppressed"
-        ]
-      },
-      {
         "labelId": "instrumental",
         "score": 0.040710000000000024,
         "confidence": 0,
@@ -515,7 +493,7 @@
           "density_below_required"
         ],
         "nonSurfacedReasons": [
-          "label_suppressed"
+          "deferred_label"
         ]
       },
       {
@@ -1083,27 +1061,6 @@
         ]
       },
       {
-        "labelId": "dense",
-        "score": 0.13960514999999998,
-        "confidence": 0,
-        "dimensionsUsed": [
-          "density_score"
-        ],
-        "evidence": [
-          "density_score",
-          "energy_score",
-          "punch_score"
-        ],
-        "suppressed": true,
-        "suppressionReasons": [
-          "density_hard_suppress",
-          "density_below_required"
-        ],
-        "nonSurfacedReasons": [
-          "label_suppressed"
-        ]
-      },
-      {
         "labelId": "vocal",
         "score": 0.39519000000000004,
         "confidence": 0,
@@ -1318,7 +1275,7 @@
           "density_below_required"
         ],
         "nonSurfacedReasons": [
-          "label_suppressed"
+          "deferred_label"
         ]
       },
       {

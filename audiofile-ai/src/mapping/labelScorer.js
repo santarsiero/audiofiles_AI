@@ -117,6 +117,8 @@ function surfaceAlignedLabels({ alignedLabels, dimensionObjects }) {
 
   const capped = (alignedLabels || []).map(applyLabelConfidenceCeiling);
 
+  const DEFERRED_SURFACED_LABEL_IDS = new Set(['dense', 'sparse']);
+
   const usableDimCount = countUsablePrimaryDimensions(dimensionObjects);
   const lowCoverage = usableDimCount < 4;
   if (lowCoverage) warnings.push('low_dimension_coverage');
@@ -124,6 +126,10 @@ function surfaceAlignedLabels({ alignedLabels, dimensionObjects }) {
   // 1) Partition suppressed vs candidates.
   for (const l of capped) {
     if (!l) continue;
+    if (DEFERRED_SURFACED_LABEL_IDS.has(l.labelId)) {
+      nonSurfacedLabels.push({ ...l, nonSurfacedReasons: ['deferred_label'] });
+      continue;
+    }
     if (l.suppressed) {
       nonSurfacedLabels.push({ ...l, nonSurfacedReasons: ['label_suppressed'] });
       continue;
@@ -189,13 +195,13 @@ function projectEnergetic(dimensionObjects) {
   suppressionReasons.push(...suppressForLowConfidenceDims(['energy_score'], dimensionObjects));
 
   const energyScore = energy ? energy.score : null;
-  const threshold = 0.75;
+  const threshold = 0.67;
   if (energyScore === null || energyScore < threshold) suppressionReasons.push('energy_not_high_enough');
 
   const suppressed = suppressionReasons.length > 0;
   const strength = scoreStrength(energyScore, threshold, 'gte');
   const base = labelBaseConfidenceFromRequired([energy]);
-  const confidence = suppressed ? 0 : clamp((0.6 + 0.4 * strength) * base, 0, 1);
+  const confidence = suppressed ? 0 : clamp((0.65 + 0.35 * strength) * base, 0, 1);
 
   return makeLabel({
     labelId: 'energetic',
@@ -221,14 +227,23 @@ function projectDriving(dimensionObjects) {
   if (pulseScore === null || pulseScore < 0.35) suppressionReasons.push('pulse_too_low');
   if (energyScore === null || energyScore < 0.35) suppressionReasons.push('energy_too_low');
 
-  const requiredThresholdPulse = 0.65;
-  const requiredThresholdEnergy = 0.55;
+  const requiredThresholdPulse = 0.6;
+  const requiredThresholdEnergy = 0.5;
+  const driveCombo =
+    pulseScore === null || energyScore === null ? null : clamp(0.6 * pulseScore + 0.4 * energyScore, 0, 1);
+  const requiredCombo = 0.6;
+
   if (pulseScore === null || pulseScore < requiredThresholdPulse) suppressionReasons.push('pulse_below_required');
   if (energyScore === null || energyScore < requiredThresholdEnergy) suppressionReasons.push('energy_below_required');
+  if (driveCombo === null || driveCombo < requiredCombo) suppressionReasons.push('drive_combo_below_required');
 
   const suppressed = suppressionReasons.length > 0;
   const base = labelBaseConfidenceFromRequired([pulse, energy]);
-  const strength = Math.min(scoreStrength(pulseScore, requiredThresholdPulse, 'gte'), scoreStrength(energyScore, requiredThresholdEnergy, 'gte'));
+  const strength = Math.min(
+    scoreStrength(pulseScore, requiredThresholdPulse, 'gte'),
+    scoreStrength(energyScore, requiredThresholdEnergy, 'gte'),
+    scoreStrength(driveCombo, requiredCombo, 'gte')
+  );
 
   // Directional coupling note: downweight if energy is only barely above threshold but pulse is strong.
   const couplingPenalty = energyScore !== null && energyScore < 0.6 ? 0.9 : 1;
@@ -236,7 +251,7 @@ function projectDriving(dimensionObjects) {
 
   return makeLabel({
     labelId: 'driving',
-    score: pulseScore === null || energyScore === null ? null : clamp((pulseScore + energyScore) / 2, 0, 1),
+    score: driveCombo,
     confidence,
     dimensionsUsed: ['pulse_score', 'energy_score'],
     evidence: ['pulse_score', 'energy_score'],
@@ -340,9 +355,14 @@ function projectHeavy(dimensionObjects) {
   if (e !== null && e < 0.4) suppressionReasons.push('energy_too_low');
 
   const reqBrightness = 0.4;
-  const reqEnergy = 0.55;
+  const reqEnergy = 0.6;
   if (b === null || b > reqBrightness) suppressionReasons.push('brightness_not_low_enough');
   if (e === null || e < reqEnergy) suppressionReasons.push('energy_below_required');
+
+  const p = punch && safeNumber(punch.score) !== null ? punch.score : null;
+  if (e !== null && e < 0.7) {
+    if (p === null || p < 0.55) suppressionReasons.push('punch_support_not_high_enough');
+  }
 
   const suppressed = suppressionReasons.length > 0;
   const base = labelBaseConfidenceFromRequired([brightness, energy]);
@@ -355,9 +375,7 @@ function projectHeavy(dimensionObjects) {
 
   // Supporting evidence only (do not suppress on missing).
   const d = density && safeNumber(density.score) !== null ? density.score : null;
-  const p = punch && safeNumber(punch.score) !== null ? punch.score : null;
   if (!suppressed) {
-    if (d !== null && d > 0.5) conf = clamp(conf + 0.04, 0, 1);
     if (p !== null && p > 0.55) conf = clamp(conf + 0.03, 0, 1);
     if (b !== null && b < 0.25) conf = clamp(conf + 0.04, 0, 1);
   }

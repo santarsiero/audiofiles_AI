@@ -1,0 +1,1804 @@
+{
+  "meta": {
+    "generatedAt": "2026-05-30T03:55:43.698Z",
+    "sourcePath": "/Users/nicksantarsiero/Documents/GitHub/audiofiles_AI/audiofile-ai/experimentation/outputs/musicstory_successes_only.json",
+    "songCount": 8,
+    "requestedSampleCount": 8,
+    "errors": []
+  },
+  "config": {
+    "activeLabels": [
+      "energetic",
+      "driving",
+      "steady",
+      "bouncy",
+      "heavy",
+      "punchy",
+      "vocal",
+      "instrumental",
+      "speech",
+      "hypnotic"
+    ],
+    "inverseLabels": [
+      {
+        "base": "dense",
+        "inverse": "sparse"
+      },
+      {
+        "base": "energetic",
+        "inverse": "calm"
+      },
+      {
+        "base": "heavy",
+        "inverse": "light"
+      }
+    ],
+    "dimensions": [
+      "energy",
+      "pulse",
+      "brightness",
+      "density",
+      "vocal_presence",
+      "speech",
+      "valence",
+      "punch"
+    ],
+    "stateDefinitions": [
+      "`SUPPORTED`: confidence >= 0.60 AND score >= 0.65",
+      "`REJECTED`: confidence >= 0.60 AND score <= 0.35",
+      "`UNCERTAIN`: confidence < 0.60 OR (0.35 < score < 0.65)"
+    ]
+  },
+  "songs": [
+    {
+      "songIdentity": {
+        "title": "Strings of Life",
+        "artist": "Derrick May",
+        "isrc": "BEZ350800105",
+        "spotify_id": "5S7zaCv2inktON7vNdGpHj",
+        "apple_id": "1804523655",
+        "inputMusicStoryRecordingId": 1100904,
+        "providerRecordingId": 1100904
+      },
+      "surfacedLabels": [
+        {
+          "labelId": "vocal",
+          "score": 0.95929,
+          "confidence": 0.7151057135282693
+        }
+      ],
+      "activeLabelAnalysis": [
+        {
+          "labelId": "energetic",
+          "score": 0.33804224999999993,
+          "confidence": 0,
+          "state": "UNCERTAIN",
+          "suppressed": true,
+          "suppressionReason": "energy_not_high_enough"
+        },
+        {
+          "labelId": "driving",
+          "score": 0.26899019999999996,
+          "confidence": 0,
+          "state": "UNCERTAIN",
+          "suppressed": true,
+          "suppressionReason": "pulse_too_low; energy_too_low; pulse_below_required; energy_below_required"
+        },
+        {
+          "labelId": "steady",
+          "score": 0.19993814999999998,
+          "confidence": 0,
+          "state": "UNCERTAIN",
+          "suppressed": true,
+          "suppressionReason": "pulse_not_high_enough"
+        },
+        {
+          "labelId": "bouncy",
+          "score": 0.26899019999999996,
+          "confidence": 0,
+          "state": "UNCERTAIN",
+          "suppressed": true,
+          "suppressionReason": "pulse_too_low; energy_too_low; pulse_below_required; energy_below_required"
+        },
+        {
+          "labelId": "heavy",
+          "score": 0.88055595679375,
+          "confidence": 0,
+          "state": "UNCERTAIN",
+          "suppressed": true,
+          "suppressionReason": "energy_too_low; energy_below_required"
+        },
+        {
+          "labelId": "punchy",
+          "score": 0.63154,
+          "confidence": 0.44207799987316,
+          "state": "UNCERTAIN",
+          "suppressed": false,
+          "suppressionReason": null
+        },
+        {
+          "labelId": "vocal",
+          "score": 0.95929,
+          "confidence": 0.7151057135282693,
+          "state": "SUPPORTED",
+          "suppressed": false,
+          "suppressionReason": null
+        },
+        {
+          "labelId": "instrumental",
+          "score": 0.040710000000000024,
+          "confidence": 0,
+          "state": "UNCERTAIN",
+          "suppressed": true,
+          "suppressionReason": "instrumental_not_low_enough"
+        },
+        {
+          "labelId": "speech",
+          "score": 0.12801,
+          "confidence": 0,
+          "state": "UNCERTAIN",
+          "suppressed": true,
+          "suppressionReason": "speech_not_high_enough"
+        },
+        {
+          "labelId": "hypnotic",
+          "score": 0.19993814999999998,
+          "confidence": 0,
+          "state": "UNCERTAIN",
+          "suppressed": true,
+          "suppressionReason": "pulse_too_low; pulse_below_required"
+        }
+      ],
+      "inverseLabelAnalysis": [
+        {
+          "labelId": "sparse",
+          "baseLabelId": "dense",
+          "score": 0.8233405,
+          "confidence": 0,
+          "state": "UNCERTAIN"
+        },
+        {
+          "labelId": "calm",
+          "baseLabelId": "energetic",
+          "score": 0.66195775,
+          "confidence": 0,
+          "state": "UNCERTAIN"
+        },
+        {
+          "labelId": "light",
+          "baseLabelId": "heavy",
+          "score": 0.11944404320625002,
+          "confidence": 0,
+          "state": "UNCERTAIN"
+        }
+      ],
+      "dimensions": {
+        "energy": {
+          "score": 0.33804224999999993,
+          "confidence": 0.95,
+          "evidence": [
+            "arousal",
+            "loudness",
+            "intensity"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "pulse": {
+          "score": 0.19993814999999998,
+          "confidence": 1,
+          "evidence": [
+            "pulse_clarity",
+            "rhythmic_stability",
+            "complexity",
+            "danceability",
+            "articulation"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "brightness": {
+          "score": 0.11944404320625002,
+          "confidence": 0.9,
+          "evidence": [
+            "brightness",
+            "roll_off",
+            "centroid"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "density": {
+          "score": 0.1766595,
+          "confidence": 0.7,
+          "evidence": [
+            "event_density",
+            "intensity",
+            "complexity"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "vocal_presence": {
+          "score": 0.95929,
+          "confidence": 0.75,
+          "evidence": [
+            "vocal_instrumental",
+            "music_speech"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "speech": {
+          "score": 0.12801,
+          "confidence": 0.95,
+          "evidence": [
+            "music_speech"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "valence": {
+          "score": 0.26979,
+          "confidence": 0.95,
+          "evidence": [
+            "valence"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "punch": {
+          "score": 0.63154,
+          "confidence": 0.7,
+          "evidence": [
+            "articulation",
+            "loudness_range"
+          ],
+          "missing": [],
+          "usable": true
+        }
+      },
+      "warnings": []
+    },
+    {
+      "songIdentity": {
+        "title": "Griztronics",
+        "artist": "GRiZ",
+        "isrc": "CAUM81900241",
+        "spotify_id": "6OTClxme7EYRZGO6An3SMc",
+        "apple_id": "1474897054",
+        "inputMusicStoryRecordingId": 20083648,
+        "providerRecordingId": 20083648
+      },
+      "surfacedLabels": [
+        {
+          "labelId": "vocal",
+          "score": 0.89363,
+          "confidence": 0.6588257136890694
+        },
+        {
+          "labelId": "heavy",
+          "score": 0.79925965889375,
+          "confidence": 0.6207594786233123
+        }
+      ],
+      "activeLabelAnalysis": [
+        {
+          "labelId": "energetic",
+          "score": 0.6358740875,
+          "confidence": 0,
+          "state": "UNCERTAIN",
+          "suppressed": true,
+          "suppressionReason": "energy_not_high_enough"
+        },
+        {
+          "labelId": "driving",
+          "score": 0.58407024375,
+          "confidence": 0,
+          "state": "UNCERTAIN",
+          "suppressed": true,
+          "suppressionReason": "pulse_below_required"
+        },
+        {
+          "labelId": "steady",
+          "score": 0.5322664,
+          "confidence": 0,
+          "state": "UNCERTAIN",
+          "suppressed": true,
+          "suppressionReason": "pulse_not_high_enough"
+        },
+        {
+          "labelId": "bouncy",
+          "score": 0.58407024375,
+          "confidence": 0,
+          "state": "UNCERTAIN",
+          "suppressed": true,
+          "suppressionReason": "pulse_below_required"
+        },
+        {
+          "labelId": "heavy",
+          "score": 0.79925965889375,
+          "confidence": 0.6207594786233123,
+          "state": "SUPPORTED",
+          "suppressed": false,
+          "suppressionReason": null
+        },
+        {
+          "labelId": "punchy",
+          "score": 0.717976,
+          "confidence": 0.5325831997387039,
+          "state": "UNCERTAIN",
+          "suppressed": false,
+          "suppressionReason": null
+        },
+        {
+          "labelId": "vocal",
+          "score": 0.89363,
+          "confidence": 0.6588257136890694,
+          "state": "SUPPORTED",
+          "suppressed": false,
+          "suppressionReason": null
+        },
+        {
+          "labelId": "instrumental",
+          "score": 0.10636999999999996,
+          "confidence": 0,
+          "state": "UNCERTAIN",
+          "suppressed": true,
+          "suppressionReason": "instrumental_not_low_enough"
+        },
+        {
+          "labelId": "speech",
+          "score": 0.17602,
+          "confidence": 0,
+          "state": "UNCERTAIN",
+          "suppressed": true,
+          "suppressionReason": "speech_not_high_enough"
+        },
+        {
+          "labelId": "hypnotic",
+          "score": 0.5322664,
+          "confidence": 0,
+          "state": "UNCERTAIN",
+          "suppressed": true,
+          "suppressionReason": "pulse_below_required"
+        }
+      ],
+      "inverseLabelAnalysis": [
+        {
+          "labelId": "sparse",
+          "baseLabelId": "dense",
+          "score": 0.8626144,
+          "confidence": 0,
+          "state": "UNCERTAIN"
+        },
+        {
+          "labelId": "calm",
+          "baseLabelId": "energetic",
+          "score": 0.36412591250000004,
+          "confidence": 0,
+          "state": "UNCERTAIN"
+        },
+        {
+          "labelId": "light",
+          "baseLabelId": "heavy",
+          "score": 0.20074034110625005,
+          "confidence": 0.6207594786233123,
+          "state": "REJECTED"
+        }
+      ],
+      "dimensions": {
+        "energy": {
+          "score": 0.6358740875,
+          "confidence": 0.95,
+          "evidence": [
+            "arousal",
+            "loudness",
+            "intensity"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "pulse": {
+          "score": 0.5322664,
+          "confidence": 1,
+          "evidence": [
+            "pulse_clarity",
+            "rhythmic_stability",
+            "complexity",
+            "danceability",
+            "articulation"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "brightness": {
+          "score": 0.20074034110625,
+          "confidence": 0.9,
+          "evidence": [
+            "brightness",
+            "roll_off",
+            "centroid"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "density": {
+          "score": 0.1373856,
+          "confidence": 0.7,
+          "evidence": [
+            "event_density",
+            "intensity",
+            "complexity"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "vocal_presence": {
+          "score": 0.89363,
+          "confidence": 0.75,
+          "evidence": [
+            "vocal_instrumental",
+            "music_speech"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "speech": {
+          "score": 0.17602,
+          "confidence": 0.95,
+          "evidence": [
+            "music_speech"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "valence": {
+          "score": 0.34925,
+          "confidence": 0.95,
+          "evidence": [
+            "valence"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "punch": {
+          "score": 0.717976,
+          "confidence": 0.7,
+          "evidence": [
+            "articulation",
+            "loudness_range"
+          ],
+          "missing": [],
+          "usable": true
+        }
+      },
+      "warnings": []
+    },
+    {
+      "songIdentity": {
+        "title": "Friesenjung",
+        "artist": "Ski Aggu",
+        "isrc": "DE1FB2300037",
+        "spotify_id": "6tAKikIvnoWfUeZrfkopLL",
+        "apple_id": "1688994637",
+        "inputMusicStoryRecordingId": 23032935,
+        "providerRecordingId": 23032935
+      },
+      "surfacedLabels": [
+        {
+          "labelId": "steady",
+          "score": 0.7285981,
+          "confidence": 0.7650280045832711
+        },
+        {
+          "labelId": "heavy",
+          "score": 0.83350504655,
+          "confidence": 0.7393838165541471
+        },
+        {
+          "labelId": "bouncy",
+          "score": 0.73994523125,
+          "confidence": 0.6742289339831777
+        },
+        {
+          "labelId": "energetic",
+          "score": 0.7512923625,
+          "confidence": 0.6349703256167655
+        },
+        {
+          "labelId": "driving",
+          "score": 0.73994523125,
+          "confidence": 0.6347783322184904
+        }
+      ],
+      "activeLabelAnalysis": [
+        {
+          "labelId": "energetic",
+          "score": 0.7512923625,
+          "confidence": 0.6349703256167655,
+          "state": "SUPPORTED",
+          "suppressed": false,
+          "suppressionReason": null
+        },
+        {
+          "labelId": "driving",
+          "score": 0.73994523125,
+          "confidence": 0.6347783322184904,
+          "state": "SUPPORTED",
+          "suppressed": false,
+          "suppressionReason": null
+        },
+        {
+          "labelId": "steady",
+          "score": 0.7285981,
+          "confidence": 0.7650280045832711,
+          "state": "SUPPORTED",
+          "suppressed": false,
+          "suppressionReason": null
+        },
+        {
+          "labelId": "bouncy",
+          "score": 0.73994523125,
+          "confidence": 0.6742289339831777,
+          "state": "SUPPORTED",
+          "suppressed": false,
+          "suppressionReason": null
+        },
+        {
+          "labelId": "heavy",
+          "score": 0.83350504655,
+          "confidence": 0.7393838165541471,
+          "state": "SUPPORTED",
+          "suppressed": false,
+          "suppressionReason": null
+        },
+        {
+          "labelId": "punchy",
+          "score": 0.76756,
+          "confidence": 0.5872919996615734,
+          "state": "UNCERTAIN",
+          "suppressed": false,
+          "suppressionReason": null
+        },
+        {
+          "labelId": "vocal",
+          "score": 0.73695,
+          "confidence": 0.5245285712156326,
+          "state": "UNCERTAIN",
+          "suppressed": false,
+          "suppressionReason": null
+        },
+        {
+          "labelId": "instrumental",
+          "score": 0.26305,
+          "confidence": 0,
+          "state": "UNCERTAIN",
+          "suppressed": true,
+          "suppressionReason": "instrumental_not_low_enough"
+        },
+        {
+          "labelId": "speech",
+          "score": 0.06013,
+          "confidence": 0,
+          "state": "UNCERTAIN",
+          "suppressed": true,
+          "suppressionReason": "speech_not_high_enough"
+        },
+        {
+          "labelId": "hypnotic",
+          "score": 0.7285981,
+          "confidence": 0.6021868646294661,
+          "state": "SUPPORTED",
+          "suppressed": false,
+          "suppressionReason": null
+        }
+      ],
+      "inverseLabelAnalysis": [
+        {
+          "labelId": "sparse",
+          "baseLabelId": "dense",
+          "score": 0.88127785,
+          "confidence": 0,
+          "state": "UNCERTAIN"
+        },
+        {
+          "labelId": "calm",
+          "baseLabelId": "energetic",
+          "score": 0.24870763750000002,
+          "confidence": 0.6349703256167655,
+          "state": "REJECTED"
+        },
+        {
+          "labelId": "light",
+          "baseLabelId": "heavy",
+          "score": 0.16649495344999998,
+          "confidence": 0.7393838165541471,
+          "state": "REJECTED"
+        }
+      ],
+      "dimensions": {
+        "energy": {
+          "score": 0.7512923625,
+          "confidence": 0.95,
+          "evidence": [
+            "arousal",
+            "loudness",
+            "intensity"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "pulse": {
+          "score": 0.7285981,
+          "confidence": 1,
+          "evidence": [
+            "pulse_clarity",
+            "rhythmic_stability",
+            "complexity",
+            "danceability",
+            "articulation"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "brightness": {
+          "score": 0.16649495344999998,
+          "confidence": 0.9,
+          "evidence": [
+            "brightness",
+            "roll_off",
+            "centroid"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "density": {
+          "score": 0.11872215,
+          "confidence": 0.7,
+          "evidence": [
+            "event_density",
+            "intensity",
+            "complexity"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "vocal_presence": {
+          "score": 0.73695,
+          "confidence": 0.75,
+          "evidence": [
+            "vocal_instrumental",
+            "music_speech"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "speech": {
+          "score": 0.06013,
+          "confidence": 0.95,
+          "evidence": [
+            "music_speech"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "valence": {
+          "score": 0.5498,
+          "confidence": 0.95,
+          "evidence": [
+            "valence"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "punch": {
+          "score": 0.76756,
+          "confidence": 0.7,
+          "evidence": [
+            "articulation",
+            "loudness_range"
+          ],
+          "missing": [],
+          "usable": true
+        }
+      },
+      "warnings": []
+    },
+    {
+      "songIdentity": {
+        "title": "Jungle",
+        "artist": "Alok",
+        "isrc": "DEE862301476",
+        "spotify_id": "0OvO2X2Q3i98dc5RcgEN3x",
+        "apple_id": "1705391359",
+        "inputMusicStoryRecordingId": 23227803,
+        "providerRecordingId": 23227803
+      },
+      "surfacedLabels": [
+        {
+          "labelId": "vocal",
+          "score": 0.98445,
+          "confidence": 0.7366714277523674
+        },
+        {
+          "labelId": "heavy",
+          "score": 0.87415680176875,
+          "confidence": 0.608964019968969
+        }
+      ],
+      "activeLabelAnalysis": [
+        {
+          "labelId": "energetic",
+          "score": 0.6243974250000001,
+          "confidence": 0,
+          "state": "UNCERTAIN",
+          "suppressed": true,
+          "suppressionReason": "energy_not_high_enough"
+        },
+        {
+          "labelId": "driving",
+          "score": 0.5955804375,
+          "confidence": 0,
+          "state": "UNCERTAIN",
+          "suppressed": true,
+          "suppressionReason": "pulse_below_required"
+        },
+        {
+          "labelId": "steady",
+          "score": 0.5667634500000001,
+          "confidence": 0.566763449962748,
+          "state": "UNCERTAIN",
+          "suppressed": false,
+          "suppressionReason": null
+        },
+        {
+          "labelId": "bouncy",
+          "score": 0.5955804375,
+          "confidence": 0,
+          "state": "UNCERTAIN",
+          "suppressed": true,
+          "suppressionReason": "pulse_below_required"
+        },
+        {
+          "labelId": "heavy",
+          "score": 0.87415680176875,
+          "confidence": 0.608964019968969,
+          "state": "SUPPORTED",
+          "suppressed": false,
+          "suppressionReason": null
+        },
+        {
+          "labelId": "punchy",
+          "score": 0.68554,
+          "confidence": 0.5298779997891601,
+          "state": "UNCERTAIN",
+          "suppressed": false,
+          "suppressionReason": null
+        },
+        {
+          "labelId": "vocal",
+          "score": 0.98445,
+          "confidence": 0.7366714277523674,
+          "state": "SUPPORTED",
+          "suppressed": false,
+          "suppressionReason": null
+        },
+        {
+          "labelId": "instrumental",
+          "score": 0.015549999999999953,
+          "confidence": 0,
+          "state": "UNCERTAIN",
+          "suppressed": true,
+          "suppressionReason": "instrumental_not_low_enough"
+        },
+        {
+          "labelId": "speech",
+          "score": 0,
+          "confidence": 0,
+          "state": "UNCERTAIN",
+          "suppressed": true,
+          "suppressionReason": "speech_not_high_enough"
+        },
+        {
+          "labelId": "hypnotic",
+          "score": 0.5667634500000001,
+          "confidence": 0,
+          "state": "UNCERTAIN",
+          "suppressed": true,
+          "suppressionReason": "pulse_below_required"
+        }
+      ],
+      "inverseLabelAnalysis": [
+        {
+          "labelId": "sparse",
+          "baseLabelId": "dense",
+          "score": 0.84189945,
+          "confidence": 0,
+          "state": "UNCERTAIN"
+        },
+        {
+          "labelId": "calm",
+          "baseLabelId": "energetic",
+          "score": 0.37560257499999994,
+          "confidence": 0,
+          "state": "UNCERTAIN"
+        },
+        {
+          "labelId": "light",
+          "baseLabelId": "heavy",
+          "score": 0.12584319823125,
+          "confidence": 0.608964019968969,
+          "state": "REJECTED"
+        }
+      ],
+      "dimensions": {
+        "energy": {
+          "score": 0.6243974250000001,
+          "confidence": 0.95,
+          "evidence": [
+            "arousal",
+            "loudness",
+            "intensity"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "pulse": {
+          "score": 0.5667634500000001,
+          "confidence": 1,
+          "evidence": [
+            "pulse_clarity",
+            "rhythmic_stability",
+            "complexity",
+            "danceability",
+            "articulation"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "brightness": {
+          "score": 0.12584319823125,
+          "confidence": 0.9,
+          "evidence": [
+            "brightness",
+            "roll_off",
+            "centroid"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "density": {
+          "score": 0.15810055,
+          "confidence": 0.7,
+          "evidence": [
+            "event_density",
+            "intensity",
+            "complexity"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "vocal_presence": {
+          "score": 0.98445,
+          "confidence": 0.75,
+          "evidence": [
+            "vocal_instrumental",
+            "music_speech"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "speech": {
+          "score": 0,
+          "confidence": 0.95,
+          "evidence": [
+            "music_speech"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "valence": {
+          "score": 0.08956,
+          "confidence": 0.95,
+          "evidence": [
+            "valence"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "punch": {
+          "score": 0.68554,
+          "confidence": 0.7,
+          "evidence": [
+            "articulation",
+            "loudness_range"
+          ],
+          "missing": [],
+          "usable": true
+        }
+      },
+      "warnings": []
+    },
+    {
+      "songIdentity": {
+        "title": "Forget You",
+        "artist": "FAST BOY",
+        "isrc": "DEUM72300002",
+        "spotify_id": "1YWr18dWRmuvPgAsPBsOow",
+        "apple_id": "1669621170",
+        "inputMusicStoryRecordingId": 22737126,
+        "providerRecordingId": 22737126
+      },
+      "surfacedLabels": [
+        {
+          "labelId": "vocal",
+          "score": 0.91466,
+          "confidence": 0.6768514279232817
+        }
+      ],
+      "activeLabelAnalysis": [
+        {
+          "labelId": "energetic",
+          "score": 0.5854650625000001,
+          "confidence": 0,
+          "state": "UNCERTAIN",
+          "suppressed": true,
+          "suppressionReason": "energy_not_high_enough"
+        },
+        {
+          "labelId": "driving",
+          "score": 0.5667815312500001,
+          "confidence": 0,
+          "state": "UNCERTAIN",
+          "suppressed": true,
+          "suppressionReason": "pulse_below_required"
+        },
+        {
+          "labelId": "steady",
+          "score": 0.5480980000000001,
+          "confidence": 0,
+          "state": "UNCERTAIN",
+          "suppressed": true,
+          "suppressionReason": "pulse_not_high_enough"
+        },
+        {
+          "labelId": "bouncy",
+          "score": 0.5667815312500001,
+          "confidence": 0,
+          "state": "UNCERTAIN",
+          "suppressed": true,
+          "suppressionReason": "pulse_below_required"
+        },
+        {
+          "labelId": "heavy",
+          "score": 0.8548484812625,
+          "confidence": 0.5689502030439996,
+          "state": "UNCERTAIN",
+          "suppressed": false,
+          "suppressionReason": null
+        },
+        {
+          "labelId": "punchy",
+          "score": 0.706786,
+          "confidence": 0.5247501997561107,
+          "state": "UNCERTAIN",
+          "suppressed": false,
+          "suppressionReason": null
+        },
+        {
+          "labelId": "vocal",
+          "score": 0.91466,
+          "confidence": 0.6768514279232817,
+          "state": "SUPPORTED",
+          "suppressed": false,
+          "suppressionReason": null
+        },
+        {
+          "labelId": "instrumental",
+          "score": 0.08533999999999997,
+          "confidence": 0,
+          "state": "UNCERTAIN",
+          "suppressed": true,
+          "suppressionReason": "instrumental_not_low_enough"
+        },
+        {
+          "labelId": "speech",
+          "score": 0.05056,
+          "confidence": 0,
+          "state": "UNCERTAIN",
+          "suppressed": true,
+          "suppressionReason": "speech_not_high_enough"
+        },
+        {
+          "labelId": "hypnotic",
+          "score": 0.5480980000000001,
+          "confidence": 0,
+          "state": "UNCERTAIN",
+          "suppressed": true,
+          "suppressionReason": "pulse_below_required"
+        }
+      ],
+      "inverseLabelAnalysis": [
+        {
+          "labelId": "sparse",
+          "baseLabelId": "dense",
+          "score": 0.85749225,
+          "confidence": 0,
+          "state": "UNCERTAIN"
+        },
+        {
+          "labelId": "calm",
+          "baseLabelId": "energetic",
+          "score": 0.4145349374999999,
+          "confidence": 0,
+          "state": "UNCERTAIN"
+        },
+        {
+          "labelId": "light",
+          "baseLabelId": "heavy",
+          "score": 0.14515151873749998,
+          "confidence": 0.5689502030439996,
+          "state": "UNCERTAIN"
+        }
+      ],
+      "dimensions": {
+        "energy": {
+          "score": 0.5854650625000001,
+          "confidence": 0.95,
+          "evidence": [
+            "arousal",
+            "loudness",
+            "intensity"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "pulse": {
+          "score": 0.5480980000000001,
+          "confidence": 1,
+          "evidence": [
+            "pulse_clarity",
+            "rhythmic_stability",
+            "complexity",
+            "danceability",
+            "articulation"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "brightness": {
+          "score": 0.14515151873749998,
+          "confidence": 0.9,
+          "evidence": [
+            "brightness",
+            "roll_off",
+            "centroid"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "density": {
+          "score": 0.14250775000000002,
+          "confidence": 0.7,
+          "evidence": [
+            "event_density",
+            "intensity",
+            "complexity"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "vocal_presence": {
+          "score": 0.91466,
+          "confidence": 0.75,
+          "evidence": [
+            "vocal_instrumental",
+            "music_speech"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "speech": {
+          "score": 0.05056,
+          "confidence": 0.95,
+          "evidence": [
+            "music_speech"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "valence": {
+          "score": 0.26703,
+          "confidence": 0.95,
+          "evidence": [
+            "valence"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "punch": {
+          "score": 0.706786,
+          "confidence": 0.7,
+          "evidence": [
+            "articulation",
+            "loudness_range"
+          ],
+          "missing": [],
+          "usable": true
+        }
+      },
+      "warnings": []
+    },
+    {
+      "songIdentity": {
+        "title": "Cut Dick",
+        "artist": "Mr. Oizo",
+        "isrc": "FR0NT0800750",
+        "spotify_id": "4sqZAKBTC4a2x1Ivil7h36",
+        "apple_id": "295295608",
+        "inputMusicStoryRecordingId": 983434,
+        "providerRecordingId": 983434
+      },
+      "surfacedLabels": [
+        {
+          "labelId": "steady",
+          "score": 0.64042325,
+          "confidence": 0.6724444122890124
+        },
+        {
+          "labelId": "instrumental",
+          "score": 0.85759,
+          "confidence": 0.6431925
+        },
+        {
+          "labelId": "bouncy",
+          "score": 0.6167117625,
+          "confidence": 0.6167658358143355
+        }
+      ],
+      "activeLabelAnalysis": [
+        {
+          "labelId": "energetic",
+          "score": 0.5930002750000001,
+          "confidence": 0,
+          "state": "UNCERTAIN",
+          "suppressed": true,
+          "suppressionReason": "energy_not_high_enough"
+        },
+        {
+          "labelId": "driving",
+          "score": 0.6167117625,
+          "confidence": 0,
+          "state": "UNCERTAIN",
+          "suppressed": true,
+          "suppressionReason": "pulse_below_required"
+        },
+        {
+          "labelId": "steady",
+          "score": 0.64042325,
+          "confidence": 0.6724444122890124,
+          "state": "UNCERTAIN",
+          "suppressed": false,
+          "suppressionReason": null
+        },
+        {
+          "labelId": "bouncy",
+          "score": 0.6167117625,
+          "confidence": 0.6167658358143355,
+          "state": "UNCERTAIN",
+          "suppressed": false,
+          "suppressionReason": null
+        },
+        {
+          "labelId": "heavy",
+          "score": 0.870563873025,
+          "confidence": 0.5766947269851229,
+          "state": "UNCERTAIN",
+          "suppressed": false,
+          "suppressionReason": null
+        },
+        {
+          "labelId": "punchy",
+          "score": 0.7785580000000001,
+          "confidence": 0.5949905996444654,
+          "state": "UNCERTAIN",
+          "suppressed": false,
+          "suppressionReason": null
+        },
+        {
+          "labelId": "vocal",
+          "score": 0.14241000000000004,
+          "confidence": 0,
+          "state": "UNCERTAIN",
+          "suppressed": true,
+          "suppressionReason": "vocal_not_high_enough"
+        },
+        {
+          "labelId": "instrumental",
+          "score": 0.85759,
+          "confidence": 0.6431925,
+          "state": "SUPPORTED",
+          "suppressed": false,
+          "suppressionReason": null
+        },
+        {
+          "labelId": "speech",
+          "score": 0.04798,
+          "confidence": 0,
+          "state": "UNCERTAIN",
+          "suppressed": true,
+          "suppressionReason": "speech_not_high_enough"
+        },
+        {
+          "labelId": "hypnotic",
+          "score": 0.64042325,
+          "confidence": 0,
+          "state": "UNCERTAIN",
+          "suppressed": true,
+          "suppressionReason": "pulse_below_required"
+        }
+      ],
+      "inverseLabelAnalysis": [
+        {
+          "labelId": "sparse",
+          "baseLabelId": "dense",
+          "score": 0.90940005,
+          "confidence": 0,
+          "state": "UNCERTAIN"
+        },
+        {
+          "labelId": "calm",
+          "baseLabelId": "energetic",
+          "score": 0.4069997249999999,
+          "confidence": 0,
+          "state": "UNCERTAIN"
+        },
+        {
+          "labelId": "light",
+          "baseLabelId": "heavy",
+          "score": 0.12943612697499995,
+          "confidence": 0.5766947269851229,
+          "state": "UNCERTAIN"
+        }
+      ],
+      "dimensions": {
+        "energy": {
+          "score": 0.5930002750000001,
+          "confidence": 0.95,
+          "evidence": [
+            "arousal",
+            "loudness",
+            "intensity"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "pulse": {
+          "score": 0.64042325,
+          "confidence": 1,
+          "evidence": [
+            "pulse_clarity",
+            "rhythmic_stability",
+            "complexity",
+            "danceability",
+            "articulation"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "brightness": {
+          "score": 0.129436126975,
+          "confidence": 0.9,
+          "evidence": [
+            "brightness",
+            "roll_off",
+            "centroid"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "density": {
+          "score": 0.09059995000000001,
+          "confidence": 0.7,
+          "evidence": [
+            "event_density",
+            "intensity",
+            "complexity"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "vocal_presence": {
+          "score": 0.14241000000000004,
+          "confidence": 0.75,
+          "evidence": [
+            "vocal_instrumental",
+            "music_speech"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "speech": {
+          "score": 0.04798,
+          "confidence": 0.95,
+          "evidence": [
+            "music_speech"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "valence": {
+          "score": 0.74319,
+          "confidence": 0.95,
+          "evidence": [
+            "valence"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "punch": {
+          "score": 0.7785580000000001,
+          "confidence": 0.7,
+          "evidence": [
+            "articulation",
+            "loudness_range"
+          ],
+          "missing": [],
+          "usable": true
+        }
+      },
+      "warnings": []
+    },
+    {
+      "songIdentity": {
+        "title": "I Need Your Love",
+        "artist": "Calvin Harris",
+        "isrc": "GBARL1201390",
+        "spotify_id": "0f8GDk3hYFkHkpecyUByZ7",
+        "apple_id": "1647424714",
+        "inputMusicStoryRecordingId": 5124579,
+        "providerRecordingId": 5124579
+      },
+      "surfacedLabels": [
+        {
+          "labelId": "vocal",
+          "score": 0.99238,
+          "confidence": 0.7434685705900899
+        },
+        {
+          "labelId": "steady",
+          "score": 0.69145925,
+          "confidence": 0.7260322121699284
+        },
+        {
+          "labelId": "heavy",
+          "score": 0.872591061675,
+          "confidence": 0.708070600998732
+        },
+        {
+          "labelId": "bouncy",
+          "score": 0.7061423499999999,
+          "confidence": 0.6789659606588351
+        }
+      ],
+      "activeLabelAnalysis": [
+        {
+          "labelId": "energetic",
+          "score": 0.72082545,
+          "confidence": 0.5963789032454035,
+          "state": "UNCERTAIN",
+          "suppressed": false,
+          "suppressionReason": null
+        },
+        {
+          "labelId": "driving",
+          "score": 0.7061423499999999,
+          "confidence": 0.5882221311015081,
+          "state": "UNCERTAIN",
+          "suppressed": false,
+          "suppressionReason": null
+        },
+        {
+          "labelId": "steady",
+          "score": 0.69145925,
+          "confidence": 0.7260322121699284,
+          "state": "SUPPORTED",
+          "suppressed": false,
+          "suppressionReason": null
+        },
+        {
+          "labelId": "bouncy",
+          "score": 0.7061423499999999,
+          "confidence": 0.6789659606588351,
+          "state": "SUPPORTED",
+          "suppressed": false,
+          "suppressionReason": null
+        },
+        {
+          "labelId": "heavy",
+          "score": 0.872591061675,
+          "confidence": 0.708070600998732,
+          "state": "SUPPORTED",
+          "suppressed": false,
+          "suppressionReason": null
+        },
+        {
+          "labelId": "punchy",
+          "score": 0.77779,
+          "confidence": 0.59445299964566,
+          "state": "UNCERTAIN",
+          "suppressed": false,
+          "suppressionReason": null
+        },
+        {
+          "labelId": "vocal",
+          "score": 0.99238,
+          "confidence": 0.7434685705900899,
+          "state": "SUPPORTED",
+          "suppressed": false,
+          "suppressionReason": null
+        },
+        {
+          "labelId": "instrumental",
+          "score": 0.00761999999999996,
+          "confidence": 0,
+          "state": "UNCERTAIN",
+          "suppressed": true,
+          "suppressionReason": "instrumental_not_low_enough"
+        },
+        {
+          "labelId": "speech",
+          "score": 0.04913,
+          "confidence": 0,
+          "state": "UNCERTAIN",
+          "suppressed": true,
+          "suppressionReason": "speech_not_high_enough"
+        },
+        {
+          "labelId": "hypnotic",
+          "score": 0.69145925,
+          "confidence": 0.5409077623045492,
+          "state": "UNCERTAIN",
+          "suppressed": false,
+          "suppressionReason": null
+        }
+      ],
+      "inverseLabelAnalysis": [
+        {
+          "labelId": "sparse",
+          "baseLabelId": "dense",
+          "score": 0.86721925,
+          "confidence": 0,
+          "state": "UNCERTAIN"
+        },
+        {
+          "labelId": "calm",
+          "baseLabelId": "energetic",
+          "score": 0.27917455,
+          "confidence": 0.5963789032454035,
+          "state": "UNCERTAIN"
+        },
+        {
+          "labelId": "light",
+          "baseLabelId": "heavy",
+          "score": 0.127408938325,
+          "confidence": 0.708070600998732,
+          "state": "REJECTED"
+        }
+      ],
+      "dimensions": {
+        "energy": {
+          "score": 0.72082545,
+          "confidence": 0.95,
+          "evidence": [
+            "arousal",
+            "loudness",
+            "intensity"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "pulse": {
+          "score": 0.69145925,
+          "confidence": 1,
+          "evidence": [
+            "pulse_clarity",
+            "rhythmic_stability",
+            "complexity",
+            "danceability",
+            "articulation"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "brightness": {
+          "score": 0.127408938325,
+          "confidence": 0.9,
+          "evidence": [
+            "brightness",
+            "roll_off",
+            "centroid"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "density": {
+          "score": 0.13278075,
+          "confidence": 0.7,
+          "evidence": [
+            "event_density",
+            "intensity",
+            "complexity"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "vocal_presence": {
+          "score": 0.99238,
+          "confidence": 0.75,
+          "evidence": [
+            "vocal_instrumental",
+            "music_speech"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "speech": {
+          "score": 0.04913,
+          "confidence": 0.95,
+          "evidence": [
+            "music_speech"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "valence": {
+          "score": 0.72486,
+          "confidence": 0.95,
+          "evidence": [
+            "valence"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "punch": {
+          "score": 0.77779,
+          "confidence": 0.7,
+          "evidence": [
+            "articulation",
+            "loudness_range"
+          ],
+          "missing": [],
+          "usable": true
+        }
+      },
+      "warnings": []
+    },
+    {
+      "songIdentity": {
+        "title": "Clint Eastwood - Ed Case / Sweetie Irie Refix",
+        "artist": "Gorillaz",
+        "isrc": "GBAYE1400479",
+        "spotify_id": "2g1qxZKavK3UZeKesmqynB",
+        "apple_id": "850576763",
+        "inputMusicStoryRecordingId": 34686789,
+        "providerRecordingId": 34686789
+      },
+      "surfacedLabels": [
+        {
+          "labelId": "steady",
+          "score": 0.7765099,
+          "confidence": 0.8153353944714768
+        },
+        {
+          "labelId": "bouncy",
+          "score": 0.6792845,
+          "confidence": 0.7154230185034617
+        },
+        {
+          "labelId": "hypnotic",
+          "score": 0.7765099,
+          "confidence": 0.6812413344035961
+        },
+        {
+          "labelId": "punchy",
+          "score": 0.823678,
+          "confidence": 0.6265745995742786
+        }
+      ],
+      "activeLabelAnalysis": [
+        {
+          "labelId": "energetic",
+          "score": 0.5820590999999999,
+          "confidence": 0,
+          "state": "UNCERTAIN",
+          "suppressed": true,
+          "suppressionReason": "energy_not_high_enough"
+        },
+        {
+          "labelId": "driving",
+          "score": 0.6792845,
+          "confidence": 0.5107568601874847,
+          "state": "UNCERTAIN",
+          "suppressed": false,
+          "suppressionReason": null
+        },
+        {
+          "labelId": "steady",
+          "score": 0.7765099,
+          "confidence": 0.8153353944714768,
+          "state": "SUPPORTED",
+          "suppressed": false,
+          "suppressionReason": null
+        },
+        {
+          "labelId": "bouncy",
+          "score": 0.6792845,
+          "confidence": 0.7154230185034617,
+          "state": "SUPPORTED",
+          "suppressed": false,
+          "suppressionReason": null
+        },
+        {
+          "labelId": "heavy",
+          "score": 0.77526409284375,
+          "confidence": 0.5654496304823341,
+          "state": "UNCERTAIN",
+          "suppressed": false,
+          "suppressionReason": null
+        },
+        {
+          "labelId": "punchy",
+          "score": 0.823678,
+          "confidence": 0.6265745995742786,
+          "state": "SUPPORTED",
+          "suppressed": false,
+          "suppressionReason": null
+        },
+        {
+          "labelId": "vocal",
+          "score": 0.58368,
+          "confidence": 0,
+          "state": "UNCERTAIN",
+          "suppressed": true,
+          "suppressionReason": "vocal_uncertainty_band; vocal_not_high_enough"
+        },
+        {
+          "labelId": "instrumental",
+          "score": 0.41632,
+          "confidence": 0,
+          "state": "UNCERTAIN",
+          "suppressed": true,
+          "suppressionReason": "vocal_uncertainty_band; instrumental_not_low_enough"
+        },
+        {
+          "labelId": "speech",
+          "score": 0.09638,
+          "confidence": 0,
+          "state": "UNCERTAIN",
+          "suppressed": true,
+          "suppressionReason": "speech_not_high_enough"
+        },
+        {
+          "labelId": "hypnotic",
+          "score": 0.7765099,
+          "confidence": 0.6812413344035961,
+          "state": "SUPPORTED",
+          "suppressed": false,
+          "suppressionReason": null
+        }
+      ],
+      "inverseLabelAnalysis": [
+        {
+          "labelId": "sparse",
+          "baseLabelId": "dense",
+          "score": 0.9084497,
+          "confidence": 0,
+          "state": "UNCERTAIN"
+        },
+        {
+          "labelId": "calm",
+          "baseLabelId": "energetic",
+          "score": 0.41794090000000006,
+          "confidence": 0,
+          "state": "UNCERTAIN"
+        },
+        {
+          "labelId": "light",
+          "baseLabelId": "heavy",
+          "score": 0.22473590715625003,
+          "confidence": 0.5654496304823341,
+          "state": "UNCERTAIN"
+        }
+      ],
+      "dimensions": {
+        "energy": {
+          "score": 0.5820590999999999,
+          "confidence": 0.95,
+          "evidence": [
+            "arousal",
+            "loudness",
+            "intensity"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "pulse": {
+          "score": 0.7765099,
+          "confidence": 1,
+          "evidence": [
+            "pulse_clarity",
+            "rhythmic_stability",
+            "complexity",
+            "danceability",
+            "articulation"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "brightness": {
+          "score": 0.22473590715625003,
+          "confidence": 0.9,
+          "evidence": [
+            "brightness",
+            "roll_off",
+            "centroid"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "density": {
+          "score": 0.0915503,
+          "confidence": 0.7,
+          "evidence": [
+            "event_density",
+            "intensity",
+            "complexity"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "vocal_presence": {
+          "score": 0.58368,
+          "confidence": 0.595,
+          "evidence": [
+            "vocal_instrumental",
+            "music_speech"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "speech": {
+          "score": 0.09638,
+          "confidence": 0.95,
+          "evidence": [
+            "music_speech"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "valence": {
+          "score": 0.87223,
+          "confidence": 0.95,
+          "evidence": [
+            "valence"
+          ],
+          "missing": [],
+          "usable": true
+        },
+        "punch": {
+          "score": 0.823678,
+          "confidence": 0.7,
+          "evidence": [
+            "articulation",
+            "loudness_range"
+          ],
+          "missing": [],
+          "usable": true
+        }
+      },
+      "warnings": []
+    }
+  ]
+}
