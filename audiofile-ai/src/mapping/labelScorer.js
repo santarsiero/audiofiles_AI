@@ -239,15 +239,16 @@ function projectDriving(dimensionObjects) {
 
   const suppressed = suppressionReasons.length > 0;
   const base = labelBaseConfidenceFromRequired([pulse, energy]);
-  const strength = Math.min(
-    scoreStrength(pulseScore, requiredThresholdPulse, 'gte'),
-    scoreStrength(energyScore, requiredThresholdEnergy, 'gte'),
-    scoreStrength(driveCombo, requiredCombo, 'gte')
-  );
 
-  // Directional coupling note: downweight if energy is only barely above threshold but pulse is strong.
-  const couplingPenalty = energyScore !== null && energyScore < 0.6 ? 0.9 : 1;
-  const confidence = suppressed ? 0 : clamp((0.55 + 0.45 * strength) * base * couplingPenalty, 0, 1);
+  const strengthPulse = scoreStrength(pulseScore, requiredThresholdPulse, 'gte');
+  const strengthEnergy = scoreStrength(energyScore, requiredThresholdEnergy, 'gte');
+  const strengthCombo = scoreStrength(driveCombo, requiredCombo, 'gte');
+
+  const strengthForConfidence = clamp(0.5 * strengthCombo + 0.4 * strengthPulse + 0.1 * strengthEnergy, 0, 1);
+
+  // Directional coupling note: downweight only when energy is barely above the minimum requirement.
+  const couplingPenalty = energyScore !== null && energyScore < 0.55 ? 0.9 : 1;
+  const confidence = suppressed ? 0 : clamp((0.55 + 0.45 * strengthForConfidence) * base * couplingPenalty, 0, 1);
 
   return makeLabel({
     labelId: 'driving',
