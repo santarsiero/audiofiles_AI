@@ -155,7 +155,7 @@ Dynamic profiles are passed to Layer 4 as modifiers on the base dimension scores
 ### Layer 4 — Genre-Conditioned Expressive Semantic Vocabulary
 
 **What it contains:**  
-Derived descriptors that are richer and more human-facing than raw dimensions but more grounded than final user labels. These should emerge from combinations of Layer 2 dimension scores and Layer 3 dynamic profiles. Examples: `driving`, `hypnotic`, `heavy`, `bouncy`, `stepping`, `floating`, `gritty`, `cinematic`, `explosive`.
+Derived descriptors that are richer and more human-facing than raw dimensions but more grounded than final user labels. These should emerge from combinations of Layer 2 dimension scores and Layer 3 dynamic profiles. Examples: `driving`, `hypnotic`, `heavy`, `bouncy`, `stepping`, `groove`, `floating`, `atmospheric`, `rolling`, `bass-driven`, `gritty`, `cinematic`, `explosive`.
 
 **Layer 4 is the system's internal semantic interpretation space, not a direct label output.** Multiple expressive descriptors may activate simultaneously at varying confidence levels, including overlapping or partially contradictory interpretations. These activations are not necessarily surfaced directly to the user — that filtering happens in Layer 5. Expressive semantic activations may eventually become persistent internal semantic state used for retrieval, recommendation, clustering, and explainability, though this behavior is not required for V1.
 
@@ -240,15 +240,32 @@ Describe structural behavior over time. Examples: `builds`, `drops`, `breakdown`
 **Movement / Body-Response Labels**  
 Describe physical and rhythmic listener response. Examples: `danceable`, `head nodder`, `stepping`, `bouncy`, `groove`. Some overlap with expressive semantic descriptors but are anchored in body-level response rather than sonic quality.
 
+`groove` is an explicitly recognized ontology concept. It is distinct from:
+- `danceable` (can you move to it?)
+- `steady` (is the rhythmic foundation stable?)
+- `bouncy` (does the rhythm feel springy/light?)
+
+Groove refers to a locked-in rhythmic feel / pocket that produces a strong body-response pull.
+
 ---
 
 **Emotional / Affective Labels**  
 Describe emotional character or listener affect. Examples: `dark`, `uplifting`, `tense`, `peaceful`, `somber`, `euphoric`. These emerge from combinations of valence, darkness, tension, and dynamicity dimensions.
 
+`uplifting` is a valid ontology concept but should not be treated as a synonym for spectral brightness. It may be supported by brightness in some genres, but is more fundamentally about affective lift (typically involving valence, energy, and compositional context).
+
+`euphoric` is a valid future-facing ontology concept. It is compatible with Layer 3 planning and is expected to benefit substantially from temporal context, but the concept itself is still ontology-valid even before Layer 3 is implemented.
+
 ---
 
 **Instrument / Driver Labels**  
-Describe what is sonically dominant or structurally driving the song. Examples: `bass line`, `vocals`, `guitar-led`, `synth-driven`. Partially detectable from descriptor data (vocality dimension, electric_acoustic) but require care.
+Describe what is sonically dominant or structurally driving the song. Examples: `bass line`, `bass-driven`, `vocals`, `guitar-led`, `synth-driven`. Partially detectable from descriptor data (vocality dimension, electric_acoustic) but require care.
+
+`bass-driven` is distinct from:
+- `heavy` (overall weight / power)
+- `dense` (fullness / occupancy)
+
+A song may be heavy without being bass-driven, and bass-driven without being maximally heavy.
 
 ---
 
@@ -372,14 +389,29 @@ High pulse + moderate complexity + distinct rhythmic identity. Associated with t
 **floating / airy**  
 Low density + high brightness + low punch + low complexity. Perceptually light and open. Opposite of heavy. Can appear at low or moderate energy levels.
 
+This concept is intended to capture weightless / suspended motion ("floaty"), not just low density.
+
 **gritty / grimy**  
 Moderate-to-high energy + low-to-moderate brightness + moderate aggression + moderate density. Textured, rough, often urban-feeling. Not the same as dark.
 
 **uplifting / colorful**  
 High brightness + high energy + positive valence. Emotionally positive and spectrally bright. Often correlates with high danceability.
 
+Note: `uplifting` is a valid affective concept but should not be reduced to brightness alone. Brightness may support uplifting in some contexts, but uplifting is fundamentally an affective lift signal and may be strengthened by future temporal evidence.
+
+`euphoric` is a valid future-facing affective concept. It is expected to benefit heavily from temporal context (build, release, peak-state), but it remains compatible with the existing ontology architecture.
+
+**atmospheric**
+An explicitly recognized expressive vocabulary concept. Immersive environment / spatial mood / enveloping texture. Derived and interpreted (not primitive).
+
 **cinematic / powerful**  
 High dynamicity + emergent energy + high tension + emotional intensity. Requires temporal modeling. Not achievable with static descriptors alone in V1.
+
+Examples of additional future-facing expressive concepts that are expected to become substantially more reliable once Layer 3 temporal modifiers exist: `dramatic`.
+
+Examples of future expressive vocabulary considerations that are expected to be genre-conditioned rather than universal surfaced labels: `rolling`.
+
+Examples of future exploratory expressive vocabulary considerations: `playful`.
 
 **builds / progression**  
 Requires Layer 3. Structural escalation toward a climax or drop. Not inferrable from song-level average scores.

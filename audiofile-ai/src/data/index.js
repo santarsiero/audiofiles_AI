@@ -128,9 +128,8 @@ async function run() {
 
   const missing = new Map();
   for (const out of outputs) {
-    for (const f of out.analysis.missingFeatures) {
-      missing.set(f, (missing.get(f) || 0) + 1);
-    }
+    const missingDescriptors = out && out.analysis && Array.isArray(out.analysis.missingDescriptors) ? out.analysis.missingDescriptors : [];
+    for (const f of missingDescriptors) missing.set(f, (missing.get(f) || 0) + 1);
   }
 
   console.log('---');

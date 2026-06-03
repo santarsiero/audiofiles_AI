@@ -711,6 +711,8 @@ These are acknowledged limitations of the V1 implementation. They are not bugs t
 
 **Temporal averaging problem:** All dimension scores are song-level averages. A track with a dramatic drop will score similarly to a consistently medium track. This is a known structural limitation of the current descriptor pipeline.
 
+Concepts such as `dramatic`, `euphoric`, and (in many cases) `uplifting` are expected to benefit substantially from future temporal modeling. This does not invalidate the concepts; it limits V1's ability to infer them reliably from static averages.
+
 **Kinetic energy only:** `energy_score` captures kinetic energy. Built/emergent energy requires temporal modeling not present in V1.
 
 **Genre blindness:** V1 composition rules are genre-agnostic. Heavy in techno and heavy in orchestral are not distinguished. Users should be aware that some labels carry genre-relative meaning.
@@ -735,6 +737,7 @@ Items explicitly out of scope for V1 but architected for:
 - **Geometric representation** — normalized dimension vectors for retrieval and recommendation
 - **Personalization overlays** — user-level threshold calibration
 - **Confidence UX specification** — how confidence tiers are shown to users in the AudioFile interface
+- **Additional expressive vocabulary expansion** — groove, atmospheric, bass-driven (instrument/driver), rolling (genre-conditioned), playful (exploratory)
 - **Additional expressive labels** — dark/deep (valence + brightness combinations), gritty, uplifting (post-calibration)
 
 None of these should be attempted in V1. They are listed here to confirm they have been considered and deferred intentionally.

@@ -577,6 +577,59 @@ Validation (calibration set re-run):
   - Heavy was overfiring from low brightness + moderate energy.
   - Added stronger energy support and punch corroboration without relying on density.
 
+---
+
+## 2026-06-03 — Runtime Reality Alignment Cleanup (Music Story descriptor availability)
+
+### Purpose
+
+- Align active runtime behavior to match real Music Story cached payload descriptor availability.
+- Deactivate active dependencies on descriptors observed at 0% availability in the Music Story cache.
+- Preserve the aligned runtime dimensions + label set as the supported operational surface.
+
+### Files modified
+
+- `audiofile-ai/src/features/normalize.js`
+- `audiofile-ai/src/mapping/mappingConfig.js`
+
+### Cleanup performed
+
+- Deactivated unsupported Music Story descriptor reads (0% cache coverage):
+  - `low_end_score`
+  - `harshness_score`
+  - `transient_strength`
+  - `offbeat_score`
+  - `syncopation`
+  - `rhythm_complexity`
+  - `spectral_complexity`
+  - `timbral_complexity`
+  - `instrumentation_diversity`
+- Legacy normalized features that depended on these signals are now set to `null` in `normalizedFeatures`:
+  - `darkness_score`, `driving_score`, `layered_score`, `syncopation_score`, `offbeat_score`, `harshness_score`, `calm_score`, `low_end_score`
+
+### Legacy label behavior
+
+- Disabled legacy label configs that depended on descriptor-starved features:
+  - `dark`, `layered`, `driving`, `bouncy`, `syncopated`, `calm`, `aggressive`
+- Supported legacy label configs that remain active (supported by real cached descriptors):
+  - `bright`, `steady`, `punchy`, `vocal`, `instrumental`, `speech`
+  - `dense`/`sparse` remain present but are still deferred from surfacing in the aligned surfacing pipeline.
+
+### Future concepts preserved
+
+- No ontology documents were modified.
+- Future/planning concepts remain conceptually valid but are not implied as currently inferable from Music Story-only cached evidence.
+
+### Validation
+
+- Ran offline validation to confirm:
+  - `normalizeFromDescriptors()` executes.
+  - `processSong()` executes.
+  - Aligned dimensions remain present: energy/pulse/brightness/density/vocal_presence/speech/valence/punch.
+  - Aligned labels remain functional: energetic/driving/steady/bouncy/heavy/punchy/vocal/instrumental/speech/hypnotic.
+  - No unsupported descriptor is treated as available provider evidence.
+  - No dead-path legacy labels leak into surfaced aligned output.
+
 
 
 

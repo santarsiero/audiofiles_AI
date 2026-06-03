@@ -77,51 +77,51 @@
   },
   "labels": {
     "energetic": {
-      "surfacedCount": 43,
-      "avgSurfacedConfidence": 0.6537789811936051
+      "surfacedCount": 110,
+      "avgSurfacedConfidence": 0.6722557661891013
     },
     "driving": {
-      "surfacedCount": 34,
-      "avgSurfacedConfidence": 0.6419390577963634
+      "surfacedCount": 102,
+      "avgSurfacedConfidence": 0.652495952724181
     },
     "steady": {
       "surfacedCount": 184,
       "avgSurfacedConfidence": 0.7066123395556557
     },
     "bouncy": {
-      "surfacedCount": 100,
-      "avgSurfacedConfidence": 0.6727582127699699
+      "surfacedCount": 97,
+      "avgSurfacedConfidence": 0.6745714679243217
     },
     "heavy": {
-      "surfacedCount": 166,
-      "avgSurfacedConfidence": 0.6663921247359459
+      "surfacedCount": 101,
+      "avgSurfacedConfidence": 0.6603304352159068
     },
     "punchy": {
-      "surfacedCount": 31,
-      "avgSurfacedConfidence": 0.6193947802339614
+      "surfacedCount": 24,
+      "avgSurfacedConfidence": 0.6192603162553475
     },
     "vocal": {
-      "surfacedCount": 221,
-      "avgSurfacedConfidence": 0.7158515441660873
+      "surfacedCount": 220,
+      "avgSurfacedConfidence": 0.7162896615768353
     },
     "instrumental": {
-      "surfacedCount": 12,
-      "avgSurfacedConfidence": 0.65591375
+      "surfacedCount": 13,
+      "avgSurfacedConfidence": 0.6579594230769232
     },
     "speech": {
       "surfacedCount": 0,
       "avgSurfacedConfidence": null
     },
     "hypnotic": {
-      "surfacedCount": 35,
-      "avgSurfacedConfidence": 0.6582732731835049
+      "surfacedCount": 30,
+      "avgSurfacedConfidence": 0.6578164494705245
     }
   },
   "surfacing": {
-    "avgSurfacedPerSong": 2.263013698630137,
+    "avgSurfacedPerSong": 2.4136986301369863,
     "count0": 21,
-    "count1to2": 210,
-    "count3to5": 134
+    "count1to2": 188,
+    "count3to5": 156
   },
   "warnings": {
     "low_dimension_coverage": 0,
@@ -240,15 +240,7 @@
         }
       ],
       "analysis": {
-        "missingDescriptors": [
-          "timbral_complexity",
-          "instrumentation_diversity",
-          "low_end_score",
-          "harshness_score",
-          "transient_strength",
-          "offbeat_score",
-          "provider_syncopation_or_rhythm_complexity"
-        ],
+        "missingDescriptors": [],
         "missingDimensions": [],
         "lowConfidenceDimensions": [],
         "suppressedLabels": [
@@ -272,7 +264,7 @@
           },
           {
             "labelId": "driving",
-            "score": 0.26899019999999996,
+            "score": 0.25517978999999996,
             "confidence": 0,
             "dimensionsUsed": [
               "pulse_score",
@@ -287,7 +279,8 @@
               "pulse_too_low",
               "energy_too_low",
               "pulse_below_required",
-              "energy_below_required"
+              "energy_below_required",
+              "drive_combo_below_required"
             ],
             "nonSurfacedReasons": [
               "label_suppressed"
@@ -442,7 +435,7 @@
           },
           {
             "labelId": "driving",
-            "score": 0.26899019999999996,
+            "score": 0.25517978999999996,
             "confidence": 0,
             "dimensionsUsed": [
               "pulse_score",
@@ -457,7 +450,8 @@
               "pulse_too_low",
               "energy_too_low",
               "pulse_below_required",
-              "energy_below_required"
+              "energy_below_required",
+              "drive_combo_below_required"
             ],
             "nonSurfacedReasons": [
               "label_suppressed"
@@ -648,7 +642,7 @@
           },
           {
             "labelId": "driving",
-            "score": 0.26899019999999996,
+            "score": 0.25517978999999996,
             "confidence": 0,
             "dimensionsUsed": [
               "pulse_score",
@@ -663,7 +657,8 @@
               "pulse_too_low",
               "energy_too_low",
               "pulse_below_required",
-              "energy_below_required"
+              "energy_below_required",
+              "drive_combo_below_required"
             ]
           },
           {
@@ -920,24 +915,24 @@
         "normalizedFeatures": {
           "energy_score": 0.33804224999999993,
           "density_score": 0.1766595,
-          "layered_score": 0.44761625,
           "brightness_score": 0.11944404320625002,
-          "darkness_score": 0.8137355315520833,
           "pulse_score": 0.19993814999999998,
           "rhythm_stability_score": 0.48126,
-          "offbeat_score": null,
-          "syncopation_score": 0.359339075,
           "vocal_score": 0.95929,
           "vocal_presence_score": 0.95929,
           "speech_score": 0.12801,
           "instrumental_score": 0.04071,
-          "harshness_score": null,
           "punch_score": 0.63154,
-          "calm_score": 0.7332008906249999,
+          "layered_score": null,
+          "darkness_score": null,
+          "offbeat_score": null,
+          "syncopation_score": null,
+          "harshness_score": null,
+          "calm_score": null,
           "low_end_score": null,
           "acoustic_score": null,
           "valence_score": 0.26979,
-          "driving_score": 0.21105564374999997
+          "driving_score": null
         },
         "aiLabels": []
       }
@@ -1038,15 +1033,7 @@
       },
       "labels": [],
       "analysis": {
-        "missingDescriptors": [
-          "timbral_complexity",
-          "instrumentation_diversity",
-          "low_end_score",
-          "harshness_score",
-          "transient_strength",
-          "offbeat_score",
-          "provider_syncopation_or_rhythm_complexity"
-        ],
+        "missingDescriptors": [],
         "missingDimensions": [],
         "lowConfidenceDimensions": [],
         "suppressedLabels": [
@@ -1070,7 +1057,7 @@
           },
           {
             "labelId": "driving",
-            "score": 0.5224878125,
+            "score": 0.51489023,
             "confidence": 0,
             "dimensionsUsed": [
               "pulse_score",
@@ -1082,7 +1069,8 @@
             ],
             "suppressed": true,
             "suppressionReasons": [
-              "pulse_below_required"
+              "pulse_below_required",
+              "drive_combo_below_required"
             ],
             "nonSurfacedReasons": [
               "label_suppressed"
@@ -1126,6 +1114,28 @@
             "suppressed": true,
             "suppressionReasons": [
               "pulse_below_required"
+            ],
+            "nonSurfacedReasons": [
+              "label_suppressed"
+            ]
+          },
+          {
+            "labelId": "heavy",
+            "score": 0.935447990925,
+            "confidence": 0,
+            "dimensionsUsed": [
+              "brightness_score",
+              "energy_score"
+            ],
+            "evidence": [
+              "brightness_score",
+              "energy_score",
+              "density_score",
+              "punch_score"
+            ],
+            "suppressed": true,
+            "suppressionReasons": [
+              "energy_below_required"
             ],
             "nonSurfacedReasons": [
               "label_suppressed"
@@ -1229,7 +1239,7 @@
           },
           {
             "labelId": "driving",
-            "score": 0.5224878125,
+            "score": 0.51489023,
             "confidence": 0,
             "dimensionsUsed": [
               "pulse_score",
@@ -1241,7 +1251,8 @@
             ],
             "suppressed": true,
             "suppressionReasons": [
-              "pulse_below_required"
+              "pulse_below_required",
+              "drive_combo_below_required"
             ],
             "nonSurfacedReasons": [
               "label_suppressed"
@@ -1293,7 +1304,7 @@
           {
             "labelId": "heavy",
             "score": 0.935447990925,
-            "confidence": 0.543266717337185,
+            "confidence": 0,
             "dimensionsUsed": [
               "brightness_score",
               "energy_score"
@@ -1304,10 +1315,12 @@
               "density_score",
               "punch_score"
             ],
-            "suppressed": false,
-            "suppressionReasons": [],
+            "suppressed": true,
+            "suppressionReasons": [
+              "energy_below_required"
+            ],
             "nonSurfacedReasons": [
-              "below_surface_confidence_threshold"
+              "label_suppressed"
             ]
           },
           {
@@ -1444,7 +1457,7 @@
           },
           {
             "labelId": "driving",
-            "score": 0.5224878125,
+            "score": 0.51489023,
             "confidence": 0,
             "dimensionsUsed": [
               "pulse_score",
@@ -1456,7 +1469,8 @@
             ],
             "suppressed": true,
             "suppressionReasons": [
-              "pulse_below_required"
+              "pulse_below_required",
+              "drive_combo_below_required"
             ]
           },
           {
@@ -1499,7 +1513,7 @@
           {
             "labelId": "heavy",
             "score": 0.935447990925,
-            "confidence": 0.543266717337185,
+            "confidence": 0,
             "dimensionsUsed": [
               "brightness_score",
               "energy_score"
@@ -1510,8 +1524,10 @@
               "density_score",
               "punch_score"
             ],
-            "suppressed": false,
-            "suppressionReasons": []
+            "suppressed": true,
+            "suppressionReasons": [
+              "energy_below_required"
+            ]
           },
           {
             "labelId": "punchy",
@@ -1697,24 +1713,24 @@
         "normalizedFeatures": {
           "energy_score": 0.560475725,
           "density_score": 0.13960514999999998,
-          "layered_score": 0.234606575,
           "brightness_score": 0.06455200907500001,
-          "darkness_score": 0.774857772736111,
           "pulse_score": 0.48449990000000004,
           "rhythm_stability_score": 0.6114,
-          "offbeat_score": null,
-          "syncopation_score": 0.43654995,
           "vocal_score": 0.39519000000000004,
           "vocal_presence_score": 0.39519000000000004,
           "speech_score": 0.0287,
           "instrumental_score": 0.60481,
-          "harshness_score": null,
           "punch_score": 0.687826,
-          "calm_score": 0.6194215578124999,
+          "layered_score": null,
+          "darkness_score": null,
+          "offbeat_score": null,
+          "syncopation_score": null,
+          "harshness_score": null,
+          "calm_score": null,
           "low_end_score": null,
           "acoustic_score": null,
           "valence_score": 0.42588,
-          "driving_score": 0.39947162031249994
+          "driving_score": null
         },
         "aiLabels": []
       }
