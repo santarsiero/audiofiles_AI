@@ -1,134 +1,129 @@
 const fs = require('fs');
 const path = require('path');
 
-const INPUT_JSON = path.resolve(__dirname, '../outputs/calibration_analysis_after_driving_confidence_fix.json');
-const OUTPUT_MD = path.resolve(__dirname, '../reports/human_audit_calibration_set_1.md');
+const PRE = path.resolve(__dirname, '../outputs/calibration_analysis_after_driving_confidence_fix.json');
+const POST = path.resolve(__dirname, '../outputs/_tmp_post_cleanup_equivalence.json');
 
-function safeNumber(n) {
-  return Number.isFinite(n) ? n : null;
+const DIM_KEYS = ['energy', 'pulse', 'brightness', 'density', 'vocal_presence', 'speech', 'valence', 'punch'];
+const LABEL_IDS = ['energetic', 'driving', 'steady', 'bouncy', 'heavy', 'punchy', 'vocal', 'instrumental', 'speech', 'hypnotic'];
+
+function readJson(p) {
+  return JSON.parse(fs.readFileSync(p, 'utf8'));
 }
 
-function fmt(n, digits = 2) {
-  const v = safeNumber(n);
-  if (v === null) return '';
-  return v.toFixed(digits);
+function stableStringify(v) {
+  return JSON.stringify(v === undefined ? null : v);
 }
 
-function sortByConfidenceDesc(items) {
-  return items.slice().sort((a, b) => {
-    const ac = safeNumber(a.confidence);
-    const bc = safeNumber(b.confidence);
-    if (ac === null && bc === null) return 0;
-    if (ac === null) return 1;
-    if (bc === null) return -1;
-    if (bc !== ac) return bc - ac;
-    const as = safeNumber(a.score);
-    const bs = safeNumber(b.score);
-    if (as === null && bs === null) return 0;
-    if (as === null) return 1;
-    if (bs === null) return -1;
-    return bs - as;
-  });
+function songKey(s) {
+  const si = (s && s.songIdentity) || {};
+  return `${si.providerRecordingId ?? ''}|${si.title ?? ''}|${si.artist ?? ''}`;
 }
 
-function labelRowsTable(rows) {
-  if (!rows.length) return '_None_\n';
-  const lines = [];
-  lines.push('| label | baseLabel | score | confidence | state |');
-  lines.push('| --- | --- | ---: | ---: | --- |');
-  for (const r of rows) {
-    lines.push(`| ${r.labelId} | ${r.baseLabelId || ''} | ${fmt(r.score)} | ${fmt(r.confidence)} | ${r.state || ''} |`);
+function compareDimension(preDim, postDim) {
+  const diffs = [];
+  if (!preDim && postDim) return [{ field: 'presence', pre: false, post: true }];
+  if (preDim && !postDim) return [{ field: 'presence', pre: true, post: false }];
+  if (!preDim && !postDim) return diffs;
+
+  for (const f of ['score', 'confidence', 'usable']) {
+    if (stableStringify(preDim[f]) !== stableStringify(postDim[f])) diffs.push({ field: f, pre: preDim[f], post: postDim[f] });
   }
-  lines.push('');
-  return lines.join('\n');
-}
-
-function assignedLabelsTable(surfacedLabels) {
-  const ids = (surfacedLabels || []).map((l) => l.labelId);
-  if (!ids.length) return '_None_\n';
-  const lines = [];
-  lines.push('| label | isValid |');
-  lines.push('| --- | --- |');
-  for (const id of ids) {
-    lines.push(`| ${id} | null |`);
+  if (stableStringify(preDim.evidence || []) !== stableStringify(postDim.evidence || [])) {
+    diffs.push({ field: 'evidence', pre: preDim.evidence || [], post: postDim.evidence || [] });
   }
-  lines.push('');
-  return lines.join('\n');
+  if (stableStringify(preDim.missing || []) !== stableStringify(postDim.missing || [])) {
+    diffs.push({ field: 'missing', pre: preDim.missing || [], post: postDim.missing || [] });
+  }
+  return diffs;
 }
 
-function generate() {
-  const data = JSON.parse(fs.readFileSync(INPUT_JSON, 'utf8'));
-  const songs = data.songs || [];
+function compareLabel(preL, postL) {
+  const diffs = [];
+  if (!preL && postL) return [{ field: 'presence', pre: false, post: true }];
+  if (preL && !postL) return [{ field: 'presence', pre: true, post: false }];
+  if (!preL && !postL) return diffs;
 
-  const out = [];
-  out.push('# Human Audit — Calibration Set 1 (38 songs)');
-  out.push('');
-  out.push('This file is intended for manual labeling QA.');
-  out.push('');
-  out.push('Rules:');
-  out.push('- For each **Assigned Label**, set `isValid` to `true` or `false` (start as `null`).');
-  out.push('- Use the label groups below as decision support (sorted by descending confidence).');
-  out.push('');
+  for (const f of ['score', 'confidence', 'suppressed']) {
+    if (stableStringify(preL[f]) !== stableStringify(postL[f])) diffs.push({ field: f, pre: preL[f], post: postL[f] });
+  }
+  if (stableStringify(preL.suppressionReasons || []) !== stableStringify(postL.suppressionReasons || [])) {
+    diffs.push({ field: 'suppressionReasons', pre: preL.suppressionReasons || [], post: postL.suppressionReasons || [] });
+  }
+  return diffs;
+}
 
-  for (let i = 0; i < songs.length; i += 1) {
-    const s = songs[i];
-    const id = s.songIdentity || {};
-    const expected = s.expectedLabels || [];
-    const surfaced = s.surfacedLabels || [];
+function main() {
+  const pre = readJson(PRE);
+  const post = readJson(POST);
 
-    const active = (s.activeLabelAnalysis || []).map((l) => ({
-      labelId: l.labelId,
-      baseLabelId: '',
-      score: l.score,
-      confidence: l.confidence,
-      state: l.state
-    }));
-    const inverse = (s.inverseLabelAnalysis || []).map((l) => ({
-      labelId: l.labelId,
-      baseLabelId: l.baseLabelId,
-      score: l.score,
-      confidence: l.confidence,
-      state: l.state
-    }));
+  const preSongs = Array.isArray(pre.songs) ? pre.songs : [];
+  const postSongs = Array.isArray(post.songs) ? post.songs : [];
+  const preMap = new Map(preSongs.map((s) => [songKey(s), s]));
 
-    const all = active.concat(inverse);
-    const confirmed = sortByConfidenceDesc(all.filter((l) => l.state === 'SUPPORTED'));
-    const uncertain = sortByConfidenceDesc(all.filter((l) => l.state === 'UNCERTAIN'));
-    const cut = sortByConfidenceDesc(all.filter((l) => l.state === 'REJECTED'));
+  const diffs = [];
+  let matched = 0;
+  let missingPre = 0;
 
-    out.push(`---\n\n## ${i + 1}. ${id.artist || ''} — ${id.title || ''}`);
-    out.push('');
-    out.push('### Assigned Labels (surfaced)');
-    out.push('');
-    out.push(assignedLabelsTable(surfaced));
+  for (const sPost of postSongs) {
+    const k = songKey(sPost);
+    const sPre = preMap.get(k);
+    if (!sPre) {
+      missingPre += 1;
+      diffs.push({ song: k, kind: 'song_missing_in_pre' });
+      continue;
+    }
+    matched += 1;
 
-    out.push('### Expected Labels (calibration reference)');
-    out.push('');
-    out.push(expected.length ? expected.map((x) => `- ${x}`).join('\n') : '_None_');
-    out.push('');
+    for (const dim of DIM_KEYS) {
+      const d1 = sPre.dimensions ? sPre.dimensions[dim] : null;
+      const d2 = sPost.dimensions ? sPost.dimensions[dim] : null;
+      const dd = compareDimension(d1, d2);
+      for (const entry of dd) diffs.push({ song: k, kind: 'dimension', dim, ...entry });
+    }
 
-    out.push('### Label Evidence');
-    out.push('');
+    const preAligned = Array.isArray(sPre.alignedLabels) ? sPre.alignedLabels : [];
+    const postAligned = Array.isArray(sPost.alignedLabels) ? sPost.alignedLabels : [];
+    const preById = new Map(preAligned.map((l) => [l.labelId, l]));
+    const postById = new Map(postAligned.map((l) => [l.labelId, l]));
 
-    out.push('#### Confirmed');
-    out.push('');
-    out.push(labelRowsTable(confirmed));
+    for (const id of LABEL_IDS) {
+      const l1 = preById.get(id) || null;
+      const l2 = postById.get(id) || null;
+      const ld = compareLabel(l1, l2);
+      for (const entry of ld) diffs.push({ song: k, kind: 'label', labelId: id, ...entry });
+    }
 
-    out.push('#### Uncertain');
-    out.push('');
-    out.push(labelRowsTable(uncertain));
-
-    out.push('#### Cut');
-    out.push('');
-    out.push(labelRowsTable(cut));
-
-    out.push('### Notes');
-    out.push('');
-    out.push('');
+    const surf1 = (Array.isArray(sPre.surfacedLabels) ? sPre.surfacedLabels : []).map((l) => l.labelId).sort();
+    const surf2 = (Array.isArray(sPost.surfacedLabels) ? sPost.surfacedLabels : []).map((l) => l.labelId).sort();
+    if (stableStringify(surf1) !== stableStringify(surf2)) {
+      diffs.push({ song: k, kind: 'surfacedLabels', pre: surf1, post: surf2 });
+    }
   }
 
-  fs.writeFileSync(OUTPUT_MD, out.join('\n'), 'utf8');
-  console.log(`[human_audit] wrote: ${OUTPUT_MD}`);
+  const summary = {
+    preSongs: preSongs.length,
+    postSongs: postSongs.length,
+    matchedSongs: matched,
+    missingPre,
+    diffCount: diffs.length
+  };
+
+  console.log('=== Post-Cleanup Runtime Equivalence Validation ===');
+  console.log('PRE :', PRE);
+  console.log('POST:', POST);
+  console.log(JSON.stringify(summary, null, 2));
+
+  if (diffs.length === 0) {
+    console.log('VERDICT: Perfect Equivalence');
+    return;
+  }
+
+  console.log('---');
+  console.log('Diff sample (first 80):');
+  console.log(JSON.stringify(diffs.slice(0, 80), null, 2));
+  console.log('---');
+  console.log('VERDICT: Regression detected (aligned outputs differ)');
 }
 
-generate();
+main();
